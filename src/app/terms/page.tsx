@@ -1,0 +1,5 @@
+import type { Metadata } from "next";
+import { LegalPage, LegalSection } from "@/components/legal-page";
+
+export const metadata: Metadata = { title: "Terms" };
+export default function TermsPage() { return <LegalPage title="Terms"><LegalSection title="Using the app"><p>You may use this app for personal, lawful purposes. Do not attempt to interfere with its operation, bypass security controls, or present the app as an official Alex Hormozi or Acquisition.com product.</p></LegalSection><LegalSection title="Content ownership"><p>Quoted material remains attributable to its respective speaker and source. The app’s original interface, code, and fan-app identity do not transfer ownership of third-party material.</p></LegalSection><LegalSection title="Availability"><p>The service may change, pause, or remove content when a source cannot be verified or a rights concern is raised. Offline behavior depends on browser support and previously cached content.</p></LegalSection><LegalSection title="Limitation"><p>The app is provided as-is without guarantees that every quotation, source, or external link will remain available.</p></LegalSection></LegalPage>; }

@@ -1,0 +1,3 @@
+"use client";
+
+export default function GlobalError({ retry }: { error: Error & { digest?: string }; retry: () => void }) { return <html lang="en"><body style={{ margin: 0, background: "#6B2CFF", color: "white", fontFamily: "system-ui", minHeight: "100vh", display: "grid", placeItems: "center" }}><main style={{ maxWidth: 480, padding: 32, textAlign: "center" }}><h1>Hormozi Said needs a reset.</h1><p>The application shell could not load.</p><button onClick={retry} style={{ marginTop: 16, padding: "12px 18px", border: 0, borderRadius: 12, fontWeight: 700 }}>Reload app</button></main></body></html>; }
