@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Bookmark, Compass, Home, MoreHorizontal, Smartphone } from "lucide-react";
+import { Bookmark, Compass, Home, MoreHorizontal } from "lucide-react";
 import { BrandMark } from "@/components/brand-mark";
 import { cn } from "@/lib/utils";
 
@@ -10,8 +10,7 @@ const items = [
   { href: "/", label: "Quote", icon: Home, matches: (path: string) => path === "/" || path.startsWith("/q/") || path.startsWith("/source/") },
   { href: "/discover", label: "Discover", icon: Compass, matches: (path: string) => path.startsWith("/discover") || path.startsWith("/collections/") },
   { href: "/saved", label: "Saved", icon: Bookmark, matches: (path: string) => path.startsWith("/saved") },
-  { href: "/install", label: "Install", icon: Smartphone, matches: (path: string) => path.startsWith("/install") },
-  { href: "/more", label: "More", icon: MoreHorizontal, matches: (path: string) => path.startsWith("/more") || path.startsWith("/settings") || path.startsWith("/privacy") || path.startsWith("/terms") || path.startsWith("/disclaimer") }
+  { href: "/more", label: "More", icon: MoreHorizontal, matches: (path: string) => path.startsWith("/more") || path.startsWith("/settings") || path.startsWith("/install") || path.startsWith("/privacy") || path.startsWith("/terms") || path.startsWith("/disclaimer") }
 ];
 
 function NavItem({ item, mobile = false }: { item: (typeof items)[number]; mobile?: boolean }) {
@@ -37,7 +36,7 @@ export function DesktopNavigation() {
       <nav className="flex flex-1 flex-col gap-2" aria-label="Primary navigation">
         {items.map((item) => <NavItem key={item.href} item={item} />)}
       </nav>
-      <p className="px-2 text-[0.62rem] leading-relaxed text-white/40">Unofficial fan-made quote app.</p>
+      <p className="px-2 text-[0.62rem] leading-relaxed text-white/55">Unofficial fan-made quote app.</p>
     </aside>
   );
 }

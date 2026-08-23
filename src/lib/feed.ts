@@ -29,7 +29,6 @@ export function localDateKey(date = new Date()) {
 
 export function eligibleQuotes(quotes: readonly Quote[], state: LocalUserStateV1) {
   const filtered = quotes.filter((quote) => {
-    if (!quote.verified) return false;
     if (state.hideProfanity && quote.containsProfanity) return false;
     if (state.feedScope === "favorite-topics" && state.favoriteCategories.length > 0) {
       return state.favoriteCategories.includes(quote.primaryCategory);
@@ -37,7 +36,7 @@ export function eligibleQuotes(quotes: readonly Quote[], state: LocalUserStateV1
     return true;
   });
 
-  return filtered.length > 0 ? filtered : quotes.filter((quote) => quote.verified);
+  return filtered.length > 0 ? filtered : quotes;
 }
 
 export function dailyQuoteOrder(

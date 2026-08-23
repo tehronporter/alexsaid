@@ -131,6 +131,11 @@ button, a { touch-action: manipulation; }
 .display-type { font-family: var(--font-bebas), "Bebas Neue", sans-serif; }
 .safe-pb { padding-bottom: calc(5.75rem + var(--safe-bottom)); }
 
+@keyframes quote-enter-up { from { opacity: 0; transform: translateY(28px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes quote-enter-down { from { opacity: 0; transform: translateY(-28px); } to { opacity: 1; transform: translateY(0); } }
+.animate-quote-up { animation: quote-enter-up 260ms ease-out; }
+.animate-quote-down { animation: quote-enter-down 260ms ease-out; }
+
 @media (min-width: 1024px) { .safe-pb { padding-bottom: 2rem; } }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
