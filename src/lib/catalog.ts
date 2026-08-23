@@ -3,12 +3,12 @@ import {
   quoteCatalogSchema,
   type Collection,
   type Quote,
-  type QuoteCatalogV1,
+  type QuoteCatalogV2,
   type QuoteRepository
 } from "@/domain/catalog";
 import { rankQuotes } from "@/lib/search";
 
-export const catalog: QuoteCatalogV1 = quoteCatalogSchema.parse(rawCatalog);
+export const catalog: QuoteCatalogV2 = quoteCatalogSchema.parse(rawCatalog);
 
 const quoteByID = new Map(catalog.quotes.map((quote) => [quote.id, quote]));
 const collectionBySlug = new Map(catalog.collections.map((collection) => [collection.slug, collection]));

@@ -20,7 +20,10 @@
     "test:lighthouse": "npx --yes lighthouse@12.8.2 http://127.0.0.1:3000 --preset=desktop --only-categories=performance,accessibility --output=json --output-path=test-results/lighthouse.json --chrome-flags='--headless --no-sandbox' --quiet && node scripts/assert-lighthouse.mjs",
     "content:validate": "tsx scripts/validate-content.ts",
     "content:validate:release": "RELEASE_CONTENT_ENFORCEMENT=true tsx scripts/validate-content.ts",
-    "content:import": "tsx scripts/import-content.ts"
+    "content:generate": "tsx scripts/generate-catalog.ts",
+    "content:audit-links": "tsx scripts/audit-source-links.ts",
+    "content:import": "tsx scripts/import-content.ts",
+    "launch:validate": "tsx scripts/validate-launch.ts"
   },
   "dependencies": {
     "@vercel/analytics": "^1.5.0",

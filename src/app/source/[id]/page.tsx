@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, Calendar, CheckCircle2, Clock3, ExternalLink, FileText, Mic2 } from "lucide-react";
+import { ArrowLeft, BookOpen, Calendar, CheckCircle2, Clock3, ExternalLink, FileText, Mic2 } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -15,7 +15,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> { c
 export default async function SourcePage({ params }: Props) {
   const quote = quoteRepository.getById((await params).id);
   if (!quote) notFound();
-  const timestamp = formatTimestamp(quote.sourceTimestampSeconds);
+  const locatorDetails = quote.sourceLocator.kind === "media"
+    ? [{ icon: Clock3, value: [formatTimestamp(quote.sourceLocator.startSeconds), formatTimestamp(quote.sourceLocator.endSeconds ?? null)].filter(Boolean).join("–") }]
+    : quote.sourceLocator.kind === "book"
+      ? [
+          { icon: BookOpen, value: `${quote.sourceLocator.edition} · ${quote.sourceLocator.publisher} · ${quote.sourceLocator.publicationYear}` },
+          { icon: FileText, value: [quote.sourceLocator.chapter, quote.sourceLocator.page ? `p. ${quote.sourceLocator.page}` : quote.sourceLocator.digitalLocation].filter(Boolean).join(" · ") }
+        ]
+      : [{ icon: FileText, value: quote.sourceLocator.section ?? quote.sourceLocator.postID ?? "Direct source page" }];
   const sourceAction = quote.sourceType === "article" || quote.sourceType === "book" ? "Read original" : quote.sourceType === "podcast" ? "Listen to original" : "Watch original";
   return (
     <main className="page-wrap">
@@ -23,7 +30,7 @@ export default async function SourcePage({ params }: Props) {
       <div className="grid gap-5 lg:grid-cols-[1.1fr_0.9fr]">
         <section className="rounded-3xl border border-white/15 p-7 sm:p-10"><Badge className="bg-black text-white">{quote.primaryCategory}</Badge><span className="display-type mt-12 block text-8xl leading-[0.4]">“</span><blockquote className="display-type mt-8 text-6xl uppercase leading-[0.9] sm:text-8xl">{quote.text}</blockquote><p className="mt-7 text-sm font-extrabold uppercase tracking-[0.1em]">{quote.author}</p></section>
         <Card className="content-card justify-between p-6 sm:p-8">
-          <div><div className="flex items-center justify-between"><p className="text-xs font-extrabold uppercase tracking-[0.14em] text-[var(--purple-light)]">Source</p>{quote.verified ? <Badge className="bg-white text-black"><CheckCircle2 />Verified</Badge> : <Badge variant="outline">Unverified</Badge>}</div><div className="mt-8 space-y-5 text-sm">{[[Mic2, quote.sourceType], [FileText, quote.sourceTitle ?? "Source title unavailable"], [Calendar, quote.sourceDate ?? "Date unavailable"], [Clock3, timestamp ?? "Timestamp unavailable"]].map(([Icon, value]) => { const SourceIcon = Icon as typeof Mic2; return <div key={String(value)} className="flex items-start gap-3"><SourceIcon className="mt-0.5 size-4 shrink-0 text-[var(--purple-light)]" /><span className="capitalize text-white/75">{String(value)}</span></div>; })}</div>{quote.context ? <p className="mt-8 border-t border-white/10 pt-6 text-xs leading-relaxed text-white/60">{quote.context}</p> : null}</div>
+          <div><div className="flex items-center justify-between"><p className="text-xs font-extrabold uppercase tracking-[0.14em] text-[var(--purple-light)]">Source</p>{quote.verified ? <Badge className="bg-white text-black"><CheckCircle2 />Verified twice</Badge> : <Badge variant="outline">Unverified</Badge>}</div><div className="mt-8 space-y-5 text-sm">{[{ icon: Mic2, value: quote.sourceType }, { icon: FileText, value: quote.sourceTitle ?? "Source title unavailable" }, { icon: Calendar, value: quote.sourceDate ?? "Date unavailable" }, ...locatorDetails].map(({ icon: SourceIcon, value }) => <div key={value} className="flex items-start gap-3"><SourceIcon className="mt-0.5 size-4 shrink-0 text-[var(--purple-light)]" /><span className="text-white/75 first-letter:uppercase">{value}</span></div>)}</div>{quote.context ? <p className="mt-8 border-t border-white/10 pt-6 text-xs leading-relaxed text-white/60">{quote.context}</p> : null}</div>
           <div className="mt-8 space-y-3">{quote.sourceURL ? <Button asChild className="w-full bg-white text-black hover:bg-white/90"><a href={quote.sourceURL} target="_blank" rel="noreferrer">{sourceAction}<ExternalLink /></a></Button> : <Button disabled className="w-full">Original unavailable</Button>}<ShareActions quote={quote} trigger={<Button variant="outline" className="w-full border-white/15 bg-transparent text-white hover:bg-white hover:text-black">Share quote</Button>} /><Button asChild variant="ghost" className="w-full text-white/65 hover:bg-white/10 hover:text-white"><Link href={`/q/${quote.id}`}>Back to quote</Link></Button></div>
         </Card>
       </div>

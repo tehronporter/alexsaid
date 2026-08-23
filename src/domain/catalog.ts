@@ -12,6 +12,41 @@ export const sourceTypeSchema = z.enum([
 const isoDateSchema = z.string().regex(/^\d{4}-\d{2}-\d{2}$/);
 const isoDateTimeSchema = z.string().datetime({ offset: true });
 
+export const mediaSourceLocatorSchema = z.object({
+  kind: z.literal("media"),
+  startSeconds: z.number().int().nonnegative(),
+  endSeconds: z.number().int().positive().optional()
+}).refine(({ endSeconds, startSeconds }) => endSeconds === undefined || endSeconds > startSeconds, {
+  message: "Media end time must be after its start time",
+  path: ["endSeconds"]
+});
+
+export const bookSourceLocatorSchema = z.object({
+  kind: z.literal("book"),
+  edition: z.string().trim().min(1),
+  publisher: z.string().trim().min(1),
+  publicationYear: z.number().int().min(1900).max(2100),
+  isbn: z.string().trim().min(10).optional(),
+  chapter: z.string().trim().min(1),
+  page: z.number().int().positive().optional(),
+  digitalLocation: z.string().trim().min(1).optional()
+}).refine(({ digitalLocation, page }) => page !== undefined || digitalLocation !== undefined, {
+  message: "Book sources require a page or digital location",
+  path: ["page"]
+});
+
+export const webSourceLocatorSchema = z.object({
+  kind: z.literal("web"),
+  section: z.string().trim().min(1).optional(),
+  postID: z.string().trim().min(1).optional()
+});
+
+export const sourceLocatorSchema = z.union([
+  mediaSourceLocatorSchema,
+  bookSourceLocatorSchema,
+  webSourceLocatorSchema
+]);
+
 export const quoteSchema = z.object({
   id: z.string().uuid(),
   text: z.string().trim().min(3).max(420),
@@ -22,7 +57,7 @@ export const quoteSchema = z.object({
   sourceTitle: z.string().trim().min(1).nullable(),
   sourceURL: z.string().url().nullable(),
   sourceDate: isoDateSchema.nullable(),
-  sourceTimestampSeconds: z.number().int().nonnegative().nullable(),
+  sourceLocator: sourceLocatorSchema,
   verified: z.boolean(),
   featured: z.boolean(),
   containsProfanity: z.boolean(),
@@ -42,7 +77,7 @@ export const collectionSchema = z.object({
 });
 
 export const quoteCatalogSchema = z.object({
-  schemaVersion: z.literal(1),
+  schemaVersion: z.literal(2),
   generatedAt: isoDateTimeSchema,
   developmentFixture: z.boolean(),
   categories: z.array(z.string().trim().min(1)).min(1),
@@ -52,8 +87,11 @@ export const quoteCatalogSchema = z.object({
 
 export type Quote = z.infer<typeof quoteSchema>;
 export type Collection = z.infer<typeof collectionSchema>;
-export type QuoteCatalogV1 = z.infer<typeof quoteCatalogSchema>;
+export type QuoteCatalogV2 = z.infer<typeof quoteCatalogSchema>;
+/** @deprecated Use QuoteCatalogV2. Kept as a source-compatible alias for app code. */
+export type QuoteCatalogV1 = QuoteCatalogV2;
 export type SourceType = z.infer<typeof sourceTypeSchema>;
+export type SourceLocator = z.infer<typeof sourceLocatorSchema>;
 
 export interface QuoteRepository {
   getAll(): readonly Quote[];

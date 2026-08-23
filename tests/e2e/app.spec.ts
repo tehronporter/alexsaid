@@ -1,5 +1,6 @@
 import { expect, test } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
+import catalogJSON from "../../src/data/catalog.json" with { type: "json" };
 
 const productionPWA = Boolean(process.env.CI || process.env.E2E_PRODUCTION);
 
@@ -74,16 +75,47 @@ test("discover search opens the matching quote", async ({ page }) => {
   await page.goto("/discover");
   const search = page.getByRole("textbox", { name: "Search quotes" });
   await expect(search).toHaveCount(1);
-  await search.fill("volume");
-  await expect(page.getByText("Volume negates luck.")).toBeVisible();
-  await page.getByText("Volume negates luck.").click();
-  await expect(page.getByRole("blockquote")).toContainText("Volume negates luck");
+  await search.fill("revenue retention");
+  await expect(page.getByText("If you do not have what's called revenue retention, you have nothing.")).toBeVisible();
+  await page.getByText("If you do not have what's called revenue retention, you have nothing.").click();
+  await expect(page.getByRole("blockquote")).toContainText("revenue retention");
 });
 
 test("source action matches the visible quote", async ({ page }) => {
   const quote = await page.getByRole("blockquote").textContent();
   await page.getByRole("link", { name: "View quote source" }).click();
   await expect(page.getByRole("blockquote")).toHaveText(quote ?? "");
+});
+
+test("every accepted quote stays exact across library, saved, source, and sharing views", async ({ page, context }) => {
+  await context.grantPermissions(["clipboard-read", "clipboard-write"]);
+  for (const quote of catalogJSON.quotes) {
+    await page.goto(`/q/${quote.id}`);
+    await expect(page.getByRole("blockquote")).toHaveText(quote.text);
+    await page.getByRole("button", { name: "Share quote" }).click();
+    await page.getByRole("button", { name: "Copy quote" }).click();
+    await expect.poll(() => page.evaluate(() => navigator.clipboard.readText())).toBe(`“${quote.text}” — ${quote.author}`);
+    await page.keyboard.press("Escape");
+    await page.getByRole("link", { name: "View quote source" }).click();
+    await expect(page.getByRole("blockquote")).toHaveText(quote.text);
+    await expect(page.getByRole("link", { name: "Watch original" })).toHaveAttribute("href", quote.sourceURL);
+  }
+
+  await page.goto("/discover");
+  const search = page.getByRole("textbox", { name: "Search quotes" });
+  for (const category of catalogJSON.categories) {
+    await search.fill(category);
+    for (const quote of catalogJSON.quotes.filter((item) => item.primaryCategory === category)) {
+      await expect(page.getByText(quote.text)).toBeVisible();
+    }
+  }
+
+  await page.evaluate((savedIDs) => {
+    const state = JSON.parse(localStorage.getItem("hormozi-said:user-state:v1") ?? "{}");
+    localStorage.setItem("hormozi-said:user-state:v1", JSON.stringify({ ...state, schemaVersion: 1, savedIDs }));
+  }, catalogJSON.quotes.map(({ id }) => id));
+  await page.goto("/saved");
+  for (const quote of catalogJSON.quotes) await expect(page.getByText(quote.text)).toBeVisible();
 });
 
 test("direct and invalid quote links resolve intentionally", async ({ page }) => {
@@ -122,7 +154,7 @@ test("a warmed quote and saved view remain usable offline", async ({ page, conte
 test("install page explains current platform capability", async ({ page }) => {
   await page.goto("/install");
   await expect(page.getByText(/Install this app|Install on iPhone or iPad|Already installed/).last()).toBeVisible();
-  await expect(page.getByText("Daily notifications are not active yet.")).toBeVisible();
+  await expect(page.getByRole("button", { name: "Notify me daily" })).not.toBeVisible();
 });
 
 test("key screens have no serious accessibility violations", async ({ page }) => {

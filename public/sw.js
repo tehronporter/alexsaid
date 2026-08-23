@@ -1,5 +1,5 @@
-const CACHE = "hormozi-said-v3";
-const APP_SHELL = ["/", "/discover", "/saved", "/install", "/more", "/offline", "/catalog.v1.json", "/icons/icon.svg", "/icons/icon-maskable.svg", "/icons/icon-192.png", "/icons/icon-512.png"];
+const CACHE = "hormozi-said-v4";
+const APP_SHELL = ["/", "/discover", "/saved", "/install", "/more", "/offline", "/catalog.v2.json", "/icons/icon.svg", "/icons/icon-maskable.svg", "/icons/icon-192.png", "/icons/icon-512.png"];
 
 async function cacheResponse(cache, url) {
   try {

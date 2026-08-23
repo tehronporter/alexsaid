@@ -25,3 +25,6 @@
 *.pem
 npm-debug.log*
 *.tsbuildinfo
+
+# private editorial evidence (recordings, scans, screenshots, long transcripts)
+/content/private/

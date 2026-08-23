@@ -1,0 +1,897 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-08-23T23:55:00.000Z",
+  "records": [
+    {
+      "candidateKey": "intellectual-laziness",
+      "status": "verified",
+      "id": "f4e4bf60-2700-48be-84bc-a499d14f36ea",
+      "text": "And so, a lot of lack of focus is actually intellectual laziness.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset",
+      "tags": [
+        "focus",
+        "execution",
+        "self-awareness"
+      ],
+      "sourceType": "video",
+      "sourceTitle": "Learn 97% of How to Get Rich in 11 Mins",
+      "sourceDate": "2026-08-03",
+      "sourceURL": "https://www.youtube.com/watch?v=fj5uxdv_j5Y&t=108s",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 108,
+        "endSeconds": 115
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex explains that people often retreat to familiar work when they encounter a problem they do not yet know how to solve.",
+      "createdAt": "2026-08-23T23:00:00.000Z",
+      "updatedAt": "2026-08-23T23:35:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-23T23:10:00.000Z",
+          "reviewer": "codex-primary",
+          "method": "direct-media-listen",
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Listened to the original recording around 1:48 with more than 30 seconds of surrounding context."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-23T23:35:00.000Z",
+          "reviewer": "codex-independent",
+          "method": "direct-media-listen",
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened the official upload and independently replayed the passage around 1:48; speaker, wording, locator, and metadata matched."
+        },
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "what-would-it-take",
+      "status": "verified",
+      "id": "2a2a3dc1-8e1c-4e2a-8149-cb97f61ec542",
+      "text": "And so, I almost always wrap my questions with \"What would it take?\" because it assumes success.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "questions",
+        "problem-solving",
+        "execution"
+      ],
+      "sourceType": "video",
+      "sourceTitle": "Learn 97% of How to Get Rich in 11 Mins",
+      "sourceDate": "2026-08-03",
+      "sourceURL": "https://www.youtube.com/watch?v=fj5uxdv_j5Y&t=173s",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 173,
+        "endSeconds": 184
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex contrasts this framing with asking whether something can be done; the former starts from an assumption that a solution exists.",
+      "createdAt": "2026-08-23T23:00:00.000Z",
+      "updatedAt": "2026-08-23T23:35:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-23T23:10:00.000Z",
+          "reviewer": "codex-primary",
+          "method": "direct-media-listen",
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Listened to the original recording around 2:53 with more than 30 seconds of surrounding context."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-23T23:35:00.000Z",
+          "reviewer": "codex-independent",
+          "method": "direct-media-listen",
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened the official upload and independently replayed the passage around 2:53; speaker, wording, locator, and metadata matched."
+        },
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "do-nothing-champion",
+      "status": "verified",
+      "id": "9fd38292-744b-4827-a2e2-47463c15ca7d",
+      "text": "And so, one of my internal, uh, jokes that I have is the undefeated heavyweight champion of the world is do nothing.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "prioritization",
+        "focus",
+        "resource-allocation"
+      ],
+      "sourceType": "video",
+      "sourceTitle": "Learn 97% of How to Get Rich in 11 Mins",
+      "sourceDate": "2026-08-03",
+      "sourceURL": "https://www.youtube.com/watch?v=fj5uxdv_j5Y&t=636s",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 636,
+        "endSeconds": 642
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex is comparing proposed actions with the option to keep resources on work that is already producing the highest return.",
+      "createdAt": "2026-08-23T23:00:00.000Z",
+      "updatedAt": "2026-08-23T23:35:00.000Z",
+      "shortVersion": "…the undefeated heavyweight champion of the world is do nothing.",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-23T23:10:00.000Z",
+          "reviewer": "codex-primary",
+          "method": "direct-media-listen",
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Listened to the original recording around 10:36 with more than 30 seconds of surrounding context."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-23T23:35:00.000Z",
+          "reviewer": "codex-independent",
+          "method": "direct-media-listen",
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened the official upload and independently replayed the passage around 10:36; speaker, wording, locator, and metadata matched."
+        },
+        "blindAudit": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-23T23:50:00.000Z",
+          "reviewer": "codex-blind-audit",
+          "method": "direct-media-listen",
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Blind audit reopened a fresh excerpt of the official upload and confirmed the exact words, Alex's attribution, timestamp, and surrounding argument."
+        }
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "emotional-discomfort-action",
+      "status": "verified",
+      "id": "6783a7fb-8603-44f7-8f1b-ffa8730b5eb7",
+      "text": "You might have suggested it because you are emotionally uncomfortable with your existing moment and just want something to do rather than the thing that you know is going to work.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset",
+      "tags": [
+        "patience",
+        "focus",
+        "decision-making"
+      ],
+      "sourceType": "video",
+      "sourceTitle": "Learn 97% of How to Get Rich in 11 Mins",
+      "sourceDate": "2026-08-03",
+      "sourceURL": "https://www.youtube.com/watch?v=fj5uxdv_j5Y&t=678s",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 678,
+        "endSeconds": 689
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex warns that a new initiative can be an emotional escape from patiently continuing the proven course of action.",
+      "createdAt": "2026-08-23T23:00:00.000Z",
+      "updatedAt": "2026-08-23T23:35:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-23T23:10:00.000Z",
+          "reviewer": "codex-primary",
+          "method": "direct-media-listen",
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Listened to the original recording around 11:18 with more than 30 seconds of surrounding context."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-23T23:35:00.000Z",
+          "reviewer": "codex-independent",
+          "method": "direct-media-listen",
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened the official upload and independently replayed the passage around 11:18; speaker, wording, locator, and metadata matched."
+        },
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "feel-sold-to",
+      "status": "verified",
+      "id": "31545e53-4b71-4036-b59f-c42f55525d0a",
+      "text": "People only feel sold to if it's bad.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Sales",
+      "tags": [
+        "selling",
+        "customer-experience",
+        "persuasion"
+      ],
+      "sourceType": "video",
+      "sourceTitle": "If You Hate Selling, Please Watch This | Scale or Fail Episode 3",
+      "sourceDate": "2026-07-24",
+      "sourceURL": "https://www.youtube.com/watch?v=8VqSFBMMS4M&t=413s",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 413,
+        "endSeconds": 416
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex responds to a founder who worries that a more structured webinar will make customers feel sold to.",
+      "createdAt": "2026-08-23T23:00:00.000Z",
+      "updatedAt": "2026-08-23T23:35:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-23T23:10:00.000Z",
+          "reviewer": "codex-primary",
+          "method": "direct-media-listen",
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Listened to the original recording around 6:53 with more than 30 seconds of surrounding context."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-23T23:35:00.000Z",
+          "reviewer": "codex-independent",
+          "method": "direct-media-listen",
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened the official upload and independently replayed the passage around 6:53; speaker, wording, locator, and metadata matched."
+        },
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "purchases-designed",
+      "status": "verified",
+      "id": "6654b49a-614c-4953-9c01-50e180d0ebb9",
+      "text": "And every one of those purchases, somebody for sure thought about how to get you to buy.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Sales",
+      "tags": [
+        "selling",
+        "marketing",
+        "customer-experience"
+      ],
+      "sourceType": "video",
+      "sourceTitle": "If You Hate Selling, Please Watch This | Scale or Fail Episode 3",
+      "sourceDate": "2026-07-24",
+      "sourceURL": "https://www.youtube.com/watch?v=8VqSFBMMS4M&t=427s",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 427,
+        "endSeconds": 431
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex points out that good selling can feel natural even though someone intentionally designed the purchase journey.",
+      "createdAt": "2026-08-23T23:00:00.000Z",
+      "updatedAt": "2026-08-23T23:35:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-23T23:10:00.000Z",
+          "reviewer": "codex-primary",
+          "method": "direct-media-listen",
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Listened to the original recording around 7:07 with more than 30 seconds of surrounding context."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-23T23:35:00.000Z",
+          "reviewer": "codex-independent",
+          "method": "direct-media-listen",
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened the official upload and independently replayed the passage around 7:07; speaker, wording, locator, and metadata matched."
+        },
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "responsibility-to-business",
+      "status": "verified",
+      "id": "73e0d73f-784a-4496-b9e7-1356b7b995d5",
+      "text": "You have a responsibility to the business. And the business has a responsibility to customers. But your responsibility is to make sure the business survives and grows.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Business Building",
+      "tags": [
+        "sustainability",
+        "customers",
+        "leadership"
+      ],
+      "sourceType": "video",
+      "sourceTitle": "If You Hate Selling, Please Watch This | Scale or Fail Episode 3",
+      "sourceDate": "2026-07-24",
+      "sourceURL": "https://www.youtube.com/watch?v=8VqSFBMMS4M&t=1147s",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 1147,
+        "endSeconds": 1154
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex explains why a founder must price and structure delivery so the company can continue serving customers.",
+      "createdAt": "2026-08-23T23:00:00.000Z",
+      "updatedAt": "2026-08-23T23:35:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-23T23:10:00.000Z",
+          "reviewer": "codex-primary",
+          "method": "direct-media-listen",
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Listened to the original recording around 19:07 with more than 30 seconds of surrounding context."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-23T23:35:00.000Z",
+          "reviewer": "codex-independent",
+          "method": "direct-media-listen",
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened the official upload and independently replayed the passage around 19:07; speaker, wording, locator, and metadata matched."
+        },
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 1
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "retention-is-foundational",
+      "status": "verified",
+      "id": "b255c5e7-09ba-4ba1-bbe6-1b20cd551904",
+      "text": "If you do not have what's called revenue retention, you have nothing.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Business Building",
+      "tags": [
+        "retention",
+        "recurring-revenue",
+        "business-model"
+      ],
+      "sourceType": "video",
+      "sourceTitle": "What Makes The Perfect Business (5 Things)",
+      "sourceDate": "2026-05-02",
+      "sourceURL": "https://www.youtube.com/watch?v=3fsJFUvA6Ts&t=35s",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 35,
+        "endSeconds": 40
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex introduces revenue retention as the first and most important advantage of a strong business model.",
+      "createdAt": "2026-08-23T23:00:00.000Z",
+      "updatedAt": "2026-08-23T23:35:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-23T23:10:00.000Z",
+          "reviewer": "codex-primary",
+          "method": "direct-media-listen",
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Listened to the original recording around 0:35 with more than 30 seconds of surrounding context."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-23T23:35:00.000Z",
+          "reviewer": "codex-independent",
+          "method": "direct-media-listen",
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened the official upload and independently replayed the passage around 0:35; speaker, wording, locator, and metadata matched."
+        },
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "retention-first",
+      "status": "verified",
+      "id": "ce9cc2b1-ee31-47fe-84d3-15e60081d807",
+      "text": "And if your business includes none, that's okay, work at retention first, and then backfill the rest.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Business Building",
+      "tags": [
+        "retention",
+        "prioritization",
+        "business-model"
+      ],
+      "sourceType": "video",
+      "sourceTitle": "What Makes The Perfect Business (5 Things)",
+      "sourceDate": "2026-05-02",
+      "sourceURL": "https://www.youtube.com/watch?v=3fsJFUvA6Ts&t=1171s",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 1171,
+        "endSeconds": 1175
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "After reviewing five business-model advantages, Alex recommends improving retention before the remaining advantages.",
+      "createdAt": "2026-08-23T23:00:00.000Z",
+      "updatedAt": "2026-08-23T23:35:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-23T23:10:00.000Z",
+          "reviewer": "codex-primary",
+          "method": "direct-media-listen",
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Listened to the original recording around 19:31 with more than 30 seconds of surrounding context."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-23T23:35:00.000Z",
+          "reviewer": "codex-independent",
+          "method": "direct-media-listen",
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened the official upload and independently replayed the passage around 19:31; speaker, wording, locator, and metadata matched."
+        },
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "switch-for-retention",
+      "status": "verified",
+      "id": "dff7fac0-b37e-4729-ae45-e8a545e4c345",
+      "text": "But if you're in an industry that has no retention, then switching to one that does, if you're early in your career, may not be the dumbest decision.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Business Building",
+      "tags": [
+        "retention",
+        "market-selection",
+        "career"
+      ],
+      "sourceType": "video",
+      "sourceTitle": "What Makes The Perfect Business (5 Things)",
+      "sourceDate": "2026-05-02",
+      "sourceURL": "https://www.youtube.com/watch?v=3fsJFUvA6Ts&t=1174s",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 1174,
+        "endSeconds": 1182
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex qualifies the advice for people early in their careers whose current industry structurally lacks repeat purchasing.",
+      "createdAt": "2026-08-23T23:00:00.000Z",
+      "updatedAt": "2026-08-23T23:35:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-23T23:10:00.000Z",
+          "reviewer": "codex-primary",
+          "method": "direct-media-listen",
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Listened to the original recording around 19:34 with more than 30 seconds of surrounding context."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-23T23:35:00.000Z",
+          "reviewer": "codex-independent",
+          "method": "direct-media-listen",
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened the official upload and independently replayed the passage around 19:34; speaker, wording, locator, and metadata matched."
+        },
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "questions-like-weapons-rejected",
+      "status": "rejected",
+      "text": "I see, I see questions like weapons. Like, it's like, it shows, it shows how sharp your thinking is.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Editorial Rejection",
+      "tags": [
+        "rejected"
+      ],
+      "sourceType": "video",
+      "sourceTitle": "Learn 97% of How to Get Rich in 11 Mins",
+      "sourceDate": "2026-08-03",
+      "sourceURL": "https://www.youtube.com/watch?v=fj5uxdv_j5Y&t=516s",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 516,
+        "endSeconds": 527
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex describes questions as evidence of thinking quality.",
+      "createdAt": "2026-08-23T23:00:00.000Z",
+      "updatedAt": "2026-08-23T23:35:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-23T23:10:00.000Z",
+          "reviewer": "codex-primary",
+          "method": "direct-media-listen",
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Listened to the original recording around 8:36 with surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": null,
+      "rejectionNotes": [
+        "Rejected because the spoken repetitions would require silent cleanup to make a polished app quote."
+      ],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "resale-not-sales-rejected",
+      "status": "rejected",
+      "text": "You want to be in the resale business, not in the sales business.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Editorial Rejection",
+      "tags": [
+        "rejected"
+      ],
+      "sourceType": "video",
+      "sourceTitle": "What Makes The Perfect Business (5 Things)",
+      "sourceDate": "2026-05-02",
+      "sourceURL": "https://www.youtube.com/watch?v=3fsJFUvA6Ts&t=48s",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 48,
+        "endSeconds": 54
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex repeats a line immediately after attributing it to John Paul DeJoria.",
+      "createdAt": "2026-08-23T23:00:00.000Z",
+      "updatedAt": "2026-08-23T23:35:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "failed",
+          "checkedAt": "2026-08-23T23:10:00.000Z",
+          "reviewer": "codex-primary",
+          "method": "direct-media-listen",
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "wordingConfirmed": true,
+          "attributionConfirmed": false,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Listened to the original recording around 0:48 with surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": null,
+      "rejectionNotes": [
+        "Rejected because Alex explicitly attributes the statement to John Paul DeJoria."
+      ],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "already-growing-rejected",
+      "status": "rejected",
+      "text": "That's the best—it's the easiest way to grow is to go into something that's already growing, so if you just do a normal amount, you still grow by default.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Editorial Rejection",
+      "tags": [
+        "rejected"
+      ],
+      "sourceType": "video",
+      "sourceTitle": "What Makes The Perfect Business (5 Things)",
+      "sourceDate": "2026-05-02",
+      "sourceURL": "https://www.youtube.com/watch?v=3fsJFUvA6Ts&t=600s",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 600,
+        "endSeconds": 607
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex discusses choosing an expanding industry.",
+      "createdAt": "2026-08-23T23:00:00.000Z",
+      "updatedAt": "2026-08-23T23:35:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-23T23:10:00.000Z",
+          "reviewer": "codex-primary",
+          "method": "direct-media-listen",
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Listened to the original recording around 10:00 with surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 1,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 1
+      },
+      "rejectionNotes": [
+        "Rejected because the spoken false start cannot be removed without silently editing his delivery."
+      ],
+      "unresolvedWarnings": []
+    }
+  ],
+  "collections": [
+    {
+      "slug": "better-decisions",
+      "title": "Better Decisions",
+      "description": "Questions and mental models for choosing the highest-leverage next move.",
+      "quoteIDs": [
+        "f4e4bf60-2700-48be-84bc-a499d14f36ea",
+        "2a2a3dc1-8e1c-4e2a-8149-cb97f61ec542",
+        "9fd38292-744b-4827-a2e2-47463c15ca7d",
+        "6783a7fb-8603-44f7-8f1b-ffa8730b5eb7"
+      ],
+      "displayOrder": 0
+    },
+    {
+      "slug": "sales-without-sleaze",
+      "title": "Sales Without Sleaze",
+      "description": "A sharper way to think about ethical, well-designed selling.",
+      "quoteIDs": [
+        "31545e53-4b71-4036-b59f-c42f55525d0a",
+        "6654b49a-614c-4953-9c01-50e180d0ebb9"
+      ],
+      "displayOrder": 1
+    },
+    {
+      "slug": "build-a-durable-business",
+      "title": "Build a Durable Business",
+      "description": "Retention, responsibility, and business models built to last.",
+      "quoteIDs": [
+        "73e0d73f-784a-4496-b9e7-1356b7b995d5",
+        "b255c5e7-09ba-4ba1-bbe6-1b20cd551904",
+        "ce9cc2b1-ee31-47fe-84d3-15e60081d807",
+        "dff7fac0-b37e-4729-ae45-e8a545e4c345"
+      ],
+      "displayOrder": 2
+    }
+  ]
+}

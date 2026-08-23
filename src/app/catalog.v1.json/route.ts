@@ -1,2 +1,3 @@
-import { catalog } from "@/lib/catalog";
-export async function GET() { return Response.json(catalog, { headers: { "Cache-Control": "public, max-age=3600, stale-while-revalidate=86400" } }); }
+export async function GET(request: Request) {
+  return Response.redirect(new URL("/catalog.v2.json", request.url), 308);
+}

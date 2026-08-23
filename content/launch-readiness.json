@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "beta": {
+    "startedAt": null,
+    "endedAt": null,
+    "testers": []
+  },
+  "reviews": {
+    "allAcceptedQuotesReviewedInUI": true,
+    "contentAndAttribution": false,
+    "copyright": false,
+    "unofficialFanApp": false
+  }
+}

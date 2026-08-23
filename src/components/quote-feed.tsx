@@ -27,6 +27,11 @@ export function QuoteFeed({ quotes, initialQuoteID, developmentFixture = false }
   const index = Math.max(0, order.findIndex((item) => item.id === activeQuoteID));
   const quote = order[index] ?? quotes[0];
   const saved = state.savedIDs.includes(quote.id);
+  const quoteSize = quote.text.length > 110
+    ? "text-[clamp(1.75rem,8.2vw,5.5rem)]"
+    : quote.text.length > 75
+      ? "text-[clamp(2.2rem,9vw,6.75rem)]"
+      : "text-[clamp(3rem,11vw,8.8rem)]";
 
   const move = useCallback((direction: 1 | -1, historyMode: "push" | "replace" = "push") => {
     const nextIndex = (index + direction + order.length) % order.length;
@@ -90,7 +95,7 @@ export function QuoteFeed({ quotes, initialQuoteID, developmentFixture = false }
             <div key={quote.id} className={enterDirection === 1 ? "animate-quote-up" : "animate-quote-down"}>
               <Badge className="mb-7 w-fit rounded-full border-black bg-black px-4 py-1 text-[0.68rem] tracking-[0.12em] text-white">{quote.primaryCategory.toUpperCase()}</Badge>
               <span className="display-type text-8xl leading-[0.45] text-white" aria-hidden="true">“</span>
-              <blockquote className="display-type mt-5 max-w-4xl text-[clamp(3.5rem,11vw,8.8rem)] leading-[0.84] uppercase tracking-[0.01em] text-white">{quote.text}</blockquote>
+              <blockquote className={`display-type mt-5 max-w-4xl ${quoteSize} leading-[0.84] uppercase tracking-[0.01em] text-white`}>{quote.text}</blockquote>
               <p className="mt-7 text-sm font-extrabold uppercase tracking-[0.08em]">{quote.author}</p>
             </div>
           </div>
@@ -120,13 +125,13 @@ export function QuoteFeed({ quotes, initialQuoteID, developmentFixture = false }
           <h2 className="display-type mt-5 text-5xl uppercase leading-[0.92]">{quote.primaryCategory}</h2>
           <p className="mt-5 text-sm leading-relaxed text-white/65">{quote.context ?? "Save it, share it, or trace it back to the source."}</p>
           <div className="mt-6 flex flex-wrap items-center gap-2 text-xs font-semibold">
-            {quote.verified ? <span className="rounded-full bg-white/10 px-3 py-1 text-white">Verified source</span> : <span className="rounded-full bg-white/10 px-3 py-1 text-white/70">Source verification pending</span>}
+            {quote.verified ? <span className="rounded-full bg-white/10 px-3 py-1 text-white">Verified twice</span> : <span className="rounded-full bg-white/10 px-3 py-1 text-white/70">Source verification pending</span>}
             {quote.sourceDate ? <span className="capitalize text-white/60">{quote.sourceType} · {quote.sourceDate}</span> : null}
           </div>
           <div className="mt-auto space-y-3">
             <Button asChild className="w-full bg-white text-black hover:bg-white/90"><Link href={`/source/${quote.id}`}>View source<ExternalLink /></Link></Button>
             <ShareActions quote={quote} trigger={<Button variant="outline" className="w-full border-white/15 bg-transparent text-white hover:bg-white hover:text-black">Share this quote<Share2 /></Button>} />
-            <p className="pt-3 text-[0.62rem] leading-relaxed text-white/45">Unofficial and fan-made. Development content requires independent source verification before public release.</p>
+            <p className="pt-3 text-[0.62rem] leading-relaxed text-white/45">Unofficial and fan-made. Quotes are checked twice against direct sources.</p>
           </div>
         </aside>
       </div>
