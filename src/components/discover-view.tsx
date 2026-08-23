@@ -53,7 +53,7 @@ export function DiscoverView({ quotes, categories, collections, initialTopic = "
             <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
               {topicCounts.slice(0, 10).map(({ category, count }) => {
                 const Icon = iconMap[category] ?? Sparkles;
-                return <Link key={category} href={`/discover?topic=${encodeURIComponent(category)}`} onClick={() => trackProductEvent("topic_opened", { category })} className="group rounded-2xl border border-white/15 bg-black p-4 transition-transform hover:-translate-y-0.5 hover:border-white/35"><Icon className="mb-5 size-5 text-[var(--purple-light)]" /><p className="text-sm font-bold">{category}</p><p className="mt-1 text-xs text-white/60">{count} {count === 1 ? "quote" : "quotes"}</p></Link>;
+                return <Link key={category} href={`/discover?topic=${encodeURIComponent(category)}`} onClick={() => trackProductEvent("topic_opened", { category })} className="group rounded-2xl border border-white/15 bg-black p-4 transition-transform hover:-translate-y-0.5 hover:border-white/35 active:scale-[0.97]"><Icon className="mb-5 size-5 text-[var(--purple-light)]" /><p className="text-sm font-bold">{category}</p><p className="mt-1 text-xs text-white/60">{count} {count === 1 ? "quote" : "quotes"}</p></Link>;
               })}
             </div>
           </section>
@@ -62,7 +62,7 @@ export function DiscoverView({ quotes, categories, collections, initialTopic = "
             <h2 className="mb-4 text-sm font-extrabold uppercase tracking-[0.14em]">Collections</h2>
             <div className="grid gap-3 lg:grid-cols-2">
               {collections.toSorted((a, b) => a.displayOrder - b.displayOrder).map((collection) => (
-                <Link key={collection.slug} href={`/collections/${collection.slug}`} className="content-card group flex items-center gap-4 rounded-2xl p-5 transition-transform hover:-translate-y-0.5">
+                <Link key={collection.slug} href={`/collections/${collection.slug}`} className="content-card group flex items-center gap-4 rounded-2xl p-5 transition-transform hover:-translate-y-0.5 active:scale-[0.98]">
                   <span className="display-type text-5xl text-[var(--purple-light)]">{String(collection.displayOrder + 1).padStart(2, "0")}</span>
                   <span className="min-w-0 flex-1"><span className="block font-bold">{collection.title}</span><span className="mt-1 block text-sm text-white/65">{collection.description}</span></span>
                   <ChevronRight className="size-5 text-white/55 transition-transform group-hover:translate-x-1" />

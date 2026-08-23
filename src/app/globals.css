@@ -17,6 +17,9 @@
   --radius-card: 1rem;
   --shadow-card: 0 24px 80px rgb(17 5 45 / 28%);
   --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-top: env(safe-area-inset-top, 0px);
+  --ease-ios: cubic-bezier(0.32, 0.72, 0, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
   --card: var(--near-black);
   --card-foreground: var(--white);
   --popover: var(--near-black);
@@ -133,8 +136,8 @@ button, a { touch-action: manipulation; }
 
 @keyframes quote-enter-up { from { opacity: 0; transform: translateY(28px); } to { opacity: 1; transform: translateY(0); } }
 @keyframes quote-enter-down { from { opacity: 0; transform: translateY(-28px); } to { opacity: 1; transform: translateY(0); } }
-.animate-quote-up { animation: quote-enter-up 260ms ease-out; }
-.animate-quote-down { animation: quote-enter-down 260ms ease-out; }
+.animate-quote-up { animation: quote-enter-up 320ms var(--ease-spring); }
+.animate-quote-down { animation: quote-enter-down 320ms var(--ease-spring); }
 
 @media (min-width: 1024px) { .safe-pb { padding-bottom: 2rem; } }
 @media (prefers-reduced-motion: reduce) {
@@ -168,7 +171,7 @@ button, a { touch-action: manipulation; }
 .page-wrap {
   width: min(100%, 88rem);
   margin-inline: auto;
-  padding: 1.25rem 1rem calc(6.5rem + var(--safe-bottom));
+  padding: calc(1.25rem + var(--safe-top)) 1rem calc(6.5rem + var(--safe-bottom));
 }
 
 @media (min-width: 640px) {

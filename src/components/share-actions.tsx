@@ -55,7 +55,7 @@ export function ShareActions({ quote, trigger }: { quote: Quote; trigger?: React
   return (
     <Dialog>
       <DialogTrigger asChild>{trigger ?? <Button aria-label="Share quote" size="icon" className="rounded-full"><Share2 /></Button>}</DialogTrigger>
-      <DialogContent className="border-white/15 bg-black text-white sm:max-w-md">
+      <DialogContent className="fixed inset-x-0 bottom-0 top-auto left-0 w-full max-w-full translate-x-0 translate-y-0 rounded-t-3xl rounded-b-none border-x-0 border-b-0 border-t border-white/15 bg-black pb-[calc(1.25rem+var(--safe-bottom))] text-white sm:inset-x-auto sm:bottom-auto sm:top-1/2 sm:left-1/2 sm:w-full sm:max-w-md sm:-translate-x-1/2 sm:-translate-y-1/2 sm:rounded-2xl sm:border sm:pb-4">
         <DialogHeader><DialogTitle>Share this idea</DialogTitle><DialogDescription className="text-white/60">Copy it, send it, or make a clean quote card.</DialogDescription></DialogHeader>
         <div className="grid grid-cols-2 gap-3">
           <Button variant="outline" className="border-white/15 bg-white/5 text-white hover:bg-white hover:text-black" onClick={copyQuote}><Copy />Copy quote</Button>

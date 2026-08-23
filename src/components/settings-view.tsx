@@ -8,11 +8,11 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Switch } from "@/components/ui/switch";
 import { AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent, AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger } from "@/components/ui/alert-dialog";
 import { useUserState } from "@/components/user-state-provider";
 import { exportLocalState } from "@/lib/local-state";
+import { cn } from "@/lib/utils";
 
 export function SettingsView({ categories, quotes }: { categories: readonly string[]; quotes: readonly Quote[] }) {
   const { state, update, toggleFavoriteCategory, reset } = useUserState();
@@ -25,8 +25,21 @@ export function SettingsView({ categories, quotes }: { categories: readonly stri
         <CardContent className="space-y-6">
           <div className="flex items-center justify-between gap-4"><div><Label htmlFor="profanity">Hide profanity</Label><p className="mt-1 text-xs text-white/60">Enabled by default.</p></div><Switch id="profanity" checked={state.hideProfanity} onCheckedChange={(checked) => update({ hideProfanity: checked })} /></div>
           <div className="space-y-2">
-            <Label htmlFor="feed-scope">Feed scope</Label>
-            <Select value={state.feedScope} onValueChange={(value: "all" | "favorite-topics") => update({ feedScope: value })}><SelectTrigger id="feed-scope" className="w-full border-white/15 bg-white/5"><SelectValue /></SelectTrigger><SelectContent className="border-white/15 bg-black text-white"><SelectItem value="all">All quotes</SelectItem><SelectItem value="favorite-topics" disabled={selectedCount === 0}>Favorite topics</SelectItem></SelectContent></Select>
+            <Label>Feed scope</Label>
+            <div className="grid grid-cols-2 gap-1 rounded-xl bg-white/5 p-1">
+              {([["all", "All quotes"], ["favorite-topics", "Favorite topics"]] as const).map(([value, label]) => (
+                <button
+                  key={value}
+                  type="button"
+                  disabled={value === "favorite-topics" && selectedCount === 0}
+                  onClick={() => update({ feedScope: value })}
+                  className={cn(
+                    "rounded-lg py-2 text-sm font-semibold transition-all active:scale-[0.97] disabled:pointer-events-none disabled:opacity-40",
+                    state.feedScope === value ? "bg-white text-black" : "text-white/65 hover:text-white"
+                  )}
+                >{label}</button>
+              ))}
+            </div>
             {selectedCount === 0 ? <p className="text-xs text-white/60">Pick at least one favorite topic below to enable this.</p> : null}
           </div>
           <div>
@@ -39,7 +52,7 @@ export function SettingsView({ categories, quotes }: { categories: readonly stri
         <CardHeader><CardTitle>Your data</CardTitle><CardDescription className="text-white/60">Saved quotes and preferences live only in this browser.</CardDescription></CardHeader>
         <CardContent className="flex flex-col gap-3 sm:flex-row">
           <Button variant="outline" className="border-white/15 bg-white/5 text-white hover:bg-white hover:text-black" onClick={() => exportLocalState(state)}><Download />Export data</Button>
-          <AlertDialog><AlertDialogTrigger asChild><Button variant="destructive"><RotateCcw />Reset app</Button></AlertDialogTrigger><AlertDialogContent className="border-white/15 bg-black text-white"><AlertDialogHeader><AlertDialogTitle>Reset all local data?</AlertDialogTitle><AlertDialogDescription className="text-white/60">This removes saved quotes, preferences, and onboarding state from this browser. It cannot be undone.</AlertDialogDescription></AlertDialogHeader><AlertDialogFooter><AlertDialogCancel className="border-white/15 bg-white/5 text-white">Cancel</AlertDialogCancel><AlertDialogAction onClick={() => { reset(); toast.success("Local data reset"); }} className="bg-[var(--destructive)] text-white">Reset</AlertDialogAction></AlertDialogFooter></AlertDialogContent></AlertDialog>
+          <AlertDialog><AlertDialogTrigger asChild><Button variant="destructive"><RotateCcw />Reset app</Button></AlertDialogTrigger><AlertDialogContent className="fixed inset-x-0 bottom-0 top-auto left-0 w-full max-w-full translate-x-0 translate-y-0 rounded-t-3xl rounded-b-none border-x-0 border-b-0 border-t border-white/15 bg-black pb-[calc(1.25rem+var(--safe-bottom))] text-white sm:inset-x-auto sm:bottom-auto sm:top-1/2 sm:left-1/2 sm:w-full sm:max-w-sm sm:-translate-x-1/2 sm:-translate-y-1/2 sm:rounded-2xl sm:border sm:pb-4"><AlertDialogHeader><AlertDialogTitle>Reset all local data?</AlertDialogTitle><AlertDialogDescription className="text-white/60">This removes saved quotes, preferences, and onboarding state from this browser. It cannot be undone.</AlertDialogDescription></AlertDialogHeader><AlertDialogFooter><AlertDialogCancel className="border-white/15 bg-white/5 text-white">Cancel</AlertDialogCancel><AlertDialogAction onClick={() => { reset(); toast.success("Local data reset"); }} className="bg-[var(--destructive)] text-white">Reset</AlertDialogAction></AlertDialogFooter></AlertDialogContent></AlertDialog>
         </CardContent>
       </Card>
     </div>

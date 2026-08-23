@@ -19,9 +19,10 @@ function NavItem({ item, mobile = false }: { item: (typeof items)[number]; mobil
   const Icon = item.icon;
   return (
     <Link href={item.href} aria-current={active ? "page" : undefined} className={cn(
-      "group flex items-center rounded-xl text-white/70 transition-colors hover:bg-white/10 hover:text-white",
-      mobile ? "min-w-0 flex-1 flex-col justify-center gap-1 px-1 py-2 text-[0.65rem]" : "gap-3 px-3 py-2.5 text-sm font-semibold",
-      active && "bg-white text-black hover:bg-white hover:text-black"
+      "group flex items-center rounded-xl transition-all active:scale-95",
+      mobile
+        ? cn("min-w-0 flex-1 flex-col justify-center gap-1 px-1 py-2 text-[0.65rem]", active ? "text-white" : "text-white/55")
+        : cn("gap-3 px-3 py-2.5 text-sm font-semibold text-white/70 hover:bg-white/10 hover:text-white", active && "bg-white text-black hover:bg-white hover:text-black")
     )}>
       <Icon className={mobile ? "size-5" : "size-4"} strokeWidth={active ? 2.4 : 1.8} />
       <span className={mobile ? "truncate" : undefined}>{item.label}</span>

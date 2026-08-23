@@ -13,7 +13,7 @@ export function QuoteListCard({ quote }: { quote: Quote }) {
   const saved = state.savedIDs.includes(quote.id);
   return (
     <Card className="content-card group relative gap-0 overflow-hidden p-0">
-      <Link href={`/q/${quote.id}`} className="block p-5">
+      <Link href={`/q/${quote.id}`} className="block p-5 transition-transform active:scale-[0.98]">
         <div className="flex items-start gap-3">
           <QuoteIcon className="mt-0.5 size-6 shrink-0 text-[var(--purple-light)]" fill="currentColor" />
           <div className="min-w-0 flex-1 pr-8">

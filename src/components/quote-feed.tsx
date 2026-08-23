@@ -63,7 +63,7 @@ export function QuoteFeed({ quotes, initialQuoteID, developmentFixture = false }
     <main className="safe-pb min-h-dvh lg:pl-28">
       <div className="mx-auto grid min-h-[calc(100dvh-5.75rem)] max-w-7xl lg:min-h-dvh lg:grid-cols-[minmax(0,1fr)_22rem]">
         <section
-          className="flex min-h-[calc(100dvh-5.75rem)] select-none flex-col px-6 py-5 sm:px-10 md:min-h-dvh md:px-14 md:py-9 lg:px-20"
+          className="flex min-h-[calc(100dvh-5.75rem)] select-none flex-col px-6 pt-[calc(1.25rem+var(--safe-top))] pb-5 sm:px-10 md:min-h-dvh md:px-14 md:pt-[calc(2.25rem+var(--safe-top))] md:pb-9 lg:px-20"
           onTouchStart={(event) => { touchStart.current = event.changedTouches[0]?.clientY ?? null; setDragging(true); }}
           onTouchMove={(event) => {
             if (touchStart.current === null) return;
@@ -85,7 +85,7 @@ export function QuoteFeed({ quotes, initialQuoteID, developmentFixture = false }
           </header>
           <div
             className="flex flex-1 flex-col justify-start pt-[8vh] pb-10 sm:justify-center sm:pt-0 sm:pb-10 md:pb-16"
-            style={{ transform: `translateY(${-dragY * 0.4}px)`, transition: dragging ? "none" : "transform 220ms ease-out" }}
+            style={{ transform: `translateY(${-dragY * 0.4}px)`, transition: dragging ? "none" : "transform 320ms var(--ease-ios)" }}
           >
             <div key={quote.id} className={enterDirection === 1 ? "animate-quote-up" : "animate-quote-down"}>
               <Badge className="mb-7 w-fit rounded-full border-black bg-black px-4 py-1 text-[0.68rem] tracking-[0.12em] text-white">{quote.primaryCategory.toUpperCase()}</Badge>
