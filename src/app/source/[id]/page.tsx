@@ -32,7 +32,7 @@ export default async function SourcePage({ params }: Props) {
     ...locatorItems,
     { label: "Verification", value: quote.verified ? "●  Checked twice against the original source" : "Verification pending" },
   ];
-  const sourceAction = quote.sourceType === "article" || quote.sourceType === "book" ? "Read original" : quote.sourceType === "podcast" ? "Listen to original" : "Watch original";
+  const sourceAction = quote.sourceType === "article" || quote.sourceType === "book" || quote.sourceType === "social" ? "Read original" : quote.sourceType === "podcast" ? "Listen to original" : "Watch original";
 
   return (
     <main className="page-wrap">
@@ -42,7 +42,7 @@ export default async function SourcePage({ params }: Props) {
           <span className="display-type absolute -right-2 -top-16 text-[16rem] leading-none text-white/[0.08]" aria-hidden="true">”</span>
           <div className="relative">
             <p className="flex items-center gap-3 text-[0.68rem] font-bold uppercase tracking-[0.15em] text-white"><span className="h-px w-8 bg-white/70" aria-hidden="true" />{quote.primaryCategory}</p>
-            <blockquote className={`display-type mt-16 ${quoteDisplaySize(quote.text, "panel")} uppercase leading-[0.9]`}>{quote.text}</blockquote>
+            <blockquote className={`display-type mt-16 ${quoteDisplaySize(quote.text, "panel")} uppercase`}>{quote.text}</blockquote>
             <p className="mt-8 border-t border-white/28 pt-5 text-sm font-extrabold uppercase tracking-[0.1em]">{quote.author}</p>
           </div>
         </section>

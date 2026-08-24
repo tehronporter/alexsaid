@@ -9,7 +9,8 @@ export const defaultLocalState: LocalUserStateV1 = {
   hideProfanity: true,
   feedScope: "all",
   onboardingComplete: false,
-  lastQuoteID: null
+  lastQuoteID: null,
+  successfulSwipeCount: 0
 };
 
 function stringArray(value: unknown) {
@@ -28,7 +29,10 @@ export function migrateLocalState(value: unknown): LocalUserStateV1 {
     hideProfanity: typeof legacy.hideProfanity === "boolean" ? legacy.hideProfanity : (typeof legacy.profanityHidden === "boolean" ? legacy.profanityHidden : true),
     feedScope: legacy.feedScope === "favorite-topics" || legacy.scope === "favorite-topics" ? "favorite-topics" : "all",
     onboardingComplete: typeof legacy.onboardingComplete === "boolean" ? legacy.onboardingComplete : Boolean(legacy.onboarded),
-    lastQuoteID: typeof legacy.lastQuoteID === "string" ? legacy.lastQuoteID : null
+    lastQuoteID: typeof legacy.lastQuoteID === "string" ? legacy.lastQuoteID : null,
+    successfulSwipeCount: typeof legacy.successfulSwipeCount === "number" && Number.isFinite(legacy.successfulSwipeCount)
+      ? Math.max(0, Math.min(3, Math.trunc(legacy.successfulSwipeCount)))
+      : 0
   });
   return migrated.success ? migrated.data : defaultLocalState;
 }

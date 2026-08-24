@@ -1,7 +1,5 @@
 import {
-  ArrowDown,
   ArrowLeft,
-  ArrowUp,
   Bookmark,
   Compass,
   Copy,
@@ -25,8 +23,6 @@ const productIcons = {
   image: Image,
   link: LinkIcon,
   more: MoreHorizontal,
-  next: ArrowDown,
-  previous: ArrowUp,
   quote: Home,
   save: Bookmark,
   search: Search,

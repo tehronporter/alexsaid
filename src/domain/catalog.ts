@@ -108,7 +108,8 @@ export const localUserStateSchema = z.object({
   hideProfanity: z.boolean(),
   feedScope: z.enum(["all", "favorite-topics"]),
   onboardingComplete: z.boolean(),
-  lastQuoteID: z.string().uuid().nullable()
+  lastQuoteID: z.string().uuid().nullable(),
+  successfulSwipeCount: z.number().int().min(0).max(3).default(0)
 });
 
 export type LocalUserStateV1 = z.infer<typeof localUserStateSchema>;

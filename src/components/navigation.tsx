@@ -24,11 +24,11 @@ function NavItem({ item, mobile = false }: { item: (typeof items)[number]; mobil
       className={cn(
         "group relative flex items-center transition-colors duration-150",
         mobile
-          ? cn("min-w-0 flex-1 flex-col justify-center gap-1 px-1 py-2 text-[0.65rem]", active ? "text-white" : "text-white/48 hover:text-white/78")
+          ? cn("min-w-0 flex-1 flex-col justify-center gap-1 px-1 py-2 text-[0.65rem]", active ? "text-white" : "text-white/65 hover:text-white/85")
           : cn("min-h-14 flex-col justify-center gap-1.5 border-l-2 px-1 py-2 text-[0.65rem] font-semibold tracking-wide", active ? "border-[var(--purple-light)] text-white" : "border-transparent text-white/48 hover:text-white"),
       )}
     >
-      {mobile && active ? <span className="absolute inset-x-5 -top-1 h-0.5 bg-[var(--purple-light)]" aria-hidden="true" /> : null}
+      {mobile && active ? <span className="absolute left-1/2 -top-1 h-0.5 w-7 -translate-x-1/2 bg-[var(--purple-light)]" aria-hidden="true" /> : null}
       <ProductIcon name={item.icon} className="size-5" />
       <span className={mobile ? "truncate" : undefined}>{item.label}</span>
     </Link>
@@ -48,7 +48,7 @@ export function DesktopNavigation({ surfaceMode }: { surfaceMode: SurfaceMode })
 
 export function MobileNavigation({ surfaceMode }: { surfaceMode: SurfaceMode }) {
   return (
-    <nav data-nav-surface={surfaceMode} className="fixed inset-x-0 bottom-0 z-50 flex border-t border-white/12 bg-[rgb(8_8_8/0.96)] px-2 pt-1 backdrop-blur-xl lg:hidden" style={{ paddingBottom: "max(0.35rem, env(safe-area-inset-bottom))" }} aria-label="Primary navigation">
+    <nav data-nav-surface={surfaceMode} className="fixed inset-x-0 bottom-0 z-50 flex min-h-[var(--tab-bar-height)] border-t border-white/12 bg-[rgb(8_8_8/0.96)] px-2 pt-1 backdrop-blur-xl lg:hidden" style={{ paddingBottom: "max(0.35rem, env(safe-area-inset-bottom))" }} aria-label="Primary navigation">
       {items.map((item) => <NavItem key={item.href} item={item} mobile />)}
     </nav>
   );

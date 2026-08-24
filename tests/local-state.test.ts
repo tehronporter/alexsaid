@@ -27,4 +27,18 @@ describe("local user state", () => {
       onboardingComplete: true
     });
   });
+
+  it("defaults and clamps the learned-swipe counter", () => {
+    const storedWithoutCounter = { ...defaultLocalState } as Record<string, unknown>;
+    delete storedWithoutCounter.successfulSwipeCount;
+    expect(migrateLocalState(storedWithoutCounter).successfulSwipeCount).toBe(0);
+    expect(migrateLocalState({ ...defaultLocalState, successfulSwipeCount: 12 }).successfulSwipeCount).toBe(3);
+    expect(migrateLocalState({ ...defaultLocalState, successfulSwipeCount: -2 }).successfulSwipeCount).toBe(0);
+  });
+
+  it("persists the learned-swipe counter", () => {
+    writeLocalState({ ...defaultLocalState, successfulSwipeCount: 3 });
+    expect(JSON.parse(localStorage.getItem(LOCAL_STATE_KEY) ?? "{}").successfulSwipeCount).toBe(3);
+    expect(readLocalState().successfulSwipeCount).toBe(3);
+  });
 });

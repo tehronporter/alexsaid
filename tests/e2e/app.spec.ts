@@ -15,7 +15,8 @@ test.beforeEach(async ({ page }) => {
       hideProfanity: true,
       feedScope: "all",
       onboardingComplete: true,
-      lastQuoteID: null
+      lastQuoteID: null,
+      successfulSwipeCount: 0
     }));
   });
   await page.reload();
@@ -34,7 +35,7 @@ test("first quote renders behind skippable onboarding", async ({ page }) => {
 
 test("quote navigation keeps an exact canonical ID", async ({ page }) => {
   await expect(page.getByRole("blockquote")).toBeVisible();
-  await page.getByRole("button", { name: "Next quote" }).click();
+  await page.keyboard.press("ArrowDown");
   await expect(page).toHaveURL(/\/q\/[0-9a-f-]{36}$/);
   const firstQuote = await page.getByRole("blockquote").textContent();
   const firstURL = page.url();
@@ -45,6 +46,7 @@ test("quote navigation keeps an exact canonical ID", async ({ page }) => {
   await expect(page.getByRole("blockquote")).toHaveText(firstQuote ?? "");
   await page.reload();
   await expect(page.getByRole("blockquote")).toHaveText(firstQuote ?? "");
+  await expect.poll(() => page.evaluate(() => JSON.parse(localStorage.getItem("hormozi-said:user-state:v1") ?? "{}").successfulSwipeCount)).toBe(0);
 });
 
 test("vertical swipe advances the exact quote", async ({ page }) => {
@@ -60,6 +62,58 @@ test("vertical swipe advances the exact quote", async ({ page }) => {
   });
   await expect(page).toHaveURL(/\/q\/[0-9a-f-]{36}$/);
   await expect(page.getByRole("blockquote")).not.toHaveText(before ?? "");
+  await expect.poll(() => page.evaluate(() => JSON.parse(localStorage.getItem("hormozi-said:user-state:v1") ?? "{}").successfulSwipeCount)).toBe(1);
+});
+
+test("quote controls stay focused and three successful swipes teach the gesture", async ({ page }) => {
+  const stage = page.locator(".quote-stage");
+  const swipe = async () => stage.evaluate((element) => {
+    const dispatchTouch = (type: string, clientY: number) => {
+      const event = new Event(type, { bubbles: true });
+      Object.defineProperty(event, "changedTouches", { value: [{ clientY }] });
+      element.dispatchEvent(event);
+    };
+    dispatchTouch("touchstart", 700);
+    dispatchTouch("touchend", 300);
+  });
+
+  const actions = page.getByTestId("quote-actions");
+  await expect(actions.getByRole("button", { name: "Save quote" })).toBeVisible();
+  await expect(actions.getByRole("button", { name: "Share quote" })).toBeVisible();
+  await expect(actions.getByRole("link", { name: "View quote source" })).toBeVisible();
+  await expect(page.getByRole("button", { name: /Previous quote|Next quote/ })).toHaveCount(0);
+  await expect(page.getByText("Arrow keys")).toHaveCount(0);
+  const hint = page.locator(".swipe-hint");
+  await expect(hint).toBeVisible();
+
+  await swipe();
+  await swipe();
+  await swipe();
+  await expect(hint).not.toBeVisible();
+  await expect.poll(() => page.evaluate(() => JSON.parse(localStorage.getItem("hormozi-said:user-state:v1") ?? "{}").successfulSwipeCount)).toBe(3);
+  await page.reload();
+  await expect(page.getByRole("main").locator(".swipe-hint")).not.toBeVisible();
+});
+
+test("reduced motion removes the learned swipe hint immediately", async ({ page }) => {
+  await page.emulateMedia({ reducedMotion: "reduce" });
+  await page.evaluate(() => {
+    const state = JSON.parse(localStorage.getItem("hormozi-said:user-state:v1") ?? "{}");
+    localStorage.setItem("hormozi-said:user-state:v1", JSON.stringify({ ...state, successfulSwipeCount: 2 }));
+  });
+  await page.reload();
+  await page.locator(".quote-stage").evaluate((element) => {
+    const dispatchTouch = (type: string, clientY: number) => {
+      const event = new Event(type, { bubbles: true });
+      Object.defineProperty(event, "changedTouches", { value: [{ clientY }] });
+      element.dispatchEvent(event);
+    };
+    dispatchTouch("touchstart", 700);
+    dispatchTouch("touchend", 300);
+  });
+  const hint = page.locator(".swipe-hint");
+  await expect(hint).not.toBeVisible();
+  await expect(hint).toHaveCSS("transition-duration", "0s");
 });
 
 test("saved quotes persist after reload", async ({ page }) => {
@@ -157,6 +211,26 @@ test("install page explains current platform capability", async ({ page }) => {
   await page.goto("/install");
   await expect(page.getByText(/Install this app|Install on iPhone or iPad|Already installed/).last()).toBeVisible();
   await expect(page.getByRole("button", { name: "Notify me daily" })).not.toBeVisible();
+});
+
+test("local-data export and reset include the learned-swipe state", async ({ page }) => {
+  await page.evaluate(() => {
+    const state = JSON.parse(localStorage.getItem("hormozi-said:user-state:v1") ?? "{}");
+    localStorage.setItem("hormozi-said:user-state:v1", JSON.stringify({ ...state, successfulSwipeCount: 3 }));
+  });
+  await page.goto("/settings");
+
+  const downloadPromise = page.waitForEvent("download");
+  await page.getByRole("button", { name: "Export data" }).click();
+  const download = await downloadPromise;
+  const stream = await download.createReadStream();
+  const chunks: Buffer[] = [];
+  for await (const chunk of stream) chunks.push(Buffer.from(chunk));
+  expect(JSON.parse(Buffer.concat(chunks).toString("utf8")).successfulSwipeCount).toBe(3);
+
+  await page.getByRole("button", { name: "Reset all app data" }).click();
+  await page.getByRole("button", { name: "Reset", exact: true }).click();
+  await expect.poll(() => page.evaluate(() => JSON.parse(localStorage.getItem("hormozi-said:user-state:v1") ?? "{}").successfulSwipeCount)).toBe(0);
 });
 
 test("key screens have no serious accessibility violations", async ({ page }) => {

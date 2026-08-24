@@ -9,6 +9,7 @@ const completedState = {
   feedScope: "all",
   onboardingComplete: true,
   lastQuoteID: null,
+  successfulSwipeCount: 0,
 };
 
 test.beforeEach(async ({ page }) => {

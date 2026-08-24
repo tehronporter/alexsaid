@@ -9,6 +9,7 @@ export default defineConfig({
   projects: [
     { name: "iphone-se", use: { ...devices["iPhone SE"] } },
     { name: "modern-iphone", use: { ...devices["iPhone 14"] } },
+    { name: "large-iphone", testMatch: "**/quote-polish.spec.ts", use: { ...devices["iPhone 15 Pro Max"] } },
     { name: "tablet", use: { ...devices["iPad (gen 7)"] } },
     { name: "desktop", use: { ...devices["Desktop Chrome"], viewport: { width: 1440, height: 1000 } } }
   ],

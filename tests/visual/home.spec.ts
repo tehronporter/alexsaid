@@ -9,7 +9,8 @@ test("purple-first quote experience", async ({ page }) => {
     hideProfanity: true,
     feedScope: "all",
     onboardingComplete: true,
-    lastQuoteID: null
+    lastQuoteID: null,
+    successfulSwipeCount: 0
   })));
   await page.reload();
   await expect(page.getByRole("blockquote")).toBeVisible();
