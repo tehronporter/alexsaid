@@ -84,7 +84,11 @@ test("quote controls stay focused and three successful swipes teach the gesture"
   await expect(page.getByRole("button", { name: /Previous quote|Next quote/ })).toHaveCount(0);
   await expect(page.getByText("Arrow keys")).toHaveCount(0);
   const hint = page.locator(".swipe-hint");
-  await expect(hint).toBeVisible();
+  if ((page.viewportSize()?.width ?? 0) < 1024) {
+    await expect(hint).toBeVisible();
+  } else {
+    await expect(hint).not.toBeVisible();
+  }
 
   await swipe();
   await swipe();
@@ -127,7 +131,7 @@ test("saved quotes persist after reload", async ({ page }) => {
 
 test("discover search opens the matching quote", async ({ page }) => {
   await page.goto("/discover");
-  const search = page.getByRole("textbox", { name: "Search quotes" });
+  const search = page.getByRole("searchbox", { name: "Search quotes" });
   await expect(search).toHaveCount(1);
   await search.fill("revenue retention");
   await expect(page.getByText("If you do not have what's called revenue retention, you have nothing.")).toBeVisible();
@@ -154,11 +158,11 @@ test("every accepted quote stays exact across library, saved, source, and sharin
     await page.keyboard.press("Escape");
     await page.getByRole("link", { name: "View quote source" }).click();
     await expect(page.getByRole("blockquote")).toHaveText(quote.text);
-    await expect(page.getByRole("link", { name: "Watch original" })).toHaveAttribute("href", quote.sourceURL);
+    await expect(page.getByRole("link", { name: /^(Read|Listen to|Watch) original$/ })).toHaveAttribute("href", quote.sourceURL);
   }
 
   await page.goto("/discover");
-  const search = page.getByRole("textbox", { name: "Search quotes" });
+  const search = page.getByRole("searchbox", { name: "Search quotes" });
   for (const category of catalogJSON.categories) {
     await search.fill(category);
     for (const quote of catalogJSON.quotes.filter((item) => item.primaryCategory === category)) {
@@ -237,6 +241,8 @@ test("key screens have no serious accessibility violations", async ({ page }) =>
   test.setTimeout(120_000);
   for (const path of ["/", "/discover", "/saved", `/source/${catalogJSON.quotes[0].id}`, "/install", "/more", "/settings", "/privacy"]) {
     await page.goto(path);
+    // Let quote entrance transitions settle before axe computes color contrast.
+    await page.waitForTimeout(400);
     const results = await new AxeBuilder({ page }).analyze();
     expect(results.violations.filter((violation) => ["serious", "critical"].includes(violation.impact ?? "")), `Accessibility violations on ${path}`).toEqual([]);
   }

@@ -1,5 +1,6 @@
 import {
   ArrowLeft,
+  ArrowRight,
   Bookmark,
   Compass,
   Copy,
@@ -11,11 +12,13 @@ import {
   MoreHorizontal,
   Search,
   Share2,
+  X,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const productIcons = {
   back: ArrowLeft,
+  arrow: ArrowRight,
   copy: Copy,
   discover: Compass,
   download: Download,
@@ -27,6 +30,7 @@ const productIcons = {
   save: Bookmark,
   search: Search,
   share: Share2,
+  clear: X,
 } as const;
 
 export type ProductIconName = keyof typeof productIcons;

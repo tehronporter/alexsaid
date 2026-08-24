@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-24T01:27:28.194Z",
+  "generatedAt": "2026-08-24T01:41:52.395Z",
   "developmentFixture": false,
   "categories": [
     "Business Building",
@@ -17,7 +17,10 @@
         "f4e4bf60-2700-48be-84bc-a499d14f36ea",
         "2a2a3dc1-8e1c-4e2a-8149-cb97f61ec542",
         "9fd38292-744b-4827-a2e2-47463c15ca7d",
-        "6783a7fb-8603-44f7-8f1b-ffa8730b5eb7"
+        "6783a7fb-8603-44f7-8f1b-ffa8730b5eb7",
+        "8f02520b-f6ea-497f-9dfd-6e1a7d1edd21",
+        "b09ccf53-9640-4444-b98a-6ad98706e980",
+        "2ee5c144-c225-4d62-a717-a932b154c79e"
       ],
       "displayOrder": 0
     },
@@ -27,7 +30,9 @@
       "description": "A sharper way to think about ethical, well-designed selling.",
       "quoteIDs": [
         "31545e53-4b71-4036-b59f-c42f55525d0a",
-        "6654b49a-614c-4953-9c01-50e180d0ebb9"
+        "6654b49a-614c-4953-9c01-50e180d0ebb9",
+        "2bf736d9-5f89-4a3f-92c7-b7f83a80bbb6",
+        "2da4f3e4-6a61-42f4-aa5c-e8eaf333d156"
       ],
       "displayOrder": 1
     },
@@ -39,7 +44,10 @@
         "73e0d73f-784a-4496-b9e7-1356b7b995d5",
         "b255c5e7-09ba-4ba1-bbe6-1b20cd551904",
         "ce9cc2b1-ee31-47fe-84d3-15e60081d807",
-        "dff7fac0-b37e-4729-ae45-e8a545e4c345"
+        "dff7fac0-b37e-4729-ae45-e8a545e4c345",
+        "63c18d6d-626c-489c-94a9-8e8ef70a7e98",
+        "d428ce94-1ff7-4abc-84fc-65a5a9ae38ed",
+        "fba747e2-9a21-4109-a720-5abbb1c0fe6d"
       ],
       "displayOrder": 2
     }
@@ -630,6 +638,292 @@
       "context": "Alex lists the most common reasons a sales offer fails to convert.",
       "createdAt": "2026-08-23T23:58:00.000Z",
       "updatedAt": "2026-08-24T00:25:00.000Z"
+    },
+    {
+      "id": "63c18d6d-626c-489c-94a9-8e8ef70a7e98",
+      "text": "The biggest lie I believed for the first 10yrs of being a business owner was that scaling was about getting more customers. It's about getting customers to never leave. Scaling looks like a flat retention curve, and when your business never gets smaller, it scales by default.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Business Building",
+      "tags": [
+        "retention",
+        "scaling",
+        "customers"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/2035996696522678300",
+      "sourceDate": "2026-03-23",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "2035996696522678300"
+      },
+      "verified": true,
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex reframes scaling as keeping customers long enough for the business to stop shrinking, rather than treating acquisition alone as growth.",
+      "createdAt": "2026-08-24T01:38:00.000Z",
+      "updatedAt": "2026-08-24T01:50:00.000Z"
+    },
+    {
+      "id": "ff544e6a-175a-4959-8320-5b8447e55aeb",
+      "text": "The thing about helping younger folks in business is that they tend to advance faster because they don’t spend nearly the amount of time trying to justify why something won’t work. They also don’t even know what “a lot” of money is - it’s all just Monopoly money to them.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Business Building",
+      "tags": [
+        "learning",
+        "risk",
+        "early-career"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1950263853867991144",
+      "sourceDate": "2025-07-29",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "1950263853867991144"
+      },
+      "verified": true,
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex observes that less experience can sometimes speed up progress because there are fewer learned objections and fewer fixed assumptions about scale.",
+      "createdAt": "2026-08-24T01:38:00.000Z",
+      "updatedAt": "2026-08-24T01:45:00.000Z"
+    },
+    {
+      "id": "d428ce94-1ff7-4abc-84fc-65a5a9ae38ed",
+      "text": "All income is not created equally… If over 4 years you transition from very active to very passive with the same business income. You still 2-4x enterprise value and your net worth. Sometimes doing less for the same IS the fastest growth. Just doesn’t feel that way.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Business Building",
+      "tags": [
+        "enterprise-value",
+        "leverage",
+        "business-model"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1467177762582450182",
+      "sourceDate": "2021-12-04",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "1467177762582450182"
+      },
+      "verified": true,
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex explains that reducing a business owner’s required involvement can increase company value even when income stays flat.",
+      "createdAt": "2026-08-24T01:38:00.000Z",
+      "updatedAt": "2026-08-24T01:45:00.000Z"
+    },
+    {
+      "id": "2bf736d9-5f89-4a3f-92c7-b7f83a80bbb6",
+      "text": "Best way to learn sales without selling: Listen to close call recordings. The real world teaches more than any script.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Sales",
+      "tags": [
+        "sales-training",
+        "call-review",
+        "learning"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1561016524135141378",
+      "sourceDate": "2022-08-20",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "1561016524135141378"
+      },
+      "verified": true,
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex recommends studying real sales calls as a practical way to build sales judgment before taking calls yourself.",
+      "createdAt": "2026-08-24T01:38:00.000Z",
+      "updatedAt": "2026-08-24T01:45:00.000Z"
+    },
+    {
+      "id": "950ebee2-02b5-44a3-893f-b22de6b199c6",
+      "text": "The fastest way to change your life is to change where you invest: Look at your calendar for where you spend your time. Your credit card statement for how you spend your money. And your phone for where you spend your attention. Change your inputs. Change your outputs.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset",
+      "tags": [
+        "time",
+        "money",
+        "attention"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1896568848234512852",
+      "sourceDate": "2025-03-03",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "1896568848234512852"
+      },
+      "verified": true,
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex turns personal change into an audit of the three resources people continuously allocate: time, money, and attention.",
+      "createdAt": "2026-08-24T01:38:00.000Z",
+      "updatedAt": "2026-08-24T01:45:00.000Z"
+    },
+    {
+      "id": "606ed260-d19f-499f-972d-10fab230aa35",
+      "text": "Hard and soft skills are another way of saying: “Skills we have an easy way to measure and skills we haven’t figured out how to measure yet.”",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Business Building",
+      "tags": [
+        "skills",
+        "measurement",
+        "teams"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1667272898434809857",
+      "sourceDate": "2023-06-09",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "1667272898434809857"
+      },
+      "verified": true,
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex challenges the hard-skill versus soft-skill distinction by reframing it as a measurement problem.",
+      "createdAt": "2026-08-24T01:38:00.000Z",
+      "updatedAt": "2026-08-24T01:45:00.000Z"
+    },
+    {
+      "id": "fba747e2-9a21-4109-a720-5abbb1c0fe6d",
+      "text": "The easiest way to reduce churn is to sell stuff people already don’t cancel out of. TLDR: you’re never gonna make a gym membership stickier than Internet service across a large population.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Business Building",
+      "tags": [
+        "retention",
+        "churn",
+        "business-model"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1889127978984215010",
+      "sourceDate": "2025-02-11",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "1889127978984215010"
+      },
+      "verified": true,
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex argues that retention is partly structural: some categories naturally support more durable customer relationships than others.",
+      "createdAt": "2026-08-24T01:38:00.000Z",
+      "updatedAt": "2026-08-24T01:45:00.000Z"
+    },
+    {
+      "id": "8f02520b-f6ea-497f-9dfd-6e1a7d1edd21",
+      "text": "That’s the thing about opportunity. It looks like risk when it’s an opportunity. And by the time it’s risk free, it’s not an opportunity anymore.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "risk",
+        "opportunity",
+        "timing"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1783183564743532941",
+      "sourceDate": "2024-04-24",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "1783183564743532941"
+      },
+      "verified": true,
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex explains why meaningful opportunities cannot be separated from uncertainty: certainty usually arrives only after the upside has disappeared.",
+      "createdAt": "2026-08-24T01:38:00.000Z",
+      "updatedAt": "2026-08-24T01:45:00.000Z"
+    },
+    {
+      "id": "b09ccf53-9640-4444-b98a-6ad98706e980",
+      "text": "Regrets come when we imagine an upside we didn’t experience without factoring in the cost we would’ve had to pay to get it.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "regret",
+        "tradeoffs",
+        "decision-making"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/2025991606143275152",
+      "sourceDate": "2026-02-23",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "2025991606143275152"
+      },
+      "verified": true,
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex describes regret as an incomplete comparison that counts a missed benefit while ignoring the price required to obtain it.",
+      "createdAt": "2026-08-24T01:38:00.000Z",
+      "updatedAt": "2026-08-24T01:45:00.000Z"
+    },
+    {
+      "id": "2da4f3e4-6a61-42f4-aa5c-e8eaf333d156",
+      "text": "Cold calling and high volume selling are valuable because of the skills you learn, not the $. It’s hard to take 20+ consults a day and not get good. And once you’re good, it’s like getting a permanent $200k/yr pay raise. It’s worth giving a year to gain the skill for life.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Sales",
+      "tags": [
+        "sales-training",
+        "skill-building",
+        "practice"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1540332812305281027",
+      "sourceDate": "2022-06-24",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "1540332812305281027"
+      },
+      "verified": true,
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex argues that the durable value of high-volume selling is the lifelong skill built through repeated real-world practice.",
+      "createdAt": "2026-08-24T01:38:00.000Z",
+      "updatedAt": "2026-08-24T01:45:00.000Z"
+    },
+    {
+      "id": "2ee5c144-c225-4d62-a717-a932b154c79e",
+      "text": "If you’re gonna do it next year, you might as well start now and start enjoying the benefits sooner. And if the benefits aren’t good enough to do it now, they’re not gonna be any better in the future. So either change the goal or change yourself.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset",
+      "tags": [
+        "action",
+        "goals",
+        "urgency"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1870521208921538989",
+      "sourceDate": "2024-12-21",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "1870521208921538989"
+      },
+      "verified": true,
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex challenges delayed goals by asking whether the promised benefit is meaningful enough to justify beginning now.",
+      "createdAt": "2026-08-24T01:38:00.000Z",
+      "updatedAt": "2026-08-24T01:45:00.000Z"
     }
   ]
 }
