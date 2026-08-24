@@ -10,7 +10,7 @@ export const verificationPassSchema = z.object({
   outcome: z.enum(["passed", "failed"]),
   checkedAt: isoDateTimeSchema,
   reviewer: z.string().trim().min(1),
-  method: z.enum(["direct-media-listen", "direct-web-read", "direct-book-read"]),
+  method: z.enum(["direct-media-listen", "direct-web-read", "direct-book-read", "official-transcript-read"]),
   isolatedReview: z.boolean(),
   sourceReopened: z.boolean(),
   surroundingContextReviewed: z.boolean(),
@@ -49,6 +49,7 @@ export const editorialRecordSchema = z.object({
   featured: z.boolean(),
   containsProfanity: z.boolean(),
   context: z.string().trim().min(1),
+  verificationStandard: z.enum(["direct-source-twice", "official-transcript-reviewed"]).default("direct-source-twice"),
   provenance: z.object({
     transcriptFingerprint: z.string().regex(/^sha256:[a-f0-9]{64}$/).nullable(),
     cueStart: z.number().int().nonnegative().nullable(),

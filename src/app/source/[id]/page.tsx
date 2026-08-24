@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { ShareActions } from "@/components/share-actions";
 import { formatTimestamp, quoteRepository, sourceByID, sourceIDByQuoteID } from "@/lib/catalog";
 import { quoteDisplaySize } from "@/lib/typography";
+import { verificationLabel } from "@/lib/verification-label";
 
 type Props = { params: Promise<{ id: string }> };
 export const revalidate = 86400;
@@ -32,7 +33,7 @@ export default async function SourcePage({ params }: Props) {
     { label: "Title", value: quote.sourceTitle ?? "Source title unavailable" },
     { label: "Published", value: quote.sourceDate ?? "Date unavailable" },
     ...locatorItems,
-    { label: "Verification", value: quote.verified ? "●  Checked twice against the original source" : "Verification pending" },
+    { label: "Verification", value: verificationLabel(quote, true) },
   ];
   const sourceAction = quote.sourceType === "article" || quote.sourceType === "book" || quote.sourceType === "social" ? "Read original" : quote.sourceType === "podcast" ? "Listen to original" : "Watch original";
 

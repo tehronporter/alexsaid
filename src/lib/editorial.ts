@@ -168,14 +168,20 @@ export function publishabilityIssues(record: EditorialRecord) {
   if (record.author !== "Alex Hormozi") issues.push(`Unsupported attribution: ${record.author}`);
   if (record.provenance.duplicateDecision === "reject") issues.push("Duplicate review decision rejects this record");
   issues.push(...passIssues(record.verification.firstPass, "First-pass"));
-  issues.push(...passIssues(record.verification.secondPass, "Second-pass"));
   if (record.verification.blindAudit) issues.push(...passIssues(record.verification.blindAudit, "Blind-audit"));
-  const expectedMethod = expectedVerificationMethod(record.sourceLocator);
-  if (record.verification.firstPass?.method !== expectedMethod) issues.push(`First-pass verification must use ${expectedMethod}`);
-  if (record.verification.secondPass?.method !== expectedMethod) issues.push(`Second-pass verification must use ${expectedMethod}`);
-  if (record.verification.firstPass && record.verification.secondPass) {
-    if (record.verification.firstPass.checkedAt === record.verification.secondPass.checkedAt) issues.push("Verification passes must be recorded separately");
-    if (record.verification.firstPass.reviewer === record.verification.secondPass.reviewer) issues.push("Verification passes require distinct reviewer labels");
+  if (record.verificationStandard === "official-transcript-reviewed") {
+    if (record.verification.firstPass?.method !== "official-transcript-read") issues.push("Transcript-reviewed records require an official-transcript-read pass");
+    if (!record.provenance.transcriptFingerprint || record.provenance.cueStart === null || record.provenance.cueEnd === null) issues.push("Transcript-reviewed records require a transcript fingerprint and cue range");
+    if (record.sourceLocator.kind !== "media") issues.push("Transcript-reviewed records require a media locator");
+  } else {
+    issues.push(...passIssues(record.verification.secondPass, "Second-pass"));
+    const expectedMethod = expectedVerificationMethod(record.sourceLocator);
+    if (record.verification.firstPass?.method !== expectedMethod) issues.push(`First-pass verification must use ${expectedMethod}`);
+    if (record.verification.secondPass?.method !== expectedMethod) issues.push(`Second-pass verification must use ${expectedMethod}`);
+    if (record.verification.firstPass && record.verification.secondPass) {
+      if (record.verification.firstPass.checkedAt === record.verification.secondPass.checkedAt) issues.push("Verification passes must be recorded separately");
+      if (record.verification.firstPass.reviewer === record.verification.secondPass.reviewer) issues.push("Verification passes require distinct reviewer labels");
+    }
   }
   issues.push(...qualityIssues(record.quality));
   issues.push(...sourceURLIssues(record));
@@ -206,8 +212,9 @@ export function transitionEditorialRecord(record: EditorialRecord, nextStatus: E
 function compilationErrors(ledger: EditorialLedger, sources: readonly SourceRecord[], taxonomy: Taxonomy) {
   const verified = ledger.records.filter((record) => record.status === "verified");
   const errors = verified.flatMap((record) => publishabilityIssues(record).map((issue) => `${record.candidateKey}: ${issue}`));
-  const audited = verified.filter(({ verification }) => verification.blindAudit && passIssues(verification.blindAudit, "Blind-audit").length === 0).length;
-  const requiredAudits = Math.ceil(verified.length * 0.2);
+  const directSourceVerified = verified.filter((record) => record.verificationStandard === "direct-source-twice");
+  const audited = directSourceVerified.filter(({ verification }) => verification.blindAudit && passIssues(verification.blindAudit, "Blind-audit").length === 0).length;
+  const requiredAudits = Math.ceil(directSourceVerified.length * 0.2);
   if (audited < requiredAudits) errors.push(`Blind audit coverage requires ${requiredAudits} records; found ${audited}`);
   const acceptedIDs = verified.flatMap(({ id }) => id ? [id] : []);
   if (new Set(acceptedIDs).size !== acceptedIDs.length) errors.push("Verified records contain duplicate UUIDs");
@@ -263,6 +270,7 @@ export function generateCatalogV3(ledger: EditorialLedger, sources: readonly Sou
     sourceID: record.sourceID,
     sourceLocator: record.sourceLocator,
     verified: true as const,
+    verificationStandard: record.verificationStandard,
     featured: record.featured,
     containsProfanity: record.containsProfanity,
     context: record.context,

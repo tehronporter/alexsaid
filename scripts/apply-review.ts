@@ -113,6 +113,7 @@ for (const entry of completed.entries) {
       featured: entry.featured,
       containsProfanity: entry.containsProfanity,
       context: entry.context,
+      verificationStandard: "direct-source-twice",
       provenance: { transcriptFingerprint: candidate.transcriptFingerprint, cueStart: candidate.cueStart, cueEnd: candidate.cueEnd, batchID: completed.packetID.toLocaleLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""), duplicateDecision: entry.duplicateDecision, duplicateNote: entry.duplicateNote },
       createdAt: entry.checkedAt,
       updatedAt: entry.checkedAt,

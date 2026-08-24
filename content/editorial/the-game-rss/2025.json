@@ -1,0 +1,734 @@
+{
+  "schemaVersion": 1,
+  "provider": "the-game-rss",
+  "year": 2025,
+  "updatedAt": "2026-08-24T05:04:26.298Z",
+  "records": [
+    {
+      "candidateKey": "the-game-rss-0991bc5a-ea8f-442f-bc4d-f066426bba5e-aca8b825b54c",
+      "status": "verified",
+      "id": "fddc3f99-bc98-4840-a388-f044391107f0",
+      "text": "If you're new, start with a free or discount offer to get business in the door.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Offers",
+      "tags": [
+        "offers",
+        "strategy"
+      ],
+      "sourceID": "the-game-rss-0991bc5a-ea8f-442f-bc4d-f066426bba5e",
+      "sourceType": "podcast",
+      "sourceTitle": "4. Premium Promotions | $100M Lost Chapters Audiobook",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/ivmyeq31ud7d7me9tv798msl.mp3#t=217",
+      "sourceDate": "2025-11-14",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 217,
+        "endSeconds": 222
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex frames this as a practical principle for making an offer easier to understand and more valuable to the buyer.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:1aa85e7d412c8e29691e5b15b9579d0d5e825af2a179cf7452b36aada7961b35",
+        "cueStart": 66,
+        "cueEnd": 66,
+        "batchID": "transcript-editorial-100",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest catalog similarity 0.29; no material duplicate found."
+      },
+      "createdAt": "2026-08-24T05:04:26.298Z",
+      "updatedAt": "2026-08-24T05:04:26.298Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T05:04:26.298Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched contiguous official transcript cues 66-66; surrounding cues reviewed for standalone clarity."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "the-game-rss-15392495-00e3-49ec-b0f8-d4d66fc7dbd1-91ca16515844",
+      "status": "verified",
+      "id": "6e3afa72-19f0-4dc8-a224-18eac10c9433",
+      "text": "You just can't offer the same thing for less.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Offers",
+      "tags": [
+        "offers",
+        "strategy"
+      ],
+      "sourceID": "the-game-rss-15392495-00e3-49ec-b0f8-d4d66fc7dbd1",
+      "sourceType": "podcast",
+      "sourceTitle": "Part 6: Downsell Offers | $100M Money Models Audiobook",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/n813i0jcbe8m6yk114s0f85v.mp3#t=86",
+      "sourceDate": "2025-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 86,
+        "endSeconds": 90
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex frames this as a practical principle for making an offer easier to understand and more valuable to the buyer.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:b4be9166370e4885d8df4924afa7de02b0bdca1283c6410fb418b0cee9503452",
+        "cueStart": 43,
+        "cueEnd": 43,
+        "batchID": "transcript-editorial-100",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest catalog similarity 0.31; no material duplicate found."
+      },
+      "createdAt": "2026-08-24T05:04:26.298Z",
+      "updatedAt": "2026-08-24T05:04:26.298Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T05:04:26.298Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched contiguous official transcript cues 43-43; surrounding cues reviewed for standalone clarity."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "the-game-rss-17e8f874-81f3-451e-8a31-8e1b29b4feb2-d48ff91b5fae",
+      "status": "verified",
+      "id": "7c130754-c150-4c9f-a975-a1fe83ae8649",
+      "text": "The profit you make comes from the premium you can charge for your stuff.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Offers",
+      "tags": [
+        "offers",
+        "strategy"
+      ],
+      "sourceID": "the-game-rss-17e8f874-81f3-451e-8a31-8e1b29b4feb2",
+      "sourceType": "podcast",
+      "sourceTitle": "2. Your First Avatar | $100M Lost Chapters Audiobook",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/m8gmp2wnjtiydgrnd0pqu2sc.mp3#t=299",
+      "sourceDate": "2025-11-14",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 299,
+        "endSeconds": 303
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex frames this as a practical principle for making an offer easier to understand and more valuable to the buyer.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:2e06d81c0a1990b631ab465dfd7a8e1ec2f55fbcd40a7743b6f55d7ac6faaba0",
+        "cueStart": 112,
+        "cueEnd": 112,
+        "batchID": "transcript-editorial-100",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest catalog similarity 0.24; no material duplicate found."
+      },
+      "createdAt": "2026-08-24T05:04:26.298Z",
+      "updatedAt": "2026-08-24T05:04:26.298Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T05:04:26.298Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched contiguous official transcript cues 112-112; surrounding cues reviewed for standalone clarity."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "the-game-rss-5d8f5761-48d4-414a-832e-834e345f65ae-de14076a97f1",
+      "status": "verified",
+      "id": "39b491be-77f3-4a2d-ac77-230ef5ef9980",
+      "text": "Understanding offer stacking will allow you to compete in any marketplace on any traffic platform.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Offers",
+      "tags": [
+        "offers",
+        "strategy"
+      ],
+      "sourceID": "the-game-rss-5d8f5761-48d4-414a-832e-834e345f65ae",
+      "sourceType": "podcast",
+      "sourceTitle": "14. Section C: Advanced Offer Stacking | $100M Lost Chapters Audiobook",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/sik17rsm97mgyl71rapw7fl2.mp3#t=72",
+      "sourceDate": "2025-11-14",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 72,
+        "endSeconds": 77
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex frames this as a practical principle for making an offer easier to understand and more valuable to the buyer.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:b5a8915ce7b6716cd7ab77d0b2612f3ac660d6bac8473f70267f240d87299e33",
+        "cueStart": 26,
+        "cueEnd": 27,
+        "batchID": "transcript-editorial-100",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest catalog similarity 0.12; no material duplicate found."
+      },
+      "createdAt": "2026-08-24T05:04:26.298Z",
+      "updatedAt": "2026-08-24T05:04:26.298Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T05:04:26.298Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched contiguous official transcript cues 26-27; surrounding cues reviewed for standalone clarity."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "the-game-rss-afd1826e-b055-4578-bf61-8a6be62bbf94-0b076141cbe9",
+      "status": "verified",
+      "id": "e3cf7042-2885-4c12-aee3-391f9100289c",
+      "text": "If you don't have a repeatable sales process, you're going to have volatility in the business.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Sales",
+      "tags": [
+        "sales",
+        "perspective"
+      ],
+      "sourceID": "the-game-rss-afd1826e-b055-4578-bf61-8a6be62bbf94",
+      "sourceType": "podcast",
+      "sourceTitle": "Why People Don’t Buy Your Offer | Ep 865",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/ltwjeghsbkxdgaed3hzf8kh9.mp3#t=1001",
+      "sourceDate": "2025-05-31",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 1001,
+        "endSeconds": 1006
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex uses this point to explain how stronger selling improves the buyer's decision process.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:0fde9cc48acfc38690aed216a035c493fea18035989bb34866a662eb0f701858",
+        "cueStart": 369,
+        "cueEnd": 369,
+        "batchID": "transcript-editorial-100",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest catalog similarity 0.29; no material duplicate found."
+      },
+      "createdAt": "2026-08-24T05:04:26.298Z",
+      "updatedAt": "2026-08-24T05:04:26.298Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T05:04:26.298Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched contiguous official transcript cues 369-369; surrounding cues reviewed for standalone clarity."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "the-game-rss-c8949265-82c9-4f8c-aae2-6d5bcb568752-9ee33c094802",
+      "status": "verified",
+      "id": "e8102d7e-b765-42f4-aafb-a67c20250735",
+      "text": "You can be almost anything if you're willing to fail 20 times in a row.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "resilience"
+      ],
+      "sourceID": "the-game-rss-c8949265-82c9-4f8c-aae2-6d5bcb568752",
+      "sourceType": "podcast",
+      "sourceTitle": "15 Brutal Truths I Know at 36 That I Wish I Knew at 20 | Ep 912",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/bk4u1d76nfs133zas6ak71gh.mp3#t=299",
+      "sourceDate": "2025-11-20",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 299,
+        "endSeconds": 305
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex uses this idea to reframe the discomfort and discipline involved in meaningful progress.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:b9f75be31c181104222647e04c05ca3e41fc8eaa35492dd891db63ab3bc95db6",
+        "cueStart": 98,
+        "cueEnd": 98,
+        "batchID": "transcript-editorial-100",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest catalog similarity 0.25; no material duplicate found."
+      },
+      "createdAt": "2026-08-24T05:04:26.298Z",
+      "updatedAt": "2026-08-24T05:04:26.298Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T05:04:26.298Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched contiguous official transcript cues 98-98; surrounding cues reviewed for standalone clarity."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "the-game-rss-c8949265-82c9-4f8c-aae2-6d5bcb568752-eaa2bff486e4",
+      "status": "verified",
+      "id": "cb07c3db-17da-4c74-a479-fc4a0534fd5c",
+      "text": "You can change your entire bloodline. The moment you realize that what you do next always matters more than what you did last.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "resilience"
+      ],
+      "sourceID": "the-game-rss-c8949265-82c9-4f8c-aae2-6d5bcb568752",
+      "sourceType": "podcast",
+      "sourceTitle": "15 Brutal Truths I Know at 36 That I Wish I Knew at 20 | Ep 912",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/bk4u1d76nfs133zas6ak71gh.mp3#t=411",
+      "sourceDate": "2025-11-20",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 411,
+        "endSeconds": 420
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex uses this idea to reframe the discomfort and discipline involved in meaningful progress.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:b9f75be31c181104222647e04c05ca3e41fc8eaa35492dd891db63ab3bc95db6",
+        "cueStart": 131,
+        "cueEnd": 132,
+        "batchID": "transcript-editorial-100",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest catalog similarity 0.17; no material duplicate found."
+      },
+      "createdAt": "2026-08-24T05:04:26.298Z",
+      "updatedAt": "2026-08-24T05:04:26.298Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T05:04:26.298Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched contiguous official transcript cues 131-132; surrounding cues reviewed for standalone clarity."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "the-game-rss-d1d596dc-4ab6-4e8f-94e6-e29c95fee5db-c48844bf39d3",
+      "status": "verified",
+      "id": "cd9c088c-1a1e-495a-afe9-c26cfa4c58e7",
+      "text": "Your personal brand will be built on the amount of value you can provide other people.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Leads & Marketing",
+      "tags": [
+        "marketing",
+        "advertising"
+      ],
+      "sourceID": "the-game-rss-d1d596dc-4ab6-4e8f-94e6-e29c95fee5db",
+      "sourceType": "podcast",
+      "sourceTitle": "Do Epic Stuff & Then Talk About It | Ep 902",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/pv38zkufvol5lk0fyql62ejl.mp3#t=11",
+      "sourceDate": "2025-10-22",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 11,
+        "endSeconds": 14
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex presents this as a principle for earning attention and turning it into qualified demand.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:d64a60caee6e20386b435f02cde562e5936ec8ca4d6295a4f9a99b9ba1a98718",
+        "cueStart": 5,
+        "cueEnd": 6,
+        "batchID": "transcript-editorial-100",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest catalog similarity 0.24; no material duplicate found."
+      },
+      "createdAt": "2026-08-24T05:04:26.298Z",
+      "updatedAt": "2026-08-24T05:04:26.298Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T05:04:26.298Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched contiguous official transcript cues 5-6; surrounding cues reviewed for standalone clarity."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "the-game-rss-de57e353-5e79-4d5c-a801-c7145f2cee55-9c170e807249",
+      "status": "verified",
+      "id": "bb5d707c-56ee-4682-ae72-64c77028ccd8",
+      "text": "The plans aren't working because you're not working on the plan.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "execution",
+        "focus"
+      ],
+      "sourceID": "the-game-rss-de57e353-5e79-4d5c-a801-c7145f2cee55",
+      "sourceType": "podcast",
+      "sourceTitle": "15 Brutally Honest Truths You Have To Understand To Succeed | Ep 831",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/ymwfvs7iogxnnmvt6kqe28z8.mp3#t=464",
+      "sourceDate": "2025-03-21",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 464,
+        "endSeconds": 467
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex presents this as a practical rule for turning focused effort into useful output.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:538932708269c1b85640985f0f04311da8ecc7953fe88cb35c2aeee00eae5e19",
+        "cueStart": 155,
+        "cueEnd": 155,
+        "batchID": "transcript-editorial-100",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest catalog similarity 0.22; no material duplicate found."
+      },
+      "createdAt": "2026-08-24T05:04:26.298Z",
+      "updatedAt": "2026-08-24T05:04:26.298Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T05:04:26.298Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched contiguous official transcript cues 155-155; surrounding cues reviewed for standalone clarity."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "the-game-rss-de57e353-5e79-4d5c-a801-c7145f2cee55-debafd7f6439",
+      "status": "verified",
+      "id": "61e56ee5-40ff-4286-a388-127e2f1d55c8",
+      "text": "You cannot both want progress and live an easy life.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "resilience"
+      ],
+      "sourceID": "the-game-rss-de57e353-5e79-4d5c-a801-c7145f2cee55",
+      "sourceType": "podcast",
+      "sourceTitle": "15 Brutally Honest Truths You Have To Understand To Succeed | Ep 831",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/ymwfvs7iogxnnmvt6kqe28z8.mp3#t=98",
+      "sourceDate": "2025-03-21",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 98,
+        "endSeconds": 102
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex uses this idea to reframe the discomfort and discipline involved in meaningful progress.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:538932708269c1b85640985f0f04311da8ecc7953fe88cb35c2aeee00eae5e19",
+        "cueStart": 27,
+        "cueEnd": 27,
+        "batchID": "transcript-editorial-100",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest catalog similarity 0.10; no material duplicate found."
+      },
+      "createdAt": "2026-08-24T05:04:26.298Z",
+      "updatedAt": "2026-08-24T05:04:26.298Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T05:04:26.298Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched contiguous official transcript cues 27-27; surrounding cues reviewed for standalone clarity."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "the-game-rss-f0b9e2ee-aa82-4cad-8274-9fff7e08475a-d306f0b9660c",
+      "status": "verified",
+      "id": "8292e00d-c397-461a-a862-c998bfe2ded5",
+      "text": "If you want to move fast, improve constantly and be surrounded by people who make you better, then sincere candor is the standard.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Leadership & Teams",
+      "tags": [
+        "leadership",
+        "accountability"
+      ],
+      "sourceID": "the-game-rss-f0b9e2ee-aa82-4cad-8274-9fff7e08475a",
+      "sourceType": "podcast",
+      "sourceTitle": "What Leila Hormozi And I Accomplished In Q1 And HOW We Did It | Ep 835",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/nti8bohci9kldq811hrrjp9i.mp3#t=738",
+      "sourceDate": "2025-03-31",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 738,
+        "endSeconds": 744
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex frames this as a leadership principle for raising standards and improving team performance.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:8bcc39bcf72e86949fe4408ec3755ba34c9f04dd1ad343d8e85976c60cc96fcd",
+        "cueStart": 356,
+        "cueEnd": 358,
+        "batchID": "transcript-editorial-100",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest catalog similarity 0.23; no material duplicate found."
+      },
+      "createdAt": "2026-08-24T05:04:26.298Z",
+      "updatedAt": "2026-08-24T05:04:26.298Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T05:04:26.298Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched contiguous official transcript cues 356-358; surrounding cues reviewed for standalone clarity."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "provider": "x",
   "year": 2022,
-  "updatedAt": "2026-08-24T03:49:24.103Z",
+  "updatedAt": "2026-08-24T05:04:26.298Z",
   "records": [
     {
       "candidateKey": "learn-sales-from-close-calls",
@@ -28,6 +28,7 @@
       "featured": true,
       "containsProfanity": false,
       "context": "Alex recommends studying real sales calls as a practical way to build sales judgment before taking calls yourself.",
+      "verificationStandard": "direct-source-twice",
       "provenance": {
         "transcriptFingerprint": null,
         "cueStart": null,
@@ -125,6 +126,7 @@
       "featured": true,
       "containsProfanity": false,
       "context": "Alex argues that the durable value of high-volume selling is the lifelong skill built through repeated real-world practice.",
+      "verificationStandard": "direct-source-twice",
       "provenance": {
         "transcriptFingerprint": null,
         "cueStart": null,

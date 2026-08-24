@@ -25,7 +25,7 @@ npm run test:lighthouse # with a production server running on port 3000
 
 ## Content safety gate
 
-`src/data/catalog.json` is generated output, not an editorial workspace. The build-only ledger at `content/editorial-ledger.json` is the source of truth. A quote can enter the public catalog only after two direct-source checks, a quality score of at least 8/10 with no zero dimension, and all source/context warnings are resolved. Ten percent of each accepted batch must also have a passing blind audit. There is no numerical quote minimum.
+`src/data/catalog.json` is generated output, not an editorial workspace. The build-only ledger at `content/editorial-ledger.json` is the source of truth. A quote can enter the public catalog through either two direct-media checks or an editorial review of contiguous cues from an official timestamped transcript. The public catalog identifies the standard used for each quote. Every published quote also needs a quality score of at least 9/10 with no zero dimension and no unresolved source or context warnings. The 20% blind-audit requirement applies to the twice-checked direct-source cohort. There is no numerical quote minimum.
 
 Import candidate JSON or CSV into a separate review ledger, then review and generate:
 
@@ -33,6 +33,8 @@ Import candidate JSON or CSV into a separate review ledger, then review and gene
 npm run content:import -- path/to/editorial-ledger.json
 npm run content:import -- path/to/candidates.csv content/editorial-ledger.import.json
 npm run content:generate
+npm run content:curate:transcripts             # preview the maintained editorial selection
+npm run content:curate:transcripts -- --apply  # publish it after reading every preview and context
 npm run content:validate:release
 npm run content:audit-links
 npm run launch:validate # stays closed until the real beta and reviews are complete

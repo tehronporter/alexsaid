@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "provider": "x",
   "year": 2024,
-  "updatedAt": "2026-08-24T03:49:24.103Z",
+  "updatedAt": "2026-08-24T05:04:26.298Z",
   "records": [
     {
       "candidateKey": "always-making-things-happen-faster",
@@ -27,6 +27,7 @@
       "featured": false,
       "containsProfanity": false,
       "context": "Alex's reply in a conversation about founders who create urgency by being aggressive about pace.",
+      "verificationStandard": "direct-source-twice",
       "provenance": {
         "transcriptFingerprint": null,
         "cueStart": null,
@@ -108,6 +109,7 @@
       "featured": true,
       "containsProfanity": false,
       "context": "Alex draws a hard line between wanting something and actually working toward it.",
+      "verificationStandard": "direct-source-twice",
       "provenance": {
         "transcriptFingerprint": null,
         "cueStart": null,
@@ -205,6 +207,7 @@
       "featured": true,
       "containsProfanity": false,
       "context": "Alex explains why meaningful opportunities cannot be separated from uncertainty: certainty usually arrives only after the upside has disappeared.",
+      "verificationStandard": "direct-source-twice",
       "provenance": {
         "transcriptFingerprint": null,
         "cueStart": null,
@@ -287,6 +290,7 @@
       "featured": true,
       "containsProfanity": false,
       "context": "Alex challenges delayed goals by asking whether the promised benefit is meaningful enough to justify beginning now.",
+      "verificationStandard": "direct-source-twice",
       "provenance": {
         "transcriptFingerprint": null,
         "cueStart": null,

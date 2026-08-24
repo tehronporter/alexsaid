@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "provider": "x",
   "year": 2023,
-  "updatedAt": "2026-08-24T03:49:24.103Z",
+  "updatedAt": "2026-08-24T05:04:26.298Z",
   "records": [
     {
       "candidateKey": "customer-backwards-to-money",
@@ -28,6 +28,7 @@
       "featured": false,
       "containsProfanity": false,
       "context": "Another line from the same numbered list of advice Alex gave a 'stuck' founder about how to structure a business around customers first.",
+      "verificationStandard": "direct-source-twice",
       "provenance": {
         "transcriptFingerprint": null,
         "cueStart": null,
@@ -110,6 +111,7 @@
       "featured": false,
       "containsProfanity": false,
       "context": "The closing line of a numbered list of advice Alex gave a 'stuck' founder, zooming out on stress with a mortality reminder.",
+      "verificationStandard": "direct-source-twice",
       "provenance": {
         "transcriptFingerprint": null,
         "cueStart": null,
@@ -194,6 +196,7 @@
       "featured": false,
       "containsProfanity": false,
       "context": "Alex challenges the hard-skill versus soft-skill distinction by reframing it as a measurement problem.",
+      "verificationStandard": "direct-source-twice",
       "provenance": {
         "transcriptFingerprint": null,
         "cueStart": null,
@@ -276,6 +279,7 @@
       "featured": true,
       "containsProfanity": false,
       "context": "Alex offers a reframe for enduring difficulty: the story you will tell later outlasts how long the hardship feels right now.",
+      "verificationStandard": "direct-source-twice",
       "provenance": {
         "transcriptFingerprint": null,
         "cueStart": null,
@@ -372,6 +376,7 @@
       "featured": true,
       "containsProfanity": false,
       "context": "Alex reframes having nothing left as having nothing to lose, removing the excuse not to act.",
+      "verificationStandard": "direct-source-twice",
       "provenance": {
         "transcriptFingerprint": null,
         "cueStart": null,
@@ -452,6 +457,7 @@
       "featured": true,
       "containsProfanity": false,
       "context": "Alex locates the source of stress in unresolved decisions rather than in the decisions themselves.",
+      "verificationStandard": "direct-source-twice",
       "provenance": {
         "transcriptFingerprint": null,
         "cueStart": null,

@@ -1,0 +1,274 @@
+{
+  "schemaVersion": 1,
+  "provider": "the-game-rss",
+  "year": 2022,
+  "updatedAt": "2026-08-24T05:04:26.298Z",
+  "records": [
+    {
+      "candidateKey": "the-game-rss-0514ca80-2909-4d3a-8f78-1a1f2d97b8b3-681cd1a112a3",
+      "status": "verified",
+      "id": "9c2b5b69-cc74-4d51-a753-9e7f90d46494",
+      "text": "Doing more is capped by time and physical ability. How much you get—a.k.a. leverage—is uncapped.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Operations & Scaling",
+      "tags": [
+        "scaling",
+        "problem-solving",
+        "productivity"
+      ],
+      "sourceID": "the-game-rss-0514ca80-2909-4d3a-8f78-1a1f2d97b8b3",
+      "sourceType": "podcast",
+      "sourceTitle": "&#34;No One Can Outwork Me&#34; - Keynote Speech at Future Flipper (Pt. 1) | Ep 458",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/b7xu75hwzl2k1n8zvakut4z5.mp3#t=486",
+      "sourceDate": "2022-11-10",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 486,
+        "endSeconds": 494
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex uses this idea to explain how a business removes constraints and grows with less avoidable complexity.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:42e5dbf626afaa1bf0cfd8592d5473745eff4a79c036fa518be4e3db01a00768",
+        "cueStart": 82,
+        "cueEnd": 82,
+        "batchID": "transcript-editorial-100",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest catalog similarity 0.15; no material duplicate found."
+      },
+      "createdAt": "2026-08-24T05:04:26.298Z",
+      "updatedAt": "2026-08-24T05:04:26.298Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T05:04:26.298Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched contiguous official transcript cues 82-82; surrounding cues reviewed for standalone clarity."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "the-game-rss-156bcf6b-3cd7-4ba5-bead-1fc5f6a04169-ddfbf66484d9",
+      "status": "verified",
+      "id": "40e58abf-10d4-44d8-a722-607874f507f5",
+      "text": "The wealthiest people in the world see business as a game.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Business Models & Strategy",
+      "tags": [
+        "business-models",
+        "strategy"
+      ],
+      "sourceID": "the-game-rss-156bcf6b-3cd7-4ba5-bead-1fc5f6a04169",
+      "sourceType": "podcast",
+      "sourceTitle": "Why You Should Consider Quitting College | Ep 450",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/gjl34n8vtbi9p8nqa3kqnyi2.mp3#t=18",
+      "sourceDate": "2022-10-20",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 18,
+        "endSeconds": 21
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex presents this as a durable principle for choosing how a business creates and captures value.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:546e3960f17fc3c48692b63ac2b38d05b5df3d4f99592e88c873422f4484b096",
+        "cueStart": 5,
+        "cueEnd": 5,
+        "batchID": "transcript-editorial-100",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest catalog similarity 0.23; no material duplicate found."
+      },
+      "createdAt": "2026-08-24T05:04:26.298Z",
+      "updatedAt": "2026-08-24T05:04:26.298Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T05:04:26.298Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched contiguous official transcript cues 5-5; surrounding cues reviewed for standalone clarity."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "the-game-rss-4c42e645-8024-40ed-8fb1-e2642fdd674b-0486f4b6e021",
+      "status": "verified",
+      "id": "0b992795-216b-4ad7-af44-c2df463af723",
+      "text": "The people who understand wealth understand time. If time is a liability against you, it means you're thinking like a poor person.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Business Models & Strategy",
+      "tags": [
+        "business-models",
+        "strategy",
+        "productivity"
+      ],
+      "sourceID": "the-game-rss-4c42e645-8024-40ed-8fb1-e2642fdd674b",
+      "sourceType": "podcast",
+      "sourceTitle": "How To Make Money Forever | Ep 468",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/j1xarex7jwnwtcik3i89akcx.mp3#t=142",
+      "sourceDate": "2022-12-06",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 142,
+        "endSeconds": 151
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex presents this as a durable principle for choosing how a business creates and captures value.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:ccf4849dd90240e599dd27867c0826b6c31c8e5010971eb8e9ad7b297fe6a7c2",
+        "cueStart": 43,
+        "cueEnd": 44,
+        "batchID": "transcript-editorial-100",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest catalog similarity 0.18; no material duplicate found."
+      },
+      "createdAt": "2026-08-24T05:04:26.298Z",
+      "updatedAt": "2026-08-24T05:04:26.298Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T05:04:26.298Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched contiguous official transcript cues 43-44; surrounding cues reviewed for standalone clarity."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "the-game-rss-c4efac2f-fd96-400f-aea4-5289b13f7c6c-11e822897331",
+      "status": "verified",
+      "id": "fc936c4c-6d04-490d-a820-6e84548d6e2f",
+      "text": "I have to be better in order for my team to be better.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Leadership & Teams",
+      "tags": [
+        "leadership",
+        "accountability"
+      ],
+      "sourceID": "the-game-rss-c4efac2f-fd96-400f-aea4-5289b13f7c6c",
+      "sourceType": "podcast",
+      "sourceTitle": "Business Breakdown: Chick-fil-A | Ep 469",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/d97mbxtnhcdwgig7c7spgipc.mp3#t=1381",
+      "sourceDate": "2022-12-08",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 1381,
+        "endSeconds": 1384
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex frames this as a leadership principle for raising standards and improving team performance.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:c0b1f068f8011064a3b4b1c943a5f66f3773c199beed94c2a16aea61ddf80ee9",
+        "cueStart": 429,
+        "cueEnd": 429,
+        "batchID": "transcript-editorial-100",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest catalog similarity 0.14; no material duplicate found."
+      },
+      "createdAt": "2026-08-24T05:04:26.298Z",
+      "updatedAt": "2026-08-24T05:04:26.298Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T05:04:26.298Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched contiguous official transcript cues 429-429; surrounding cues reviewed for standalone clarity."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    }
+  ]
+}

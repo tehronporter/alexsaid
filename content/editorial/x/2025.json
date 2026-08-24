@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "provider": "x",
   "year": 2025,
-  "updatedAt": "2026-08-24T03:49:24.103Z",
+  "updatedAt": "2026-08-24T05:04:26.298Z",
   "records": [
     {
       "candidateKey": "advertise-more",
@@ -27,6 +27,7 @@
       "featured": true,
       "containsProfanity": false,
       "context": "Alex responds to small business owners who assume customers will find them without consistent outbound marketing.",
+      "verificationStandard": "direct-source-twice",
       "provenance": {
         "transcriptFingerprint": null,
         "cueStart": null,
@@ -108,6 +109,7 @@
       "featured": true,
       "containsProfanity": false,
       "context": "Alex turns personal change into an audit of the three resources people continuously allocate: time, money, and attention.",
+      "verificationStandard": "direct-source-twice",
       "provenance": {
         "transcriptFingerprint": null,
         "cueStart": null,
@@ -188,6 +190,7 @@
       "featured": false,
       "containsProfanity": false,
       "context": "The closing line of the same tweet about why small business owners need to advertise more consistently.",
+      "verificationStandard": "direct-source-twice",
       "provenance": {
         "transcriptFingerprint": null,
         "cueStart": null,
@@ -271,6 +274,7 @@
       "featured": true,
       "containsProfanity": false,
       "context": "Alex compares an early-stage founder splitting attention across projects to mismanaging their only reliable employee: themselves.",
+      "verificationStandard": "direct-source-twice",
       "provenance": {
         "transcriptFingerprint": null,
         "cueStart": null,
@@ -352,6 +356,7 @@
       "featured": true,
       "containsProfanity": false,
       "context": "Alex ties productivity to elimination rather than to doing more.",
+      "verificationStandard": "direct-source-twice",
       "provenance": {
         "transcriptFingerprint": null,
         "cueStart": null,
@@ -432,6 +437,7 @@
       "featured": true,
       "containsProfanity": false,
       "context": "The opening of a longer thread where Alex explains that wealthier people get richer partly because they are more selective about which opportunities are even worth their time.",
+      "verificationStandard": "direct-source-twice",
       "provenance": {
         "transcriptFingerprint": null,
         "cueStart": null,
@@ -513,6 +519,7 @@
       "featured": true,
       "containsProfanity": false,
       "context": "Alex argues that retention is partly structural: some categories naturally support more durable customer relationships than others.",
+      "verificationStandard": "direct-source-twice",
       "provenance": {
         "transcriptFingerprint": null,
         "cueStart": null,
@@ -595,6 +602,7 @@
       "featured": false,
       "containsProfanity": false,
       "context": "Alex observes that less experience can sometimes speed up progress because there are fewer learned objections and fewer fixed assumptions about scale.",
+      "verificationStandard": "direct-source-twice",
       "provenance": {
         "transcriptFingerprint": null,
         "cueStart": null,

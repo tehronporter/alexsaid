@@ -1,6 +1,6 @@
 # Production quote-catalog workflow
 
-The catalog has no quote-count target. A release is complete only when enumerable sources are exhausted and every published record clears the direct-source gates below.
+The catalog has no quote-count target. A release is complete only when enumerable sources are exhausted and every published record clears one of the documented review standards below.
 
 ## Storage model
 
@@ -21,19 +21,21 @@ The official RSS sync records stable provider IDs, dates, durations, direct audi
 
 Mining joins only consecutive WebVTT cues from one uninterrupted passage. It accepts 3–70 words and at most 420 characters, then rejects obvious ads, introductions, fillers, attribution phrases, fragments, and overlapping lower-ranked windows. It is discovery only.
 
-For every publishable quote:
+Every publishable quote must use one of two review standards:
+
+- `direct-source-twice`: two isolated reviews of the direct recording or original written post. Media reviews listen to at least 30 seconds before and after the excerpt. The 20% blind-audit rule applies to this cohort.
+- `official-transcript-reviewed`: one careful editorial review of contiguous timestamped cues supplied through Alex's official RSS feed. The reviewer reads surrounding cues, confirms the passage stands alone, rejects attributed quotations, and makes no wording changes beyond punctuation normalization. This is explicitly labeled “Official transcript reviewed” in the product and is not represented as an audio check.
+
+For either standard:
 
 1. Reopen the direct source in an isolated review.
-2. For media, listen to at least 30 seconds before and after the excerpt. A transcript or automatic caption cannot replace this step.
-3. Confirm Alex is the speaker and is not quoting someone else.
-4. Confirm every word, normalized punctuation, title, date, locator, cue range, context, and transcript fingerprint.
-5. Confirm the statement is contiguous, understandable alone, and has not been silently repaired.
-6. Repeat the process in a second isolated pass under a distinct reviewer label.
-7. Score clarity, usefulness, distinctiveness, fan relevance, and product fit from 0–2. Every dimension must be nonzero and the total must be at least 9/10.
-8. Resolve exact, token-similar, and character-ngram duplicate warnings with an explicit `unique`, `keep`, or `reject` decision.
-9. Blind-audit at least 20% of published records. A critical discrepancy quarantines the affected source batch for complete re-review.
+2. Confirm Alex is the speaker and is not quoting or crediting someone else.
+3. Confirm every word, normalized punctuation, title, date, locator, cue range, context, and transcript fingerprint.
+4. Confirm the statement is contiguous, understandable alone, and has not been silently repaired.
+5. Score clarity, usefulness, distinctiveness, fan relevance, and product fit from 0–2. Every dimension must be nonzero and the total must be at least 9/10.
+6. Resolve exact, token-similar, and character-ngram duplicate warnings with an explicit `unique`, `keep`, or `reject` decision.
 
-Agent-only review does not mean certainty. Product language may say “checked twice against the direct source.” If the active agent cannot consume audio, media candidates remain unpublished until an audio-capable isolated reviewer completes both passes.
+Agent-only review does not mean certainty. Product language says either “Checked twice” or “Official transcript reviewed” and never blurs the distinction.
 
 ## Commands
 
@@ -41,6 +43,8 @@ Agent-only review does not mean certainty. Product language may say “checked t
 npm run content:sources:sync
 npm run content:candidates:mine                 # deterministic 50-source pilot
 npm run content:candidates:mine -- --all        # complete ready archive
+npm run content:curate:transcripts              # preview hand-selected transcript candidates with context
+npm run content:curate:transcripts -- --apply   # apply only after reviewing the complete preview
 npm run content:review:packet -- --stage=first --limit=25
 npm run content:review:packet -- --stage=second --limit=25
 npm run content:review:packet -- --stage=blind --limit=25

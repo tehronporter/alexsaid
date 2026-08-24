@@ -30,6 +30,7 @@ const report = {
   editorial: {
     total: ledger.records.length,
     byStatus: countBy(ledger.records, (record) => record.status),
+    publishedByVerificationStandard: countBy(ledger.records.filter((record) => record.status === "verified"), (record) => record.verificationStandard),
     published: ledger.records.filter((record) => record.status === "verified").length,
     rejected: ledger.records.filter((record) => record.status === "rejected").length,
     unresolvedWarnings: ledger.records.filter((record) => record.unresolvedWarnings.length > 0).length

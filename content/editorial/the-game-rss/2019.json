@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "provider": "the-game-rss",
+  "year": 2019,
+  "updatedAt": "2026-08-24T05:04:26.298Z",
+  "records": [
+    {
+      "candidateKey": "the-game-rss-b1727c7eb76043818d8017a0309f626b-4d322dfbb8be",
+      "status": "verified",
+      "id": "a9fd7f7f-4e54-4c4d-a593-f77ed1e6ec91",
+      "text": "Your marketing doesn't reach nearly as many people as you think it does.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Leads & Marketing",
+      "tags": [
+        "marketing",
+        "advertising"
+      ],
+      "sourceID": "the-game-rss-b1727c7eb76043818d8017a0309f626b",
+      "sourceType": "podcast",
+      "sourceTitle": "How to Get Leads Consistently (without Boredom) | Ep 156",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/bivxww0ne9r6a0tqimh9wy8g.mp3#t=201",
+      "sourceDate": "2019-10-09",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 201,
+        "endSeconds": 205
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex presents this as a principle for earning attention and turning it into qualified demand.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:46495f32d92dba96c9f380874b9685d5eb96de1194230ba262852034fe4797b5",
+        "cueStart": 92,
+        "cueEnd": 93,
+        "batchID": "transcript-editorial-100",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest catalog similarity 0.16; no material duplicate found."
+      },
+      "createdAt": "2026-08-24T05:04:26.298Z",
+      "updatedAt": "2026-08-24T05:04:26.298Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T05:04:26.298Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched contiguous official transcript cues 92-93; surrounding cues reviewed for standalone clarity."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    }
+  ]
+}

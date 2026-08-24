@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "provider": "the-game-rss",
+  "year": 2018,
+  "updatedAt": "2026-08-24T05:04:26.298Z",
+  "records": [
+    {
+      "candidateKey": "the-game-rss-48318606976e4c0b8364ade9c4e6a4e7-1f81e168bd03",
+      "status": "verified",
+      "id": "b38ad39a-717c-4c95-aebe-935332ad5ed3",
+      "text": "If you can unlock how much you can care about your customer, you will win.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Customer Success & Retention",
+      "tags": [
+        "retention",
+        "customer-experience"
+      ],
+      "sourceID": "the-game-rss-48318606976e4c0b8364ade9c4e6a4e7",
+      "sourceType": "podcast",
+      "sourceTitle": "”How to serve caviar when your customers are satisfied with cheese & crackers.&#34; --and why you aren&#39;t making as much money as you want...&#34; | Ep 66",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/aqk2mk42nehpd520d21htdc0.mp3#t=438",
+      "sourceDate": "2018-07-10",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 438,
+        "endSeconds": 443
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex connects this idea to delivering value customers can feel and continue paying for.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:2c8901e3af432445eda1b490a80a40808377f30772f7b0fcda075538875e446f",
+        "cueStart": 201,
+        "cueEnd": 202,
+        "batchID": "transcript-editorial-100",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest catalog similarity 0.19; no material duplicate found."
+      },
+      "createdAt": "2026-08-24T05:04:26.298Z",
+      "updatedAt": "2026-08-24T05:04:26.298Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T05:04:26.298Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched contiguous official transcript cues 201-202; surrounding cues reviewed for standalone clarity."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "the-game-rss-5a5d81f0365e9b430f658c14ca4ad30f-066f6e46d1a5",
+      "status": "verified",
+      "id": "8c43abe6-0a59-4594-aec8-bf21298e6a78",
+      "text": "You give up the mantle of being leader—and that's the first step to losing.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Leadership & Teams",
+      "tags": [
+        "leadership",
+        "accountability"
+      ],
+      "sourceID": "the-game-rss-5a5d81f0365e9b430f658c14ca4ad30f",
+      "sourceType": "podcast",
+      "sourceTitle": "WHY WE DONT COPY...AND WHY THIS MAY MAKE YOU MORE MONEY THAN ANYTHING (and give you peace of mind) | Ep 44",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/wtv3jqpglsl6mbua51jjqltj.mp3#t=658",
+      "sourceDate": "2018-05-04",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 658,
+        "endSeconds": 663
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex frames this as a leadership principle for raising standards and improving team performance.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:4bb4c91cedc13c9537ece5c65c60fabf8687556d74e60f8e41f46297daeacb96",
+        "cueStart": 322,
+        "cueEnd": 323,
+        "batchID": "transcript-editorial-100",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest catalog similarity 0.17; no material duplicate found."
+      },
+      "createdAt": "2026-08-24T05:04:26.298Z",
+      "updatedAt": "2026-08-24T05:04:26.298Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T05:04:26.298Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched contiguous official transcript cues 322-323; surrounding cues reviewed for standalone clarity."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "the-game-rss-beea6e8377074ccea49207fb53df02ad-0abc8e53765f",
+      "status": "verified",
+      "id": "fd119285-2e0b-4b2d-a29a-0e2abec63af6",
+      "text": "Sales and helping should be the same thing, right?",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Sales",
+      "tags": [
+        "sales",
+        "perspective"
+      ],
+      "sourceID": "the-game-rss-beea6e8377074ccea49207fb53df02ad",
+      "sourceType": "podcast",
+      "sourceTitle": "🤯🤬🤬Ingrained Intolerance Part II = How To Manipulate Your Environment To Suit You | Ep 94",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/sn12yjs8w8lbq618y3o1i3t1.mp3#t=74",
+      "sourceDate": "2018-12-29",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 74,
+        "endSeconds": 77
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex uses this point to explain how stronger selling improves the buyer's decision process.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:464f74a63561b838d2d3ea7dc93574c2dff3bfb40e4c9ecef9a9be62851b1a13",
+        "cueStart": 10,
+        "cueEnd": 10,
+        "batchID": "transcript-editorial-100",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest catalog similarity 0.31; no material duplicate found."
+      },
+      "createdAt": "2026-08-24T05:04:26.298Z",
+      "updatedAt": "2026-08-24T05:04:26.298Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T05:04:26.298Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched contiguous official transcript cues 10-10; surrounding cues reviewed for standalone clarity."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    }
+  ]
+}

@@ -13,6 +13,7 @@ import { dailyQuoteOrder } from "@/lib/feed";
 import { trackProductEvent } from "@/lib/analytics";
 import { quoteDisplaySize, quoteTypographyStyle } from "@/lib/typography";
 import { useOptionalCatalog } from "@/components/catalog-provider";
+import { verificationLabel } from "@/lib/verification-label";
 
 let hasShownSaveHint = false;
 const EMPTY_QUOTES: readonly Quote[] = [];
@@ -166,13 +167,13 @@ export function QuoteFeed({ quotes: suppliedQuotes, initialQuote, initialQuoteID
               <span className="capitalize">{quote.sourceType}</span>
               {quote.sourceDate ? <><span aria-hidden="true" className="text-white/25">·</span><span>{quote.sourceDate}</span></> : null}
             </div>
-            <p className="mt-4 border-t border-white/10 pt-3 text-xs font-semibold text-white/72">{quote.verified ? "●  Verified twice" : "Verification pending"}</p>
+            <p className="mt-4 border-t border-white/10 pt-3 text-xs font-semibold text-white/72">{verificationLabel(quote)}</p>
           </div>
 
           <div className="space-y-3">
             <Button asChild className="w-full bg-white text-black hover:bg-white/90"><Link href={`/source/${quote.id}`}>View source<ProductIcon name="external" /></Link></Button>
             <ShareActions quote={quote} trigger={<Button variant="outline" className="w-full border-white/20 bg-transparent text-white hover:bg-white hover:text-black">Share this quote<ProductIcon name="share" /></Button>} />
-            <p className="pt-3 text-[0.62rem] leading-relaxed text-white/45">Unofficial and fan-made. Quotes are checked twice against direct sources.</p>
+            <p className="pt-3 text-[0.62rem] leading-relaxed text-white/45">Unofficial and fan-made. Every quote links to its public source and states its review standard.</p>
           </div>
         </aside>
       </div>

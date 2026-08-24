@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "provider": "x",
   "year": 2021,
-  "updatedAt": "2026-08-24T03:49:24.103Z",
+  "updatedAt": "2026-08-24T05:04:26.298Z",
   "records": [
     {
       "candidateKey": "passive-income-enterprise-value",
@@ -28,6 +28,7 @@
       "featured": false,
       "containsProfanity": false,
       "context": "Alex explains that reducing a business owner’s required involvement can increase company value even when income stays flat.",
+      "verificationStandard": "direct-source-twice",
       "provenance": {
         "transcriptFingerprint": null,
         "cueStart": null,

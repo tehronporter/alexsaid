@@ -8,12 +8,13 @@ import { areContiguousCues, parseVTT, type VTTCue } from "../src/lib/vtt";
 
 const mineAll = process.argv.includes("--all");
 const requestedLimit = Number(process.argv.find((arg) => arg.startsWith("--limit="))?.split("=")[1] ?? 50);
-const perSourceLimit = Number(process.argv.find((arg) => arg.startsWith("--per-source="))?.split("=")[1] ?? 12);
+const perSourceLimit = Number(process.argv.find((arg) => arg.startsWith("--per-source="))?.split("=")[1] ?? 20);
 const now = new Date().toISOString();
 
-const blockedPatterns = /\b(download|subscribe|sponsor|disclosure|copyright|free trial|link in (?:the )?description|welcome (?:back )?to|in this (?:video|episode)|today's episode|terms and conditions)\b/i;
+const blockedPatterns = /\b(download|subscribe|sponsor|disclosure|copyright|free trial|link in (?:the )?description|welcome (?:back )?to|in this (?:video|episode)|today's episode|terms and conditions|show notes|follow me|leave a review|rate this|thanks for listening)\b/i;
 const weakStart = /^(and|but|so|because|which|that|then|like|or|uh|um)\b/i;
 const firstPersonAttribution = /\b(he said|she said|they said|my (?:friend|mentor|dad|father|mother) (?:said|told me)|quote unquote)\b/i;
+const clearStart = /^(You|Your|If you|When you|The |A |An |Most |People |Customers? |Clients? |Businesses? |Sales |Selling |Marketing |Leaders? |Leadership |Employees? |Teams? |Success |Failure |Discipline |Focus |Time |Money |Value |Growth |Every |No |Nothing |Learning |Doing |Being |What |Great |Good |Bad |Better |Hard |Easy |Skill |Skills |Practice |Action |Execution |Risk |Opportunity |Problems? |Decisions? |I |My )/;
 
 function wordCount(value: string) { return value.trim().split(/\s+/).filter(Boolean).length; }
 function completeThought(value: string) {
@@ -23,19 +24,23 @@ function completeThought(value: string) {
 function candidateScore(text: string) {
   const words = wordCount(text);
   let score = 0;
-  if (words >= 7 && words <= 34) score += 4;
+  if (words >= 9 && words <= 34) score += 6;
   else if (words <= 50) score += 2;
   if (completeThought(text)) score += 3;
-  if (/\b(if|because|when|the reason|the fastest|the easiest|the biggest|you|your|business|customer|sales|offer|money|focus|decision)\b/i.test(text)) score += 2;
-  if (weakStart.test(text)) score -= 2;
-  if (/\b(uh|um|you know|kind of|sort of)\b/i.test(text)) score -= 2;
+  if (clearStart.test(text)) score += 3;
+  if (/\.$/.test(text)) score += 2;
+  if (/\b(if|because|when|the reason|the fastest|the easiest|the biggest|you|your|business|customer|sales|offer|money|focus|decision|leader|team|growth|value)\b/i.test(text)) score += 3;
+  if (/\?$/.test(text)) score -= 3;
+  if (weakStart.test(text)) score -= 4;
+  if (/\b(uh|um|you know|kind of|sort of|i mean|all right|right\?)\b/i.test(text)) score -= 5;
+  if (/\b([a-z]+)\s+\1\b/i.test(text)) score -= 4;
   return score;
 }
 
 function mineCueWindows(source: SourceRecord, cues: readonly VTTCue[], fingerprint: string): CandidateRecord[] {
   const candidates: CandidateRecord[] = [];
   for (let start = 0; start < cues.length; start += 1) {
-    for (let length = 1; length <= 4 && start + length <= cues.length; length += 1) {
+    for (let length = 1; length <= 10 && start + length <= cues.length; length += 1) {
       const window = cues.slice(start, start + length);
       if (!areContiguousCues(window)) throw new Error(`Non-contiguous cue window in ${source.sourceID}`);
       const text = window.map((cue) => cue.text).join(" ").replace(/\s+/g, " ").trim();
@@ -43,7 +48,7 @@ function mineCueWindows(source: SourceRecord, cues: readonly VTTCue[], fingerpri
       if (words > 70 || text.length > 420) break;
       if (words < 3 || !completeThought(text) || blockedPatterns.test(text) || firstPersonAttribution.test(text)) continue;
       const score = candidateScore(text);
-      if (score < 4) continue;
+      if (score < 8) continue;
       const keyHash = sha256(`${source.sourceID}:${window[0].index}:${window.at(-1)!.index}:${text}`).slice(7, 19);
       candidates.push({
         candidateKey: `${source.sourceID}-${keyHash}`,
@@ -111,7 +116,7 @@ async function transcriptFor(source: SourceRecord) {
 }
 
 const sourceShards = await loadSourceShards();
-const eligible = sourceShards.flatMap(({ shard }) => shard.sources).filter((source) => source.provider === "the-game-rss" && source.status === "ready" && source.transcriptURL);
+const eligible = sourceShards.flatMap(({ shard }) => shard.sources).filter((source) => source.provider === "the-game-rss" && ["ready", "mined"].includes(source.status) && source.transcriptURL);
 const selected = mineAll ? eligible : stratified(eligible, requestedLimit);
 const existingFiles = await listJSONFiles(join(CONTENT_ROOT, "candidates"));
 const existingShards = await Promise.all(existingFiles.map(async (file) => candidateShardSchema.parse(await readJSON<unknown>(file))));

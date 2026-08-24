@@ -17,6 +17,15 @@ function textValue(value: RSSValue) {
   return value?.["#text"] ?? "";
 }
 
+function decodeEntities(value: string) {
+  const named: Record<string, string> = { amp: "&", apos: "'", gt: ">", lt: "<", quot: '"' };
+  return value.replace(/&(#x[\da-f]+|#\d+|amp|apos|gt|lt|quot);/gi, (entity, code: string) => {
+    if (code.startsWith("#x")) return String.fromCodePoint(Number.parseInt(code.slice(2), 16));
+    if (code.startsWith("#")) return String.fromCodePoint(Number.parseInt(code.slice(1), 10));
+    return named[code.toLocaleLowerCase()] ?? entity;
+  });
+}
+
 function attrURL(value: RSSValue) {
   return typeof value === "object" ? value?.["@_url"] ?? null : null;
 }
@@ -77,7 +86,7 @@ for (let offset = 0; offset < items.length; offset += CONCURRENCY) {
       externalID,
       provider: "the-game-rss",
       sourceType: "podcast",
-      title: textValue(item["itunes:title"] ?? item.title),
+      title: decodeEntities(textValue(item["itunes:title"] ?? item.title)),
       publisher: "Alex Hormozi · The Game",
       publishedAt,
       durationSeconds: durationSeconds(item["itunes:duration"]),

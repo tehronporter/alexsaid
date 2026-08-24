@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "provider": "the-game-rss",
+  "year": 2021,
+  "updatedAt": "2026-08-24T05:04:26.298Z",
+  "records": [
+    {
+      "candidateKey": "the-game-rss-0d51c4fd-b4d1-445c-aa15-b9e610245526-23fab6d15f0c",
+      "status": "verified",
+      "id": "56afab5a-227b-489b-a131-de578e0382c1",
+      "text": "Your weakest link in your business will be the constraint of the business.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Operations & Scaling",
+      "tags": [
+        "scaling",
+        "problem-solving"
+      ],
+      "sourceID": "the-game-rss-0d51c4fd-b4d1-445c-aa15-b9e610245526",
+      "sourceType": "podcast",
+      "sourceTitle": "Jacked or Shredded? | Ep 335",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/rsmfmor5b9e61iwsqzyyde7m.mp3#t=155",
+      "sourceDate": "2021-10-12",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 155,
+        "endSeconds": 161
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex uses this idea to explain how a business removes constraints and grows with less avoidable complexity.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:94c9b4e375f049cbefd0fee30003967ea721cf5511ba517c4bee7099f81a96c6",
+        "cueStart": 52,
+        "cueEnd": 52,
+        "batchID": "transcript-editorial-100",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest catalog similarity 0.32; no material duplicate found."
+      },
+      "createdAt": "2026-08-24T05:04:26.298Z",
+      "updatedAt": "2026-08-24T05:04:26.298Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T05:04:26.298Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched contiguous official transcript cues 52-52; surrounding cues reviewed for standalone clarity."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    }
+  ]
+}

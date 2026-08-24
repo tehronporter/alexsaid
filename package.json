@@ -29,6 +29,7 @@
     "content:coverage": "tsx scripts/content-coverage.ts",
     "content:release": "tsx scripts/release-content.ts",
     "content:reaudit:x": "tsx scripts/reaudit-x.ts",
+    "content:curate:transcripts": "tsx scripts/curate-transcript-catalog.ts",
     "content:audit-links": "tsx scripts/audit-source-links.ts",
     "content:import": "tsx scripts/import-content.ts",
     "launch:validate": "tsx scripts/validate-launch.ts"

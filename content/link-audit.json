@@ -1,7 +1,268 @@
 {
-  "generatedAt": "2026-08-24T04:18:44.207Z",
-  "sourceCount": 21,
+  "generatedAt": "2026-08-24T05:08:03.295Z",
+  "sourceCount": 50,
   "results": [
+    {
+      "sourceID": "the-game-rss-0514ca80-2909-4d3a-8f78-1a1f2d97b8b3",
+      "canonicalURL": "https://pscrb.fm/rss/p/episode.flightcast.com/b7xu75hwzl2k1n8zvakut4z5.mp3",
+      "auditURL": "https://pscrb.fm/rss/p/episode.flightcast.com/b7xu75hwzl2k1n8zvakut4z5.mp3",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://atelier.flightcast.com/v2/audio/f7e04a60996b2e24ac13f44a220bdee969c4c58eddf4bb50f6229e53c0b3fd55"
+    },
+    {
+      "sourceID": "the-game-rss-0991bc5a-ea8f-442f-bc4d-f066426bba5e",
+      "canonicalURL": "https://pscrb.fm/rss/p/episode.flightcast.com/ivmyeq31ud7d7me9tv798msl.mp3",
+      "auditURL": "https://pscrb.fm/rss/p/episode.flightcast.com/ivmyeq31ud7d7me9tv798msl.mp3",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://atelier.flightcast.com/v2/audio/db81c51a3c58593c5a163368d76c8aec233773b0cacab4f16ca43a10662fb70e"
+    },
+    {
+      "sourceID": "the-game-rss-0d51c4fd-b4d1-445c-aa15-b9e610245526",
+      "canonicalURL": "https://pscrb.fm/rss/p/episode.flightcast.com/rsmfmor5b9e61iwsqzyyde7m.mp3",
+      "auditURL": "https://pscrb.fm/rss/p/episode.flightcast.com/rsmfmor5b9e61iwsqzyyde7m.mp3",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://atelier.flightcast.com/v2/audio/98796cf997cf5fa71d0f1cd382c2ed248468cb86ab1cd1781bb395dee5aa6e0c"
+    },
+    {
+      "sourceID": "the-game-rss-15392495-00e3-49ec-b0f8-d4d66fc7dbd1",
+      "canonicalURL": "https://pscrb.fm/rss/p/episode.flightcast.com/n813i0jcbe8m6yk114s0f85v.mp3",
+      "auditURL": "https://pscrb.fm/rss/p/episode.flightcast.com/n813i0jcbe8m6yk114s0f85v.mp3",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://atelier.flightcast.com/v2/audio/aa5390915b1a349ba4ffb514e8265de056648607cf5d5e90925d039cc135805f"
+    },
+    {
+      "sourceID": "the-game-rss-156bcf6b-3cd7-4ba5-bead-1fc5f6a04169",
+      "canonicalURL": "https://pscrb.fm/rss/p/episode.flightcast.com/gjl34n8vtbi9p8nqa3kqnyi2.mp3",
+      "auditURL": "https://pscrb.fm/rss/p/episode.flightcast.com/gjl34n8vtbi9p8nqa3kqnyi2.mp3",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://atelier.flightcast.com/v2/audio/dcaa87405b196599dc8c95beb2e8a8fee962c5b72fc6518c5342a24dcb308fd4"
+    },
+    {
+      "sourceID": "the-game-rss-17e8f874-81f3-451e-8a31-8e1b29b4feb2",
+      "canonicalURL": "https://pscrb.fm/rss/p/episode.flightcast.com/m8gmp2wnjtiydgrnd0pqu2sc.mp3",
+      "auditURL": "https://pscrb.fm/rss/p/episode.flightcast.com/m8gmp2wnjtiydgrnd0pqu2sc.mp3",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://atelier.flightcast.com/v2/audio/9da7454ccfaf9ea026daa29516761c3758ebfd7166840078fa9e1c0e20f1577d"
+    },
+    {
+      "sourceID": "the-game-rss-19774342-2a54-4acf-9b76-2f4cc9f7e9c4",
+      "canonicalURL": "https://pscrb.fm/rss/p/episode.flightcast.com/i1i7a6h8jfsa229zedmlvuq5.mp3",
+      "auditURL": "https://pscrb.fm/rss/p/episode.flightcast.com/i1i7a6h8jfsa229zedmlvuq5.mp3",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://atelier.flightcast.com/v2/audio/9ab8c49c2756c90b2d0269fc559e0899b5c50ce15ff2d8e47b776be3bf82c841"
+    },
+    {
+      "sourceID": "the-game-rss-34ff965e-41b6-4ff8-a9e6-84ab0882c91b",
+      "canonicalURL": "https://pscrb.fm/rss/p/episode.flightcast.com/eytd8ld10q50w515x9i3k967.mp3",
+      "auditURL": "https://pscrb.fm/rss/p/episode.flightcast.com/eytd8ld10q50w515x9i3k967.mp3",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://atelier.flightcast.com/v2/audio/8654317e00e6d3e8c3d11071a65c92996de20405808b3f329c2b60f7fb99b11c"
+    },
+    {
+      "sourceID": "the-game-rss-48318606976e4c0b8364ade9c4e6a4e7",
+      "canonicalURL": "https://pscrb.fm/rss/p/episode.flightcast.com/aqk2mk42nehpd520d21htdc0.mp3",
+      "auditURL": "https://pscrb.fm/rss/p/episode.flightcast.com/aqk2mk42nehpd520d21htdc0.mp3",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://atelier.flightcast.com/v2/audio/16d13adab2a1d5a660eb8251a66edfd50ff1a8c98fb79bb0a642fa1c6d71cab8"
+    },
+    {
+      "sourceID": "the-game-rss-4c42e645-8024-40ed-8fb1-e2642fdd674b",
+      "canonicalURL": "https://pscrb.fm/rss/p/episode.flightcast.com/j1xarex7jwnwtcik3i89akcx.mp3",
+      "auditURL": "https://pscrb.fm/rss/p/episode.flightcast.com/j1xarex7jwnwtcik3i89akcx.mp3",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://atelier.flightcast.com/v2/audio/5bc912542493eb8dbefc91efe38214db3b3c2916b306b76fd812850aa8394fe1"
+    },
+    {
+      "sourceID": "the-game-rss-59bbb832-2040-4357-a71c-74553dfa5d55",
+      "canonicalURL": "https://pscrb.fm/rss/p/episode.flightcast.com/qbz4sfcy2ag7166omtgmagtz.mp3",
+      "auditURL": "https://pscrb.fm/rss/p/episode.flightcast.com/qbz4sfcy2ag7166omtgmagtz.mp3",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://atelier.flightcast.com/v2/audio/23c237b8c58f2095332ca2dc3dbd1667b52bc8ae92f1f78c5749793aaf2c7317"
+    },
+    {
+      "sourceID": "the-game-rss-5a5d81f0365e9b430f658c14ca4ad30f",
+      "canonicalURL": "https://pscrb.fm/rss/p/episode.flightcast.com/wtv3jqpglsl6mbua51jjqltj.mp3",
+      "auditURL": "https://pscrb.fm/rss/p/episode.flightcast.com/wtv3jqpglsl6mbua51jjqltj.mp3",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://atelier.flightcast.com/v2/audio/ace00de96ea3eba24c4bcefd7a457ab735598d7f472f907fc109c30ac7120fa8"
+    },
+    {
+      "sourceID": "the-game-rss-5d8f5761-48d4-414a-832e-834e345f65ae",
+      "canonicalURL": "https://pscrb.fm/rss/p/episode.flightcast.com/sik17rsm97mgyl71rapw7fl2.mp3",
+      "auditURL": "https://pscrb.fm/rss/p/episode.flightcast.com/sik17rsm97mgyl71rapw7fl2.mp3",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://atelier.flightcast.com/v2/audio/a852dbda12b9884d9800f4ae248eceb4735840a16f842e14cab1a706d05a122a"
+    },
+    {
+      "sourceID": "the-game-rss-72b04594-9c88-46bf-8acb-b0a8727d2656",
+      "canonicalURL": "https://pscrb.fm/rss/p/episode.flightcast.com/xaye025fxj3n0u1qm49idihq.mp3",
+      "auditURL": "https://pscrb.fm/rss/p/episode.flightcast.com/xaye025fxj3n0u1qm49idihq.mp3",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://atelier.flightcast.com/v2/audio/1f1b353d4d6465e66fc29aed386b443ce14925e66660aa0625abc1d1bde1acb8"
+    },
+    {
+      "sourceID": "the-game-rss-965c6ff1-4de1-4617-b2a6-96daf853cd3b",
+      "canonicalURL": "https://pscrb.fm/rss/p/episode.flightcast.com/t6ncnlwes8arbb9yc1m8eleb.mp3",
+      "auditURL": "https://pscrb.fm/rss/p/episode.flightcast.com/t6ncnlwes8arbb9yc1m8eleb.mp3",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://atelier.flightcast.com/v2/audio/ecb56036703799a23045d56504424eb56893f0e3a213a873f3b9e3896db1af6a"
+    },
+    {
+      "sourceID": "the-game-rss-9c91a864-5027-46aa-9aa4-29e73a879ab4",
+      "canonicalURL": "https://pscrb.fm/rss/p/episode.flightcast.com/skoyf9jbal27z31rrvbwzoxr.mp3",
+      "auditURL": "https://pscrb.fm/rss/p/episode.flightcast.com/skoyf9jbal27z31rrvbwzoxr.mp3",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://atelier.flightcast.com/v2/audio/dd2f998432e3bbcfdf432e320a8fbdaabb57229e8c6e54b136faaa6ce2e06fe3"
+    },
+    {
+      "sourceID": "the-game-rss-a656c73e-fcc9-4575-87cb-13b5d13785e3",
+      "canonicalURL": "https://pscrb.fm/rss/p/episode.flightcast.com/q74wfjvlkuxr4b64jsi3qi8u.mp3",
+      "auditURL": "https://pscrb.fm/rss/p/episode.flightcast.com/q74wfjvlkuxr4b64jsi3qi8u.mp3",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://atelier.flightcast.com/v2/audio/00da1949bc61f7a70737088fa5f21c03b38638de9bc198e92fc91a9e57878860"
+    },
+    {
+      "sourceID": "the-game-rss-afd1826e-b055-4578-bf61-8a6be62bbf94",
+      "canonicalURL": "https://pscrb.fm/rss/p/episode.flightcast.com/ltwjeghsbkxdgaed3hzf8kh9.mp3",
+      "auditURL": "https://pscrb.fm/rss/p/episode.flightcast.com/ltwjeghsbkxdgaed3hzf8kh9.mp3",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://atelier.flightcast.com/v2/audio/25c759fa88083769e2866a838b75729fbd729b12c7aea0f49fc1b89422ebddf5"
+    },
+    {
+      "sourceID": "the-game-rss-b1727c7eb76043818d8017a0309f626b",
+      "canonicalURL": "https://pscrb.fm/rss/p/episode.flightcast.com/bivxww0ne9r6a0tqimh9wy8g.mp3",
+      "auditURL": "https://pscrb.fm/rss/p/episode.flightcast.com/bivxww0ne9r6a0tqimh9wy8g.mp3",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://atelier.flightcast.com/v2/audio/732e6d8a1977472031c2fe129c71f7f6f310061331c4119143bd35213a75cf15"
+    },
+    {
+      "sourceID": "the-game-rss-beea6e8377074ccea49207fb53df02ad",
+      "canonicalURL": "https://pscrb.fm/rss/p/episode.flightcast.com/sn12yjs8w8lbq618y3o1i3t1.mp3",
+      "auditURL": "https://pscrb.fm/rss/p/episode.flightcast.com/sn12yjs8w8lbq618y3o1i3t1.mp3",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://atelier.flightcast.com/v2/audio/7d248dbcca88008ba8e4ea05c990ec5dce1b919d227318d17890f7703a6e1bf9"
+    },
+    {
+      "sourceID": "the-game-rss-c2d46261-a3ad-4920-acad-eba8307fb6fb",
+      "canonicalURL": "https://pscrb.fm/rss/p/episode.flightcast.com/d946pxufoikgxzxzunuywdmj.mp3",
+      "auditURL": "https://pscrb.fm/rss/p/episode.flightcast.com/d946pxufoikgxzxzunuywdmj.mp3",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://atelier.flightcast.com/v2/audio/e14088a495b62256faa78dbb2ca1a76283fc0b9f63417e9a7ff9a7f071c1c9d7"
+    },
+    {
+      "sourceID": "the-game-rss-c488d2b4-0d46-41b2-a5d7-9906a841316d",
+      "canonicalURL": "https://pscrb.fm/rss/p/episode.flightcast.com/s1gd29hv56im72ljnraf823u.mp3",
+      "auditURL": "https://pscrb.fm/rss/p/episode.flightcast.com/s1gd29hv56im72ljnraf823u.mp3",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://atelier.flightcast.com/v2/audio/9887a9b102d6761d66546ca43a7e15b6870839be79be22ec51ae795ae7806087"
+    },
+    {
+      "sourceID": "the-game-rss-c4efac2f-fd96-400f-aea4-5289b13f7c6c",
+      "canonicalURL": "https://pscrb.fm/rss/p/episode.flightcast.com/d97mbxtnhcdwgig7c7spgipc.mp3",
+      "auditURL": "https://pscrb.fm/rss/p/episode.flightcast.com/d97mbxtnhcdwgig7c7spgipc.mp3",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://atelier.flightcast.com/v2/audio/50ab5453fdf950501220d4d197df0fd247b25e66ac1339845255b309649ad5cb"
+    },
+    {
+      "sourceID": "the-game-rss-c8949265-82c9-4f8c-aae2-6d5bcb568752",
+      "canonicalURL": "https://pscrb.fm/rss/p/episode.flightcast.com/bk4u1d76nfs133zas6ak71gh.mp3",
+      "auditURL": "https://pscrb.fm/rss/p/episode.flightcast.com/bk4u1d76nfs133zas6ak71gh.mp3",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://atelier.flightcast.com/v2/audio/337409a1ae24553005e6f3e0a5d94ec856a349b6f9773eb0df47aeedeef2b858"
+    },
+    {
+      "sourceID": "the-game-rss-d1d596dc-4ab6-4e8f-94e6-e29c95fee5db",
+      "canonicalURL": "https://pscrb.fm/rss/p/episode.flightcast.com/pv38zkufvol5lk0fyql62ejl.mp3",
+      "auditURL": "https://pscrb.fm/rss/p/episode.flightcast.com/pv38zkufvol5lk0fyql62ejl.mp3",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://atelier.flightcast.com/v2/audio/30002992e852c4375ce54a72055ea40c3ea7679c20251c3f398b5ed66eda820c"
+    },
+    {
+      "sourceID": "the-game-rss-d253a967-9286-47b2-b558-fadb0cf2bf1b",
+      "canonicalURL": "https://pscrb.fm/rss/p/episode.flightcast.com/bdwh5toi1qs35qm3akel2g9w.mp3",
+      "auditURL": "https://pscrb.fm/rss/p/episode.flightcast.com/bdwh5toi1qs35qm3akel2g9w.mp3",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://atelier.flightcast.com/v2/audio/a736b6b1eefb47623e7c4cf30cc9f2299c2dd54f7f374382f3d603abb75e8676"
+    },
+    {
+      "sourceID": "the-game-rss-de57e353-5e79-4d5c-a801-c7145f2cee55",
+      "canonicalURL": "https://pscrb.fm/rss/p/episode.flightcast.com/ymwfvs7iogxnnmvt6kqe28z8.mp3",
+      "auditURL": "https://pscrb.fm/rss/p/episode.flightcast.com/ymwfvs7iogxnnmvt6kqe28z8.mp3",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://atelier.flightcast.com/v2/audio/d77f334901c84c371f7a3c9424f1235afafb83a3fc1bd627366799c2691a7a53"
+    },
+    {
+      "sourceID": "the-game-rss-f0b9e2ee-aa82-4cad-8274-9fff7e08475a",
+      "canonicalURL": "https://pscrb.fm/rss/p/episode.flightcast.com/nti8bohci9kldq811hrrjp9i.mp3",
+      "auditURL": "https://pscrb.fm/rss/p/episode.flightcast.com/nti8bohci9kldq811hrrjp9i.mp3",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://atelier.flightcast.com/v2/audio/1aea35cb175eb0879b3838d29b541d8f9fea8f8a6da30660861f9da17dd4ea54"
+    },
+    {
+      "sourceID": "the-game-rss-fc0ad910-62a6-4292-a7d6-cdf6675c782b",
+      "canonicalURL": "https://pscrb.fm/rss/p/episode.flightcast.com/yb7j8xeqkfuo9g2u3zcwfbkl.mp3",
+      "auditURL": "https://pscrb.fm/rss/p/episode.flightcast.com/yb7j8xeqkfuo9g2u3zcwfbkl.mp3",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://atelier.flightcast.com/v2/audio/1471a8732e07b0c36eae866fd2b9d7d7fa3bab729d1a179af6563eca22536607"
+    },
     {
       "sourceID": "x-1540332812305281027",
       "canonicalURL": "https://x.com/AlexHormozi/status/1540332812305281027",

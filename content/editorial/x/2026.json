@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "provider": "x",
   "year": 2026,
-  "updatedAt": "2026-08-24T03:49:24.103Z",
+  "updatedAt": "2026-08-24T05:04:26.298Z",
   "records": [
     {
       "candidateKey": "offer-not-converting-five-reasons",
@@ -27,6 +27,7 @@
       "featured": true,
       "containsProfanity": false,
       "context": "Alex lists the most common reasons a sales offer fails to convert.",
+      "verificationStandard": "direct-source-twice",
       "provenance": {
         "transcriptFingerprint": null,
         "cueStart": null,
@@ -109,6 +110,7 @@
       "featured": true,
       "containsProfanity": false,
       "context": "Alex describes regret as an incomplete comparison that counts a missed benefit while ignoring the price required to obtain it.",
+      "verificationStandard": "direct-source-twice",
       "provenance": {
         "transcriptFingerprint": null,
         "cueStart": null,
@@ -191,6 +193,7 @@
       "featured": true,
       "containsProfanity": false,
       "context": "Alex reframes scaling as keeping customers long enough for the business to stop shrinking, rather than treating acquisition alone as growth.",
+      "verificationStandard": "direct-source-twice",
       "provenance": {
         "transcriptFingerprint": null,
         "cueStart": null,

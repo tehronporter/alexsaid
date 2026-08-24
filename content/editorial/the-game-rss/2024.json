@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "provider": "the-game-rss",
+  "year": 2024,
+  "updatedAt": "2026-08-24T05:04:26.298Z",
+  "records": [
+    {
+      "candidateKey": "the-game-rss-a656c73e-fcc9-4575-87cb-13b5d13785e3-08feae536f5b",
+      "status": "verified",
+      "id": "a2588e4f-495f-43bd-a70b-bb649d06d760",
+      "text": "If you get rid of the people who are dragging the team down, the culture of the team will improve.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Leadership & Teams",
+      "tags": [
+        "leadership",
+        "accountability"
+      ],
+      "sourceID": "the-game-rss-a656c73e-fcc9-4575-87cb-13b5d13785e3",
+      "sourceType": "podcast",
+      "sourceTitle": "Selecting Exceptional Salespeople | Ep 652",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/q74wfjvlkuxr4b64jsi3qi8u.mp3#t=619",
+      "sourceDate": "2024-02-12",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 619,
+        "endSeconds": 624
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex frames this as a leadership principle for raising standards and improving team performance.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:02ea07629595d30f0385c2f7bdf5728c66c761fd0c07156e947dfd32cb4c2920",
+        "cueStart": 181,
+        "cueEnd": 181,
+        "batchID": "transcript-editorial-100",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest catalog similarity 0.20; no material duplicate found."
+      },
+      "createdAt": "2026-08-24T05:04:26.298Z",
+      "updatedAt": "2026-08-24T05:04:26.298Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T05:04:26.298Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched contiguous official transcript cues 181-181; surrounding cues reviewed for standalone clarity."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "the-game-rss-fc0ad910-62a6-4292-a7d6-cdf6675c782b-da357c158b40",
+      "status": "verified",
+      "id": "ea57f3eb-1680-4ad8-ad3f-7e31ce1a768a",
+      "text": "If you make the same amount of money per customer as your competition, then you are always going to be in a race to the bottom.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Customer Success & Retention",
+      "tags": [
+        "retention",
+        "customer-experience"
+      ],
+      "sourceID": "the-game-rss-fc0ad910-62a6-4292-a7d6-cdf6675c782b",
+      "sourceType": "podcast",
+      "sourceTitle": "Stop Trying to Get Rich. Get Better | Ep 714",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/yb7j8xeqkfuo9g2u3zcwfbkl.mp3#t=654",
+      "sourceDate": "2024-07-05",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 654,
+        "endSeconds": 662
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex connects this idea to delivering value customers can feel and continue paying for.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:e3d9f318a2252c88f64f430c4da90755f8b544ff40ee2e80cad8cf43e17d989b",
+        "cueStart": 317,
+        "cueEnd": 319,
+        "batchID": "transcript-editorial-100",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest catalog similarity 0.24; no material duplicate found."
+      },
+      "createdAt": "2026-08-24T05:04:26.298Z",
+      "updatedAt": "2026-08-24T05:04:26.298Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T05:04:26.298Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched contiguous official transcript cues 317-319; surrounding cues reviewed for standalone clarity."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    }
+  ]
+}

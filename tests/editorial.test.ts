@@ -80,6 +80,17 @@ describe("editorial gates", () => {
     expect(publishabilityIssues(stitched).join(" ")).toContain("notStitchedOrParaphrased");
   });
 
+  it("allows one official transcript review only with reproducible contiguous-cue provenance", () => {
+    const transcriptPass = { ...passed, method: "official-transcript-read" as const, surroundingContextSeconds: null };
+    const transcriptRecord = makeRecord({
+      verificationStandard: "official-transcript-reviewed",
+      provenance: { transcriptFingerprint: `sha256:${"a".repeat(64)}`, cueStart: 12, cueEnd: 14, batchID: "transcript-review", duplicateDecision: "unique", duplicateNote: "Distinct transcript excerpt." },
+      verification: { firstPass: transcriptPass, secondPass: null, blindAudit: null }
+    });
+    expect(publishabilityIssues(transcriptRecord)).toEqual([]);
+    expect(publishabilityIssues({ ...transcriptRecord, provenance: { ...transcriptRecord.provenance, cueStart: null } }).join(" ")).toContain("transcript fingerprint and cue range");
+  });
+
   it("rejects wrong speakers, aggregators, homepages, and imprecise media links", () => {
     expect(publishabilityIssues(makeRecord({ author: "Another Speaker" })).join(" ")).toContain("Unsupported attribution");
     expect(sourceURLIssues({ sourceURL: "https://www.brainyquote.com/quotes/example", sourceType: "article", sourceLocator: { kind: "web" } }).join(" ")).toContain("aggregator");

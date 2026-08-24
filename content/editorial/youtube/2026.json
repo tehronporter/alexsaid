@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "provider": "youtube",
   "year": 2026,
-  "updatedAt": "2026-08-24T03:45:54.021Z",
+  "updatedAt": "2026-08-24T05:04:26.298Z",
   "records": [
     {
       "candidateKey": "already-growing-rejected",
@@ -27,6 +27,7 @@
       "featured": false,
       "containsProfanity": false,
       "context": "Alex discusses choosing an expanding industry.",
+      "verificationStandard": "direct-source-twice",
       "provenance": {
         "transcriptFingerprint": null,
         "cueStart": null,
@@ -94,6 +95,7 @@
       "featured": true,
       "containsProfanity": false,
       "context": "Alex is comparing proposed actions with the option to keep resources on work that is already producing the highest return.",
+      "verificationStandard": "direct-source-twice",
       "provenance": {
         "transcriptFingerprint": null,
         "cueStart": null,
@@ -192,6 +194,7 @@
       "featured": true,
       "containsProfanity": false,
       "context": "Alex warns that a new initiative can be an emotional escape from patiently continuing the proven course of action.",
+      "verificationStandard": "direct-source-twice",
       "provenance": {
         "transcriptFingerprint": null,
         "cueStart": null,
@@ -273,6 +276,7 @@
       "featured": true,
       "containsProfanity": false,
       "context": "Alex responds to a founder who worries that a more structured webinar will make customers feel sold to.",
+      "verificationStandard": "direct-source-twice",
       "provenance": {
         "transcriptFingerprint": null,
         "cueStart": null,
@@ -354,6 +358,7 @@
       "featured": true,
       "containsProfanity": false,
       "context": "Alex explains that people often retreat to familiar work when they encounter a problem they do not yet know how to solve.",
+      "verificationStandard": "direct-source-twice",
       "provenance": {
         "transcriptFingerprint": null,
         "cueStart": null,
@@ -436,6 +441,7 @@
       "featured": false,
       "containsProfanity": false,
       "context": "Alex points out that good selling can feel natural even though someone intentionally designed the purchase journey.",
+      "verificationStandard": "direct-source-twice",
       "provenance": {
         "transcriptFingerprint": null,
         "cueStart": null,
@@ -516,6 +522,7 @@
       "featured": false,
       "containsProfanity": false,
       "context": "Alex describes questions as evidence of thinking quality.",
+      "verificationStandard": "direct-source-twice",
       "provenance": {
         "transcriptFingerprint": null,
         "cueStart": null,
@@ -576,6 +583,7 @@
       "featured": false,
       "containsProfanity": false,
       "context": "Alex repeats a line immediately after attributing it to John Paul DeJoria.",
+      "verificationStandard": "direct-source-twice",
       "provenance": {
         "transcriptFingerprint": null,
         "cueStart": null,
@@ -638,6 +646,7 @@
       "featured": true,
       "containsProfanity": false,
       "context": "Alex explains why a founder must price and structure delivery so the company can continue serving customers.",
+      "verificationStandard": "direct-source-twice",
       "provenance": {
         "transcriptFingerprint": null,
         "cueStart": null,
@@ -720,6 +729,7 @@
       "featured": true,
       "containsProfanity": false,
       "context": "After reviewing five business-model advantages, Alex recommends improving retention before the remaining advantages.",
+      "verificationStandard": "direct-source-twice",
       "provenance": {
         "transcriptFingerprint": null,
         "cueStart": null,
@@ -801,6 +811,7 @@
       "featured": true,
       "containsProfanity": false,
       "context": "Alex introduces revenue retention as the first and most important advantage of a strong business model.",
+      "verificationStandard": "direct-source-twice",
       "provenance": {
         "transcriptFingerprint": null,
         "cueStart": null,
@@ -883,6 +894,7 @@
       "featured": true,
       "containsProfanity": false,
       "context": "Alex qualifies the advice for people early in their careers whose current industry structurally lacks repeat purchasing.",
+      "verificationStandard": "direct-source-twice",
       "provenance": {
         "transcriptFingerprint": null,
         "cueStart": null,
@@ -965,6 +977,7 @@
       "featured": true,
       "containsProfanity": false,
       "context": "Alex contrasts this framing with asking whether something can be done; the former starts from an assumption that a solution exists.",
+      "verificationStandard": "direct-source-twice",
       "provenance": {
         "transcriptFingerprint": null,
         "cueStart": null,

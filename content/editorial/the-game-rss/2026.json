@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "provider": "the-game-rss",
+  "year": 2026,
+  "updatedAt": "2026-08-24T05:04:26.298Z",
+  "records": [
+    {
+      "candidateKey": "the-game-rss-34ff965e-41b6-4ff8-a9e6-84ab0882c91b-0a1d3cd1283b",
+      "status": "verified",
+      "id": "7d486d50-7574-463d-a5bb-40bbd10aba37",
+      "text": "You are the standard setter. It is the highest and most important job in the company, and it is why some companies prevail and some companies fail.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Leadership & Teams",
+      "tags": [
+        "leadership",
+        "accountability"
+      ],
+      "sourceID": "the-game-rss-34ff965e-41b6-4ff8-a9e6-84ab0882c91b",
+      "sourceType": "podcast",
+      "sourceTitle": "Stop Using Industry Standards If You Want to Win | Ep 948",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/eytd8ld10q50w515x9i3k967.mp3#t=165",
+      "sourceDate": "2026-02-18",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 165,
+        "endSeconds": 174
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex frames this as a leadership principle for raising standards and improving team performance.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:c0c4147b4a1b554d61e546a0c4ae48861dc7cb2d8de76c954535671ac4b1cd32",
+        "cueStart": 53,
+        "cueEnd": 55,
+        "batchID": "transcript-editorial-100",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest catalog similarity 0.23; no material duplicate found."
+      },
+      "createdAt": "2026-08-24T05:04:26.298Z",
+      "updatedAt": "2026-08-24T05:04:26.298Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T05:04:26.298Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched contiguous official transcript cues 53-55; surrounding cues reviewed for standalone clarity."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    }
+  ]
+}
