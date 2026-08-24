@@ -2,12 +2,11 @@
 
 import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { ArrowDown, ArrowUp, Bookmark, CheckCircle2, ExternalLink, Info, Share2 } from "lucide-react";
 import { toast } from "sonner";
 import type { Quote } from "@/domain/catalog";
-import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { OnboardingDialog } from "@/components/onboarding-dialog";
+import { ProductIcon } from "@/components/product-icon";
 import { ShareActions } from "@/components/share-actions";
 import { useUserState } from "@/components/user-state-provider";
 import { dailyQuoteOrder } from "@/lib/feed";
@@ -63,7 +62,7 @@ export function QuoteFeed({ quotes, initialQuoteID, developmentFixture = false }
 
   if (!quote) return null;
   return (
-    <main className="safe-pb min-h-dvh lg:pl-24">
+    <main className="quote-surface purple-field safe-pb min-h-dvh lg:pl-20">
       <div className="grid min-h-[calc(100dvh-5.75rem)] lg:min-h-dvh lg:grid-cols-[minmax(0,1fr)_23rem] xl:grid-cols-[minmax(0,1fr)_26rem]">
         <section
           className="quote-stage flex min-h-[calc(100dvh-5.75rem)] select-none flex-col px-6 pt-[calc(1.25rem+var(--safe-top))] pb-5 sm:px-10 md:min-h-dvh md:px-14 md:pt-[calc(2.25rem+var(--safe-top))] md:pb-9 lg:px-16 lg:py-12 xl:px-20"
@@ -86,7 +85,10 @@ export function QuoteFeed({ quotes, initialQuoteID, developmentFixture = false }
 
           <header className="relative z-10 flex items-center justify-between">
             <p className="text-sm font-extrabold tracking-[0.12em]">HORMOZI SAID</p>
-            {developmentFixture ? <Badge className="border-white/20 bg-black text-white">DEV CONTENT</Badge> : null}
+            <div className="flex items-center gap-4">
+              <p className="text-xs font-semibold tabular-nums text-white/72 lg:hidden">{String(index + 1).padStart(2, "0")} <span className="text-white/52">/ {String(order.length).padStart(2, "0")}</span></p>
+              {developmentFixture ? <span className="border border-white/30 px-2 py-1 text-[0.62rem] font-bold uppercase tracking-[0.12em]">Dev content</span> : null}
+            </div>
           </header>
 
           <div
@@ -94,7 +96,7 @@ export function QuoteFeed({ quotes, initialQuoteID, developmentFixture = false }
             style={{ transform: `translateY(${-dragY * 0.4}px)`, transition: dragging ? "none" : "transform 320ms var(--ease-ios)" }}
           >
             <div key={quote.id} className={enterDirection === 1 ? "animate-quote-up" : "animate-quote-down"}>
-              <Badge className="mb-7 w-fit rounded-full border-black bg-black px-4 py-1 text-[0.68rem] tracking-[0.12em] text-white">{quote.primaryCategory.toUpperCase()}</Badge>
+              <div className="mb-7 flex items-center gap-3 text-[0.68rem] font-bold uppercase tracking-[0.15em] text-white/78"><span className="h-px w-8 bg-white/55" aria-hidden="true" />{quote.primaryCategory}</div>
               <span className="display-type block text-8xl leading-[0.45] text-white lg:hidden" aria-hidden="true">“</span>
               <blockquote className={`display-type mt-5 max-w-4xl ${quoteSize} leading-[0.86] uppercase tracking-[0.01em] text-white lg:mt-0 xl:max-w-[64rem] 2xl:max-w-[72rem]`}>{quote.text}</blockquote>
               <div className="mt-7 flex items-center gap-3 lg:mt-9">
@@ -111,15 +113,15 @@ export function QuoteFeed({ quotes, initialQuoteID, developmentFixture = false }
                 trackProductEvent(saved ? "quote_unsaved" : "quote_saved", { quote_id: quote.id, category: quote.primaryCategory });
                 if (!saved && !hasShownSaveHint) { hasShownSaveHint = true; toast.success("Saved for later", { description: "Find it anytime in Saved." }); }
                 else toast.success(saved ? "Removed from saved" : "Saved for later");
-              }}><Bookmark fill={saved ? "currentColor" : "none"} /></Button>
-              <ShareActions quote={quote} trigger={<Button size="icon-lg" className="rounded-full bg-black text-white hover:bg-white hover:text-black" aria-label="Share quote"><Share2 /></Button>} />
-              <Button asChild size="icon-lg" className="rounded-full bg-black text-white hover:bg-white hover:text-black"><Link href={`/source/${quote.id}`} aria-label="View quote source"><Info /></Link></Button>
+              }}><ProductIcon name="save" filled={saved} /></Button>
+              <ShareActions quote={quote} trigger={<Button size="icon-lg" className="rounded-full bg-black text-white hover:bg-white hover:text-black" aria-label="Share quote"><ProductIcon name="share" /></Button>} />
+              <Button asChild size="icon-lg" className="rounded-full bg-black text-white hover:bg-white hover:text-black"><Link href={`/source/${quote.id}`} aria-label="View quote source"><ProductIcon name="external" /></Link></Button>
             </div>
             <div className="flex items-center gap-4">
               <p className="hidden text-[0.65rem] font-bold uppercase tracking-[0.14em] text-white/55 lg:block">Arrow keys</p>
               <div className="flex gap-2">
-                <Button size="icon" variant="outline" className="rounded-full border-white/25 bg-transparent text-white hover:bg-white hover:text-black" aria-label="Previous quote" onClick={() => move(-1)}><ArrowUp /></Button>
-                <Button size="icon" variant="outline" className="rounded-full border-white/25 bg-transparent text-white hover:bg-white hover:text-black" aria-label="Next quote" onClick={() => move(1)}><ArrowDown /></Button>
+                <Button size="icon" variant="outline" className="rounded-full border-white/30 bg-transparent text-white hover:bg-white hover:text-black" aria-label="Previous quote" onClick={() => move(-1)}><ProductIcon name="previous" /></Button>
+                <Button size="icon" variant="outline" className="rounded-full border-white/30 bg-transparent text-white hover:bg-white hover:text-black" aria-label="Next quote" onClick={() => move(1)}><ProductIcon name="next" /></Button>
               </div>
             </div>
           </div>
@@ -148,16 +150,14 @@ export function QuoteFeed({ quotes, initialQuoteID, developmentFixture = false }
                 <span className="capitalize">{quote.sourceType}</span>
                 {quote.sourceDate ? <><span aria-hidden="true" className="text-white/25">·</span><span>{quote.sourceDate}</span></> : null}
               </div>
-              {quote.verified
-                ? <span className="mt-4 inline-flex items-center gap-1.5 rounded-full bg-white/10 px-3 py-1 text-xs font-semibold text-white"><CheckCircle2 className="size-3.5" />Verified twice</span>
-                : <span className="mt-4 inline-flex items-center rounded-full bg-white/10 px-3 py-1 text-xs font-semibold text-white/70">Verification pending</span>}
+              <p className="mt-4 border-t border-white/10 pt-3 text-xs font-semibold text-white/72">{quote.verified ? "●  Verified twice" : "Verification pending"}</p>
             </div>
 
             {nextQuote && nextQuote.id !== quote.id ? (
-              <button type="button" onClick={() => move(1)} className="group mt-6 w-full rounded-2xl border border-white/12 bg-white/[0.04] p-4 text-left transition-all hover:border-white/30 hover:bg-white/[0.08] active:scale-[0.98]">
+              <button type="button" onClick={() => move(1)} className="group mt-6 w-full border-t border-white/14 pt-5 text-left transition-colors duration-150 hover:border-white/35">
                 <div className="flex items-center justify-between">
                   <p className="text-[0.68rem] font-bold uppercase tracking-[0.16em] text-white/45">Up next</p>
-                  <ArrowDown className="size-3.5 text-white/40 transition-transform group-hover:translate-y-0.5" />
+                  <ProductIcon name="next" className="size-3.5 text-white/55" />
                 </div>
                 <p className="mt-2.5 line-clamp-2 text-sm leading-snug text-white/85">{nextQuote.text}</p>
                 <p className="mt-2 text-[0.68rem] font-bold uppercase tracking-[0.12em] text-[var(--purple-light)]">{nextQuote.primaryCategory}</p>
@@ -166,8 +166,8 @@ export function QuoteFeed({ quotes, initialQuoteID, developmentFixture = false }
           </div>
 
           <div className="space-y-3">
-            <Button asChild className="w-full bg-white text-black hover:bg-white/90"><Link href={`/source/${quote.id}`}>View source<ExternalLink /></Link></Button>
-            <ShareActions quote={quote} trigger={<Button variant="outline" className="w-full border-white/15 bg-transparent text-white hover:bg-white hover:text-black">Share this quote<Share2 /></Button>} />
+            <Button asChild className="w-full bg-white text-black hover:bg-white/90"><Link href={`/source/${quote.id}`}>View source<ProductIcon name="external" /></Link></Button>
+            <ShareActions quote={quote} trigger={<Button variant="outline" className="w-full border-white/20 bg-transparent text-white hover:bg-white hover:text-black">Share this quote<ProductIcon name="share" /></Button>} />
             <p className="pt-3 text-[0.62rem] leading-relaxed text-white/45">Unofficial and fan-made. Quotes are checked twice against direct sources.</p>
           </div>
         </aside>

@@ -1,10 +1,9 @@
 "use client";
 
 import { useCallback, useEffect, useState, useSyncExternalStore } from "react";
-import { Bell, Check, Download, Share, Smartphone, WifiOff } from "lucide-react";
+import { EditorialSection } from "@/components/editorial";
+import { ProductIcon } from "@/components/product-icon";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { pushEnabled } from "@/lib/push";
 import { trackProductEvent } from "@/lib/analytics";
 
@@ -24,6 +23,7 @@ export function InstallView() {
   const isIOS = useSyncExternalStore(subscribeEnvironment, () => /iphone|ipad|ipod/i.test(navigator.userAgent), () => false);
   const [installedByEvent, setInstalledByEvent] = useState(false);
   const installed = displayModeInstalled || installedByEvent;
+
   useEffect(() => {
     const handlePrompt = (event: Event) => { event.preventDefault(); setPromptEvent(event as BeforeInstallPromptEvent); };
     const handleInstalled = () => { setInstalledByEvent(true); trackProductEvent("pwa_installed"); };
@@ -32,6 +32,7 @@ export function InstallView() {
     trackProductEvent("install_viewed");
     return () => { window.removeEventListener("beforeinstallprompt", handlePrompt); window.removeEventListener("appinstalled", handleInstalled); };
   }, []);
+
   const install = useCallback(async () => {
     if (!promptEvent) return;
     await promptEvent.prompt();
@@ -40,20 +41,47 @@ export function InstallView() {
     setPromptEvent(null);
   }, [promptEvent]);
 
+  const heading = installed ? "Already installed" : isIOS ? "Install on iPhone or iPad" : "Install this app";
+
   return (
-    <div className="grid gap-5 lg:grid-cols-[1.1fr_0.9fr]">
-      <Card className="content-card overflow-hidden">
-        <CardHeader className="border-b border-white/10 bg-[var(--purple)] p-7"><span className="mb-6 grid size-16 place-items-center rounded-2xl bg-black text-4xl">“</span><CardTitle className="display-type text-5xl uppercase">Put useful ideas one tap away.</CardTitle><CardDescription className="text-white/70">Install Hormozi Said for a focused, full-screen experience.</CardDescription></CardHeader>
-        <CardContent className="space-y-4 p-6">
-          {[{ icon: Smartphone, text: "Launches like an app from your Home Screen" }, { icon: WifiOff, text: "Keeps the core quote experience available offline" }, ...(pushEnabled ? [{ icon: Bell, text: "Ready for daily Web Push when delivery is activated" }] : [])].map(({ icon: Icon, text }) => <div key={text} className="flex items-center gap-3"><span className="grid size-9 place-items-center rounded-xl bg-white/10"><Icon className="size-4" /></span><span className="text-sm">{text}</span></div>)}
-        </CardContent>
-      </Card>
-      <div className="space-y-5">
-        <Card className="content-card"><CardHeader><CardTitle>{installed ? "Already installed" : isIOS ? "Install on iPhone or iPad" : "Install this app"}</CardTitle></CardHeader><CardContent className="space-y-4">{installed ? <div className="flex items-center gap-3 text-sm"><span className="grid size-9 place-items-center rounded-full bg-white text-black"><Check /></span>You’re using the standalone app.</div> : isIOS ? <ol className="space-y-4 text-sm text-white/70"><li className="flex gap-3"><span className="grid size-7 shrink-0 place-items-center rounded-full bg-white text-xs font-bold text-black">1</span>Open this page in Safari.</li><li className="flex gap-3"><span className="grid size-7 shrink-0 place-items-center rounded-full bg-white text-xs font-bold text-black">2</span>Tap the <Share className="mx-1 inline size-4" /> Share button.</li><li className="flex gap-3"><span className="grid size-7 shrink-0 place-items-center rounded-full bg-white text-xs font-bold text-black">3</span>Choose “Add to Home Screen.”</li></ol> : promptEvent ? <Button className="w-full bg-white text-black hover:bg-white/90" onClick={install}><Download />Install Hormozi Said</Button> : <p className="text-sm leading-relaxed text-white/55">Use your browser menu and choose “Install app” or “Add to Home Screen.”</p>}</CardContent></Card>
-        {pushEnabled ? <>
-          <Alert className="border-white/15 bg-black text-white"><Bell /><AlertTitle>Daily notifications are not active yet.</AlertTitle><AlertDescription className="text-white/60">Delivery setup is available after you opt in.</AlertDescription></Alert>
-          <Button variant="outline" className="w-full border-white/15 bg-black text-white hover:bg-white hover:text-black" onClick={() => trackProductEvent("notification_interest")}>Notify me daily</Button>
-        </> : null}
+    <div className="grid gap-12 lg:grid-cols-[1.05fr_0.95fr] lg:gap-16">
+      <section className="relative min-h-[24rem] overflow-hidden bg-[var(--purple)] p-7 sm:p-10">
+        <span className="display-type absolute -right-4 -top-20 text-[18rem] leading-none text-white/[0.08]" aria-hidden="true">”</span>
+        <div className="relative flex h-full flex-col justify-between">
+          <p className="text-[0.68rem] font-bold uppercase tracking-[0.17em] text-white">Hormozi Said for your Home Screen</p>
+          <div>
+            <h2 className="display-type max-w-xl text-6xl uppercase leading-[0.88] sm:text-7xl">Put useful ideas one tap away.</h2>
+            <p className="mt-5 max-w-lg text-sm leading-relaxed text-white/90">Launch full-screen and keep the core quote library available after it has loaded—even without a connection.</p>
+          </div>
+        </div>
+      </section>
+
+      <div className="space-y-12">
+        <EditorialSection title="Installation">
+          <h2 className="text-2xl font-semibold tracking-[-0.03em]">{heading}</h2>
+          {installed ? (
+            <p className="mt-5 border-l-2 border-[var(--purple-light)] pl-4 text-sm text-white/75">You’re using the standalone app.</p>
+          ) : isIOS ? (
+            <ol className="mt-6 border-t border-white/14">
+              {["Open this page in Safari.", "Tap Safari’s Share button.", "Choose “Add to Home Screen.”"].map((step, index) => (
+                <li key={step} className="grid grid-cols-[2rem_1fr] gap-3 border-b border-white/12 py-4 text-sm text-white/78"><span className="tabular-nums text-[var(--purple-light)]">{String(index + 1).padStart(2, "0")}</span><span>{step}</span></li>
+              ))}
+            </ol>
+          ) : promptEvent ? (
+            <Button className="mt-6 bg-white text-black hover:bg-white/90" onClick={install}><ProductIcon name="download" />Install Hormozi Said</Button>
+          ) : (
+            <p className="mt-5 text-sm leading-relaxed text-white/62">Use your browser menu and choose “Install app” or “Add to Home Screen.”</p>
+          )}
+        </EditorialSection>
+
+        <EditorialSection title="What changes">
+          <ul className="border-t border-white/14 text-sm text-white/72">
+            <li className="border-b border-white/12 py-4">Launch from your Home Screen without browser clutter.</li>
+            <li className="border-b border-white/12 py-4">Return to previously loaded quotes when you are offline.</li>
+          </ul>
+        </EditorialSection>
+
+        {pushEnabled ? <EditorialSection title="Daily notifications"><p className="text-sm text-white/62">Daily delivery is not active yet. Permission will only be requested after you choose to opt in.</p><Button variant="outline" className="mt-5 border-white/20 bg-transparent text-white hover:bg-white hover:text-black" onClick={() => trackProductEvent("notification_interest")}>Notify me daily</Button></EditorialSection> : null}
       </div>
     </div>
   );

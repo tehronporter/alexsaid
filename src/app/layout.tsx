@@ -24,14 +24,14 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   viewportFit: "cover",
-  themeColor: "#6B2CFF",
+  themeColor: "#0B0B0B",
   colorScheme: "dark"
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`${inter.variable} ${bebas.variable}`}>
-      <body className="purple-field antialiased">
+      <body className="antialiased">
         <AppProviders>
           <AppShell>{children}</AppShell>
         </AppProviders>

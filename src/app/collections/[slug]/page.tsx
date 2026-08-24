@@ -12,5 +12,5 @@ export default async function CollectionPage({ params }: Props) {
   const collection = quoteRepository.getCollection((await params).slug);
   if (!collection) notFound();
   const quotes = quotesForCollection(collection);
-  return <main className="page-wrap"><PageHeader eyebrow={`${quotes.length} quotes`} title={collection.title} description={collection.description} /><div className="grid gap-3 lg:grid-cols-2 xl:grid-cols-3">{quotes.map((quote) => <QuoteListCard key={quote.id} quote={quote} />)}</div></main>;
+  return <main className="page-wrap"><PageHeader eyebrow={`${quotes.length} quotes`} title={collection.title} description={collection.description} /><div className="grid lg:grid-cols-2 lg:gap-x-12">{quotes.map((quote) => <QuoteListCard key={quote.id} quote={quote} />)}</div></main>;
 }

@@ -1,9 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import { Copy, Download, Image as ImageIcon, Link as LinkIcon, Share2 } from "lucide-react";
 import { toast } from "sonner";
 import type { Quote } from "@/domain/catalog";
+import { ProductIcon } from "@/components/product-icon";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { downloadShareCard, renderShareCardBlob } from "@/lib/share-card";
@@ -54,16 +54,16 @@ export function ShareActions({ quote, trigger }: { quote: Quote; trigger?: React
 
   return (
     <Dialog>
-      <DialogTrigger asChild>{trigger ?? <Button aria-label="Share quote" size="icon" className="rounded-full"><Share2 /></Button>}</DialogTrigger>
-      <DialogContent className="fixed inset-x-0 bottom-0 top-auto left-0 w-full max-w-full translate-x-0 translate-y-0 rounded-t-3xl rounded-b-none border-x-0 border-b-0 border-t border-white/15 bg-black pb-[calc(1.25rem+var(--safe-bottom))] text-white sm:inset-x-auto sm:bottom-auto sm:top-1/2 sm:left-1/2 sm:w-full sm:max-w-md sm:-translate-x-1/2 sm:-translate-y-1/2 sm:rounded-2xl sm:border sm:pb-4">
+      <DialogTrigger asChild>{trigger ?? <Button aria-label="Share quote" size="icon" className="rounded-full"><ProductIcon name="share" /></Button>}</DialogTrigger>
+      <DialogContent className="fixed inset-x-0 bottom-0 top-auto left-0 w-full max-w-full translate-x-0 translate-y-0 rounded-t-[20px] rounded-b-none border-x-0 border-b-0 border-t border-white/18 bg-black pb-[calc(1.25rem+var(--safe-bottom))] text-white shadow-[var(--shadow-overlay)] sm:inset-x-auto sm:bottom-auto sm:top-1/2 sm:left-1/2 sm:w-full sm:max-w-md sm:-translate-x-1/2 sm:-translate-y-1/2 sm:rounded-[20px] sm:border sm:pb-4">
         <DialogHeader><DialogTitle>Share this idea</DialogTitle><DialogDescription className="text-white/60">Copy it, send it, or make a clean quote card.</DialogDescription></DialogHeader>
-        <div className="grid grid-cols-2 gap-3">
-          <Button variant="outline" className="border-white/15 bg-white/5 text-white hover:bg-white hover:text-black" onClick={copyQuote}><Copy />Copy quote</Button>
-          <Button variant="outline" className="border-white/15 bg-white/5 text-white hover:bg-white hover:text-black" onClick={copyLink}><LinkIcon />Copy link</Button>
-          <Button variant="outline" className="border-white/15 bg-white/5 text-white hover:bg-white hover:text-black" disabled={busy} onClick={() => download("square")}><ImageIcon />Square card</Button>
-          <Button variant="outline" className="border-white/15 bg-white/5 text-white hover:bg-white hover:text-black" disabled={busy} onClick={() => download("story")}><Download />Story card</Button>
+        <div className="border-t border-white/16">
+          <Button variant="ghost" className="h-12 w-full justify-start rounded-none border-b border-white/12 px-1 text-white hover:bg-transparent hover:text-[var(--purple-light)]" onClick={copyQuote}><ProductIcon name="copy" />Copy quote</Button>
+          <Button variant="ghost" className="h-12 w-full justify-start rounded-none border-b border-white/12 px-1 text-white hover:bg-transparent hover:text-[var(--purple-light)]" onClick={copyLink}><ProductIcon name="link" />Copy canonical link</Button>
+          <Button variant="ghost" className="h-12 w-full justify-start rounded-none border-b border-white/12 px-1 text-white hover:bg-transparent hover:text-[var(--purple-light)]" disabled={busy} onClick={() => download("square")}><ProductIcon name="image" />Download square card</Button>
+          <Button variant="ghost" className="h-12 w-full justify-start rounded-none border-b border-white/12 px-1 text-white hover:bg-transparent hover:text-[var(--purple-light)]" disabled={busy} onClick={() => download("story")}><ProductIcon name="download" />Download story card</Button>
         </div>
-        <Button className="bg-white text-black hover:bg-white/90" disabled={busy} onClick={share}><Share2 />{busy ? "Preparing…" : "Open share sheet"}</Button>
+        <Button className="bg-white text-black hover:bg-white/90" disabled={busy} onClick={share}><ProductIcon name="share" />{busy ? "Preparing…" : "Open share sheet"}</Button>
       </DialogContent>
     </Dialog>
   );

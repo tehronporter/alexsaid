@@ -78,7 +78,8 @@ test("discover search opens the matching quote", async ({ page }) => {
   await search.fill("revenue retention");
   await expect(page.getByText("If you do not have what's called revenue retention, you have nothing.")).toBeVisible();
   await page.getByText("If you do not have what's called revenue retention, you have nothing.").click();
-  await expect(page.getByRole("blockquote")).toContainText("revenue retention");
+  await expect(page).toHaveURL(/\/q\/[0-9a-f-]{36}$/);
+  await expect(page.locator("main.quote-surface blockquote")).toContainText("revenue retention");
 });
 
 test("source action matches the visible quote", async ({ page }) => {
@@ -88,6 +89,7 @@ test("source action matches the visible quote", async ({ page }) => {
 });
 
 test("every accepted quote stays exact across library, saved, source, and sharing views", async ({ page, context }) => {
+  test.setTimeout(120_000);
   await context.grantPermissions(["clipboard-read", "clipboard-write"]);
   for (const quote of catalogJSON.quotes) {
     await page.goto(`/q/${quote.id}`);
@@ -158,6 +160,19 @@ test("install page explains current platform capability", async ({ page }) => {
 });
 
 test("key screens have no serious accessibility violations", async ({ page }) => {
-  const results = await new AxeBuilder({ page }).disableRules(["color-contrast"]).analyze();
-  expect(results.violations.filter((violation) => ["serious", "critical"].includes(violation.impact ?? ""))).toEqual([]);
+  test.setTimeout(120_000);
+  for (const path of ["/", "/discover", "/saved", `/source/${catalogJSON.quotes[0].id}`, "/install", "/more", "/settings", "/privacy"]) {
+    await page.goto(path);
+    const results = await new AxeBuilder({ page }).analyze();
+    expect(results.violations.filter((violation) => ["serious", "critical"].includes(violation.impact ?? "")), `Accessibility violations on ${path}`).toEqual([]);
+  }
+});
+
+test("editorial surfaces preserve the purple quote and dark library distinction", async ({ page }) => {
+  await page.goto("/");
+  await expect(page.locator("main")).toHaveClass(/quote-surface/);
+  await expect(page.locator('[data-surface="quote"]')).toBeVisible();
+  await page.goto("/discover");
+  await expect(page.locator('[data-surface="library"]')).toBeVisible();
+  await expect(page.locator("main")).not.toHaveClass(/quote-surface/);
 });

@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { WifiOff } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-export default function OfflinePage() { return <main className="page-wrap grid min-h-[70dvh] place-items-center"><div className="content-card max-w-md rounded-3xl p-8 text-center"><WifiOff className="mx-auto size-9 text-[var(--purple-light)]" /><h1 className="display-type mt-5 text-5xl uppercase">You’re offline.</h1><p className="mt-2 text-sm text-white/50">Previously loaded quotes and saved ideas remain available.</p><Button asChild className="mt-6 bg-white text-black"><Link href="/">Open quote feed</Link></Button></div></main>; }
+export default function OfflinePage() { return <main className="page-wrap grid min-h-[70dvh] place-items-center"><section className="max-w-md border-t border-white/18 py-10 text-center"><p className="text-[0.68rem] font-bold uppercase tracking-[0.17em] text-[var(--purple-light)]">Connection unavailable</p><h1 className="mt-4 text-3xl font-semibold tracking-[-0.035em]">You’re offline.</h1><p className="mt-3 text-sm leading-relaxed text-white/62">Previously loaded quotes and saved ideas remain available.</p><Button asChild className="mt-7 bg-white text-black"><Link href="/">Open quote feed</Link></Button></section></main>; }

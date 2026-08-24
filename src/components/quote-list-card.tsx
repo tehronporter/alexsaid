@@ -1,10 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { Bookmark, ChevronRight, Quote as QuoteIcon } from "lucide-react";
 import type { Quote } from "@/domain/catalog";
+import { ProductIcon } from "@/components/product-icon";
+import { QuotePreviewRow } from "@/components/editorial";
 import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
 import { useUserState } from "@/components/user-state-provider";
 import { trackProductEvent } from "@/lib/analytics";
 
@@ -12,21 +12,31 @@ export function QuoteListCard({ quote }: { quote: Quote }) {
   const { state, toggleSaved } = useUserState();
   const saved = state.savedIDs.includes(quote.id);
   return (
-    <Card className="content-card group relative gap-0 overflow-hidden p-0">
-      <Link href={`/q/${quote.id}`} className="block p-5 transition-transform active:scale-[0.98]">
-        <div className="flex items-start gap-3">
-          <QuoteIcon className="mt-0.5 size-6 shrink-0 text-[var(--purple-light)]" fill="currentColor" />
-          <div className="min-w-0 flex-1 pr-8">
-            <p className="text-base font-semibold leading-snug text-white">{quote.text}</p>
-            <p className="mt-3 text-[0.68rem] font-bold uppercase tracking-[0.12em] text-[var(--purple-light)]">{quote.primaryCategory}</p>
-          </div>
+    <QuotePreviewRow>
+      <Link
+        href={`/q/${quote.id}`}
+        aria-label={`Read quote: ${quote.text}`}
+        className="editorial-link block py-6 pr-14 focus-visible:outline-offset-[-3px] sm:py-7"
+      >
+        <blockquote className="max-w-3xl text-base font-medium leading-[1.45] tracking-[-0.012em] text-white sm:text-lg">{quote.text}</blockquote>
+        <div className="mt-4 flex flex-wrap items-center gap-x-3 gap-y-1 text-[0.68rem] font-semibold uppercase tracking-[0.12em]">
+          <span className="text-[var(--purple-light)]">{quote.primaryCategory}</span>
+          <span aria-hidden="true" className="text-white/30">/</span>
+          <span className="normal-case tracking-normal text-white/58">{quote.sourceTitle ?? quote.sourceType}</span>
         </div>
-        <div className="mt-3 flex items-center justify-end gap-1 text-xs font-semibold text-white/60 transition-colors group-hover:text-white">Read quote<ChevronRight className="size-3.5" /></div>
       </Link>
-      <Button variant="ghost" size="icon-sm" className="absolute right-2 top-2 text-white hover:bg-white/10 hover:text-white" aria-label={saved ? "Remove from saved" : "Save quote"} onClick={() => {
-        toggleSaved(quote.id);
-        trackProductEvent(saved ? "quote_unsaved" : "quote_saved", { quote_id: quote.id, category: quote.primaryCategory });
-      }}><Bookmark fill={saved ? "currentColor" : "none"} /></Button>
-    </Card>
+      <Button
+        variant="ghost"
+        size="icon"
+        className="absolute right-0 top-4 rounded-full text-white/65 hover:bg-white/8 hover:text-white sm:top-5"
+        aria-label={saved ? "Remove from saved" : "Save quote"}
+        onClick={() => {
+          toggleSaved(quote.id);
+          trackProductEvent(saved ? "quote_unsaved" : "quote_saved", { quote_id: quote.id, category: quote.primaryCategory });
+        }}
+      >
+        <ProductIcon name="save" filled={saved} />
+      </Button>
+    </QuotePreviewRow>
   );
 }
