@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "provider": "x",
+  "year": 2022,
+  "updatedAt": "2026-08-24T03:49:22.103Z",
+  "sources": [
+    {
+      "sourceID": "x-1540332812305281027",
+      "externalID": "1540332812305281027",
+      "provider": "x",
+      "sourceType": "social",
+      "title": "Post on X (@AlexHormozi)",
+      "publisher": "Alex Hormozi",
+      "publishedAt": "2022-06-24",
+      "durationSeconds": null,
+      "canonicalURL": "https://x.com/AlexHormozi/status/1540332812305281027",
+      "mediaURL": null,
+      "transcriptURL": null,
+      "transcriptChecksum": null,
+      "retrievedAt": "2026-08-24T03:49:22.103Z",
+      "discoveryMethod": "direct-official-x-post",
+      "status": "reviewed",
+      "exclusionReason": null,
+      "blockingReason": null
+    },
+    {
+      "sourceID": "x-1561016524135141378",
+      "externalID": "1561016524135141378",
+      "provider": "x",
+      "sourceType": "social",
+      "title": "Post on X (@AlexHormozi)",
+      "publisher": "Alex Hormozi",
+      "publishedAt": "2022-08-20",
+      "durationSeconds": null,
+      "canonicalURL": "https://x.com/AlexHormozi/status/1561016524135141378",
+      "mediaURL": null,
+      "transcriptURL": null,
+      "transcriptChecksum": null,
+      "retrievedAt": "2026-08-24T03:49:22.103Z",
+      "discoveryMethod": "direct-official-x-post",
+      "status": "reviewed",
+      "exclusionReason": null,
+      "blockingReason": null
+    }
+  ]
+}

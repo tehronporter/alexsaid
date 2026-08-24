@@ -17,15 +17,24 @@ function stringArray(value: unknown) {
   return Array.isArray(value) ? value.filter((item): item is string => typeof item === "string") : [];
 }
 
+export function migrateFavoriteCategories(categories: readonly string[]) {
+  const migrated = categories.flatMap((category) => {
+    if (category === "Mindset") return ["Mindset & Personal Growth"];
+    if (category === "Business Building") return ["Business Models & Strategy", "Operations & Scaling", "Leadership & Teams"];
+    return [category];
+  });
+  return [...new Set(migrated)];
+}
+
 export function migrateLocalState(value: unknown): LocalUserStateV1 {
   const current = localUserStateSchema.safeParse(value);
-  if (current.success) return current.data;
+  if (current.success) return { ...current.data, favoriteCategories: migrateFavoriteCategories(current.data.favoriteCategories) };
   if (!value || typeof value !== "object") return defaultLocalState;
   const legacy = value as Record<string, unknown>;
   const migrated = localUserStateSchema.safeParse({
     schemaVersion: 1,
     savedIDs: stringArray(legacy.savedIDs ?? legacy.saved),
-    favoriteCategories: stringArray(legacy.favoriteCategories ?? legacy.favoriteTopics),
+    favoriteCategories: migrateFavoriteCategories(stringArray(legacy.favoriteCategories ?? legacy.favoriteTopics)),
     hideProfanity: typeof legacy.hideProfanity === "boolean" ? legacy.hideProfanity : (typeof legacy.profanityHidden === "boolean" ? legacy.profanityHidden : true),
     feedScope: legacy.feedScope === "favorite-topics" || legacy.scope === "favorite-topics" ? "favorite-topics" : "all",
     onboardingComplete: typeof legacy.onboardingComplete === "boolean" ? legacy.onboardingComplete : Boolean(legacy.onboarded),

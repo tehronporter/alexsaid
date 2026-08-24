@@ -1,48 +1,65 @@
-# Accuracy-first editorial workflow
+# Production quote-catalog workflow
 
-The catalog has no size target. Accuracy, contextual honesty, and fan value are the release gate.
+The catalog has no quote-count target. A release is complete only when enumerable sources are exhausted and every published record clears the direct-source gates below.
 
-## Source hierarchy
+## Storage model
 
-Use only material where Alex Hormozi can be heard or read directly: complete recordings, complete third-party interviews where he is clearly the speaker, verified posts, articles, newsletters, and legally accessed books. Captions and transcripts can surface candidates, but a media quote is verified by listening to the recording.
+- `content/sources/<provider>/<year>.json` is the versioned source inventory. Source states are `discovered`, `ready`, `mined`, `reviewed`, `excluded`, or `blocked`; exclusions and blocks always carry a reason.
+- `content/candidates/<provider>/<year>.json` contains transcript-discovered, contiguous cue windows. Candidates are not publishable evidence.
+- `content/editorial/<provider>/<year>.json` contains review decisions and reproducible provenance. `content/editorial-ledger.json` is a deterministic compiled artifact retained for compatibility.
+- `content/taxonomy.json` owns the ten categories, canonical tag definitions, and aliases. Quotes use two to five canonical lowercase tag slugs.
+- `.content-cache/` holds transcripts, review packets, and temporary media. It is gitignored. Never commit complete transcripts, recordings, screenshots, scans, or paid material.
+- `src/data/catalog.v3.json` is the normalized public catalog. `src/data/catalog.json` is its exact v2 compatibility projection.
 
-Never use search snippets, quote sites, fan accounts, compilations, isolated unattributed clips, or AI summaries as evidence. Reject a statement Alex attributes to someone else.
+## Source order and limits
 
-## Record lifecycle
+Process the official The Game RSS archive first, followed by official YouTube uploads not represented in the feed, free official Acquisition.com material, best-effort direct X posts, and clearly attributable third-party interviews. Paid APIs, paid books, snippet-only books, transcription services, and storage services are excluded.
 
-Records move through `candidate`, `in_review`, `verified`, or `rejected`. Import always creates candidates; it never publishes content. A stable UUID is assigned only when an `in_review` record is accepted.
+The official RSS sync records stable provider IDs, dates, durations, direct audio and transcript URLs, transcript SHA-256 checksums, retrieval metadata, and explicit terminal failures. X is best-effort: its official public embed is used for known direct posts, and text hidden by a truncated embed is blocked rather than inferred from a mirror.
 
-For each candidate:
+## Mining and review
 
-1. Capture the exact words, direct URL, date, source title, context, and a discriminated locator.
-2. Review at least 30 seconds before and after recorded speech, or the surrounding passage for written material.
-3. Confirm that Alex is the speaker and the excerpt remains honest on its own.
-4. Reopen the direct source for a separate second check of every word, attribution, locator, and metadata field.
-5. Score standalone clarity, practical usefulness, distinctiveness, fan relevance, and product fit from 0–2.
-6. Accept only totals of at least 8/10 with no zero dimension and no unresolved warning.
-7. Blind-audit at least 10% of each accepted batch. A critical discrepancy sends the batch back through review.
+Mining joins only consecutive WebVTT cues from one uninterrupted passage. It accepts 3–70 words and at most 420 characters, then rejects obvious ads, introductions, fillers, attribution phrases, fragments, and overlapping lower-ranked windows. It is discovery only.
 
-The ledger records the result of each pass, not copyrighted evidence. Keep downloaded recordings, screenshots, book scans, and long transcript excerpts in private storage outside this repository.
+For every publishable quote:
 
-## Exact-wording rules
+1. Reopen the direct source in an isolated review.
+2. For media, listen to at least 30 seconds before and after the excerpt. A transcript or automatic caption cannot replace this step.
+3. Confirm Alex is the speaker and is not quoting someone else.
+4. Confirm every word, normalized punctuation, title, date, locator, cue range, context, and transcript fingerprint.
+5. Confirm the statement is contiguous, understandable alone, and has not been silently repaired.
+6. Repeat the process in a second isolated pass under a distinct reviewer label.
+7. Score clarity, usefulness, distinctiveness, fan relevance, and product fit from 0–2. Every dimension must be nonzero and the total must be at least 9/10.
+8. Resolve exact, token-similar, and character-ngram duplicate warnings with an explicit `unique`, `keep`, or `reject` decision.
+9. Blind-audit at least 20% of published records. A critical discrepancy quarantines the affected source batch for complete re-review.
 
-Normalize only whitespace, capitalization, quotation marks, and terminal punctuation. Do not remove fillers, repair grammar, combine separated passages, or paraphrase. `shortVersion` and `shareCardVersion` must be exact excerpts; include an ellipsis wherever words are omitted.
+Agent-only review does not mean certainty. Product language may say “checked twice against the direct source.” If the active agent cannot consume audio, media candidates remain unpublished until an audio-capable isolated reviewer completes both passes.
 
-Media locators require start timestamps and direct timestamped URLs. Book locators require edition, publisher, publication year, chapter, and a page or digital location. Web/social records require a direct post or article URL rather than a profile, homepage, or search result.
-
-## Commands and release
+## Commands
 
 ```bash
-npm run content:import -- candidates.csv content/editorial-ledger.import.json
-npm run content:generate
-npm run content:validate
-npm run content:audit-links
-npm run content:validate:release
-npm run launch:validate
+npm run content:sources:sync
+npm run content:candidates:mine                 # deterministic 50-source pilot
+npm run content:candidates:mine -- --all        # complete ready archive
+npm run content:review:packet -- --stage=first --limit=25
+npm run content:review:packet -- --stage=second --limit=25
+npm run content:review:packet -- --stage=blind --limit=25
+npm run content:review:apply -- .content-cache/review-packets/completed.json
+npm run content:compile
+npm run content:coverage
+npm run content:release
 ```
 
-`content:generate` publishes only verified ledger records and derives visible categories from that inventory. It rejects failed/single-pass reviews, low scores, missing locators, imprecise or aggregator URLs, invalid excerpts, duplicate UUIDs, high-confidence near duplicates, unresolved warnings, insufficient blind-audit coverage, and invalid collection references.
+`content:release` compiles v3 and v2, validates all editorial and public contracts, audits direct links, and writes the coverage report. It never promotes a mined candidate.
 
-Before release, open every accepted source and inspect every quote in Quote, Discover, Saved, Source, and share-card views. Complete a seven-day private beta with at least five Alex Hormozi fans. Launch only after at least 80% of beta-rated quotes are worth saving, sharing, or seeing again and legal/content review of the unofficial fan app is complete.
+## Runtime and regression budgets
 
-Record non-identifying tester codes and ratings in `content/launch-readiness.json`. `launch:validate` intentionally fails until the beta duration, fan count, rating coverage, 80% threshold, padding/repetition checks, accuracy concerns, and all review sign-offs pass.
+The client fetches `/catalog.v3.json` once through the app-level catalog provider. The service worker caches v3 for offline use, the search index is built once, and quote/source routes render on demand with CDN revalidation. Server components send only the first-paint quote or route metadata instead of the entire catalog.
+
+The synthetic 5,000-quote test enforces these local budgets: search-index construction under 500 ms, representative search under 250 ms, source-aware full-feed ordering under 2 seconds, and a serialized hydrated fixture under 8 MB. Production build, browser, accessibility, offline, and source-action tests remain release requirements.
+
+## Completion and launch boundaries
+
+Backfill is complete only when all official RSS and freely enumerable official sources are terminal, no source or candidate remains in a working state, two weekly X/interview sweeps find no new direct sources, and coverage has no warnings or unexplained gaps.
+
+This pipeline does not pass the separate human-beta, copyright, or unofficial-fan-app launch gates. `launch:validate` must continue to fail until those checks are completed independently; pipeline progress must never be used to mark them passed.

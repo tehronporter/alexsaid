@@ -1,0 +1,43 @@
+[
+  {
+    "slug": "better-decisions",
+    "title": "Better Decisions",
+    "description": "Questions and mental models for choosing the highest-leverage next move.",
+    "quoteIDs": [
+      "f4e4bf60-2700-48be-84bc-a499d14f36ea",
+      "2a2a3dc1-8e1c-4e2a-8149-cb97f61ec542",
+      "9fd38292-744b-4827-a2e2-47463c15ca7d",
+      "6783a7fb-8603-44f7-8f1b-ffa8730b5eb7",
+      "8f02520b-f6ea-497f-9dfd-6e1a7d1edd21",
+      "b09ccf53-9640-4444-b98a-6ad98706e980",
+      "2ee5c144-c225-4d62-a717-a932b154c79e"
+    ],
+    "displayOrder": 0
+  },
+  {
+    "slug": "sales-without-sleaze",
+    "title": "Sales Without Sleaze",
+    "description": "A sharper way to think about ethical, well-designed selling.",
+    "quoteIDs": [
+      "31545e53-4b71-4036-b59f-c42f55525d0a",
+      "6654b49a-614c-4953-9c01-50e180d0ebb9",
+      "2bf736d9-5f89-4a3f-92c7-b7f83a80bbb6",
+      "2da4f3e4-6a61-42f4-aa5c-e8eaf333d156"
+    ],
+    "displayOrder": 1
+  },
+  {
+    "slug": "build-a-durable-business",
+    "title": "Build a Durable Business",
+    "description": "Retention, responsibility, and business models built to last.",
+    "quoteIDs": [
+      "73e0d73f-784a-4496-b9e7-1356b7b995d5",
+      "b255c5e7-09ba-4ba1-bbe6-1b20cd551904",
+      "ce9cc2b1-ee31-47fe-84d3-15e60081d807",
+      "dff7fac0-b37e-4729-ae45-e8a545e4c345",
+      "63c18d6d-626c-489c-94a9-8e8ef70a7e98",
+      "fba747e2-9a21-4109-a720-5abbb1c0fe6d"
+    ],
+    "displayOrder": 2
+  }
+]

@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { QuoteFeed } from "@/components/quote-feed";
-import { catalog, quoteRepository } from "@/lib/catalog";
+import { quoteRepository } from "@/lib/catalog";
 
 type Props = { params: Promise<{ id: string }> };
 
-export function generateStaticParams() { return catalog.quotes.map((quote) => ({ id: quote.id })); }
+export const revalidate = 86400;
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { id } = await params;
@@ -21,6 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function QuotePage({ params }: Props) {
   const { id } = await params;
-  if (!quoteRepository.getById(id)) notFound();
-  return <QuoteFeed quotes={catalog.quotes} initialQuoteID={id} developmentFixture={catalog.developmentFixture} />;
+  const quote = quoteRepository.getById(id);
+  if (!quote) notFound();
+  return <QuoteFeed initialQuote={quote} initialQuoteID={id} />;
 }

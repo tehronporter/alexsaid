@@ -36,6 +36,18 @@ describe("local user state", () => {
     expect(migrateLocalState({ ...defaultLocalState, successfulSwipeCount: -2 }).successfulSwipeCount).toBe(0);
   });
 
+  it("expands legacy category preferences into the controlled taxonomy", () => {
+    const state = migrateLocalState({ ...defaultLocalState, favoriteCategories: ["Mindset", "Business Building", "Sales", "Decision Making"] });
+    expect(state.favoriteCategories).toEqual([
+      "Mindset & Personal Growth",
+      "Business Models & Strategy",
+      "Operations & Scaling",
+      "Leadership & Teams",
+      "Sales",
+      "Decision Making"
+    ]);
+  });
+
   it("persists the learned-swipe counter", () => {
     writeLocalState({ ...defaultLocalState, successfulSwipeCount: 3 });
     expect(JSON.parse(localStorage.getItem(LOCAL_STATE_KEY) ?? "{}").successfulSwipeCount).toBe(3);

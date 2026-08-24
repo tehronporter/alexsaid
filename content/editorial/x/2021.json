@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "provider": "x",
+  "year": 2021,
+  "updatedAt": "2026-08-24T03:49:24.103Z",
+  "records": [
+    {
+      "candidateKey": "passive-income-enterprise-value",
+      "status": "rejected",
+      "id": "d428ce94-1ff7-4abc-84fc-65a5a9ae38ed",
+      "text": "All income is not created equally… If over 4 years you transition from very active to very passive with the same business income. You still 2-4x enterprise value and your net worth. Sometimes doing less for the same IS the fastest growth. Just doesn’t feel that way.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Business Models & Strategy",
+      "tags": [
+        "business-models",
+        "scaling"
+      ],
+      "sourceID": "x-1467177762582450182",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1467177762582450182",
+      "sourceDate": "2021-12-04",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "1467177762582450182"
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex explains that reducing a business owner’s required involvement can increase company value even when income stays flat.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
+      "createdAt": "2026-08-24T01:38:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:23.103Z",
+          "reviewer": "codex-x-reaudit-pass-one",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened X's official embed, confirmed the @AlexHormozi author identity, contiguous wording, direct status URL, displayed publication date, and surrounding post context."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:24.103Z",
+          "reviewer": "codex-x-reaudit-pass-two",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Independently reopened X's official embed and reconfirmed authorship, exact contiguous text, direct locator, publication metadata, and honest standalone context."
+        },
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 1,
+        "productFit": 1
+      },
+      "rejectionNotes": [
+        "Batch 0 re-audit: the prior 8/10 score does not meet the 9/10 production threshold."
+      ],
+      "unresolvedWarnings": []
+    }
+  ]
+}

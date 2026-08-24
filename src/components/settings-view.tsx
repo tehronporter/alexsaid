@@ -13,8 +13,15 @@ import { AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent, 
 import { useUserState } from "@/components/user-state-provider";
 import { exportLocalState } from "@/lib/local-state";
 import { cn } from "@/lib/utils";
+import { useOptionalCatalog } from "@/components/catalog-provider";
 
-export function SettingsView({ categories, quotes }: { categories: readonly string[]; quotes: readonly Quote[] }) {
+const EMPTY_CATEGORIES: readonly string[] = [];
+const EMPTY_QUOTES: readonly Quote[] = [];
+
+export function SettingsView({ categories: suppliedCategories, quotes: suppliedQuotes }: { categories?: readonly string[]; quotes?: readonly Quote[] }) {
+  const catalogContext = useOptionalCatalog();
+  const categories = suppliedCategories ?? catalogContext?.catalog?.categories ?? EMPTY_CATEGORIES;
+  const quotes = suppliedQuotes ?? catalogContext?.catalog?.quotes ?? EMPTY_QUOTES;
   const { state, update, toggleFavoriteCategory, reset } = useUserState();
   const populatedCategories = useMemo(() => categories.filter((category) => quotes.some((quote) => quote.primaryCategory === category)), [categories, quotes]);
   const selectedCount = state.favoriteCategories.length;

@@ -5,8 +5,11 @@ import type { Quote } from "@/domain/catalog";
 import { Button } from "@/components/ui/button";
 import { QuoteListCard } from "@/components/quote-list-card";
 import { useUserState } from "@/components/user-state-provider";
+import { useOptionalCatalog } from "@/components/catalog-provider";
 
-export function SavedView({ quotes }: { quotes: readonly Quote[] }) {
+export function SavedView({ quotes: suppliedQuotes }: { quotes?: readonly Quote[] }) {
+  const catalogContext = useOptionalCatalog();
+  const quotes = suppliedQuotes ?? catalogContext?.catalog?.quotes ?? [];
   const { state } = useUserState();
   const saved = quotes.filter((quote) => state.savedIDs.includes(quote.id));
   if (!saved.length) return (

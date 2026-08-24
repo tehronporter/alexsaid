@@ -1,5 +1,7 @@
 import type { EditorialLedger, EditorialRecord, QualityScore, VerificationPass } from "@/domain/editorial";
-import { quoteCatalogSchema, type QuoteCatalogV2 } from "@/domain/catalog";
+import { quoteCatalogSchema, quoteCatalogV3Schema, type QuoteCatalogV2, type QuoteCatalogV3 } from "@/domain/catalog";
+import type { SourceRecord } from "@/domain/source";
+import type { Taxonomy } from "@/domain/taxonomy";
 
 const blockedSourceHosts = new Set([
   "brainyquote.com",
@@ -20,6 +22,7 @@ const blockedSourceHosts = new Set([
 
 const passingChecks: (keyof VerificationPass)[] = [
   "sourceReopened",
+  "isolatedReview",
   "surroundingContextReviewed",
   "wordingConfirmed",
   "attributionConfirmed",
@@ -53,11 +56,29 @@ export function quoteSimilarity(left: string, right: string) {
   return intersection / (a.size + b.size - intersection);
 }
 
+function ngrams(value: string, size = 4) {
+  const normalized = normalizeQuoteText(value).replace(/\s/g, "_");
+  if (normalized.length <= size) return new Set([normalized]);
+  return new Set(Array.from({ length: normalized.length - size + 1 }, (_, index) => normalized.slice(index, index + size)));
+}
+
+export function characterNgramSimilarity(left: string, right: string) {
+  const a = ngrams(left);
+  const b = ngrams(right);
+  if (a.size === 0 && b.size === 0) return 1;
+  const intersection = [...a].filter((value) => b.has(value)).length;
+  return (2 * intersection) / (a.size + b.size);
+}
+
+export function combinedQuoteSimilarity(left: string, right: string) {
+  return Math.max(quoteSimilarity(left, right), characterNgramSimilarity(left, right));
+}
+
 export function findNearDuplicatePairs(records: readonly Pick<EditorialRecord, "candidateKey" | "text">[], threshold = 0.82) {
   const pairs: { left: string; right: string; similarity: number }[] = [];
   for (let left = 0; left < records.length; left += 1) {
     for (let right = left + 1; right < records.length; right += 1) {
-      const similarity = quoteSimilarity(records[left].text, records[right].text);
+      const similarity = combinedQuoteSimilarity(records[left].text, records[right].text);
       if (similarity >= threshold) pairs.push({
         left: records[left].candidateKey,
         right: records[right].candidateKey,
@@ -76,7 +97,7 @@ export function qualityIssues(score: QualityScore | null) {
   if (!score) return ["Quality scoring is incomplete"];
   const issues: string[] = [];
   if (Object.values(score).some((value) => value === 0)) issues.push("Every quality dimension must score at least 1");
-  if (qualityTotal(score) < 8) issues.push(`Quality total must be at least 8; found ${qualityTotal(score)}`);
+  if (qualityTotal(score) < 9) issues.push(`Quality total must be at least 9; found ${qualityTotal(score)}`);
   return issues;
 }
 
@@ -112,6 +133,7 @@ function passIssues(pass: VerificationPass | null, label: string) {
   for (const check of passingChecks) {
     if (!pass[check]) issues.push(`${label} verification did not confirm ${check}`);
   }
+  if (pass.method === "direct-media-listen" && (pass.surroundingContextSeconds ?? 0) < 30) issues.push(`${label} verification must review at least 30 seconds before and after the excerpt`);
   return issues;
 }
 
@@ -144,6 +166,7 @@ export function publishabilityIssues(record: EditorialRecord) {
   if (record.status !== "verified") issues.push(`Record status is ${record.status}, not verified`);
   if (!record.id) issues.push("Accepted record has no stable UUID");
   if (record.author !== "Alex Hormozi") issues.push(`Unsupported attribution: ${record.author}`);
+  if (record.provenance.duplicateDecision === "reject") issues.push("Duplicate review decision rejects this record");
   issues.push(...passIssues(record.verification.firstPass, "First-pass"));
   issues.push(...passIssues(record.verification.secondPass, "Second-pass"));
   if (record.verification.blindAudit) issues.push(...passIssues(record.verification.blindAudit, "Blind-audit"));
@@ -180,17 +203,27 @@ export function transitionEditorialRecord(record: EditorialRecord, nextStatus: E
   return candidate;
 }
 
-export function generatePublicCatalog(ledger: EditorialLedger, generatedAt = new Date().toISOString()): QuoteCatalogV2 {
+function compilationErrors(ledger: EditorialLedger, sources: readonly SourceRecord[], taxonomy: Taxonomy) {
   const verified = ledger.records.filter((record) => record.status === "verified");
   const errors = verified.flatMap((record) => publishabilityIssues(record).map((issue) => `${record.candidateKey}: ${issue}`));
   const audited = verified.filter(({ verification }) => verification.blindAudit && passIssues(verification.blindAudit, "Blind-audit").length === 0).length;
-  const requiredAudits = Math.ceil(verified.length * 0.1);
+  const requiredAudits = Math.ceil(verified.length * 0.2);
   if (audited < requiredAudits) errors.push(`Blind audit coverage requires ${requiredAudits} records; found ${audited}`);
   const acceptedIDs = verified.flatMap(({ id }) => id ? [id] : []);
   if (new Set(acceptedIDs).size !== acceptedIDs.length) errors.push("Verified records contain duplicate UUIDs");
+  const duplicateDecisions = new Map(verified.map((record) => [record.candidateKey, record.provenance.duplicateDecision]));
   const duplicates = findNearDuplicatePairs(verified);
-  errors.push(...duplicates.map(({ left, right, similarity }) => `Near duplicate (${similarity.toFixed(2)}): ${left} / ${right}`));
-  if (errors.length > 0) throw new Error(errors.join("\n"));
+  errors.push(...duplicates.filter(({ left, right }) => duplicateDecisions.get(left) === "unique" && duplicateDecisions.get(right) === "unique").map(({ left, right, similarity }) => `Near duplicate requires an explicit keep/reject decision (${similarity.toFixed(2)}): ${left} / ${right}`));
+
+  const sourceByID = new Map(sources.map((source) => [source.sourceID, source]));
+  if (sourceByID.size !== sources.length) errors.push("Source inventory contains duplicate source IDs");
+  const tagSlugs = new Set(taxonomy.tags.map((tag) => tag.slug));
+  for (const record of verified) {
+    const source = sourceByID.get(record.sourceID);
+    if (!source) errors.push(`${record.candidateKey}: sourceID is missing from inventory: ${record.sourceID}`);
+    else if (!source.publishedAt) errors.push(`${record.candidateKey}: source publication date is unresolved`);
+    for (const tag of record.tags) if (!tagSlugs.has(tag)) errors.push(`${record.candidateKey}: unknown taxonomy tag: ${tag}`);
+  }
 
   const ids = new Set(verified.flatMap((record) => record.id ? [record.id] : []));
   for (const collection of ledger.collections) {
@@ -198,7 +231,28 @@ export function generatePublicCatalog(ledger: EditorialLedger, generatedAt = new
       if (!ids.has(quoteID)) errors.push(`Collection ${collection.slug} references unpublished quote ${quoteID}`);
     }
   }
+  return { errors, verified, sourceByID };
+}
+
+export function generateCatalogV3(ledger: EditorialLedger, sources: readonly SourceRecord[], taxonomy: Taxonomy, generatedAt = new Date().toISOString()): QuoteCatalogV3 {
+  const { errors, verified, sourceByID } = compilationErrors(ledger, sources, taxonomy);
   if (errors.length > 0) throw new Error(errors.join("\n"));
+
+  const usedSourceIDs = new Set(verified.map((record) => record.sourceID));
+  const publicSources = [...usedSourceIDs].map((sourceID) => {
+    const source = sourceByID.get(sourceID)!;
+    return {
+      sourceID: source.sourceID,
+      sourceType: source.sourceType,
+      title: source.title,
+      publisher: source.publisher,
+      publishedAt: source.publishedAt!,
+      canonicalURL: source.canonicalURL,
+      mediaURL: source.mediaURL,
+      transcriptURL: source.transcriptURL,
+      durationSeconds: source.durationSeconds
+    };
+  }).sort((left, right) => left.sourceID.localeCompare(right.sourceID));
 
   const quotes = verified.map((record) => ({
     id: record.id!,
@@ -206,10 +260,7 @@ export function generatePublicCatalog(ledger: EditorialLedger, generatedAt = new
     author: record.author,
     primaryCategory: record.primaryCategory,
     tags: record.tags,
-    sourceType: record.sourceType,
-    sourceTitle: record.sourceTitle,
-    sourceURL: record.sourceURL,
-    sourceDate: record.sourceDate,
+    sourceID: record.sourceID,
     sourceLocator: record.sourceLocator,
     verified: true as const,
     featured: record.featured,
@@ -221,12 +272,47 @@ export function generatePublicCatalog(ledger: EditorialLedger, generatedAt = new
     ...(record.shareCardVersion ? { shareCardVersion: record.shareCardVersion } : {})
   }));
 
-  return quoteCatalogSchema.parse({
-    schemaVersion: 2,
+  return quoteCatalogV3Schema.parse({
+    schemaVersion: 3,
     generatedAt,
     developmentFixture: false,
-    categories: [...new Set(quotes.map(({ primaryCategory }) => primaryCategory))].sort(),
+    categories: taxonomy.categories,
     collections: ledger.collections,
+    sources: publicSources,
     quotes
+  });
+}
+
+export function projectCatalogV2(catalog: QuoteCatalogV3): QuoteCatalogV2 {
+  const sources = new Map(catalog.sources.map((source) => [source.sourceID, source]));
+  return quoteCatalogSchema.parse({
+    schemaVersion: 2,
+    generatedAt: catalog.generatedAt,
+    developmentFixture: catalog.developmentFixture,
+    categories: catalog.categories,
+    collections: catalog.collections,
+    quotes: catalog.quotes.map((quote) => {
+      const source = sources.get(quote.sourceID);
+      if (!source) throw new Error(`Missing source for v2 projection: ${quote.sourceID}`);
+      const timestamp = quote.sourceLocator.kind === "media" ? quote.sourceLocator.startSeconds : null;
+      let sourceURL = source.canonicalURL;
+      if (source.mediaURL && timestamp !== null) {
+        const media = new URL(source.mediaURL);
+        if (media.hostname === "youtube.com" || media.hostname.endsWith(".youtube.com") || media.hostname === "youtu.be") {
+          media.searchParams.set("t", `${timestamp}s`);
+          sourceURL = media.toString();
+        } else {
+          media.hash = `t=${timestamp}`;
+          sourceURL = media.toString();
+        }
+      }
+      return {
+        ...quote,
+        sourceType: source.sourceType,
+        sourceTitle: source.title,
+        sourceURL,
+        sourceDate: source.publishedAt
+      };
+    })
   });
 }

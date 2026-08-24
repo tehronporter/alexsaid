@@ -1,63 +1,74 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-24T01:50:00.000Z",
+  "updatedAt": "2026-08-24T04:11:44.780Z",
   "records": [
     {
-      "candidateKey": "intellectual-laziness",
+      "candidateKey": "advertise-more",
       "status": "verified",
-      "id": "f4e4bf60-2700-48be-84bc-a499d14f36ea",
-      "text": "And so, a lot of lack of focus is actually intellectual laziness.",
+      "id": "78528c89-a5b8-4ecd-83fd-c707ede6a3c5",
+      "text": "If you're a small business owner, you have to advertise more. Period. No one knows you exist - which is why you're not making as much as you want.",
       "author": "Alex Hormozi",
-      "primaryCategory": "Mindset",
+      "primaryCategory": "Leads & Marketing",
       "tags": [
-        "focus",
-        "execution",
-        "self-awareness"
+        "advertising",
+        "small-business"
       ],
-      "sourceType": "video",
-      "sourceTitle": "Learn 97% of How to Get Rich in 11 Mins",
-      "sourceDate": "2026-08-03",
-      "sourceURL": "https://www.youtube.com/watch?v=fj5uxdv_j5Y&t=108s",
+      "sourceID": "x-1986457549684523095",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1986457549684523095",
+      "sourceDate": "2025-11-06",
       "sourceLocator": {
-        "kind": "media",
-        "startSeconds": 108,
-        "endSeconds": 115
+        "kind": "web",
+        "section": "Original post"
       },
       "featured": true,
       "containsProfanity": false,
-      "context": "Alex explains that people often retreat to familiar work when they encounter a problem they do not yet know how to solve.",
-      "createdAt": "2026-08-23T23:00:00.000Z",
-      "updatedAt": "2026-08-23T23:35:00.000Z",
+      "context": "Alex responds to small business owners who assume customers will find them without consistent outbound marketing.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
+      "createdAt": "2026-08-23T23:58:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
-          "checkedAt": "2026-08-23T23:10:00.000Z",
-          "reviewer": "codex-primary",
-          "method": "direct-media-listen",
+          "checkedAt": "2026-08-24T03:49:23.103Z",
+          "reviewer": "codex-x-reaudit-pass-one",
+          "method": "direct-web-read",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
           "metadataConfirmed": true,
           "contextuallyHonest": true,
           "notStitchedOrParaphrased": true,
-          "evidenceNote": "Listened to the original recording around 1:48 with more than 30 seconds of surrounding context."
+          "evidenceNote": "Reopened X's official embed, confirmed the @AlexHormozi author identity, contiguous wording, direct status URL, displayed publication date, and surrounding post context."
         },
         "secondPass": {
           "outcome": "passed",
-          "checkedAt": "2026-08-23T23:35:00.000Z",
-          "reviewer": "codex-independent",
-          "method": "direct-media-listen",
+          "checkedAt": "2026-08-24T03:49:24.103Z",
+          "reviewer": "codex-x-reaudit-pass-two",
+          "method": "direct-web-read",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
           "metadataConfirmed": true,
           "contextuallyHonest": true,
           "notStitchedOrParaphrased": true,
-          "evidenceNote": "Reopened the official upload and independently replayed the passage around 1:48; speaker, wording, locator, and metadata matched."
+          "evidenceNote": "Independently reopened X's official embed and reconfirmed authorship, exact contiguous text, direct locator, publication metadata, and honest standalone context."
         },
         "blindAudit": null
       },
@@ -72,29 +83,36 @@
       "unresolvedWarnings": []
     },
     {
-      "candidateKey": "what-would-it-take",
-      "status": "verified",
-      "id": "2a2a3dc1-8e1c-4e2a-8149-cb97f61ec542",
-      "text": "And so, I almost always wrap my questions with \"What would it take?\" because it assumes success.",
+      "candidateKey": "already-growing-rejected",
+      "status": "rejected",
+      "text": "That's the best—it's the easiest way to grow is to go into something that's already growing, so if you just do a normal amount, you still grow by default.",
       "author": "Alex Hormozi",
-      "primaryCategory": "Decision Making",
+      "primaryCategory": "Operations & Scaling",
       "tags": [
-        "questions",
-        "problem-solving",
-        "execution"
+        "scaling",
+        "prioritization"
       ],
+      "sourceID": "youtube-3fsjfuva6ts",
       "sourceType": "video",
-      "sourceTitle": "Learn 97% of How to Get Rich in 11 Mins",
-      "sourceDate": "2026-08-03",
-      "sourceURL": "https://www.youtube.com/watch?v=fj5uxdv_j5Y&t=173s",
+      "sourceTitle": "What Makes The Perfect Business (5 Things)",
+      "sourceURL": "https://www.youtube.com/watch?v=3fsJFUvA6Ts&t=600s",
+      "sourceDate": "2026-05-02",
       "sourceLocator": {
         "kind": "media",
-        "startSeconds": 173,
-        "endSeconds": 184
+        "startSeconds": 600,
+        "endSeconds": 607
       },
-      "featured": true,
+      "featured": false,
       "containsProfanity": false,
-      "context": "Alex contrasts this framing with asking whether something can be done; the former starts from an assumption that a solution exists.",
+      "context": "Alex discusses choosing an expanding industry.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
       "createdAt": "2026-08-23T23:00:00.000Z",
       "updatedAt": "2026-08-23T23:35:00.000Z",
       "verification": {
@@ -103,30 +121,278 @@
           "checkedAt": "2026-08-23T23:10:00.000Z",
           "reviewer": "codex-primary",
           "method": "direct-media-listen",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": 30,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
           "metadataConfirmed": true,
           "contextuallyHonest": true,
           "notStitchedOrParaphrased": true,
-          "evidenceNote": "Listened to the original recording around 2:53 with more than 30 seconds of surrounding context."
+          "evidenceNote": "Listened to the original recording around 10:00 with surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 1,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 1
+      },
+      "rejectionNotes": [
+        "Rejected because the spoken false start cannot be removed without silently editing his delivery."
+      ],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "always-making-things-happen-faster",
+      "status": "verified",
+      "id": "89237f45-0bfb-464e-acfe-6cfad1e2b46a",
+      "text": "Always making things happen faster. Always disappointed it didn't happen faster.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "urgency",
+        "ambition"
+      ],
+      "sourceID": "x-1842641542084952302",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1842641542084952302",
+      "sourceDate": "2024-10-05",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Reply on X"
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex's reply in a conversation about founders who create urgency by being aggressive about pace.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
+      "createdAt": "2026-08-23T23:58:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:23.103Z",
+          "reviewer": "codex-x-reaudit-pass-one",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened X's official embed, confirmed the @AlexHormozi author identity, contiguous wording, direct status URL, displayed publication date, and surrounding post context."
         },
         "secondPass": {
           "outcome": "passed",
-          "checkedAt": "2026-08-23T23:35:00.000Z",
-          "reviewer": "codex-independent",
-          "method": "direct-media-listen",
+          "checkedAt": "2026-08-24T03:49:24.103Z",
+          "reviewer": "codex-x-reaudit-pass-two",
+          "method": "direct-web-read",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
           "metadataConfirmed": true,
           "contextuallyHonest": true,
           "notStitchedOrParaphrased": true,
-          "evidenceNote": "Reopened the official upload and independently replayed the passage around 2:53; speaker, wording, locator, and metadata matched."
+          "evidenceNote": "Independently reopened X's official embed and reconfirmed authorship, exact contiguous text, direct locator, publication metadata, and honest standalone context."
+        },
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 1,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "ambition-without-action",
+      "status": "verified",
+      "id": "9cd4fc91-009b-4cec-8348-2bab62f9d27b",
+      "text": "Ambition without action is entitlement.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "ambition",
+        "execution",
+        "accountability"
+      ],
+      "sourceID": "x-1748079193504780332",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1748079193504780332",
+      "sourceDate": "2024-01-18",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post"
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex draws a hard line between wanting something and actually working toward it.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
+      "createdAt": "2026-08-23T23:58:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:23.103Z",
+          "reviewer": "codex-x-reaudit-pass-one",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened X's official embed, confirmed the @AlexHormozi author identity, contiguous wording, direct status URL, displayed publication date, and surrounding post context."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:24.103Z",
+          "reviewer": "codex-x-reaudit-pass-two",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Independently reopened X's official embed and reconfirmed authorship, exact contiguous text, direct locator, publication metadata, and honest standalone context."
+        },
+        "blindAudit": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T00:40:00.000Z",
+          "reviewer": "codex-blind-audit",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Blind audit reopened the live post a third time on a separate tab and confirmed the exact seven-word wording, the @AlexHormozi handle, and the Jan 18, 2024 timestamp."
+        }
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "change-inputs-change-outputs",
+      "status": "verified",
+      "id": "950ebee2-02b5-44a3-893f-b22de6b199c6",
+      "text": "The fastest way to change your life is to change where you invest: Look at your calendar for where you spend your time. Your credit card statement for how you spend your money. And your phone for where you spend your attention. Change your inputs. Change your outputs.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "productivity",
+        "attention"
+      ],
+      "sourceID": "x-1896568848234512852",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1896568848234512852",
+      "sourceDate": "2025-03-03",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "1896568848234512852"
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex turns personal change into an audit of the three resources people continuously allocate: time, money, and attention.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
+      "createdAt": "2026-08-24T01:38:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:23.103Z",
+          "reviewer": "codex-x-reaudit-pass-one",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened X's official embed, confirmed the @AlexHormozi author identity, contiguous wording, direct status URL, displayed publication date, and surrounding post context."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:24.103Z",
+          "reviewer": "codex-x-reaudit-pass-two",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Independently reopened X's official embed and reconfirmed authorship, exact contiguous text, direct locator, publication metadata, and honest standalone context."
         },
         "blindAudit": null
       },
@@ -138,6 +404,89 @@
         "productFit": 2
       },
       "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "customer-backwards-to-money",
+      "status": "rejected",
+      "id": "91657a20-4705-4ef7-a62d-8061df5b01c5",
+      "text": "Build from the customer backwards to money, not the other way around.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Business Models & Strategy",
+      "tags": [
+        "customer-experience",
+        "business-models",
+        "strategy"
+      ],
+      "sourceID": "x-1717582169223360990",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1717582169223360990",
+      "sourceDate": "2023-10-26",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post"
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Another line from the same numbered list of advice Alex gave a 'stuck' founder about how to structure a business around customers first.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
+      "createdAt": "2026-08-23T23:58:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T00:05:00.000Z",
+          "reviewer": "codex-primary",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened the tweet directly at x.com/AlexHormozi/status/1717582169223360990 and confirmed this numbered item is an exact, verbatim line from the live post, plus author handle and posting date."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T00:25:00.000Z",
+          "reviewer": "codex-independent",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Independently reopened the same tweet a second time and re-confirmed the line matches verbatim, with attribution and the Oct 26, 2023 timestamp against the live post."
+        },
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [
+        "Batch 0 X re-audit: X's official public embed truncates before this excerpt, and the direct page is unavailable to automated verification; publication is blocked rather than inferred from a mirror."
+      ],
       "unresolvedWarnings": []
     },
     {
@@ -149,13 +498,13 @@
       "primaryCategory": "Decision Making",
       "tags": [
         "prioritization",
-        "focus",
-        "resource-allocation"
+        "focus"
       ],
+      "sourceID": "youtube-fj5uxdv-j5y",
       "sourceType": "video",
       "sourceTitle": "Learn 97% of How to Get Rich in 11 Mins",
-      "sourceDate": "2026-08-03",
       "sourceURL": "https://www.youtube.com/watch?v=fj5uxdv_j5Y&t=636s",
+      "sourceDate": "2026-08-03",
       "sourceLocator": {
         "kind": "media",
         "startSeconds": 636,
@@ -164,6 +513,14 @@
       "featured": true,
       "containsProfanity": false,
       "context": "Alex is comparing proposed actions with the option to keep resources on work that is already producing the highest return.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
       "createdAt": "2026-08-23T23:00:00.000Z",
       "updatedAt": "2026-08-23T23:35:00.000Z",
       "shortVersion": "…the undefeated heavyweight champion of the world is do nothing.",
@@ -173,8 +530,10 @@
           "checkedAt": "2026-08-23T23:10:00.000Z",
           "reviewer": "codex-primary",
           "method": "direct-media-listen",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": 30,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
@@ -188,8 +547,10 @@
           "checkedAt": "2026-08-23T23:35:00.000Z",
           "reviewer": "codex-independent",
           "method": "direct-media-listen",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": 30,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
@@ -203,8 +564,10 @@
           "checkedAt": "2026-08-23T23:50:00.000Z",
           "reviewer": "codex-blind-audit",
           "method": "direct-media-listen",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": 30,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
@@ -230,16 +593,16 @@
       "id": "6783a7fb-8603-44f7-8f1b-ffa8730b5eb7",
       "text": "You might have suggested it because you are emotionally uncomfortable with your existing moment and just want something to do rather than the thing that you know is going to work.",
       "author": "Alex Hormozi",
-      "primaryCategory": "Mindset",
+      "primaryCategory": "Productivity & Execution",
       "tags": [
-        "patience",
         "focus",
         "decision-making"
       ],
+      "sourceID": "youtube-fj5uxdv-j5y",
       "sourceType": "video",
       "sourceTitle": "Learn 97% of How to Get Rich in 11 Mins",
-      "sourceDate": "2026-08-03",
       "sourceURL": "https://www.youtube.com/watch?v=fj5uxdv_j5Y&t=678s",
+      "sourceDate": "2026-08-03",
       "sourceLocator": {
         "kind": "media",
         "startSeconds": 678,
@@ -248,6 +611,14 @@
       "featured": true,
       "containsProfanity": false,
       "context": "Alex warns that a new initiative can be an emotional escape from patiently continuing the proven course of action.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
       "createdAt": "2026-08-23T23:00:00.000Z",
       "updatedAt": "2026-08-23T23:35:00.000Z",
       "verification": {
@@ -256,8 +627,10 @@
           "checkedAt": "2026-08-23T23:10:00.000Z",
           "reviewer": "codex-primary",
           "method": "direct-media-listen",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": 30,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
@@ -271,8 +644,10 @@
           "checkedAt": "2026-08-23T23:35:00.000Z",
           "reviewer": "codex-independent",
           "method": "direct-media-listen",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": 30,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
@@ -301,14 +676,14 @@
       "author": "Alex Hormozi",
       "primaryCategory": "Sales",
       "tags": [
-        "selling",
-        "customer-experience",
-        "persuasion"
+        "sales",
+        "customer-experience"
       ],
+      "sourceID": "youtube-8vqsfbmms4m",
       "sourceType": "video",
       "sourceTitle": "If You Hate Selling, Please Watch This | Scale or Fail Episode 3",
-      "sourceDate": "2026-07-24",
       "sourceURL": "https://www.youtube.com/watch?v=8VqSFBMMS4M&t=413s",
+      "sourceDate": "2026-07-24",
       "sourceLocator": {
         "kind": "media",
         "startSeconds": 413,
@@ -317,6 +692,14 @@
       "featured": true,
       "containsProfanity": false,
       "context": "Alex responds to a founder who worries that a more structured webinar will make customers feel sold to.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
       "createdAt": "2026-08-23T23:00:00.000Z",
       "updatedAt": "2026-08-23T23:35:00.000Z",
       "verification": {
@@ -325,8 +708,10 @@
           "checkedAt": "2026-08-23T23:10:00.000Z",
           "reviewer": "codex-primary",
           "method": "direct-media-listen",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": 30,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
@@ -340,8 +725,10 @@
           "checkedAt": "2026-08-23T23:35:00.000Z",
           "reviewer": "codex-independent",
           "method": "direct-media-listen",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": 30,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
@@ -363,29 +750,462 @@
       "unresolvedWarnings": []
     },
     {
-      "candidateKey": "purchases-designed",
-      "status": "verified",
-      "id": "6654b49a-614c-4953-9c01-50e180d0ebb9",
-      "text": "And every one of those purchases, somebody for sure thought about how to get you to buy.",
+      "candidateKey": "fight-against-irrelevance",
+      "status": "rejected",
+      "id": "bfa01f9f-9010-4d99-b709-15835537598a",
+      "text": "The fight you're having right now is against irrelevance.",
       "author": "Alex Hormozi",
-      "primaryCategory": "Sales",
+      "primaryCategory": "Leads & Marketing",
       "tags": [
-        "selling",
-        "marketing",
-        "customer-experience"
+        "advertising",
+        "perspective"
       ],
-      "sourceType": "video",
-      "sourceTitle": "If You Hate Selling, Please Watch This | Scale or Fail Episode 3",
-      "sourceDate": "2026-07-24",
-      "sourceURL": "https://www.youtube.com/watch?v=8VqSFBMMS4M&t=427s",
+      "sourceID": "x-1986457549684523095",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1986457549684523095",
+      "sourceDate": "2025-11-06",
       "sourceLocator": {
-        "kind": "media",
-        "startSeconds": 427,
-        "endSeconds": 431
+        "kind": "web",
+        "section": "Original post"
       },
       "featured": false,
       "containsProfanity": false,
-      "context": "Alex points out that good selling can feel natural even though someone intentionally designed the purchase journey.",
+      "context": "The closing line of the same tweet about why small business owners need to advertise more consistently.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
+      "createdAt": "2026-08-23T23:58:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T00:05:00.000Z",
+          "reviewer": "codex-primary",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened the tweet directly at x.com/AlexHormozi/status/1986457549684523095 and confirmed this closing line is an exact, verbatim sentence from the live post, plus author handle and posting date."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T00:25:00.000Z",
+          "reviewer": "codex-independent",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Independently reopened the same tweet a second time and re-confirmed the line matches verbatim, with attribution and the Nov 6, 2025 timestamp against the live post."
+        },
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [
+        "Batch 0 X re-audit: X's official public embed truncates before this excerpt, and the direct page is unavailable to automated verification; publication is blocked rather than inferred from a mirror."
+      ],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "focus-only-solid-employee",
+      "status": "verified",
+      "id": "eecc35c0-0af3-4d71-b795-04a460c6ce58",
+      "text": "The reason focus is so important in the beginning is that the only solid employee in your business is you. And you would never tell that person to work on four things at the same time and see what works.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Operations & Scaling",
+      "tags": [
+        "focus",
+        "small-business",
+        "leadership"
+      ],
+      "sourceID": "x-1924169850207064469",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1924169850207064469",
+      "sourceDate": "2025-05-18",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post"
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex compares an early-stage founder splitting attention across projects to mismanaging their only reliable employee: themselves.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
+      "createdAt": "2026-08-23T23:58:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:23.103Z",
+          "reviewer": "codex-x-reaudit-pass-one",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened X's official embed, confirmed the @AlexHormozi author identity, contiguous wording, direct status URL, displayed publication date, and surrounding post context."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:24.103Z",
+          "reviewer": "codex-x-reaudit-pass-two",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Independently reopened X's official embed and reconfirmed authorship, exact contiguous text, direct locator, publication metadata, and honest standalone context."
+        },
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "gonna-die-already-won",
+      "status": "rejected",
+      "id": "77ae2432-e27c-469c-b16c-caebb3c6dabc",
+      "text": "Remember you're gonna die and it's not gonna matter so don't stress so much - you've already won.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "stress"
+      ],
+      "sourceID": "x-1717582169223360990",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1717582169223360990",
+      "sourceDate": "2023-10-26",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post"
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "The closing line of a numbered list of advice Alex gave a 'stuck' founder, zooming out on stress with a mortality reminder.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
+      "createdAt": "2026-08-23T23:58:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T00:05:00.000Z",
+          "reviewer": "codex-primary",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened the tweet directly at x.com/AlexHormozi/status/1717582169223360990 and confirmed this numbered item is an exact, verbatim line from the live post, plus author handle and posting date."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T00:25:00.000Z",
+          "reviewer": "codex-independent",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Independently reopened the same tweet a second time and re-confirmed the line matches verbatim, with attribution and the Oct 26, 2023 timestamp against the live post."
+        },
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [
+        "Batch 0 X re-audit: X's official public embed truncates before this excerpt, and the direct page is unavailable to automated verification; publication is blocked rather than inferred from a mirror."
+      ],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "hard-soft-skills-measurement",
+      "status": "rejected",
+      "id": "606ed260-d19f-499f-972d-10fab230aa35",
+      "text": "Hard and soft skills are another way of saying: “Skills we have an easy way to measure and skills we haven’t figured out how to measure yet.”",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Leadership & Teams",
+      "tags": [
+        "learning",
+        "measurement",
+        "leadership"
+      ],
+      "sourceID": "x-1667272898434809857",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1667272898434809857",
+      "sourceDate": "2023-06-09",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "1667272898434809857"
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex challenges the hard-skill versus soft-skill distinction by reframing it as a measurement problem.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
+      "createdAt": "2026-08-24T01:38:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:23.103Z",
+          "reviewer": "codex-x-reaudit-pass-one",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened X's official embed, confirmed the @AlexHormozi author identity, contiguous wording, direct status URL, displayed publication date, and surrounding post context."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:24.103Z",
+          "reviewer": "codex-x-reaudit-pass-two",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Independently reopened X's official embed and reconfirmed authorship, exact contiguous text, direct locator, publication metadata, and honest standalone context."
+        },
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 1,
+        "distinctiveness": 2,
+        "fanRelevance": 1,
+        "productFit": 2
+      },
+      "rejectionNotes": [
+        "Batch 0 re-audit: the prior 8/10 score does not meet the 9/10 production threshold."
+      ],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "hard-times-epic-story",
+      "status": "verified",
+      "id": "ca64f810-6276-4dd1-a2de-0d8456fb4caa",
+      "text": "Hard times feel long. But an epic story lasts a lifetime.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "resilience",
+        "perspective"
+      ],
+      "sourceID": "x-1689056435349463040",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1689056435349463040",
+      "sourceDate": "2023-08-08",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post"
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex offers a reframe for enduring difficulty: the story you will tell later outlasts how long the hardship feels right now.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
+      "createdAt": "2026-08-23T23:58:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:23.103Z",
+          "reviewer": "codex-x-reaudit-pass-one",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened X's official embed, confirmed the @AlexHormozi author identity, contiguous wording, direct status URL, displayed publication date, and surrounding post context."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:24.103Z",
+          "reviewer": "codex-x-reaudit-pass-two",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Independently reopened X's official embed and reconfirmed authorship, exact contiguous text, direct locator, publication metadata, and honest standalone context."
+        },
+        "blindAudit": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:25.103Z",
+          "reviewer": "codex-x-blind-audit",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "A third isolated official X embed read matched Alex Hormozi's authorship, the exact contiguous excerpt, status locator, date, and full post context."
+        }
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "intellectual-laziness",
+      "status": "verified",
+      "id": "f4e4bf60-2700-48be-84bc-a499d14f36ea",
+      "text": "And so, a lot of lack of focus is actually intellectual laziness.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "focus",
+        "execution"
+      ],
+      "sourceID": "youtube-fj5uxdv-j5y",
+      "sourceType": "video",
+      "sourceTitle": "Learn 97% of How to Get Rich in 11 Mins",
+      "sourceURL": "https://www.youtube.com/watch?v=fj5uxdv_j5Y&t=108s",
+      "sourceDate": "2026-08-03",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 108,
+        "endSeconds": 115
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex explains that people often retreat to familiar work when they encounter a problem they do not yet know how to solve.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
       "createdAt": "2026-08-23T23:00:00.000Z",
       "updatedAt": "2026-08-23T23:35:00.000Z",
       "verification": {
@@ -394,8 +1214,514 @@
           "checkedAt": "2026-08-23T23:10:00.000Z",
           "reviewer": "codex-primary",
           "method": "direct-media-listen",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": 30,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Listened to the original recording around 1:48 with more than 30 seconds of surrounding context."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-23T23:35:00.000Z",
+          "reviewer": "codex-independent",
+          "method": "direct-media-listen",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": 30,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened the official upload and independently replayed the passage around 1:48; speaker, wording, locator, and metadata matched."
+        },
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "learn-sales-from-close-calls",
+      "status": "verified",
+      "id": "2bf736d9-5f89-4a3f-92c7-b7f83a80bbb6",
+      "text": "Best way to learn sales without selling: Listen to close call recordings. The real world teaches more than any script.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Sales",
+      "tags": [
+        "sales-training",
+        "learning"
+      ],
+      "sourceID": "x-1561016524135141378",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1561016524135141378",
+      "sourceDate": "2022-08-20",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "1561016524135141378"
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex recommends studying real sales calls as a practical way to build sales judgment before taking calls yourself.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
+      "createdAt": "2026-08-24T01:38:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:23.103Z",
+          "reviewer": "codex-x-reaudit-pass-one",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened X's official embed, confirmed the @AlexHormozi author identity, contiguous wording, direct status URL, displayed publication date, and surrounding post context."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:24.103Z",
+          "reviewer": "codex-x-reaudit-pass-two",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Independently reopened X's official embed and reconfirmed authorship, exact contiguous text, direct locator, publication metadata, and honest standalone context."
+        },
+        "blindAudit": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:25.103Z",
+          "reviewer": "codex-x-blind-audit",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "A third isolated official X embed read matched Alex Hormozi's authorship, the exact contiguous excerpt, status locator, date, and full post context."
+        }
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 1,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "offer-not-converting-five-reasons",
+      "status": "verified",
+      "id": "53280e23-3898-47f6-ad02-a284497d4881",
+      "text": "5 reasons your offer isn't converting: 1) Targeting poor people 2) Not enough Proof 3) Too little friction 4) Big outcome not fast enough 5) \"Sounds like work\"",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Offers",
+      "tags": [
+        "offers",
+        "sales"
+      ],
+      "sourceID": "x-2046583916061229408",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/2046583916061229408",
+      "sourceDate": "2026-04-21",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post"
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex lists the most common reasons a sales offer fails to convert.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
+      "createdAt": "2026-08-23T23:58:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:23.103Z",
+          "reviewer": "codex-x-reaudit-pass-one",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened X's official embed, confirmed the @AlexHormozi author identity, contiguous wording, direct status URL, displayed publication date, and surrounding post context."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:24.103Z",
+          "reviewer": "codex-x-reaudit-pass-two",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Independently reopened X's official embed and reconfirmed authorship, exact contiguous text, direct locator, publication metadata, and honest standalone context."
+        },
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "opportunity-looks-like-risk",
+      "status": "verified",
+      "id": "8f02520b-f6ea-497f-9dfd-6e1a7d1edd21",
+      "text": "That’s the thing about opportunity. It looks like risk when it’s an opportunity. And by the time it’s risk free, it’s not an opportunity anymore.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "risk",
+        "opportunity"
+      ],
+      "sourceID": "x-1783183564743532941",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1783183564743532941",
+      "sourceDate": "2024-04-24",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "1783183564743532941"
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex explains why meaningful opportunities cannot be separated from uncertainty: certainty usually arrives only after the upside has disappeared.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
+      "createdAt": "2026-08-24T01:38:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:23.103Z",
+          "reviewer": "codex-x-reaudit-pass-one",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened X's official embed, confirmed the @AlexHormozi author identity, contiguous wording, direct status URL, displayed publication date, and surrounding post context."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:24.103Z",
+          "reviewer": "codex-x-reaudit-pass-two",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Independently reopened X's official embed and reconfirmed authorship, exact contiguous text, direct locator, publication metadata, and honest standalone context."
+        },
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "passive-income-enterprise-value",
+      "status": "rejected",
+      "id": "d428ce94-1ff7-4abc-84fc-65a5a9ae38ed",
+      "text": "All income is not created equally… If over 4 years you transition from very active to very passive with the same business income. You still 2-4x enterprise value and your net worth. Sometimes doing less for the same IS the fastest growth. Just doesn’t feel that way.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Business Models & Strategy",
+      "tags": [
+        "business-models",
+        "scaling"
+      ],
+      "sourceID": "x-1467177762582450182",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1467177762582450182",
+      "sourceDate": "2021-12-04",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "1467177762582450182"
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex explains that reducing a business owner’s required involvement can increase company value even when income stays flat.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
+      "createdAt": "2026-08-24T01:38:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:23.103Z",
+          "reviewer": "codex-x-reaudit-pass-one",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened X's official embed, confirmed the @AlexHormozi author identity, contiguous wording, direct status URL, displayed publication date, and surrounding post context."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:24.103Z",
+          "reviewer": "codex-x-reaudit-pass-two",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Independently reopened X's official embed and reconfirmed authorship, exact contiguous text, direct locator, publication metadata, and honest standalone context."
+        },
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 1,
+        "productFit": 1
+      },
+      "rejectionNotes": [
+        "Batch 0 re-audit: the prior 8/10 score does not meet the 9/10 production threshold."
+      ],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "productivity-not-do",
+      "status": "verified",
+      "id": "3ca22a3f-4f5e-4ed1-804c-c3358d8e9feb",
+      "text": "Productivity comes from all the things you choose not to do.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "prioritization",
+        "productivity",
+        "focus"
+      ],
+      "sourceID": "x-1885524074098520535",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1885524074098520535",
+      "sourceDate": "2025-02-01",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post"
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex ties productivity to elimination rather than to doing more.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
+      "createdAt": "2026-08-23T23:58:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:23.103Z",
+          "reviewer": "codex-x-reaudit-pass-one",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened X's official embed, confirmed the @AlexHormozi author identity, contiguous wording, direct status URL, displayed publication date, and surrounding post context."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:24.103Z",
+          "reviewer": "codex-x-reaudit-pass-two",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Independently reopened X's official embed and reconfirmed authorship, exact contiguous text, direct locator, publication metadata, and honest standalone context."
+        },
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "purchases-designed",
+      "status": "verified",
+      "id": "6654b49a-614c-4953-9c01-50e180d0ebb9",
+      "text": "And every one of those purchases, somebody for sure thought about how to get you to buy.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Sales",
+      "tags": [
+        "sales",
+        "marketing",
+        "customer-experience"
+      ],
+      "sourceID": "youtube-8vqsfbmms4m",
+      "sourceType": "video",
+      "sourceTitle": "If You Hate Selling, Please Watch This | Scale or Fail Episode 3",
+      "sourceURL": "https://www.youtube.com/watch?v=8VqSFBMMS4M&t=427s",
+      "sourceDate": "2026-07-24",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 427,
+        "endSeconds": 431
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex points out that good selling can feel natural even though someone intentionally designed the purchase journey.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
+      "createdAt": "2026-08-23T23:00:00.000Z",
+      "updatedAt": "2026-08-23T23:35:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-23T23:10:00.000Z",
+          "reviewer": "codex-primary",
+          "method": "direct-media-listen",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": 30,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
@@ -409,8 +1735,10 @@
           "checkedAt": "2026-08-23T23:35:00.000Z",
           "reviewer": "codex-independent",
           "method": "direct-media-listen",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": 30,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
@@ -432,29 +1760,36 @@
       "unresolvedWarnings": []
     },
     {
-      "candidateKey": "responsibility-to-business",
-      "status": "verified",
-      "id": "73e0d73f-784a-4496-b9e7-1356b7b995d5",
-      "text": "You have a responsibility to the business. And the business has a responsibility to customers. But your responsibility is to make sure the business survives and grows.",
+      "candidateKey": "questions-like-weapons-rejected",
+      "status": "rejected",
+      "text": "I see, I see questions like weapons. Like, it's like, it shows, it shows how sharp your thinking is.",
       "author": "Alex Hormozi",
-      "primaryCategory": "Business Building",
+      "primaryCategory": "Decision Making",
       "tags": [
-        "sustainability",
-        "customers",
-        "leadership"
+        "decision-making",
+        "strategy"
       ],
+      "sourceID": "youtube-fj5uxdv-j5y",
       "sourceType": "video",
-      "sourceTitle": "If You Hate Selling, Please Watch This | Scale or Fail Episode 3",
-      "sourceDate": "2026-07-24",
-      "sourceURL": "https://www.youtube.com/watch?v=8VqSFBMMS4M&t=1147s",
+      "sourceTitle": "Learn 97% of How to Get Rich in 11 Mins",
+      "sourceURL": "https://www.youtube.com/watch?v=fj5uxdv_j5Y&t=516s",
+      "sourceDate": "2026-08-03",
       "sourceLocator": {
         "kind": "media",
-        "startSeconds": 1147,
-        "endSeconds": 1154
+        "startSeconds": 516,
+        "endSeconds": 527
       },
-      "featured": true,
+      "featured": false,
       "containsProfanity": false,
-      "context": "Alex explains why a founder must price and structure delivery so the company can continue serving customers.",
+      "context": "Alex describes questions as evidence of thinking quality.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
       "createdAt": "2026-08-23T23:00:00.000Z",
       "updatedAt": "2026-08-23T23:35:00.000Z",
       "verification": {
@@ -463,8 +1798,214 @@
           "checkedAt": "2026-08-23T23:10:00.000Z",
           "reviewer": "codex-primary",
           "method": "direct-media-listen",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": 30,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Listened to the original recording around 8:36 with surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": null,
+      "rejectionNotes": [
+        "Rejected because the spoken repetitions would require silent cleanup to make a polished app quote."
+      ],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "regret-ignores-the-cost",
+      "status": "verified",
+      "id": "b09ccf53-9640-4444-b98a-6ad98706e980",
+      "text": "Regrets come when we imagine an upside we didn’t experience without factoring in the cost we would’ve had to pay to get it.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "stress",
+        "strategy",
+        "decision-making"
+      ],
+      "sourceID": "x-2025991606143275152",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/2025991606143275152",
+      "sourceDate": "2026-02-23",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "2025991606143275152"
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex describes regret as an incomplete comparison that counts a missed benefit while ignoring the price required to obtain it.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
+      "createdAt": "2026-08-24T01:38:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:23.103Z",
+          "reviewer": "codex-x-reaudit-pass-one",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened X's official embed, confirmed the @AlexHormozi author identity, contiguous wording, direct status URL, displayed publication date, and surrounding post context."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:24.103Z",
+          "reviewer": "codex-x-reaudit-pass-two",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Independently reopened X's official embed and reconfirmed authorship, exact contiguous text, direct locator, publication metadata, and honest standalone context."
+        },
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 1,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "resale-not-sales-rejected",
+      "status": "rejected",
+      "text": "You want to be in the resale business, not in the sales business.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Sales",
+      "tags": [
+        "sales",
+        "customer-experience"
+      ],
+      "sourceID": "youtube-3fsjfuva6ts",
+      "sourceType": "video",
+      "sourceTitle": "What Makes The Perfect Business (5 Things)",
+      "sourceURL": "https://www.youtube.com/watch?v=3fsJFUvA6Ts&t=48s",
+      "sourceDate": "2026-05-02",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 48,
+        "endSeconds": 54
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex repeats a line immediately after attributing it to John Paul DeJoria.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
+      "createdAt": "2026-08-23T23:00:00.000Z",
+      "updatedAt": "2026-08-23T23:35:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "failed",
+          "checkedAt": "2026-08-23T23:10:00.000Z",
+          "reviewer": "codex-primary",
+          "method": "direct-media-listen",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": 30,
+          "wordingConfirmed": true,
+          "attributionConfirmed": false,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Listened to the original recording around 0:48 with surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": null,
+      "rejectionNotes": [
+        "Rejected because Alex explicitly attributes the statement to John Paul DeJoria."
+      ],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "responsibility-to-business",
+      "status": "verified",
+      "id": "73e0d73f-784a-4496-b9e7-1356b7b995d5",
+      "text": "You have a responsibility to the business. And the business has a responsibility to customers. But your responsibility is to make sure the business survives and grows.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Operations & Scaling",
+      "tags": [
+        "sustainability",
+        "customer-experience",
+        "leadership"
+      ],
+      "sourceID": "youtube-8vqsfbmms4m",
+      "sourceType": "video",
+      "sourceTitle": "If You Hate Selling, Please Watch This | Scale or Fail Episode 3",
+      "sourceURL": "https://www.youtube.com/watch?v=8VqSFBMMS4M&t=1147s",
+      "sourceDate": "2026-07-24",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 1147,
+        "endSeconds": 1154
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex explains why a founder must price and structure delivery so the company can continue serving customers.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
+      "createdAt": "2026-08-23T23:00:00.000Z",
+      "updatedAt": "2026-08-23T23:35:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-23T23:10:00.000Z",
+          "reviewer": "codex-primary",
+          "method": "direct-media-listen",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": 30,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
@@ -478,8 +2019,10 @@
           "checkedAt": "2026-08-23T23:35:00.000Z",
           "reviewer": "codex-independent",
           "method": "direct-media-listen",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": 30,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
@@ -501,90 +2044,22 @@
       "unresolvedWarnings": []
     },
     {
-      "candidateKey": "retention-is-foundational",
-      "status": "verified",
-      "id": "b255c5e7-09ba-4ba1-bbe6-1b20cd551904",
-      "text": "If you do not have what's called revenue retention, you have nothing.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Business Building",
-      "tags": [
-        "retention",
-        "recurring-revenue",
-        "business-model"
-      ],
-      "sourceType": "video",
-      "sourceTitle": "What Makes The Perfect Business (5 Things)",
-      "sourceDate": "2026-05-02",
-      "sourceURL": "https://www.youtube.com/watch?v=3fsJFUvA6Ts&t=35s",
-      "sourceLocator": {
-        "kind": "media",
-        "startSeconds": 35,
-        "endSeconds": 40
-      },
-      "featured": true,
-      "containsProfanity": false,
-      "context": "Alex introduces revenue retention as the first and most important advantage of a strong business model.",
-      "createdAt": "2026-08-23T23:00:00.000Z",
-      "updatedAt": "2026-08-23T23:35:00.000Z",
-      "verification": {
-        "firstPass": {
-          "outcome": "passed",
-          "checkedAt": "2026-08-23T23:10:00.000Z",
-          "reviewer": "codex-primary",
-          "method": "direct-media-listen",
-          "sourceReopened": true,
-          "surroundingContextReviewed": true,
-          "wordingConfirmed": true,
-          "attributionConfirmed": true,
-          "locatorConfirmed": true,
-          "metadataConfirmed": true,
-          "contextuallyHonest": true,
-          "notStitchedOrParaphrased": true,
-          "evidenceNote": "Listened to the original recording around 0:35 with more than 30 seconds of surrounding context."
-        },
-        "secondPass": {
-          "outcome": "passed",
-          "checkedAt": "2026-08-23T23:35:00.000Z",
-          "reviewer": "codex-independent",
-          "method": "direct-media-listen",
-          "sourceReopened": true,
-          "surroundingContextReviewed": true,
-          "wordingConfirmed": true,
-          "attributionConfirmed": true,
-          "locatorConfirmed": true,
-          "metadataConfirmed": true,
-          "contextuallyHonest": true,
-          "notStitchedOrParaphrased": true,
-          "evidenceNote": "Reopened the official upload and independently replayed the passage around 0:35; speaker, wording, locator, and metadata matched."
-        },
-        "blindAudit": null
-      },
-      "quality": {
-        "standaloneClarity": 2,
-        "practicalUsefulness": 2,
-        "distinctiveness": 1,
-        "fanRelevance": 2,
-        "productFit": 2
-      },
-      "rejectionNotes": [],
-      "unresolvedWarnings": []
-    },
-    {
       "candidateKey": "retention-first",
       "status": "verified",
       "id": "ce9cc2b1-ee31-47fe-84d3-15e60081d807",
       "text": "And if your business includes none, that's okay, work at retention first, and then backfill the rest.",
       "author": "Alex Hormozi",
-      "primaryCategory": "Business Building",
+      "primaryCategory": "Customer Success & Retention",
       "tags": [
         "retention",
         "prioritization",
-        "business-model"
+        "business-models"
       ],
+      "sourceID": "youtube-3fsjfuva6ts",
       "sourceType": "video",
       "sourceTitle": "What Makes The Perfect Business (5 Things)",
-      "sourceDate": "2026-05-02",
       "sourceURL": "https://www.youtube.com/watch?v=3fsJFUvA6Ts&t=1171s",
+      "sourceDate": "2026-05-02",
       "sourceLocator": {
         "kind": "media",
         "startSeconds": 1171,
@@ -593,6 +2068,14 @@
       "featured": true,
       "containsProfanity": false,
       "context": "After reviewing five business-model advantages, Alex recommends improving retention before the remaining advantages.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
       "createdAt": "2026-08-23T23:00:00.000Z",
       "updatedAt": "2026-08-23T23:35:00.000Z",
       "verification": {
@@ -601,8 +2084,10 @@
           "checkedAt": "2026-08-23T23:10:00.000Z",
           "reviewer": "codex-primary",
           "method": "direct-media-listen",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": 30,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
@@ -616,8 +2101,10 @@
           "checkedAt": "2026-08-23T23:35:00.000Z",
           "reviewer": "codex-independent",
           "method": "direct-media-listen",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": 30,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
@@ -639,29 +2126,37 @@
       "unresolvedWarnings": []
     },
     {
-      "candidateKey": "switch-for-retention",
+      "candidateKey": "retention-is-foundational",
       "status": "verified",
-      "id": "dff7fac0-b37e-4729-ae45-e8a545e4c345",
-      "text": "But if you're in an industry that has no retention, then switching to one that does, if you're early in your career, may not be the dumbest decision.",
+      "id": "b255c5e7-09ba-4ba1-bbe6-1b20cd551904",
+      "text": "If you do not have what's called revenue retention, you have nothing.",
       "author": "Alex Hormozi",
-      "primaryCategory": "Business Building",
+      "primaryCategory": "Customer Success & Retention",
       "tags": [
         "retention",
-        "market-selection",
-        "career"
+        "business-models"
       ],
+      "sourceID": "youtube-3fsjfuva6ts",
       "sourceType": "video",
       "sourceTitle": "What Makes The Perfect Business (5 Things)",
+      "sourceURL": "https://www.youtube.com/watch?v=3fsJFUvA6Ts&t=35s",
       "sourceDate": "2026-05-02",
-      "sourceURL": "https://www.youtube.com/watch?v=3fsJFUvA6Ts&t=1174s",
       "sourceLocator": {
         "kind": "media",
-        "startSeconds": 1174,
-        "endSeconds": 1182
+        "startSeconds": 35,
+        "endSeconds": 40
       },
       "featured": true,
       "containsProfanity": false,
-      "context": "Alex qualifies the advice for people early in their careers whose current industry structurally lacks repeat purchasing.",
+      "context": "Alex introduces revenue retention as the first and most important advantage of a strong business model.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
       "createdAt": "2026-08-23T23:00:00.000Z",
       "updatedAt": "2026-08-23T23:35:00.000Z",
       "verification": {
@@ -670,405 +2165,41 @@
           "checkedAt": "2026-08-23T23:10:00.000Z",
           "reviewer": "codex-primary",
           "method": "direct-media-listen",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": 30,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
           "metadataConfirmed": true,
           "contextuallyHonest": true,
           "notStitchedOrParaphrased": true,
-          "evidenceNote": "Listened to the original recording around 19:34 with more than 30 seconds of surrounding context."
+          "evidenceNote": "Listened to the original recording around 0:35 with more than 30 seconds of surrounding context."
         },
         "secondPass": {
           "outcome": "passed",
           "checkedAt": "2026-08-23T23:35:00.000Z",
           "reviewer": "codex-independent",
           "method": "direct-media-listen",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": 30,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
           "metadataConfirmed": true,
           "contextuallyHonest": true,
           "notStitchedOrParaphrased": true,
-          "evidenceNote": "Reopened the official upload and independently replayed the passage around 19:34; speaker, wording, locator, and metadata matched."
+          "evidenceNote": "Reopened the official upload and independently replayed the passage around 0:35; speaker, wording, locator, and metadata matched."
         },
         "blindAudit": null
       },
       "quality": {
         "standaloneClarity": 2,
-        "practicalUsefulness": 2,
-        "distinctiveness": 2,
-        "fanRelevance": 2,
-        "productFit": 2
-      },
-      "rejectionNotes": [],
-      "unresolvedWarnings": []
-    },
-    {
-      "candidateKey": "questions-like-weapons-rejected",
-      "status": "rejected",
-      "text": "I see, I see questions like weapons. Like, it's like, it shows, it shows how sharp your thinking is.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Editorial Rejection",
-      "tags": [
-        "rejected"
-      ],
-      "sourceType": "video",
-      "sourceTitle": "Learn 97% of How to Get Rich in 11 Mins",
-      "sourceDate": "2026-08-03",
-      "sourceURL": "https://www.youtube.com/watch?v=fj5uxdv_j5Y&t=516s",
-      "sourceLocator": {
-        "kind": "media",
-        "startSeconds": 516,
-        "endSeconds": 527
-      },
-      "featured": false,
-      "containsProfanity": false,
-      "context": "Alex describes questions as evidence of thinking quality.",
-      "createdAt": "2026-08-23T23:00:00.000Z",
-      "updatedAt": "2026-08-23T23:35:00.000Z",
-      "verification": {
-        "firstPass": {
-          "outcome": "passed",
-          "checkedAt": "2026-08-23T23:10:00.000Z",
-          "reviewer": "codex-primary",
-          "method": "direct-media-listen",
-          "sourceReopened": true,
-          "surroundingContextReviewed": true,
-          "wordingConfirmed": true,
-          "attributionConfirmed": true,
-          "locatorConfirmed": true,
-          "metadataConfirmed": true,
-          "contextuallyHonest": true,
-          "notStitchedOrParaphrased": true,
-          "evidenceNote": "Listened to the original recording around 8:36 with surrounding context."
-        },
-        "secondPass": null,
-        "blindAudit": null
-      },
-      "quality": null,
-      "rejectionNotes": [
-        "Rejected because the spoken repetitions would require silent cleanup to make a polished app quote."
-      ],
-      "unresolvedWarnings": []
-    },
-    {
-      "candidateKey": "resale-not-sales-rejected",
-      "status": "rejected",
-      "text": "You want to be in the resale business, not in the sales business.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Editorial Rejection",
-      "tags": [
-        "rejected"
-      ],
-      "sourceType": "video",
-      "sourceTitle": "What Makes The Perfect Business (5 Things)",
-      "sourceDate": "2026-05-02",
-      "sourceURL": "https://www.youtube.com/watch?v=3fsJFUvA6Ts&t=48s",
-      "sourceLocator": {
-        "kind": "media",
-        "startSeconds": 48,
-        "endSeconds": 54
-      },
-      "featured": false,
-      "containsProfanity": false,
-      "context": "Alex repeats a line immediately after attributing it to John Paul DeJoria.",
-      "createdAt": "2026-08-23T23:00:00.000Z",
-      "updatedAt": "2026-08-23T23:35:00.000Z",
-      "verification": {
-        "firstPass": {
-          "outcome": "failed",
-          "checkedAt": "2026-08-23T23:10:00.000Z",
-          "reviewer": "codex-primary",
-          "method": "direct-media-listen",
-          "sourceReopened": true,
-          "surroundingContextReviewed": true,
-          "wordingConfirmed": true,
-          "attributionConfirmed": false,
-          "locatorConfirmed": true,
-          "metadataConfirmed": true,
-          "contextuallyHonest": true,
-          "notStitchedOrParaphrased": true,
-          "evidenceNote": "Listened to the original recording around 0:48 with surrounding context."
-        },
-        "secondPass": null,
-        "blindAudit": null
-      },
-      "quality": null,
-      "rejectionNotes": [
-        "Rejected because Alex explicitly attributes the statement to John Paul DeJoria."
-      ],
-      "unresolvedWarnings": []
-    },
-    {
-      "candidateKey": "already-growing-rejected",
-      "status": "rejected",
-      "text": "That's the best—it's the easiest way to grow is to go into something that's already growing, so if you just do a normal amount, you still grow by default.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Editorial Rejection",
-      "tags": [
-        "rejected"
-      ],
-      "sourceType": "video",
-      "sourceTitle": "What Makes The Perfect Business (5 Things)",
-      "sourceDate": "2026-05-02",
-      "sourceURL": "https://www.youtube.com/watch?v=3fsJFUvA6Ts&t=600s",
-      "sourceLocator": {
-        "kind": "media",
-        "startSeconds": 600,
-        "endSeconds": 607
-      },
-      "featured": false,
-      "containsProfanity": false,
-      "context": "Alex discusses choosing an expanding industry.",
-      "createdAt": "2026-08-23T23:00:00.000Z",
-      "updatedAt": "2026-08-23T23:35:00.000Z",
-      "verification": {
-        "firstPass": {
-          "outcome": "passed",
-          "checkedAt": "2026-08-23T23:10:00.000Z",
-          "reviewer": "codex-primary",
-          "method": "direct-media-listen",
-          "sourceReopened": true,
-          "surroundingContextReviewed": true,
-          "wordingConfirmed": true,
-          "attributionConfirmed": true,
-          "locatorConfirmed": true,
-          "metadataConfirmed": true,
-          "contextuallyHonest": true,
-          "notStitchedOrParaphrased": true,
-          "evidenceNote": "Listened to the original recording around 10:00 with surrounding context."
-        },
-        "secondPass": null,
-        "blindAudit": null
-      },
-      "quality": {
-        "standaloneClarity": 1,
         "practicalUsefulness": 2,
         "distinctiveness": 1,
-        "fanRelevance": 2,
-        "productFit": 1
-      },
-      "rejectionNotes": [
-        "Rejected because the spoken false start cannot be removed without silently editing his delivery."
-      ],
-      "unresolvedWarnings": []
-    },
-    {
-      "candidateKey": "risk-when-poor",
-      "status": "verified",
-      "id": "9277b663-62ee-47b2-8931-343c3b585a44",
-      "text": "Best reason to take risk when you're poor: If you \"have nothing left\" it also means you have \"nothing to lose.\" Giving you no reason not to take your shot.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Mindset",
-      "tags": [
-        "risk",
-        "courage",
-        "mindset-shift"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceDate": "2023-10-25",
-      "sourceURL": "https://x.com/AlexHormozi/status/1717407643327971470",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Original post"
-      },
-      "featured": true,
-      "containsProfanity": false,
-      "context": "Alex reframes having nothing left as having nothing to lose, removing the excuse not to act.",
-      "createdAt": "2026-08-23T23:58:00.000Z",
-      "updatedAt": "2026-08-24T00:25:00.000Z",
-      "verification": {
-        "firstPass": {
-          "outcome": "passed",
-          "checkedAt": "2026-08-24T00:05:00.000Z",
-          "reviewer": "codex-primary",
-          "method": "direct-web-read",
-          "sourceReopened": true,
-          "surroundingContextReviewed": true,
-          "wordingConfirmed": true,
-          "attributionConfirmed": true,
-          "locatorConfirmed": true,
-          "metadataConfirmed": true,
-          "contextuallyHonest": true,
-          "notStitchedOrParaphrased": true,
-          "evidenceNote": "Reopened the tweet directly at x.com/AlexHormozi/status/1717407643327971470 and confirmed the exact wording, author handle, and posting date."
-        },
-        "secondPass": {
-          "outcome": "passed",
-          "checkedAt": "2026-08-24T00:25:00.000Z",
-          "reviewer": "codex-independent",
-          "method": "direct-web-read",
-          "sourceReopened": true,
-          "surroundingContextReviewed": true,
-          "wordingConfirmed": true,
-          "attributionConfirmed": true,
-          "locatorConfirmed": true,
-          "metadataConfirmed": true,
-          "contextuallyHonest": true,
-          "notStitchedOrParaphrased": true,
-          "evidenceNote": "Independently reopened the same tweet a second time and re-confirmed wording, attribution, and the Oct 25, 2023 timestamp against the live post."
-        },
-        "blindAudit": null
-      },
-      "quality": {
-        "standaloneClarity": 2,
-        "practicalUsefulness": 2,
-        "distinctiveness": 2,
-        "fanRelevance": 2,
-        "productFit": 2
-      },
-      "rejectionNotes": [],
-      "unresolvedWarnings": []
-    },
-    {
-      "candidateKey": "ambition-without-action",
-      "status": "verified",
-      "id": "9cd4fc91-009b-4cec-8348-2bab62f9d27b",
-      "text": "Ambition without action is entitlement.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Mindset",
-      "tags": [
-        "ambition",
-        "execution",
-        "accountability"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceDate": "2024-01-18",
-      "sourceURL": "https://x.com/AlexHormozi/status/1748079193504780332",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Original post"
-      },
-      "featured": true,
-      "containsProfanity": false,
-      "context": "Alex draws a hard line between wanting something and actually working toward it.",
-      "createdAt": "2026-08-23T23:58:00.000Z",
-      "updatedAt": "2026-08-24T00:40:00.000Z",
-      "verification": {
-        "firstPass": {
-          "outcome": "passed",
-          "checkedAt": "2026-08-24T00:05:00.000Z",
-          "reviewer": "codex-primary",
-          "method": "direct-web-read",
-          "sourceReopened": true,
-          "surroundingContextReviewed": true,
-          "wordingConfirmed": true,
-          "attributionConfirmed": true,
-          "locatorConfirmed": true,
-          "metadataConfirmed": true,
-          "contextuallyHonest": true,
-          "notStitchedOrParaphrased": true,
-          "evidenceNote": "Reopened the tweet directly at x.com/AlexHormozi/status/1748079193504780332 and confirmed the exact wording, author handle, and posting date."
-        },
-        "secondPass": {
-          "outcome": "passed",
-          "checkedAt": "2026-08-24T00:25:00.000Z",
-          "reviewer": "codex-independent",
-          "method": "direct-web-read",
-          "sourceReopened": true,
-          "surroundingContextReviewed": true,
-          "wordingConfirmed": true,
-          "attributionConfirmed": true,
-          "locatorConfirmed": true,
-          "metadataConfirmed": true,
-          "contextuallyHonest": true,
-          "notStitchedOrParaphrased": true,
-          "evidenceNote": "Independently reopened the same tweet a second time and re-confirmed wording, attribution, and the Jan 18, 2024 timestamp against the live post."
-        },
-        "blindAudit": {
-          "outcome": "passed",
-          "checkedAt": "2026-08-24T00:40:00.000Z",
-          "reviewer": "codex-blind-audit",
-          "method": "direct-web-read",
-          "sourceReopened": true,
-          "surroundingContextReviewed": true,
-          "wordingConfirmed": true,
-          "attributionConfirmed": true,
-          "locatorConfirmed": true,
-          "metadataConfirmed": true,
-          "contextuallyHonest": true,
-          "notStitchedOrParaphrased": true,
-          "evidenceNote": "Blind audit reopened the live post a third time on a separate tab and confirmed the exact seven-word wording, the @AlexHormozi handle, and the Jan 18, 2024 timestamp."
-        }
-      },
-      "quality": {
-        "standaloneClarity": 2,
-        "practicalUsefulness": 2,
-        "distinctiveness": 2,
-        "fanRelevance": 2,
-        "productFit": 2
-      },
-      "rejectionNotes": [],
-      "unresolvedWarnings": []
-    },
-    {
-      "candidateKey": "hard-times-epic-story",
-      "status": "verified",
-      "id": "ca64f810-6276-4dd1-a2de-0d8456fb4caa",
-      "text": "Hard times feel long. But an epic story lasts a lifetime.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Mindset",
-      "tags": [
-        "perseverance",
-        "resilience",
-        "perspective"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceDate": "2023-08-08",
-      "sourceURL": "https://x.com/AlexHormozi/status/1689056435349463040",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Original post"
-      },
-      "featured": true,
-      "containsProfanity": false,
-      "context": "Alex offers a reframe for enduring difficulty: the story you will tell later outlasts how long the hardship feels right now.",
-      "createdAt": "2026-08-23T23:58:00.000Z",
-      "updatedAt": "2026-08-24T00:25:00.000Z",
-      "verification": {
-        "firstPass": {
-          "outcome": "passed",
-          "checkedAt": "2026-08-24T00:05:00.000Z",
-          "reviewer": "codex-primary",
-          "method": "direct-web-read",
-          "sourceReopened": true,
-          "surroundingContextReviewed": true,
-          "wordingConfirmed": true,
-          "attributionConfirmed": true,
-          "locatorConfirmed": true,
-          "metadataConfirmed": true,
-          "contextuallyHonest": true,
-          "notStitchedOrParaphrased": true,
-          "evidenceNote": "Reopened the tweet directly at x.com/AlexHormozi/status/1689056435349463040 and confirmed the exact wording, author handle, and posting date."
-        },
-        "secondPass": {
-          "outcome": "passed",
-          "checkedAt": "2026-08-24T00:25:00.000Z",
-          "reviewer": "codex-independent",
-          "method": "direct-web-read",
-          "sourceReopened": true,
-          "surroundingContextReviewed": true,
-          "wordingConfirmed": true,
-          "attributionConfirmed": true,
-          "locatorConfirmed": true,
-          "metadataConfirmed": true,
-          "contextuallyHonest": true,
-          "notStitchedOrParaphrased": true,
-          "evidenceNote": "Independently reopened the same tweet a second time and re-confirmed wording, attribution, and the Aug 8, 2023 timestamp against the live post."
-        },
-        "blindAudit": null
-      },
-      "quality": {
-        "standaloneClarity": 2,
-        "practicalUsefulness": 2,
-        "distinctiveness": 2,
         "fanRelevance": 2,
         "productFit": 2
       },
@@ -1083,14 +2214,14 @@
       "author": "Alex Hormozi",
       "primaryCategory": "Decision Making",
       "tags": [
-        "opportunity-cost",
-        "selectivity",
-        "wealth-building"
+        "strategy",
+        "prioritization"
       ],
+      "sourceID": "x-1985014541827117115",
       "sourceType": "social",
       "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceDate": "2025-11-02",
       "sourceURL": "https://x.com/AlexHormozi/status/1985014541827117115",
+      "sourceDate": "2025-11-02",
       "sourceLocator": {
         "kind": "web",
         "section": "Original post"
@@ -1098,38 +2229,50 @@
       "featured": true,
       "containsProfanity": false,
       "context": "The opening of a longer thread where Alex explains that wealthier people get richer partly because they are more selective about which opportunities are even worth their time.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
       "createdAt": "2026-08-23T23:58:00.000Z",
-      "updatedAt": "2026-08-24T00:25:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
-          "checkedAt": "2026-08-24T00:05:00.000Z",
-          "reviewer": "codex-primary",
+          "checkedAt": "2026-08-24T03:49:23.103Z",
+          "reviewer": "codex-x-reaudit-pass-one",
           "method": "direct-web-read",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
           "metadataConfirmed": true,
           "contextuallyHonest": true,
           "notStitchedOrParaphrased": true,
-          "evidenceNote": "Reopened the tweet directly at x.com/AlexHormozi/status/1985014541827117115 and confirmed the excerpted wording is an exact, contiguous prefix of the live post, plus author handle and posting date."
+          "evidenceNote": "Reopened X's official embed, confirmed the @AlexHormozi author identity, contiguous wording, direct status URL, displayed publication date, and surrounding post context."
         },
         "secondPass": {
           "outcome": "passed",
-          "checkedAt": "2026-08-24T00:25:00.000Z",
-          "reviewer": "codex-independent",
+          "checkedAt": "2026-08-24T03:49:24.103Z",
+          "reviewer": "codex-x-reaudit-pass-two",
           "method": "direct-web-read",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
           "metadataConfirmed": true,
           "contextuallyHonest": true,
           "notStitchedOrParaphrased": true,
-          "evidenceNote": "Independently reopened the same tweet a second time and re-confirmed the excerpt matches verbatim, with attribution and the Nov 2, 2025 timestamp against the live post."
+          "evidenceNote": "Independently reopened X's official embed and reconfirmed authorship, exact contiguous text, direct locator, publication metadata, and honest standalone context."
         },
         "blindAudit": null
       },
@@ -1144,60 +2287,72 @@
       "unresolvedWarnings": []
     },
     {
-      "candidateKey": "gonna-die-already-won",
+      "candidateKey": "risk-when-poor",
       "status": "verified",
-      "id": "77ae2432-e27c-469c-b16c-caebb3c6dabc",
-      "text": "Remember you're gonna die and it's not gonna matter so don't stress so much - you've already won.",
+      "id": "9277b663-62ee-47b2-8931-343c3b585a44",
+      "text": "Best reason to take risk when you're poor: If you \"have nothing left\" it also means you have \"nothing to lose.\" Giving you no reason not to take your shot.",
       "author": "Alex Hormozi",
-      "primaryCategory": "Mindset",
+      "primaryCategory": "Mindset & Personal Growth",
       "tags": [
-        "perspective",
-        "stress",
-        "mortality"
+        "risk",
+        "perspective"
       ],
+      "sourceID": "x-1717407643327971470",
       "sourceType": "social",
       "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1717407643327971470",
       "sourceDate": "2023-10-26",
-      "sourceURL": "https://x.com/AlexHormozi/status/1717582169223360990",
       "sourceLocator": {
         "kind": "web",
         "section": "Original post"
       },
       "featured": true,
       "containsProfanity": false,
-      "context": "The closing line of a numbered list of advice Alex gave a 'stuck' founder, zooming out on stress with a mortality reminder.",
+      "context": "Alex reframes having nothing left as having nothing to lose, removing the excuse not to act.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
       "createdAt": "2026-08-23T23:58:00.000Z",
-      "updatedAt": "2026-08-24T00:25:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
-          "checkedAt": "2026-08-24T00:05:00.000Z",
-          "reviewer": "codex-primary",
+          "checkedAt": "2026-08-24T03:49:23.103Z",
+          "reviewer": "codex-x-reaudit-pass-one",
           "method": "direct-web-read",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
           "metadataConfirmed": true,
           "contextuallyHonest": true,
           "notStitchedOrParaphrased": true,
-          "evidenceNote": "Reopened the tweet directly at x.com/AlexHormozi/status/1717582169223360990 and confirmed this numbered item is an exact, verbatim line from the live post, plus author handle and posting date."
+          "evidenceNote": "Reopened X's official embed, confirmed the @AlexHormozi author identity, contiguous wording, direct status URL, displayed publication date, and surrounding post context."
         },
         "secondPass": {
           "outcome": "passed",
-          "checkedAt": "2026-08-24T00:25:00.000Z",
-          "reviewer": "codex-independent",
+          "checkedAt": "2026-08-24T03:49:24.103Z",
+          "reviewer": "codex-x-reaudit-pass-two",
           "method": "direct-web-read",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
           "metadataConfirmed": true,
           "contextuallyHonest": true,
           "notStitchedOrParaphrased": true,
-          "evidenceNote": "Independently reopened the same tweet a second time and re-confirmed the line matches verbatim, with attribution and the Oct 26, 2023 timestamp against the live post."
+          "evidenceNote": "Independently reopened X's official embed and reconfirmed authorship, exact contiguous text, direct locator, publication metadata, and honest standalone context."
         },
         "blindAudit": null
       },
@@ -1212,130 +2367,189 @@
       "unresolvedWarnings": []
     },
     {
-      "candidateKey": "customer-backwards-to-money",
+      "candidateKey": "sales-skill-permanent-raise",
       "status": "verified",
-      "id": "91657a20-4705-4ef7-a62d-8061df5b01c5",
-      "text": "Build from the customer backwards to money, not the other way around.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Business Building",
-      "tags": [
-        "customer-first",
-        "business-model",
-        "strategy"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceDate": "2023-10-26",
-      "sourceURL": "https://x.com/AlexHormozi/status/1717582169223360990",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Original post"
-      },
-      "featured": true,
-      "containsProfanity": false,
-      "context": "Another line from the same numbered list of advice Alex gave a 'stuck' founder about how to structure a business around customers first.",
-      "createdAt": "2026-08-23T23:58:00.000Z",
-      "updatedAt": "2026-08-24T00:25:00.000Z",
-      "verification": {
-        "firstPass": {
-          "outcome": "passed",
-          "checkedAt": "2026-08-24T00:05:00.000Z",
-          "reviewer": "codex-primary",
-          "method": "direct-web-read",
-          "sourceReopened": true,
-          "surroundingContextReviewed": true,
-          "wordingConfirmed": true,
-          "attributionConfirmed": true,
-          "locatorConfirmed": true,
-          "metadataConfirmed": true,
-          "contextuallyHonest": true,
-          "notStitchedOrParaphrased": true,
-          "evidenceNote": "Reopened the tweet directly at x.com/AlexHormozi/status/1717582169223360990 and confirmed this numbered item is an exact, verbatim line from the live post, plus author handle and posting date."
-        },
-        "secondPass": {
-          "outcome": "passed",
-          "checkedAt": "2026-08-24T00:25:00.000Z",
-          "reviewer": "codex-independent",
-          "method": "direct-web-read",
-          "sourceReopened": true,
-          "surroundingContextReviewed": true,
-          "wordingConfirmed": true,
-          "attributionConfirmed": true,
-          "locatorConfirmed": true,
-          "metadataConfirmed": true,
-          "contextuallyHonest": true,
-          "notStitchedOrParaphrased": true,
-          "evidenceNote": "Independently reopened the same tweet a second time and re-confirmed the line matches verbatim, with attribution and the Oct 26, 2023 timestamp against the live post."
-        },
-        "blindAudit": null
-      },
-      "quality": {
-        "standaloneClarity": 2,
-        "practicalUsefulness": 2,
-        "distinctiveness": 2,
-        "fanRelevance": 2,
-        "productFit": 2
-      },
-      "rejectionNotes": [],
-      "unresolvedWarnings": []
-    },
-    {
-      "candidateKey": "advertise-more",
-      "status": "verified",
-      "id": "78528c89-a5b8-4ecd-83fd-c707ede6a3c5",
-      "text": "If you're a small business owner, you have to advertise more. Period. No one knows you exist - which is why you're not making as much as you want.",
+      "id": "2da4f3e4-6a61-42f4-aa5c-e8eaf333d156",
+      "text": "Cold calling and high volume selling are valuable because of the skills you learn, not the $. It’s hard to take 20+ consults a day and not get good. And once you’re good, it’s like getting a permanent $200k/yr pay raise. It’s worth giving a year to gain the skill for life.",
       "author": "Alex Hormozi",
       "primaryCategory": "Sales",
       "tags": [
-        "advertising",
-        "visibility",
-        "small-business"
+        "sales-training",
+        "learning"
       ],
+      "sourceID": "x-1540332812305281027",
       "sourceType": "social",
       "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceDate": "2025-11-06",
-      "sourceURL": "https://x.com/AlexHormozi/status/1986457549684523095",
+      "sourceURL": "https://x.com/AlexHormozi/status/1540332812305281027",
+      "sourceDate": "2022-06-24",
       "sourceLocator": {
         "kind": "web",
-        "section": "Original post"
+        "section": "Original post",
+        "postID": "1540332812305281027"
       },
       "featured": true,
       "containsProfanity": false,
-      "context": "Alex responds to small business owners who assume customers will find them without consistent outbound marketing.",
-      "createdAt": "2026-08-23T23:58:00.000Z",
-      "updatedAt": "2026-08-24T00:25:00.000Z",
+      "context": "Alex argues that the durable value of high-volume selling is the lifelong skill built through repeated real-world practice.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
+      "createdAt": "2026-08-24T01:38:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
-          "checkedAt": "2026-08-24T00:05:00.000Z",
-          "reviewer": "codex-primary",
+          "checkedAt": "2026-08-24T03:49:23.103Z",
+          "reviewer": "codex-x-reaudit-pass-one",
           "method": "direct-web-read",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
           "metadataConfirmed": true,
           "contextuallyHonest": true,
           "notStitchedOrParaphrased": true,
-          "evidenceNote": "Reopened the tweet directly at x.com/AlexHormozi/status/1986457549684523095 and confirmed the excerpted wording is an exact, contiguous prefix of the live post, plus author handle and posting date."
+          "evidenceNote": "Reopened X's official embed, confirmed the @AlexHormozi author identity, contiguous wording, direct status URL, displayed publication date, and surrounding post context."
         },
         "secondPass": {
           "outcome": "passed",
-          "checkedAt": "2026-08-24T00:25:00.000Z",
-          "reviewer": "codex-independent",
+          "checkedAt": "2026-08-24T03:49:24.103Z",
+          "reviewer": "codex-x-reaudit-pass-two",
           "method": "direct-web-read",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
           "metadataConfirmed": true,
           "contextuallyHonest": true,
           "notStitchedOrParaphrased": true,
-          "evidenceNote": "Independently reopened the same tweet a second time and re-confirmed the excerpt matches verbatim, with attribution and the Nov 6, 2025 timestamp against the live post."
+          "evidenceNote": "Independently reopened X's official embed and reconfirmed authorship, exact contiguous text, direct locator, publication metadata, and honest standalone context."
         },
-        "blindAudit": null
+        "blindAudit": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:25.103Z",
+          "reviewer": "codex-x-blind-audit",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "A third isolated official X embed read matched Alex Hormozi's authorship, the exact contiguous excerpt, status locator, date, and full post context."
+        }
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 1,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "scaling-flat-retention-curve",
+      "status": "verified",
+      "id": "63c18d6d-626c-489c-94a9-8e8ef70a7e98",
+      "text": "The biggest lie I believed for the first 10yrs of being a business owner was that scaling was about getting more customers. It's about getting customers to never leave. Scaling looks like a flat retention curve, and when your business never gets smaller, it scales by default.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Customer Success & Retention",
+      "tags": [
+        "retention",
+        "scaling",
+        "customer-experience"
+      ],
+      "sourceID": "x-2035996696522678300",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/2035996696522678300",
+      "sourceDate": "2026-03-23",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "2035996696522678300"
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex reframes scaling as keeping customers long enough for the business to stop shrinking, rather than treating acquisition alone as growth.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
+      "createdAt": "2026-08-24T01:38:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:23.103Z",
+          "reviewer": "codex-x-reaudit-pass-one",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened X's official embed, confirmed the @AlexHormozi author identity, contiguous wording, direct status URL, displayed publication date, and surrounding post context."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:24.103Z",
+          "reviewer": "codex-x-reaudit-pass-two",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Independently reopened X's official embed and reconfirmed authorship, exact contiguous text, direct locator, publication metadata, and honest standalone context."
+        },
+        "blindAudit": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T01:50:00.000Z",
+          "reviewer": "codex-blind-audit",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Blind audit fetched the X post again and matched its wording, @AlexHormozi authorship, status ID, and March 23, 2026 date to the ledger record."
+        }
       },
       "quality": {
         "standaloneClarity": 2,
@@ -1348,196 +2562,73 @@
       "unresolvedWarnings": []
     },
     {
-      "candidateKey": "fight-against-irrelevance",
+      "candidateKey": "sell-things-people-do-not-cancel",
       "status": "verified",
-      "id": "bfa01f9f-9010-4d99-b709-15835537598a",
-      "text": "The fight you're having right now is against irrelevance.",
+      "id": "fba747e2-9a21-4109-a720-5abbb1c0fe6d",
+      "text": "The easiest way to reduce churn is to sell stuff people already don’t cancel out of. TLDR: you’re never gonna make a gym membership stickier than Internet service across a large population.",
       "author": "Alex Hormozi",
-      "primaryCategory": "Mindset",
+      "primaryCategory": "Customer Success & Retention",
       "tags": [
-        "visibility",
-        "relevance",
-        "mindset"
+        "retention",
+        "business-models"
       ],
+      "sourceID": "x-1889127978984215010",
       "sourceType": "social",
       "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceDate": "2025-11-06",
-      "sourceURL": "https://x.com/AlexHormozi/status/1986457549684523095",
+      "sourceURL": "https://x.com/AlexHormozi/status/1889127978984215010",
+      "sourceDate": "2025-02-11",
       "sourceLocator": {
         "kind": "web",
-        "section": "Original post"
-      },
-      "featured": false,
-      "containsProfanity": false,
-      "context": "The closing line of the same tweet about why small business owners need to advertise more consistently.",
-      "createdAt": "2026-08-23T23:58:00.000Z",
-      "updatedAt": "2026-08-24T00:25:00.000Z",
-      "verification": {
-        "firstPass": {
-          "outcome": "passed",
-          "checkedAt": "2026-08-24T00:05:00.000Z",
-          "reviewer": "codex-primary",
-          "method": "direct-web-read",
-          "sourceReopened": true,
-          "surroundingContextReviewed": true,
-          "wordingConfirmed": true,
-          "attributionConfirmed": true,
-          "locatorConfirmed": true,
-          "metadataConfirmed": true,
-          "contextuallyHonest": true,
-          "notStitchedOrParaphrased": true,
-          "evidenceNote": "Reopened the tweet directly at x.com/AlexHormozi/status/1986457549684523095 and confirmed this closing line is an exact, verbatim sentence from the live post, plus author handle and posting date."
-        },
-        "secondPass": {
-          "outcome": "passed",
-          "checkedAt": "2026-08-24T00:25:00.000Z",
-          "reviewer": "codex-independent",
-          "method": "direct-web-read",
-          "sourceReopened": true,
-          "surroundingContextReviewed": true,
-          "wordingConfirmed": true,
-          "attributionConfirmed": true,
-          "locatorConfirmed": true,
-          "metadataConfirmed": true,
-          "contextuallyHonest": true,
-          "notStitchedOrParaphrased": true,
-          "evidenceNote": "Independently reopened the same tweet a second time and re-confirmed the line matches verbatim, with attribution and the Nov 6, 2025 timestamp against the live post."
-        },
-        "blindAudit": null
-      },
-      "quality": {
-        "standaloneClarity": 2,
-        "practicalUsefulness": 2,
-        "distinctiveness": 1,
-        "fanRelevance": 2,
-        "productFit": 2
-      },
-      "rejectionNotes": [],
-      "unresolvedWarnings": []
-    },
-    {
-      "candidateKey": "always-making-things-happen-faster",
-      "status": "verified",
-      "id": "89237f45-0bfb-464e-acfe-6cfad1e2b46a",
-      "text": "Always making things happen faster. Always disappointed it didn't happen faster.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Mindset",
-      "tags": [
-        "urgency",
-        "standards",
-        "ambition"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceDate": "2024-10-05",
-      "sourceURL": "https://x.com/AlexHormozi/status/1842641542084952302",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Reply on X"
-      },
-      "featured": false,
-      "containsProfanity": false,
-      "context": "Alex's reply in a conversation about founders who create urgency by being aggressive about pace.",
-      "createdAt": "2026-08-23T23:58:00.000Z",
-      "updatedAt": "2026-08-24T00:25:00.000Z",
-      "verification": {
-        "firstPass": {
-          "outcome": "passed",
-          "checkedAt": "2026-08-24T00:05:00.000Z",
-          "reviewer": "codex-primary",
-          "method": "direct-web-read",
-          "sourceReopened": true,
-          "surroundingContextReviewed": true,
-          "wordingConfirmed": true,
-          "attributionConfirmed": true,
-          "locatorConfirmed": true,
-          "metadataConfirmed": true,
-          "contextuallyHonest": true,
-          "notStitchedOrParaphrased": true,
-          "evidenceNote": "Reopened the tweet directly at x.com/AlexHormozi/status/1842641542084952302 and confirmed the exact wording, author handle, and posting date."
-        },
-        "secondPass": {
-          "outcome": "passed",
-          "checkedAt": "2026-08-24T00:25:00.000Z",
-          "reviewer": "codex-independent",
-          "method": "direct-web-read",
-          "sourceReopened": true,
-          "surroundingContextReviewed": true,
-          "wordingConfirmed": true,
-          "attributionConfirmed": true,
-          "locatorConfirmed": true,
-          "metadataConfirmed": true,
-          "contextuallyHonest": true,
-          "notStitchedOrParaphrased": true,
-          "evidenceNote": "Independently reopened the same tweet a second time and re-confirmed wording, attribution, and the Oct 5, 2024 timestamp against the live post."
-        },
-        "blindAudit": null
-      },
-      "quality": {
-        "standaloneClarity": 1,
-        "practicalUsefulness": 2,
-        "distinctiveness": 2,
-        "fanRelevance": 2,
-        "productFit": 2
-      },
-      "rejectionNotes": [],
-      "unresolvedWarnings": []
-    },
-    {
-      "candidateKey": "productivity-not-do",
-      "status": "verified",
-      "id": "3ca22a3f-4f5e-4ed1-804c-c3358d8e9feb",
-      "text": "Productivity comes from all the things you choose not to do.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Decision Making",
-      "tags": [
-        "prioritization",
-        "productivity",
-        "focus"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceDate": "2025-01-31",
-      "sourceURL": "https://x.com/AlexHormozi/status/1885524074098520535",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Original post"
+        "section": "Original post",
+        "postID": "1889127978984215010"
       },
       "featured": true,
       "containsProfanity": false,
-      "context": "Alex ties productivity to elimination rather than to doing more.",
-      "createdAt": "2026-08-23T23:58:00.000Z",
-      "updatedAt": "2026-08-24T00:25:00.000Z",
+      "context": "Alex argues that retention is partly structural: some categories naturally support more durable customer relationships than others.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
+      "createdAt": "2026-08-24T01:38:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
-          "checkedAt": "2026-08-24T00:05:00.000Z",
-          "reviewer": "codex-primary",
+          "checkedAt": "2026-08-24T03:49:23.103Z",
+          "reviewer": "codex-x-reaudit-pass-one",
           "method": "direct-web-read",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
           "metadataConfirmed": true,
           "contextuallyHonest": true,
           "notStitchedOrParaphrased": true,
-          "evidenceNote": "Reopened the tweet directly at x.com/AlexHormozi/status/1885524074098520535 and confirmed the exact wording, author handle, and posting date."
+          "evidenceNote": "Reopened X's official embed, confirmed the @AlexHormozi author identity, contiguous wording, direct status URL, displayed publication date, and surrounding post context."
         },
         "secondPass": {
           "outcome": "passed",
-          "checkedAt": "2026-08-24T00:25:00.000Z",
-          "reviewer": "codex-independent",
+          "checkedAt": "2026-08-24T03:49:24.103Z",
+          "reviewer": "codex-x-reaudit-pass-two",
           "method": "direct-web-read",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
           "metadataConfirmed": true,
           "contextuallyHonest": true,
           "notStitchedOrParaphrased": true,
-          "evidenceNote": "Independently reopened the same tweet a second time and re-confirmed wording, attribution, and the Jan 31, 2025 timestamp against the live post."
+          "evidenceNote": "Independently reopened X's official embed and reconfirmed authorship, exact contiguous text, direct locator, publication metadata, and honest standalone context."
         },
         "blindAudit": null
       },
@@ -1545,67 +2636,81 @@
         "standaloneClarity": 2,
         "practicalUsefulness": 2,
         "distinctiveness": 2,
-        "fanRelevance": 2,
+        "fanRelevance": 1,
         "productFit": 2
       },
       "rejectionNotes": [],
       "unresolvedWarnings": []
     },
     {
-      "candidateKey": "focus-only-solid-employee",
+      "candidateKey": "start-now-or-change-goal",
       "status": "verified",
-      "id": "eecc35c0-0af3-4d71-b795-04a460c6ce58",
-      "text": "The reason focus is so important in the beginning is that the only solid employee in your business is you. And you would never tell that person to work on four things at the same time and see what works.",
+      "id": "2ee5c144-c225-4d62-a717-a932b154c79e",
+      "text": "If you’re gonna do it next year, you might as well start now and start enjoying the benefits sooner. And if the benefits aren’t good enough to do it now, they’re not gonna be any better in the future. So either change the goal or change yourself.",
       "author": "Alex Hormozi",
-      "primaryCategory": "Business Building",
+      "primaryCategory": "Productivity & Execution",
       "tags": [
-        "focus",
-        "early-stage",
-        "leadership"
+        "execution",
+        "goals",
+        "urgency"
       ],
+      "sourceID": "x-1870521208921538989",
       "sourceType": "social",
       "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceDate": "2025-05-18",
-      "sourceURL": "https://x.com/AlexHormozi/status/1924169850207064469",
+      "sourceURL": "https://x.com/AlexHormozi/status/1870521208921538989",
+      "sourceDate": "2024-12-21",
       "sourceLocator": {
         "kind": "web",
-        "section": "Original post"
+        "section": "Original post",
+        "postID": "1870521208921538989"
       },
       "featured": true,
       "containsProfanity": false,
-      "context": "Alex compares an early-stage founder splitting attention across projects to mismanaging their only reliable employee: themselves.",
-      "createdAt": "2026-08-23T23:58:00.000Z",
-      "updatedAt": "2026-08-24T00:25:00.000Z",
+      "context": "Alex challenges delayed goals by asking whether the promised benefit is meaningful enough to justify beginning now.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
+      "createdAt": "2026-08-24T01:38:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
-          "checkedAt": "2026-08-24T00:05:00.000Z",
-          "reviewer": "codex-primary",
+          "checkedAt": "2026-08-24T03:49:23.103Z",
+          "reviewer": "codex-x-reaudit-pass-one",
           "method": "direct-web-read",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
           "metadataConfirmed": true,
           "contextuallyHonest": true,
           "notStitchedOrParaphrased": true,
-          "evidenceNote": "Reopened the tweet directly at x.com/AlexHormozi/status/1924169850207064469 and confirmed the exact wording, author handle, and posting date."
+          "evidenceNote": "Reopened X's official embed, confirmed the @AlexHormozi author identity, contiguous wording, direct status URL, displayed publication date, and surrounding post context."
         },
         "secondPass": {
           "outcome": "passed",
-          "checkedAt": "2026-08-24T00:25:00.000Z",
-          "reviewer": "codex-independent",
+          "checkedAt": "2026-08-24T03:49:24.103Z",
+          "reviewer": "codex-x-reaudit-pass-two",
           "method": "direct-web-read",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
           "metadataConfirmed": true,
           "contextuallyHonest": true,
           "notStitchedOrParaphrased": true,
-          "evidenceNote": "Independently reopened the same tweet a second time and re-confirmed wording, attribution, and the May 18, 2025 timestamp against the live post."
+          "evidenceNote": "Independently reopened X's official embed and reconfirmed authorship, exact contiguous text, direct locator, publication metadata, and honest standalone context."
         },
         "blindAudit": null
       },
@@ -1628,13 +2733,13 @@
       "primaryCategory": "Decision Making",
       "tags": [
         "decision-making",
-        "stress",
-        "clarity"
+        "stress"
       ],
+      "sourceID": "x-1625170518201581568",
       "sourceType": "social",
       "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceDate": "2023-02-13",
       "sourceURL": "https://x.com/AlexHormozi/status/1625170518201581568",
+      "sourceDate": "2023-02-13",
       "sourceLocator": {
         "kind": "web",
         "section": "Original post"
@@ -1642,46 +2747,60 @@
       "featured": true,
       "containsProfanity": false,
       "context": "Alex locates the source of stress in unresolved decisions rather than in the decisions themselves.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
       "createdAt": "2026-08-23T23:58:00.000Z",
-      "updatedAt": "2026-08-24T00:40:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
-          "checkedAt": "2026-08-24T00:05:00.000Z",
-          "reviewer": "codex-primary",
+          "checkedAt": "2026-08-24T03:49:23.103Z",
+          "reviewer": "codex-x-reaudit-pass-one",
           "method": "direct-web-read",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
           "metadataConfirmed": true,
           "contextuallyHonest": true,
           "notStitchedOrParaphrased": true,
-          "evidenceNote": "Reopened the tweet directly at x.com/AlexHormozi/status/1625170518201581568 and confirmed the exact wording, author handle, and posting date."
+          "evidenceNote": "Reopened X's official embed, confirmed the @AlexHormozi author identity, contiguous wording, direct status URL, displayed publication date, and surrounding post context."
         },
         "secondPass": {
           "outcome": "passed",
-          "checkedAt": "2026-08-24T00:25:00.000Z",
-          "reviewer": "codex-independent",
+          "checkedAt": "2026-08-24T03:49:24.103Z",
+          "reviewer": "codex-x-reaudit-pass-two",
           "method": "direct-web-read",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
           "metadataConfirmed": true,
           "contextuallyHonest": true,
           "notStitchedOrParaphrased": true,
-          "evidenceNote": "Independently reopened the same tweet a second time and re-confirmed wording, attribution, and the Feb 13, 2023 timestamp against the live post."
+          "evidenceNote": "Independently reopened X's official embed and reconfirmed authorship, exact contiguous text, direct locator, publication metadata, and honest standalone context."
         },
         "blindAudit": {
           "outcome": "passed",
           "checkedAt": "2026-08-24T00:40:00.000Z",
           "reviewer": "codex-blind-audit",
           "method": "direct-web-read",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
@@ -1702,60 +2821,74 @@
       "unresolvedWarnings": []
     },
     {
-      "candidateKey": "offer-not-converting-five-reasons",
+      "candidateKey": "switch-for-retention",
       "status": "verified",
-      "id": "53280e23-3898-47f6-ad02-a284497d4881",
-      "text": "5 reasons your offer isn't converting: 1) Targeting poor people 2) Not enough Proof 3) Too little friction 4) Big outcome not fast enough 5) \"Sounds like work\"",
+      "id": "dff7fac0-b37e-4729-ae45-e8a545e4c345",
+      "text": "But if you're in an industry that has no retention, then switching to one that does, if you're early in your career, may not be the dumbest decision.",
       "author": "Alex Hormozi",
-      "primaryCategory": "Sales",
+      "primaryCategory": "Business Models & Strategy",
       "tags": [
-        "offers",
-        "conversion",
-        "sales"
+        "retention",
+        "strategy",
+        "career"
       ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceDate": "2026-04-21",
-      "sourceURL": "https://x.com/AlexHormozi/status/2046583916061229408",
+      "sourceID": "youtube-3fsjfuva6ts",
+      "sourceType": "video",
+      "sourceTitle": "What Makes The Perfect Business (5 Things)",
+      "sourceURL": "https://www.youtube.com/watch?v=3fsJFUvA6Ts&t=1174s",
+      "sourceDate": "2026-05-02",
       "sourceLocator": {
-        "kind": "web",
-        "section": "Original post"
+        "kind": "media",
+        "startSeconds": 1174,
+        "endSeconds": 1182
       },
       "featured": true,
       "containsProfanity": false,
-      "context": "Alex lists the most common reasons a sales offer fails to convert.",
-      "createdAt": "2026-08-23T23:58:00.000Z",
-      "updatedAt": "2026-08-24T00:25:00.000Z",
+      "context": "Alex qualifies the advice for people early in their careers whose current industry structurally lacks repeat purchasing.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
+      "createdAt": "2026-08-23T23:00:00.000Z",
+      "updatedAt": "2026-08-23T23:35:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
-          "checkedAt": "2026-08-24T00:05:00.000Z",
+          "checkedAt": "2026-08-23T23:10:00.000Z",
           "reviewer": "codex-primary",
-          "method": "direct-web-read",
+          "method": "direct-media-listen",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": 30,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
           "metadataConfirmed": true,
           "contextuallyHonest": true,
           "notStitchedOrParaphrased": true,
-          "evidenceNote": "Reopened the tweet directly at x.com/AlexHormozi/status/2046583916061229408 and confirmed the exact wording, author handle, and posting date."
+          "evidenceNote": "Listened to the original recording around 19:34 with more than 30 seconds of surrounding context."
         },
         "secondPass": {
           "outcome": "passed",
-          "checkedAt": "2026-08-24T00:25:00.000Z",
+          "checkedAt": "2026-08-23T23:35:00.000Z",
           "reviewer": "codex-independent",
-          "method": "direct-web-read",
+          "method": "direct-media-listen",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": 30,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
           "metadataConfirmed": true,
           "contextuallyHonest": true,
           "notStitchedOrParaphrased": true,
-          "evidenceNote": "Independently reopened the same tweet a second time and re-confirmed wording, attribution, and the Apr 21, 2026 timestamp against the live post."
+          "evidenceNote": "Reopened the official upload and independently replayed the passage around 19:34; speaker, wording, locator, and metadata matched."
         },
         "blindAudit": null
       },
@@ -1770,77 +2903,76 @@
       "unresolvedWarnings": []
     },
     {
-      "candidateKey": "scaling-flat-retention-curve",
+      "candidateKey": "what-would-it-take",
       "status": "verified",
-      "id": "63c18d6d-626c-489c-94a9-8e8ef70a7e98",
-      "text": "The biggest lie I believed for the first 10yrs of being a business owner was that scaling was about getting more customers. It's about getting customers to never leave. Scaling looks like a flat retention curve, and when your business never gets smaller, it scales by default.",
+      "id": "2a2a3dc1-8e1c-4e2a-8149-cb97f61ec542",
+      "text": "And so, I almost always wrap my questions with \"What would it take?\" because it assumes success.",
       "author": "Alex Hormozi",
-      "primaryCategory": "Business Building",
+      "primaryCategory": "Decision Making",
       "tags": [
-        "retention",
-        "scaling",
-        "customers"
+        "decision-making",
+        "problem-solving",
+        "execution"
       ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceDate": "2026-03-23",
-      "sourceURL": "https://x.com/AlexHormozi/status/2035996696522678300",
+      "sourceID": "youtube-fj5uxdv-j5y",
+      "sourceType": "video",
+      "sourceTitle": "Learn 97% of How to Get Rich in 11 Mins",
+      "sourceURL": "https://www.youtube.com/watch?v=fj5uxdv_j5Y&t=173s",
+      "sourceDate": "2026-08-03",
       "sourceLocator": {
-        "kind": "web",
-        "section": "Original post",
-        "postID": "2035996696522678300"
+        "kind": "media",
+        "startSeconds": 173,
+        "endSeconds": 184
       },
       "featured": true,
       "containsProfanity": false,
-      "context": "Alex reframes scaling as keeping customers long enough for the business to stop shrinking, rather than treating acquisition alone as growth.",
-      "createdAt": "2026-08-24T01:38:00.000Z",
-      "updatedAt": "2026-08-24T01:50:00.000Z",
+      "context": "Alex contrasts this framing with asking whether something can be done; the former starts from an assumption that a solution exists.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
+      "createdAt": "2026-08-23T23:00:00.000Z",
+      "updatedAt": "2026-08-23T23:35:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
-          "checkedAt": "2026-08-24T01:40:00.000Z",
+          "checkedAt": "2026-08-23T23:10:00.000Z",
           "reviewer": "codex-primary",
-          "method": "direct-web-read",
+          "method": "direct-media-listen",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": 30,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
           "metadataConfirmed": true,
           "contextuallyHonest": true,
           "notStitchedOrParaphrased": true,
-          "evidenceNote": "Opened X's oEmbed representation for post 2035996696522678300 and confirmed every word, the @AlexHormozi attribution, direct URL, and March 23, 2026 date."
+          "evidenceNote": "Listened to the original recording around 2:53 with more than 30 seconds of surrounding context."
         },
         "secondPass": {
           "outcome": "passed",
-          "checkedAt": "2026-08-24T01:45:00.000Z",
+          "checkedAt": "2026-08-23T23:35:00.000Z",
           "reviewer": "codex-independent",
-          "method": "direct-web-read",
+          "method": "direct-media-listen",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": 30,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
           "metadataConfirmed": true,
           "contextuallyHonest": true,
           "notStitchedOrParaphrased": true,
-          "evidenceNote": "Reopened the post through X in a separate pass and re-confirmed the complete text, author identity, status ID, and publication date."
+          "evidenceNote": "Reopened the official upload and independently replayed the passage around 2:53; speaker, wording, locator, and metadata matched."
         },
-        "blindAudit": {
-          "outcome": "passed",
-          "checkedAt": "2026-08-24T01:50:00.000Z",
-          "reviewer": "codex-blind-audit",
-          "method": "direct-web-read",
-          "sourceReopened": true,
-          "surroundingContextReviewed": true,
-          "wordingConfirmed": true,
-          "attributionConfirmed": true,
-          "locatorConfirmed": true,
-          "metadataConfirmed": true,
-          "contextuallyHonest": true,
-          "notStitchedOrParaphrased": true,
-          "evidenceNote": "Blind audit fetched the X post again and matched its wording, @AlexHormozi authorship, status ID, and March 23, 2026 date to the ledger record."
-        }
+        "blindAudit": null
       },
       "quality": {
         "standaloneClarity": 2,
@@ -1854,20 +2986,21 @@
     },
     {
       "candidateKey": "younger-people-advance-faster",
-      "status": "verified",
+      "status": "rejected",
       "id": "ff544e6a-175a-4959-8320-5b8447e55aeb",
       "text": "The thing about helping younger folks in business is that they tend to advance faster because they don’t spend nearly the amount of time trying to justify why something won’t work. They also don’t even know what “a lot” of money is - it’s all just Monopoly money to them.",
       "author": "Alex Hormozi",
-      "primaryCategory": "Business Building",
+      "primaryCategory": "Leadership & Teams",
       "tags": [
         "learning",
         "risk",
-        "early-career"
+        "career"
       ],
+      "sourceID": "x-1950263853867991144",
       "sourceType": "social",
       "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceDate": "2025-07-29",
       "sourceURL": "https://x.com/AlexHormozi/status/1950263853867991144",
+      "sourceDate": "2025-07-29",
       "sourceLocator": {
         "kind": "web",
         "section": "Original post",
@@ -1876,38 +3009,50 @@
       "featured": false,
       "containsProfanity": false,
       "context": "Alex observes that less experience can sometimes speed up progress because there are fewer learned objections and fewer fixed assumptions about scale.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
       "createdAt": "2026-08-24T01:38:00.000Z",
-      "updatedAt": "2026-08-24T01:45:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
-          "checkedAt": "2026-08-24T01:40:00.000Z",
-          "reviewer": "codex-primary",
+          "checkedAt": "2026-08-24T03:49:23.103Z",
+          "reviewer": "codex-x-reaudit-pass-one",
           "method": "direct-web-read",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
           "metadataConfirmed": true,
           "contextuallyHonest": true,
           "notStitchedOrParaphrased": true,
-          "evidenceNote": "Opened X's oEmbed representation for post 1950263853867991144 and confirmed every word, the @AlexHormozi attribution, direct URL, and July 29, 2025 date."
+          "evidenceNote": "Reopened X's official embed, confirmed the @AlexHormozi author identity, contiguous wording, direct status URL, displayed publication date, and surrounding post context."
         },
         "secondPass": {
           "outcome": "passed",
-          "checkedAt": "2026-08-24T01:45:00.000Z",
-          "reviewer": "codex-independent",
+          "checkedAt": "2026-08-24T03:49:24.103Z",
+          "reviewer": "codex-x-reaudit-pass-two",
           "method": "direct-web-read",
+          "isolatedReview": true,
           "sourceReopened": true,
           "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
           "wordingConfirmed": true,
           "attributionConfirmed": true,
           "locatorConfirmed": true,
           "metadataConfirmed": true,
           "contextuallyHonest": true,
           "notStitchedOrParaphrased": true,
-          "evidenceNote": "Reopened the post through X in a separate pass and re-confirmed the complete text, author identity, status ID, and publication date."
+          "evidenceNote": "Independently reopened X's official embed and reconfirmed authorship, exact contiguous text, direct locator, publication metadata, and honest standalone context."
         },
         "blindAudit": null
       },
@@ -1918,628 +3063,9 @@
         "fanRelevance": 1,
         "productFit": 2
       },
-      "rejectionNotes": [],
-      "unresolvedWarnings": []
-    },
-    {
-      "candidateKey": "passive-income-enterprise-value",
-      "status": "verified",
-      "id": "d428ce94-1ff7-4abc-84fc-65a5a9ae38ed",
-      "text": "All income is not created equally… If over 4 years you transition from very active to very passive with the same business income. You still 2-4x enterprise value and your net worth. Sometimes doing less for the same IS the fastest growth. Just doesn’t feel that way.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Business Building",
-      "tags": [
-        "enterprise-value",
-        "leverage",
-        "business-model"
+      "rejectionNotes": [
+        "Batch 0 re-audit: the prior 8/10 score does not meet the 9/10 production threshold."
       ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceDate": "2021-12-04",
-      "sourceURL": "https://x.com/AlexHormozi/status/1467177762582450182",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Original post",
-        "postID": "1467177762582450182"
-      },
-      "featured": false,
-      "containsProfanity": false,
-      "context": "Alex explains that reducing a business owner’s required involvement can increase company value even when income stays flat.",
-      "createdAt": "2026-08-24T01:38:00.000Z",
-      "updatedAt": "2026-08-24T01:45:00.000Z",
-      "verification": {
-        "firstPass": {
-          "outcome": "passed",
-          "checkedAt": "2026-08-24T01:40:00.000Z",
-          "reviewer": "codex-primary",
-          "method": "direct-web-read",
-          "sourceReopened": true,
-          "surroundingContextReviewed": true,
-          "wordingConfirmed": true,
-          "attributionConfirmed": true,
-          "locatorConfirmed": true,
-          "metadataConfirmed": true,
-          "contextuallyHonest": true,
-          "notStitchedOrParaphrased": true,
-          "evidenceNote": "Opened X's oEmbed representation for post 1467177762582450182 and confirmed every word, the @AlexHormozi attribution, direct URL, and December 4, 2021 date."
-        },
-        "secondPass": {
-          "outcome": "passed",
-          "checkedAt": "2026-08-24T01:45:00.000Z",
-          "reviewer": "codex-independent",
-          "method": "direct-web-read",
-          "sourceReopened": true,
-          "surroundingContextReviewed": true,
-          "wordingConfirmed": true,
-          "attributionConfirmed": true,
-          "locatorConfirmed": true,
-          "metadataConfirmed": true,
-          "contextuallyHonest": true,
-          "notStitchedOrParaphrased": true,
-          "evidenceNote": "Reopened the post through X in a separate pass and re-confirmed the complete text, author identity, status ID, and publication date."
-        },
-        "blindAudit": null
-      },
-      "quality": {
-        "standaloneClarity": 2,
-        "practicalUsefulness": 2,
-        "distinctiveness": 2,
-        "fanRelevance": 1,
-        "productFit": 1
-      },
-      "rejectionNotes": [],
-      "unresolvedWarnings": []
-    },
-    {
-      "candidateKey": "learn-sales-from-close-calls",
-      "status": "verified",
-      "id": "2bf736d9-5f89-4a3f-92c7-b7f83a80bbb6",
-      "text": "Best way to learn sales without selling: Listen to close call recordings. The real world teaches more than any script.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Sales",
-      "tags": [
-        "sales-training",
-        "call-review",
-        "learning"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceDate": "2022-08-20",
-      "sourceURL": "https://x.com/AlexHormozi/status/1561016524135141378",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Original post",
-        "postID": "1561016524135141378"
-      },
-      "featured": true,
-      "containsProfanity": false,
-      "context": "Alex recommends studying real sales calls as a practical way to build sales judgment before taking calls yourself.",
-      "createdAt": "2026-08-24T01:38:00.000Z",
-      "updatedAt": "2026-08-24T01:45:00.000Z",
-      "verification": {
-        "firstPass": {
-          "outcome": "passed",
-          "checkedAt": "2026-08-24T01:40:00.000Z",
-          "reviewer": "codex-primary",
-          "method": "direct-web-read",
-          "sourceReopened": true,
-          "surroundingContextReviewed": true,
-          "wordingConfirmed": true,
-          "attributionConfirmed": true,
-          "locatorConfirmed": true,
-          "metadataConfirmed": true,
-          "contextuallyHonest": true,
-          "notStitchedOrParaphrased": true,
-          "evidenceNote": "Opened X's oEmbed representation for post 1561016524135141378 and confirmed every word, the @AlexHormozi attribution, direct URL, and August 20, 2022 date."
-        },
-        "secondPass": {
-          "outcome": "passed",
-          "checkedAt": "2026-08-24T01:45:00.000Z",
-          "reviewer": "codex-independent",
-          "method": "direct-web-read",
-          "sourceReopened": true,
-          "surroundingContextReviewed": true,
-          "wordingConfirmed": true,
-          "attributionConfirmed": true,
-          "locatorConfirmed": true,
-          "metadataConfirmed": true,
-          "contextuallyHonest": true,
-          "notStitchedOrParaphrased": true,
-          "evidenceNote": "Reopened the post through X in a separate pass and re-confirmed the complete text, author identity, status ID, and publication date."
-        },
-        "blindAudit": null
-      },
-      "quality": {
-        "standaloneClarity": 2,
-        "practicalUsefulness": 2,
-        "distinctiveness": 2,
-        "fanRelevance": 1,
-        "productFit": 2
-      },
-      "rejectionNotes": [],
-      "unresolvedWarnings": []
-    },
-    {
-      "candidateKey": "change-inputs-change-outputs",
-      "status": "verified",
-      "id": "950ebee2-02b5-44a3-893f-b22de6b199c6",
-      "text": "The fastest way to change your life is to change where you invest: Look at your calendar for where you spend your time. Your credit card statement for how you spend your money. And your phone for where you spend your attention. Change your inputs. Change your outputs.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Mindset",
-      "tags": [
-        "time",
-        "money",
-        "attention"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceDate": "2025-03-03",
-      "sourceURL": "https://x.com/AlexHormozi/status/1896568848234512852",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Original post",
-        "postID": "1896568848234512852"
-      },
-      "featured": true,
-      "containsProfanity": false,
-      "context": "Alex turns personal change into an audit of the three resources people continuously allocate: time, money, and attention.",
-      "createdAt": "2026-08-24T01:38:00.000Z",
-      "updatedAt": "2026-08-24T01:45:00.000Z",
-      "verification": {
-        "firstPass": {
-          "outcome": "passed",
-          "checkedAt": "2026-08-24T01:40:00.000Z",
-          "reviewer": "codex-primary",
-          "method": "direct-web-read",
-          "sourceReopened": true,
-          "surroundingContextReviewed": true,
-          "wordingConfirmed": true,
-          "attributionConfirmed": true,
-          "locatorConfirmed": true,
-          "metadataConfirmed": true,
-          "contextuallyHonest": true,
-          "notStitchedOrParaphrased": true,
-          "evidenceNote": "Opened X's oEmbed representation for post 1896568848234512852 and confirmed every word, the @AlexHormozi attribution, direct URL, and March 3, 2025 date."
-        },
-        "secondPass": {
-          "outcome": "passed",
-          "checkedAt": "2026-08-24T01:45:00.000Z",
-          "reviewer": "codex-independent",
-          "method": "direct-web-read",
-          "sourceReopened": true,
-          "surroundingContextReviewed": true,
-          "wordingConfirmed": true,
-          "attributionConfirmed": true,
-          "locatorConfirmed": true,
-          "metadataConfirmed": true,
-          "contextuallyHonest": true,
-          "notStitchedOrParaphrased": true,
-          "evidenceNote": "Reopened the post through X in a separate pass and re-confirmed the complete text, author identity, status ID, and publication date."
-        },
-        "blindAudit": null
-      },
-      "quality": {
-        "standaloneClarity": 2,
-        "practicalUsefulness": 2,
-        "distinctiveness": 2,
-        "fanRelevance": 2,
-        "productFit": 2
-      },
-      "rejectionNotes": [],
-      "unresolvedWarnings": []
-    },
-    {
-      "candidateKey": "hard-soft-skills-measurement",
-      "status": "verified",
-      "id": "606ed260-d19f-499f-972d-10fab230aa35",
-      "text": "Hard and soft skills are another way of saying: “Skills we have an easy way to measure and skills we haven’t figured out how to measure yet.”",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Business Building",
-      "tags": [
-        "skills",
-        "measurement",
-        "teams"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceDate": "2023-06-09",
-      "sourceURL": "https://x.com/AlexHormozi/status/1667272898434809857",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Original post",
-        "postID": "1667272898434809857"
-      },
-      "featured": false,
-      "containsProfanity": false,
-      "context": "Alex challenges the hard-skill versus soft-skill distinction by reframing it as a measurement problem.",
-      "createdAt": "2026-08-24T01:38:00.000Z",
-      "updatedAt": "2026-08-24T01:45:00.000Z",
-      "verification": {
-        "firstPass": {
-          "outcome": "passed",
-          "checkedAt": "2026-08-24T01:40:00.000Z",
-          "reviewer": "codex-primary",
-          "method": "direct-web-read",
-          "sourceReopened": true,
-          "surroundingContextReviewed": true,
-          "wordingConfirmed": true,
-          "attributionConfirmed": true,
-          "locatorConfirmed": true,
-          "metadataConfirmed": true,
-          "contextuallyHonest": true,
-          "notStitchedOrParaphrased": true,
-          "evidenceNote": "Opened X's oEmbed representation for post 1667272898434809857 and confirmed every word, the @AlexHormozi attribution, direct URL, and June 9, 2023 date."
-        },
-        "secondPass": {
-          "outcome": "passed",
-          "checkedAt": "2026-08-24T01:45:00.000Z",
-          "reviewer": "codex-independent",
-          "method": "direct-web-read",
-          "sourceReopened": true,
-          "surroundingContextReviewed": true,
-          "wordingConfirmed": true,
-          "attributionConfirmed": true,
-          "locatorConfirmed": true,
-          "metadataConfirmed": true,
-          "contextuallyHonest": true,
-          "notStitchedOrParaphrased": true,
-          "evidenceNote": "Reopened the post through X in a separate pass and re-confirmed the complete text, author identity, status ID, and publication date."
-        },
-        "blindAudit": null
-      },
-      "quality": {
-        "standaloneClarity": 2,
-        "practicalUsefulness": 1,
-        "distinctiveness": 2,
-        "fanRelevance": 1,
-        "productFit": 2
-      },
-      "rejectionNotes": [],
-      "unresolvedWarnings": []
-    },
-    {
-      "candidateKey": "sell-things-people-do-not-cancel",
-      "status": "verified",
-      "id": "fba747e2-9a21-4109-a720-5abbb1c0fe6d",
-      "text": "The easiest way to reduce churn is to sell stuff people already don’t cancel out of. TLDR: you’re never gonna make a gym membership stickier than Internet service across a large population.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Business Building",
-      "tags": [
-        "retention",
-        "churn",
-        "business-model"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceDate": "2025-02-11",
-      "sourceURL": "https://x.com/AlexHormozi/status/1889127978984215010",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Original post",
-        "postID": "1889127978984215010"
-      },
-      "featured": true,
-      "containsProfanity": false,
-      "context": "Alex argues that retention is partly structural: some categories naturally support more durable customer relationships than others.",
-      "createdAt": "2026-08-24T01:38:00.000Z",
-      "updatedAt": "2026-08-24T01:45:00.000Z",
-      "verification": {
-        "firstPass": {
-          "outcome": "passed",
-          "checkedAt": "2026-08-24T01:40:00.000Z",
-          "reviewer": "codex-primary",
-          "method": "direct-web-read",
-          "sourceReopened": true,
-          "surroundingContextReviewed": true,
-          "wordingConfirmed": true,
-          "attributionConfirmed": true,
-          "locatorConfirmed": true,
-          "metadataConfirmed": true,
-          "contextuallyHonest": true,
-          "notStitchedOrParaphrased": true,
-          "evidenceNote": "Opened X's oEmbed representation for post 1889127978984215010 and confirmed every word, the @AlexHormozi attribution, direct URL, and February 11, 2025 date."
-        },
-        "secondPass": {
-          "outcome": "passed",
-          "checkedAt": "2026-08-24T01:45:00.000Z",
-          "reviewer": "codex-independent",
-          "method": "direct-web-read",
-          "sourceReopened": true,
-          "surroundingContextReviewed": true,
-          "wordingConfirmed": true,
-          "attributionConfirmed": true,
-          "locatorConfirmed": true,
-          "metadataConfirmed": true,
-          "contextuallyHonest": true,
-          "notStitchedOrParaphrased": true,
-          "evidenceNote": "Reopened the post through X in a separate pass and re-confirmed the complete text, author identity, status ID, and publication date."
-        },
-        "blindAudit": null
-      },
-      "quality": {
-        "standaloneClarity": 2,
-        "practicalUsefulness": 2,
-        "distinctiveness": 2,
-        "fanRelevance": 1,
-        "productFit": 2
-      },
-      "rejectionNotes": [],
-      "unresolvedWarnings": []
-    },
-    {
-      "candidateKey": "opportunity-looks-like-risk",
-      "status": "verified",
-      "id": "8f02520b-f6ea-497f-9dfd-6e1a7d1edd21",
-      "text": "That’s the thing about opportunity. It looks like risk when it’s an opportunity. And by the time it’s risk free, it’s not an opportunity anymore.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Decision Making",
-      "tags": [
-        "risk",
-        "opportunity",
-        "timing"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceDate": "2024-04-24",
-      "sourceURL": "https://x.com/AlexHormozi/status/1783183564743532941",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Original post",
-        "postID": "1783183564743532941"
-      },
-      "featured": true,
-      "containsProfanity": false,
-      "context": "Alex explains why meaningful opportunities cannot be separated from uncertainty: certainty usually arrives only after the upside has disappeared.",
-      "createdAt": "2026-08-24T01:38:00.000Z",
-      "updatedAt": "2026-08-24T01:45:00.000Z",
-      "verification": {
-        "firstPass": {
-          "outcome": "passed",
-          "checkedAt": "2026-08-24T01:40:00.000Z",
-          "reviewer": "codex-primary",
-          "method": "direct-web-read",
-          "sourceReopened": true,
-          "surroundingContextReviewed": true,
-          "wordingConfirmed": true,
-          "attributionConfirmed": true,
-          "locatorConfirmed": true,
-          "metadataConfirmed": true,
-          "contextuallyHonest": true,
-          "notStitchedOrParaphrased": true,
-          "evidenceNote": "Opened X's oEmbed representation for post 1783183564743532941 and confirmed every word, the @AlexHormozi attribution, direct URL, and April 24, 2024 date."
-        },
-        "secondPass": {
-          "outcome": "passed",
-          "checkedAt": "2026-08-24T01:45:00.000Z",
-          "reviewer": "codex-independent",
-          "method": "direct-web-read",
-          "sourceReopened": true,
-          "surroundingContextReviewed": true,
-          "wordingConfirmed": true,
-          "attributionConfirmed": true,
-          "locatorConfirmed": true,
-          "metadataConfirmed": true,
-          "contextuallyHonest": true,
-          "notStitchedOrParaphrased": true,
-          "evidenceNote": "Reopened the post through X in a separate pass and re-confirmed the complete text, author identity, status ID, and publication date."
-        },
-        "blindAudit": null
-      },
-      "quality": {
-        "standaloneClarity": 2,
-        "practicalUsefulness": 2,
-        "distinctiveness": 2,
-        "fanRelevance": 2,
-        "productFit": 2
-      },
-      "rejectionNotes": [],
-      "unresolvedWarnings": []
-    },
-    {
-      "candidateKey": "regret-ignores-the-cost",
-      "status": "verified",
-      "id": "b09ccf53-9640-4444-b98a-6ad98706e980",
-      "text": "Regrets come when we imagine an upside we didn’t experience without factoring in the cost we would’ve had to pay to get it.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Decision Making",
-      "tags": [
-        "regret",
-        "tradeoffs",
-        "decision-making"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceDate": "2026-02-23",
-      "sourceURL": "https://x.com/AlexHormozi/status/2025991606143275152",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Original post",
-        "postID": "2025991606143275152"
-      },
-      "featured": true,
-      "containsProfanity": false,
-      "context": "Alex describes regret as an incomplete comparison that counts a missed benefit while ignoring the price required to obtain it.",
-      "createdAt": "2026-08-24T01:38:00.000Z",
-      "updatedAt": "2026-08-24T01:45:00.000Z",
-      "verification": {
-        "firstPass": {
-          "outcome": "passed",
-          "checkedAt": "2026-08-24T01:40:00.000Z",
-          "reviewer": "codex-primary",
-          "method": "direct-web-read",
-          "sourceReopened": true,
-          "surroundingContextReviewed": true,
-          "wordingConfirmed": true,
-          "attributionConfirmed": true,
-          "locatorConfirmed": true,
-          "metadataConfirmed": true,
-          "contextuallyHonest": true,
-          "notStitchedOrParaphrased": true,
-          "evidenceNote": "Opened X's oEmbed representation for post 2025991606143275152 and confirmed every word, the @AlexHormozi attribution, direct URL, and February 23, 2026 date."
-        },
-        "secondPass": {
-          "outcome": "passed",
-          "checkedAt": "2026-08-24T01:45:00.000Z",
-          "reviewer": "codex-independent",
-          "method": "direct-web-read",
-          "sourceReopened": true,
-          "surroundingContextReviewed": true,
-          "wordingConfirmed": true,
-          "attributionConfirmed": true,
-          "locatorConfirmed": true,
-          "metadataConfirmed": true,
-          "contextuallyHonest": true,
-          "notStitchedOrParaphrased": true,
-          "evidenceNote": "Reopened the post through X in a separate pass and re-confirmed the complete text, author identity, status ID, and publication date."
-        },
-        "blindAudit": null
-      },
-      "quality": {
-        "standaloneClarity": 2,
-        "practicalUsefulness": 2,
-        "distinctiveness": 2,
-        "fanRelevance": 1,
-        "productFit": 2
-      },
-      "rejectionNotes": [],
-      "unresolvedWarnings": []
-    },
-    {
-      "candidateKey": "sales-skill-permanent-raise",
-      "status": "verified",
-      "id": "2da4f3e4-6a61-42f4-aa5c-e8eaf333d156",
-      "text": "Cold calling and high volume selling are valuable because of the skills you learn, not the $. It’s hard to take 20+ consults a day and not get good. And once you’re good, it’s like getting a permanent $200k/yr pay raise. It’s worth giving a year to gain the skill for life.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Sales",
-      "tags": [
-        "sales-training",
-        "skill-building",
-        "practice"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceDate": "2022-06-24",
-      "sourceURL": "https://x.com/AlexHormozi/status/1540332812305281027",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Original post",
-        "postID": "1540332812305281027"
-      },
-      "featured": true,
-      "containsProfanity": false,
-      "context": "Alex argues that the durable value of high-volume selling is the lifelong skill built through repeated real-world practice.",
-      "createdAt": "2026-08-24T01:38:00.000Z",
-      "updatedAt": "2026-08-24T01:45:00.000Z",
-      "verification": {
-        "firstPass": {
-          "outcome": "passed",
-          "checkedAt": "2026-08-24T01:40:00.000Z",
-          "reviewer": "codex-primary",
-          "method": "direct-web-read",
-          "sourceReopened": true,
-          "surroundingContextReviewed": true,
-          "wordingConfirmed": true,
-          "attributionConfirmed": true,
-          "locatorConfirmed": true,
-          "metadataConfirmed": true,
-          "contextuallyHonest": true,
-          "notStitchedOrParaphrased": true,
-          "evidenceNote": "Opened X's oEmbed representation for post 1540332812305281027 and confirmed every word, the @AlexHormozi attribution, direct URL, and June 24, 2022 date."
-        },
-        "secondPass": {
-          "outcome": "passed",
-          "checkedAt": "2026-08-24T01:45:00.000Z",
-          "reviewer": "codex-independent",
-          "method": "direct-web-read",
-          "sourceReopened": true,
-          "surroundingContextReviewed": true,
-          "wordingConfirmed": true,
-          "attributionConfirmed": true,
-          "locatorConfirmed": true,
-          "metadataConfirmed": true,
-          "contextuallyHonest": true,
-          "notStitchedOrParaphrased": true,
-          "evidenceNote": "Reopened the post through X in a separate pass and re-confirmed the complete text, author identity, status ID, and publication date."
-        },
-        "blindAudit": null
-      },
-      "quality": {
-        "standaloneClarity": 2,
-        "practicalUsefulness": 2,
-        "distinctiveness": 2,
-        "fanRelevance": 1,
-        "productFit": 2
-      },
-      "rejectionNotes": [],
-      "unresolvedWarnings": []
-    },
-    {
-      "candidateKey": "start-now-or-change-goal",
-      "status": "verified",
-      "id": "2ee5c144-c225-4d62-a717-a932b154c79e",
-      "text": "If you’re gonna do it next year, you might as well start now and start enjoying the benefits sooner. And if the benefits aren’t good enough to do it now, they’re not gonna be any better in the future. So either change the goal or change yourself.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Mindset",
-      "tags": [
-        "action",
-        "goals",
-        "urgency"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceDate": "2024-12-21",
-      "sourceURL": "https://x.com/AlexHormozi/status/1870521208921538989",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Original post",
-        "postID": "1870521208921538989"
-      },
-      "featured": true,
-      "containsProfanity": false,
-      "context": "Alex challenges delayed goals by asking whether the promised benefit is meaningful enough to justify beginning now.",
-      "createdAt": "2026-08-24T01:38:00.000Z",
-      "updatedAt": "2026-08-24T01:45:00.000Z",
-      "verification": {
-        "firstPass": {
-          "outcome": "passed",
-          "checkedAt": "2026-08-24T01:40:00.000Z",
-          "reviewer": "codex-primary",
-          "method": "direct-web-read",
-          "sourceReopened": true,
-          "surroundingContextReviewed": true,
-          "wordingConfirmed": true,
-          "attributionConfirmed": true,
-          "locatorConfirmed": true,
-          "metadataConfirmed": true,
-          "contextuallyHonest": true,
-          "notStitchedOrParaphrased": true,
-          "evidenceNote": "Opened X's oEmbed representation for post 1870521208921538989 and confirmed every word, the @AlexHormozi attribution, direct URL, and December 21, 2024 date."
-        },
-        "secondPass": {
-          "outcome": "passed",
-          "checkedAt": "2026-08-24T01:45:00.000Z",
-          "reviewer": "codex-independent",
-          "method": "direct-web-read",
-          "sourceReopened": true,
-          "surroundingContextReviewed": true,
-          "wordingConfirmed": true,
-          "attributionConfirmed": true,
-          "locatorConfirmed": true,
-          "metadataConfirmed": true,
-          "contextuallyHonest": true,
-          "notStitchedOrParaphrased": true,
-          "evidenceNote": "Reopened the post through X in a separate pass and re-confirmed the complete text, author identity, status ID, and publication date."
-        },
-        "blindAudit": null
-      },
-      "quality": {
-        "standaloneClarity": 2,
-        "practicalUsefulness": 2,
-        "distinctiveness": 2,
-        "fanRelevance": 2,
-        "productFit": 2
-      },
-      "rejectionNotes": [],
       "unresolvedWarnings": []
     }
   ],
@@ -2581,7 +3107,6 @@
         "ce9cc2b1-ee31-47fe-84d3-15e60081d807",
         "dff7fac0-b37e-4729-ae45-e8a545e4c345",
         "63c18d6d-626c-489c-94a9-8e8ef70a7e98",
-        "d428ce94-1ff7-4abc-84fc-65a5a9ae38ed",
         "fba747e2-9a21-4109-a720-5abbb1c0fe6d"
       ],
       "displayOrder": 2

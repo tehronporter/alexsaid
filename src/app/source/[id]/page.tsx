@@ -5,16 +5,18 @@ import { MetadataList, type MetadataItem } from "@/components/editorial";
 import { ProductIcon } from "@/components/product-icon";
 import { Button } from "@/components/ui/button";
 import { ShareActions } from "@/components/share-actions";
-import { catalog, formatTimestamp, quoteRepository } from "@/lib/catalog";
+import { formatTimestamp, quoteRepository, sourceByID, sourceIDByQuoteID } from "@/lib/catalog";
 import { quoteDisplaySize } from "@/lib/typography";
 
 type Props = { params: Promise<{ id: string }> };
-export function generateStaticParams() { return catalog.quotes.map(({ id }) => ({ id })); }
+export const revalidate = 86400;
 export async function generateMetadata({ params }: Props): Promise<Metadata> { const quote = quoteRepository.getById((await params).id); return quote ? { title: `Source · ${quote.text}` } : {}; }
 
 export default async function SourcePage({ params }: Props) {
   const quote = quoteRepository.getById((await params).id);
   if (!quote) notFound();
+  const sourceID = sourceIDByQuoteID.get(quote.id);
+  const source = sourceID ? sourceByID.get(sourceID) : null;
 
   const locatorItems: MetadataItem[] = quote.sourceLocator.kind === "media"
     ? [{ label: "Timestamp", value: [formatTimestamp(quote.sourceLocator.startSeconds), formatTimestamp(quote.sourceLocator.endSeconds ?? null)].filter(Boolean).join("–") }]
@@ -53,6 +55,7 @@ export default async function SourcePage({ params }: Props) {
           {quote.context ? <div className="mt-8 border-t border-white/16 pt-6"><h2 className="text-xs font-bold uppercase tracking-[0.15em] text-white/62">Context</h2><p className="mt-3 max-w-prose text-sm leading-7 text-white/68">{quote.context}</p></div> : null}
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
             {quote.sourceURL ? <Button asChild className="bg-white text-black hover:bg-white/90"><a href={quote.sourceURL} target="_blank" rel="noreferrer">{sourceAction}<ProductIcon name="external" /></a></Button> : <Button disabled>Original unavailable</Button>}
+            {source?.transcriptURL ? <Button asChild variant="outline" className="border-white/22 bg-transparent text-white hover:bg-white hover:text-black"><a href={source.transcriptURL} target="_blank" rel="noreferrer">Read transcript<ProductIcon name="external" /></a></Button> : null}
             <ShareActions quote={quote} trigger={<Button variant="outline" className="border-white/22 bg-transparent text-white hover:bg-white hover:text-black">Share quote<ProductIcon name="share" /></Button>} />
           </div>
         </section>

@@ -1,6 +1,8 @@
 import rawCatalog from "@/data/catalog.json";
+import rawCatalogV3 from "@/data/catalog.v3.json";
 import {
   quoteCatalogSchema,
+  quoteCatalogV3Schema,
   type Collection,
   type Quote,
   type QuoteCatalogV2,
@@ -9,6 +11,9 @@ import {
 import { rankQuotes } from "@/lib/search";
 
 export const catalog: QuoteCatalogV2 = quoteCatalogSchema.parse(rawCatalog);
+export const catalogV3 = quoteCatalogV3Schema.parse(rawCatalogV3);
+export const sourceByID = new Map(catalogV3.sources.map((source) => [source.sourceID, source]));
+export const sourceIDByQuoteID = new Map(catalogV3.quotes.map((quote) => [quote.id, quote.sourceID]));
 
 const quoteByID = new Map(catalog.quotes.map((quote) => [quote.id, quote]));
 const collectionBySlug = new Map(catalog.collections.map((collection) => [collection.slug, collection]));

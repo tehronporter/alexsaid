@@ -21,6 +21,8 @@ test.beforeEach(async ({ page }) => {
   });
   await page.reload();
   await expect(page.getByRole("button", { name: "Skip" })).not.toBeVisible();
+  await expect(page.locator("main.quote-surface")).toHaveAttribute("data-interactive", "true");
+  await expect(page.locator("main.quote-surface")).toHaveAttribute("data-catalog-ready", "true");
 });
 
 test("first quote renders behind skippable onboarding", async ({ page }) => {

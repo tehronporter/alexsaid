@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-08-24T04:18:45.014Z",
+  "sources": {
+    "total": 1763,
+    "byProvider": {
+      "acquisition-com": 81,
+      "the-game-rss": 1143,
+      "x": 22,
+      "youtube": 517
+    },
+    "byStatus": {
+      "blocked": 561,
+      "excluded": 38,
+      "mined": 1141,
+      "reviewed": 23
+    },
+    "terminal": 622,
+    "unresolvedCount": 1141,
+    "unresolvedSample": [
+      "the-game-rss-009526dd-4ab9-470a-aa93-fbf7b7d105b4",
+      "the-game-rss-00c039b9-af6c-4ce4-8f52-205b1970d4f0",
+      "the-game-rss-00eda28d-503f-4685-8f78-652129942dff",
+      "the-game-rss-013e7373-d84f-4b40-a24a-be1592767817",
+      "the-game-rss-015e1bf85691486097041433ff7e8af7",
+      "the-game-rss-015fa96e-7225-4b7d-b628-10bb97e49463",
+      "the-game-rss-0170d1a9e74942258b47f3abf35ff3a1",
+      "the-game-rss-0187982a-f77c-421a-b716-6444964fe7a3",
+      "the-game-rss-01c56bc0-cb05-4e7e-ab51-98f82edc757a",
+      "the-game-rss-01ee39ab-f9f0-4bed-a885-6d67e982b91b",
+      "the-game-rss-01f1eae2-4112-4fdc-b0fd-f6305ace90fe",
+      "the-game-rss-01ktwb0mw0qz3c7dtkerjxgvaj",
+      "the-game-rss-01kv70xmh8tz66fj8xszwyd32q",
+      "the-game-rss-01kvc67pnvyrnyp932y0r088vs",
+      "the-game-rss-01kvrpfr5vp5245gfc9dgw9qtg",
+      "the-game-rss-01kvy8m5wck7fvp0mn09wv5e6x",
+      "the-game-rss-01kwb2bed0fft1zqx1dv72necz",
+      "the-game-rss-01kwgdjqzc4d73mkxg67mcjnvw",
+      "the-game-rss-01kwwsqg1evvw06dm9ffp0vs2n",
+      "the-game-rss-01kx1ncfcjhcy1bkwf5gq8ws0k"
+    ]
+  },
+  "candidates": {
+    "total": 12083,
+    "byStatus": {
+      "candidate": 12083
+    },
+    "unresolved": 12083
+  },
+  "editorial": {
+    "total": 37,
+    "byStatus": {
+      "rejected": 9,
+      "verified": 28
+    },
+    "published": 28,
+    "rejected": 9,
+    "unresolvedWarnings": 0
+  },
+  "complete": false
+}

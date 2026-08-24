@@ -1,12 +1,18 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-24T01:41:52.395Z",
+  "generatedAt": "2026-08-24T04:11:44.780Z",
   "developmentFixture": false,
   "categories": [
-    "Business Building",
+    "Offers",
+    "Leads & Marketing",
+    "Sales",
+    "Customer Success & Retention",
+    "Business Models & Strategy",
+    "Operations & Scaling",
+    "Leadership & Teams",
     "Decision Making",
-    "Mindset",
-    "Sales"
+    "Productivity & Execution",
+    "Mindset & Personal Growth"
   ],
   "collections": [
     {
@@ -46,7 +52,6 @@
         "ce9cc2b1-ee31-47fe-84d3-15e60081d807",
         "dff7fac0-b37e-4729-ae45-e8a545e4c345",
         "63c18d6d-626c-489c-94a9-8e8ef70a7e98",
-        "d428ce94-1ff7-4abc-84fc-65a5a9ae38ed",
         "fba747e2-9a21-4109-a720-5abbb1c0fe6d"
       ],
       "displayOrder": 2
@@ -54,56 +59,102 @@
   ],
   "quotes": [
     {
-      "id": "f4e4bf60-2700-48be-84bc-a499d14f36ea",
-      "text": "And so, a lot of lack of focus is actually intellectual laziness.",
+      "id": "78528c89-a5b8-4ecd-83fd-c707ede6a3c5",
+      "text": "If you're a small business owner, you have to advertise more. Period. No one knows you exist - which is why you're not making as much as you want.",
       "author": "Alex Hormozi",
-      "primaryCategory": "Mindset",
+      "primaryCategory": "Leads & Marketing",
       "tags": [
-        "focus",
-        "execution",
-        "self-awareness"
+        "advertising",
+        "small-business"
       ],
-      "sourceType": "video",
-      "sourceTitle": "Learn 97% of How to Get Rich in 11 Mins",
-      "sourceURL": "https://www.youtube.com/watch?v=fj5uxdv_j5Y&t=108s",
-      "sourceDate": "2026-08-03",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1986457549684523095",
+      "sourceDate": "2025-11-06",
       "sourceLocator": {
-        "kind": "media",
-        "startSeconds": 108,
-        "endSeconds": 115
+        "kind": "web",
+        "section": "Original post"
       },
       "verified": true,
       "featured": true,
       "containsProfanity": false,
-      "context": "Alex explains that people often retreat to familiar work when they encounter a problem they do not yet know how to solve.",
-      "createdAt": "2026-08-23T23:00:00.000Z",
-      "updatedAt": "2026-08-23T23:35:00.000Z"
+      "context": "Alex responds to small business owners who assume customers will find them without consistent outbound marketing.",
+      "createdAt": "2026-08-23T23:58:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z"
     },
     {
-      "id": "2a2a3dc1-8e1c-4e2a-8149-cb97f61ec542",
-      "text": "And so, I almost always wrap my questions with \"What would it take?\" because it assumes success.",
+      "id": "89237f45-0bfb-464e-acfe-6cfad1e2b46a",
+      "text": "Always making things happen faster. Always disappointed it didn't happen faster.",
       "author": "Alex Hormozi",
-      "primaryCategory": "Decision Making",
+      "primaryCategory": "Mindset & Personal Growth",
       "tags": [
-        "questions",
-        "problem-solving",
-        "execution"
+        "urgency",
+        "ambition"
       ],
-      "sourceType": "video",
-      "sourceTitle": "Learn 97% of How to Get Rich in 11 Mins",
-      "sourceURL": "https://www.youtube.com/watch?v=fj5uxdv_j5Y&t=173s",
-      "sourceDate": "2026-08-03",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1842641542084952302",
+      "sourceDate": "2024-10-05",
       "sourceLocator": {
-        "kind": "media",
-        "startSeconds": 173,
-        "endSeconds": 184
+        "kind": "web",
+        "section": "Reply on X"
+      },
+      "verified": true,
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex's reply in a conversation about founders who create urgency by being aggressive about pace.",
+      "createdAt": "2026-08-23T23:58:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z"
+    },
+    {
+      "id": "9cd4fc91-009b-4cec-8348-2bab62f9d27b",
+      "text": "Ambition without action is entitlement.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "ambition",
+        "execution",
+        "accountability"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1748079193504780332",
+      "sourceDate": "2024-01-18",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post"
       },
       "verified": true,
       "featured": true,
       "containsProfanity": false,
-      "context": "Alex contrasts this framing with asking whether something can be done; the former starts from an assumption that a solution exists.",
-      "createdAt": "2026-08-23T23:00:00.000Z",
-      "updatedAt": "2026-08-23T23:35:00.000Z"
+      "context": "Alex draws a hard line between wanting something and actually working toward it.",
+      "createdAt": "2026-08-23T23:58:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z"
+    },
+    {
+      "id": "950ebee2-02b5-44a3-893f-b22de6b199c6",
+      "text": "The fastest way to change your life is to change where you invest: Look at your calendar for where you spend your time. Your credit card statement for how you spend your money. And your phone for where you spend your attention. Change your inputs. Change your outputs.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "productivity",
+        "attention"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1896568848234512852",
+      "sourceDate": "2025-03-03",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "1896568848234512852"
+      },
+      "verified": true,
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex turns personal change into an audit of the three resources people continuously allocate: time, money, and attention.",
+      "createdAt": "2026-08-24T01:38:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z"
     },
     {
       "id": "9fd38292-744b-4827-a2e2-47463c15ca7d",
@@ -112,8 +163,7 @@
       "primaryCategory": "Decision Making",
       "tags": [
         "prioritization",
-        "focus",
-        "resource-allocation"
+        "focus"
       ],
       "sourceType": "video",
       "sourceTitle": "Learn 97% of How to Get Rich in 11 Mins",
@@ -136,9 +186,8 @@
       "id": "6783a7fb-8603-44f7-8f1b-ffa8730b5eb7",
       "text": "You might have suggested it because you are emotionally uncomfortable with your existing moment and just want something to do rather than the thing that you know is going to work.",
       "author": "Alex Hormozi",
-      "primaryCategory": "Mindset",
+      "primaryCategory": "Productivity & Execution",
       "tags": [
-        "patience",
         "focus",
         "decision-making"
       ],
@@ -164,9 +213,8 @@
       "author": "Alex Hormozi",
       "primaryCategory": "Sales",
       "tags": [
-        "selling",
-        "customer-experience",
-        "persuasion"
+        "sales",
+        "customer-experience"
       ],
       "sourceType": "video",
       "sourceTitle": "If You Hate Selling, Please Watch This | Scale or Fail Episode 3",
@@ -185,12 +233,185 @@
       "updatedAt": "2026-08-23T23:35:00.000Z"
     },
     {
+      "id": "eecc35c0-0af3-4d71-b795-04a460c6ce58",
+      "text": "The reason focus is so important in the beginning is that the only solid employee in your business is you. And you would never tell that person to work on four things at the same time and see what works.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Operations & Scaling",
+      "tags": [
+        "focus",
+        "small-business",
+        "leadership"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1924169850207064469",
+      "sourceDate": "2025-05-18",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post"
+      },
+      "verified": true,
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex compares an early-stage founder splitting attention across projects to mismanaging their only reliable employee: themselves.",
+      "createdAt": "2026-08-23T23:58:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z"
+    },
+    {
+      "id": "ca64f810-6276-4dd1-a2de-0d8456fb4caa",
+      "text": "Hard times feel long. But an epic story lasts a lifetime.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "resilience",
+        "perspective"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1689056435349463040",
+      "sourceDate": "2023-08-08",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post"
+      },
+      "verified": true,
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex offers a reframe for enduring difficulty: the story you will tell later outlasts how long the hardship feels right now.",
+      "createdAt": "2026-08-23T23:58:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z"
+    },
+    {
+      "id": "f4e4bf60-2700-48be-84bc-a499d14f36ea",
+      "text": "And so, a lot of lack of focus is actually intellectual laziness.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "focus",
+        "execution"
+      ],
+      "sourceType": "video",
+      "sourceTitle": "Learn 97% of How to Get Rich in 11 Mins",
+      "sourceURL": "https://www.youtube.com/watch?v=fj5uxdv_j5Y&t=108s",
+      "sourceDate": "2026-08-03",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 108,
+        "endSeconds": 115
+      },
+      "verified": true,
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex explains that people often retreat to familiar work when they encounter a problem they do not yet know how to solve.",
+      "createdAt": "2026-08-23T23:00:00.000Z",
+      "updatedAt": "2026-08-23T23:35:00.000Z"
+    },
+    {
+      "id": "2bf736d9-5f89-4a3f-92c7-b7f83a80bbb6",
+      "text": "Best way to learn sales without selling: Listen to close call recordings. The real world teaches more than any script.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Sales",
+      "tags": [
+        "sales-training",
+        "learning"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1561016524135141378",
+      "sourceDate": "2022-08-20",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "1561016524135141378"
+      },
+      "verified": true,
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex recommends studying real sales calls as a practical way to build sales judgment before taking calls yourself.",
+      "createdAt": "2026-08-24T01:38:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z"
+    },
+    {
+      "id": "53280e23-3898-47f6-ad02-a284497d4881",
+      "text": "5 reasons your offer isn't converting: 1) Targeting poor people 2) Not enough Proof 3) Too little friction 4) Big outcome not fast enough 5) \"Sounds like work\"",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Offers",
+      "tags": [
+        "offers",
+        "sales"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/2046583916061229408",
+      "sourceDate": "2026-04-21",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post"
+      },
+      "verified": true,
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex lists the most common reasons a sales offer fails to convert.",
+      "createdAt": "2026-08-23T23:58:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z"
+    },
+    {
+      "id": "8f02520b-f6ea-497f-9dfd-6e1a7d1edd21",
+      "text": "That’s the thing about opportunity. It looks like risk when it’s an opportunity. And by the time it’s risk free, it’s not an opportunity anymore.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "risk",
+        "opportunity"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1783183564743532941",
+      "sourceDate": "2024-04-24",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "1783183564743532941"
+      },
+      "verified": true,
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex explains why meaningful opportunities cannot be separated from uncertainty: certainty usually arrives only after the upside has disappeared.",
+      "createdAt": "2026-08-24T01:38:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z"
+    },
+    {
+      "id": "3ca22a3f-4f5e-4ed1-804c-c3358d8e9feb",
+      "text": "Productivity comes from all the things you choose not to do.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "prioritization",
+        "productivity",
+        "focus"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1885524074098520535",
+      "sourceDate": "2025-02-01",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post"
+      },
+      "verified": true,
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex ties productivity to elimination rather than to doing more.",
+      "createdAt": "2026-08-23T23:58:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z"
+    },
+    {
       "id": "6654b49a-614c-4953-9c01-50e180d0ebb9",
       "text": "And every one of those purchases, somebody for sure thought about how to get you to buy.",
       "author": "Alex Hormozi",
       "primaryCategory": "Sales",
       "tags": [
-        "selling",
+        "sales",
         "marketing",
         "customer-experience"
       ],
@@ -211,13 +432,39 @@
       "updatedAt": "2026-08-23T23:35:00.000Z"
     },
     {
+      "id": "b09ccf53-9640-4444-b98a-6ad98706e980",
+      "text": "Regrets come when we imagine an upside we didn’t experience without factoring in the cost we would’ve had to pay to get it.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "stress",
+        "strategy",
+        "decision-making"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/2025991606143275152",
+      "sourceDate": "2026-02-23",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "2025991606143275152"
+      },
+      "verified": true,
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex describes regret as an incomplete comparison that counts a missed benefit while ignoring the price required to obtain it.",
+      "createdAt": "2026-08-24T01:38:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z"
+    },
+    {
       "id": "73e0d73f-784a-4496-b9e7-1356b7b995d5",
       "text": "You have a responsibility to the business. And the business has a responsibility to customers. But your responsibility is to make sure the business survives and grows.",
       "author": "Alex Hormozi",
-      "primaryCategory": "Business Building",
+      "primaryCategory": "Operations & Scaling",
       "tags": [
         "sustainability",
-        "customers",
+        "customer-experience",
         "leadership"
       ],
       "sourceType": "video",
@@ -237,40 +484,14 @@
       "updatedAt": "2026-08-23T23:35:00.000Z"
     },
     {
-      "id": "b255c5e7-09ba-4ba1-bbe6-1b20cd551904",
-      "text": "If you do not have what's called revenue retention, you have nothing.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Business Building",
-      "tags": [
-        "retention",
-        "recurring-revenue",
-        "business-model"
-      ],
-      "sourceType": "video",
-      "sourceTitle": "What Makes The Perfect Business (5 Things)",
-      "sourceURL": "https://www.youtube.com/watch?v=3fsJFUvA6Ts&t=35s",
-      "sourceDate": "2026-05-02",
-      "sourceLocator": {
-        "kind": "media",
-        "startSeconds": 35,
-        "endSeconds": 40
-      },
-      "verified": true,
-      "featured": true,
-      "containsProfanity": false,
-      "context": "Alex introduces revenue retention as the first and most important advantage of a strong business model.",
-      "createdAt": "2026-08-23T23:00:00.000Z",
-      "updatedAt": "2026-08-23T23:35:00.000Z"
-    },
-    {
       "id": "ce9cc2b1-ee31-47fe-84d3-15e60081d807",
       "text": "And if your business includes none, that's okay, work at retention first, and then backfill the rest.",
       "author": "Alex Hormozi",
-      "primaryCategory": "Business Building",
+      "primaryCategory": "Customer Success & Retention",
       "tags": [
         "retention",
         "prioritization",
-        "business-model"
+        "business-models"
       ],
       "sourceType": "video",
       "sourceTitle": "What Makes The Perfect Business (5 Things)",
@@ -289,13 +510,212 @@
       "updatedAt": "2026-08-23T23:35:00.000Z"
     },
     {
+      "id": "b255c5e7-09ba-4ba1-bbe6-1b20cd551904",
+      "text": "If you do not have what's called revenue retention, you have nothing.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Customer Success & Retention",
+      "tags": [
+        "retention",
+        "business-models"
+      ],
+      "sourceType": "video",
+      "sourceTitle": "What Makes The Perfect Business (5 Things)",
+      "sourceURL": "https://www.youtube.com/watch?v=3fsJFUvA6Ts&t=35s",
+      "sourceDate": "2026-05-02",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 35,
+        "endSeconds": 40
+      },
+      "verified": true,
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex introduces revenue retention as the first and most important advantage of a strong business model.",
+      "createdAt": "2026-08-23T23:00:00.000Z",
+      "updatedAt": "2026-08-23T23:35:00.000Z"
+    },
+    {
+      "id": "032c1bbb-cba6-4409-84bb-3f2140b5fd03",
+      "text": "The biggest reason the rich get richer (besides compounding) is they avoid things that don't make enough money. The more money you have, the more selective you are about which things are worth doing because fewer things move the needle for you.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "strategy",
+        "prioritization"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1985014541827117115",
+      "sourceDate": "2025-11-02",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post"
+      },
+      "verified": true,
+      "featured": true,
+      "containsProfanity": false,
+      "context": "The opening of a longer thread where Alex explains that wealthier people get richer partly because they are more selective about which opportunities are even worth their time.",
+      "createdAt": "2026-08-23T23:58:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z"
+    },
+    {
+      "id": "9277b663-62ee-47b2-8931-343c3b585a44",
+      "text": "Best reason to take risk when you're poor: If you \"have nothing left\" it also means you have \"nothing to lose.\" Giving you no reason not to take your shot.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "risk",
+        "perspective"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1717407643327971470",
+      "sourceDate": "2023-10-26",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post"
+      },
+      "verified": true,
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex reframes having nothing left as having nothing to lose, removing the excuse not to act.",
+      "createdAt": "2026-08-23T23:58:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z"
+    },
+    {
+      "id": "2da4f3e4-6a61-42f4-aa5c-e8eaf333d156",
+      "text": "Cold calling and high volume selling are valuable because of the skills you learn, not the $. It’s hard to take 20+ consults a day and not get good. And once you’re good, it’s like getting a permanent $200k/yr pay raise. It’s worth giving a year to gain the skill for life.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Sales",
+      "tags": [
+        "sales-training",
+        "learning"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1540332812305281027",
+      "sourceDate": "2022-06-24",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "1540332812305281027"
+      },
+      "verified": true,
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex argues that the durable value of high-volume selling is the lifelong skill built through repeated real-world practice.",
+      "createdAt": "2026-08-24T01:38:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z"
+    },
+    {
+      "id": "63c18d6d-626c-489c-94a9-8e8ef70a7e98",
+      "text": "The biggest lie I believed for the first 10yrs of being a business owner was that scaling was about getting more customers. It's about getting customers to never leave. Scaling looks like a flat retention curve, and when your business never gets smaller, it scales by default.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Customer Success & Retention",
+      "tags": [
+        "retention",
+        "scaling",
+        "customer-experience"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/2035996696522678300",
+      "sourceDate": "2026-03-23",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "2035996696522678300"
+      },
+      "verified": true,
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex reframes scaling as keeping customers long enough for the business to stop shrinking, rather than treating acquisition alone as growth.",
+      "createdAt": "2026-08-24T01:38:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z"
+    },
+    {
+      "id": "fba747e2-9a21-4109-a720-5abbb1c0fe6d",
+      "text": "The easiest way to reduce churn is to sell stuff people already don’t cancel out of. TLDR: you’re never gonna make a gym membership stickier than Internet service across a large population.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Customer Success & Retention",
+      "tags": [
+        "retention",
+        "business-models"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1889127978984215010",
+      "sourceDate": "2025-02-11",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "1889127978984215010"
+      },
+      "verified": true,
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex argues that retention is partly structural: some categories naturally support more durable customer relationships than others.",
+      "createdAt": "2026-08-24T01:38:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z"
+    },
+    {
+      "id": "2ee5c144-c225-4d62-a717-a932b154c79e",
+      "text": "If you’re gonna do it next year, you might as well start now and start enjoying the benefits sooner. And if the benefits aren’t good enough to do it now, they’re not gonna be any better in the future. So either change the goal or change yourself.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "execution",
+        "goals",
+        "urgency"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1870521208921538989",
+      "sourceDate": "2024-12-21",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "1870521208921538989"
+      },
+      "verified": true,
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex challenges delayed goals by asking whether the promised benefit is meaningful enough to justify beginning now.",
+      "createdAt": "2026-08-24T01:38:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z"
+    },
+    {
+      "id": "a9b2875e-f381-48d0-9df8-b0cc76eaf17b",
+      "text": "The reason you are stressed is you have decisions to make and you're not making them.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "decision-making",
+        "stress"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1625170518201581568",
+      "sourceDate": "2023-02-13",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post"
+      },
+      "verified": true,
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex locates the source of stress in unresolved decisions rather than in the decisions themselves.",
+      "createdAt": "2026-08-23T23:58:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z"
+    },
+    {
       "id": "dff7fac0-b37e-4729-ae45-e8a545e4c345",
       "text": "But if you're in an industry that has no retention, then switching to one that does, if you're early in your career, may not be the dumbest decision.",
       "author": "Alex Hormozi",
-      "primaryCategory": "Business Building",
+      "primaryCategory": "Business Models & Strategy",
       "tags": [
         "retention",
-        "market-selection",
+        "strategy",
         "career"
       ],
       "sourceType": "video",
@@ -315,615 +735,30 @@
       "updatedAt": "2026-08-23T23:35:00.000Z"
     },
     {
-      "id": "9277b663-62ee-47b2-8931-343c3b585a44",
-      "text": "Best reason to take risk when you're poor: If you \"have nothing left\" it also means you have \"nothing to lose.\" Giving you no reason not to take your shot.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Mindset",
-      "tags": [
-        "risk",
-        "courage",
-        "mindset-shift"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceURL": "https://x.com/AlexHormozi/status/1717407643327971470",
-      "sourceDate": "2023-10-25",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Original post"
-      },
-      "verified": true,
-      "featured": true,
-      "containsProfanity": false,
-      "context": "Alex reframes having nothing left as having nothing to lose, removing the excuse not to act.",
-      "createdAt": "2026-08-23T23:58:00.000Z",
-      "updatedAt": "2026-08-24T00:25:00.000Z"
-    },
-    {
-      "id": "9cd4fc91-009b-4cec-8348-2bab62f9d27b",
-      "text": "Ambition without action is entitlement.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Mindset",
-      "tags": [
-        "ambition",
-        "execution",
-        "accountability"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceURL": "https://x.com/AlexHormozi/status/1748079193504780332",
-      "sourceDate": "2024-01-18",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Original post"
-      },
-      "verified": true,
-      "featured": true,
-      "containsProfanity": false,
-      "context": "Alex draws a hard line between wanting something and actually working toward it.",
-      "createdAt": "2026-08-23T23:58:00.000Z",
-      "updatedAt": "2026-08-24T00:40:00.000Z"
-    },
-    {
-      "id": "ca64f810-6276-4dd1-a2de-0d8456fb4caa",
-      "text": "Hard times feel long. But an epic story lasts a lifetime.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Mindset",
-      "tags": [
-        "perseverance",
-        "resilience",
-        "perspective"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceURL": "https://x.com/AlexHormozi/status/1689056435349463040",
-      "sourceDate": "2023-08-08",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Original post"
-      },
-      "verified": true,
-      "featured": true,
-      "containsProfanity": false,
-      "context": "Alex offers a reframe for enduring difficulty: the story you will tell later outlasts how long the hardship feels right now.",
-      "createdAt": "2026-08-23T23:58:00.000Z",
-      "updatedAt": "2026-08-24T00:25:00.000Z"
-    },
-    {
-      "id": "032c1bbb-cba6-4409-84bb-3f2140b5fd03",
-      "text": "The biggest reason the rich get richer (besides compounding) is they avoid things that don't make enough money. The more money you have, the more selective you are about which things are worth doing because fewer things move the needle for you.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Decision Making",
-      "tags": [
-        "opportunity-cost",
-        "selectivity",
-        "wealth-building"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceURL": "https://x.com/AlexHormozi/status/1985014541827117115",
-      "sourceDate": "2025-11-02",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Original post"
-      },
-      "verified": true,
-      "featured": true,
-      "containsProfanity": false,
-      "context": "The opening of a longer thread where Alex explains that wealthier people get richer partly because they are more selective about which opportunities are even worth their time.",
-      "createdAt": "2026-08-23T23:58:00.000Z",
-      "updatedAt": "2026-08-24T00:25:00.000Z"
-    },
-    {
-      "id": "77ae2432-e27c-469c-b16c-caebb3c6dabc",
-      "text": "Remember you're gonna die and it's not gonna matter so don't stress so much - you've already won.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Mindset",
-      "tags": [
-        "perspective",
-        "stress",
-        "mortality"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceURL": "https://x.com/AlexHormozi/status/1717582169223360990",
-      "sourceDate": "2023-10-26",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Original post"
-      },
-      "verified": true,
-      "featured": true,
-      "containsProfanity": false,
-      "context": "The closing line of a numbered list of advice Alex gave a 'stuck' founder, zooming out on stress with a mortality reminder.",
-      "createdAt": "2026-08-23T23:58:00.000Z",
-      "updatedAt": "2026-08-24T00:25:00.000Z"
-    },
-    {
-      "id": "91657a20-4705-4ef7-a62d-8061df5b01c5",
-      "text": "Build from the customer backwards to money, not the other way around.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Business Building",
-      "tags": [
-        "customer-first",
-        "business-model",
-        "strategy"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceURL": "https://x.com/AlexHormozi/status/1717582169223360990",
-      "sourceDate": "2023-10-26",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Original post"
-      },
-      "verified": true,
-      "featured": true,
-      "containsProfanity": false,
-      "context": "Another line from the same numbered list of advice Alex gave a 'stuck' founder about how to structure a business around customers first.",
-      "createdAt": "2026-08-23T23:58:00.000Z",
-      "updatedAt": "2026-08-24T00:25:00.000Z"
-    },
-    {
-      "id": "78528c89-a5b8-4ecd-83fd-c707ede6a3c5",
-      "text": "If you're a small business owner, you have to advertise more. Period. No one knows you exist - which is why you're not making as much as you want.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Sales",
-      "tags": [
-        "advertising",
-        "visibility",
-        "small-business"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceURL": "https://x.com/AlexHormozi/status/1986457549684523095",
-      "sourceDate": "2025-11-06",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Original post"
-      },
-      "verified": true,
-      "featured": true,
-      "containsProfanity": false,
-      "context": "Alex responds to small business owners who assume customers will find them without consistent outbound marketing.",
-      "createdAt": "2026-08-23T23:58:00.000Z",
-      "updatedAt": "2026-08-24T00:25:00.000Z"
-    },
-    {
-      "id": "bfa01f9f-9010-4d99-b709-15835537598a",
-      "text": "The fight you're having right now is against irrelevance.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Mindset",
-      "tags": [
-        "visibility",
-        "relevance",
-        "mindset"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceURL": "https://x.com/AlexHormozi/status/1986457549684523095",
-      "sourceDate": "2025-11-06",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Original post"
-      },
-      "verified": true,
-      "featured": false,
-      "containsProfanity": false,
-      "context": "The closing line of the same tweet about why small business owners need to advertise more consistently.",
-      "createdAt": "2026-08-23T23:58:00.000Z",
-      "updatedAt": "2026-08-24T00:25:00.000Z"
-    },
-    {
-      "id": "89237f45-0bfb-464e-acfe-6cfad1e2b46a",
-      "text": "Always making things happen faster. Always disappointed it didn't happen faster.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Mindset",
-      "tags": [
-        "urgency",
-        "standards",
-        "ambition"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceURL": "https://x.com/AlexHormozi/status/1842641542084952302",
-      "sourceDate": "2024-10-05",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Reply on X"
-      },
-      "verified": true,
-      "featured": false,
-      "containsProfanity": false,
-      "context": "Alex's reply in a conversation about founders who create urgency by being aggressive about pace.",
-      "createdAt": "2026-08-23T23:58:00.000Z",
-      "updatedAt": "2026-08-24T00:25:00.000Z"
-    },
-    {
-      "id": "3ca22a3f-4f5e-4ed1-804c-c3358d8e9feb",
-      "text": "Productivity comes from all the things you choose not to do.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Decision Making",
-      "tags": [
-        "prioritization",
-        "productivity",
-        "focus"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceURL": "https://x.com/AlexHormozi/status/1885524074098520535",
-      "sourceDate": "2025-01-31",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Original post"
-      },
-      "verified": true,
-      "featured": true,
-      "containsProfanity": false,
-      "context": "Alex ties productivity to elimination rather than to doing more.",
-      "createdAt": "2026-08-23T23:58:00.000Z",
-      "updatedAt": "2026-08-24T00:25:00.000Z"
-    },
-    {
-      "id": "eecc35c0-0af3-4d71-b795-04a460c6ce58",
-      "text": "The reason focus is so important in the beginning is that the only solid employee in your business is you. And you would never tell that person to work on four things at the same time and see what works.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Business Building",
-      "tags": [
-        "focus",
-        "early-stage",
-        "leadership"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceURL": "https://x.com/AlexHormozi/status/1924169850207064469",
-      "sourceDate": "2025-05-18",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Original post"
-      },
-      "verified": true,
-      "featured": true,
-      "containsProfanity": false,
-      "context": "Alex compares an early-stage founder splitting attention across projects to mismanaging their only reliable employee: themselves.",
-      "createdAt": "2026-08-23T23:58:00.000Z",
-      "updatedAt": "2026-08-24T00:25:00.000Z"
-    },
-    {
-      "id": "a9b2875e-f381-48d0-9df8-b0cc76eaf17b",
-      "text": "The reason you are stressed is you have decisions to make and you're not making them.",
+      "id": "2a2a3dc1-8e1c-4e2a-8149-cb97f61ec542",
+      "text": "And so, I almost always wrap my questions with \"What would it take?\" because it assumes success.",
       "author": "Alex Hormozi",
       "primaryCategory": "Decision Making",
       "tags": [
         "decision-making",
-        "stress",
-        "clarity"
+        "problem-solving",
+        "execution"
       ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceURL": "https://x.com/AlexHormozi/status/1625170518201581568",
-      "sourceDate": "2023-02-13",
+      "sourceType": "video",
+      "sourceTitle": "Learn 97% of How to Get Rich in 11 Mins",
+      "sourceURL": "https://www.youtube.com/watch?v=fj5uxdv_j5Y&t=173s",
+      "sourceDate": "2026-08-03",
       "sourceLocator": {
-        "kind": "web",
-        "section": "Original post"
+        "kind": "media",
+        "startSeconds": 173,
+        "endSeconds": 184
       },
       "verified": true,
       "featured": true,
       "containsProfanity": false,
-      "context": "Alex locates the source of stress in unresolved decisions rather than in the decisions themselves.",
-      "createdAt": "2026-08-23T23:58:00.000Z",
-      "updatedAt": "2026-08-24T00:40:00.000Z"
-    },
-    {
-      "id": "53280e23-3898-47f6-ad02-a284497d4881",
-      "text": "5 reasons your offer isn't converting: 1) Targeting poor people 2) Not enough Proof 3) Too little friction 4) Big outcome not fast enough 5) \"Sounds like work\"",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Sales",
-      "tags": [
-        "offers",
-        "conversion",
-        "sales"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceURL": "https://x.com/AlexHormozi/status/2046583916061229408",
-      "sourceDate": "2026-04-21",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Original post"
-      },
-      "verified": true,
-      "featured": true,
-      "containsProfanity": false,
-      "context": "Alex lists the most common reasons a sales offer fails to convert.",
-      "createdAt": "2026-08-23T23:58:00.000Z",
-      "updatedAt": "2026-08-24T00:25:00.000Z"
-    },
-    {
-      "id": "63c18d6d-626c-489c-94a9-8e8ef70a7e98",
-      "text": "The biggest lie I believed for the first 10yrs of being a business owner was that scaling was about getting more customers. It's about getting customers to never leave. Scaling looks like a flat retention curve, and when your business never gets smaller, it scales by default.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Business Building",
-      "tags": [
-        "retention",
-        "scaling",
-        "customers"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceURL": "https://x.com/AlexHormozi/status/2035996696522678300",
-      "sourceDate": "2026-03-23",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Original post",
-        "postID": "2035996696522678300"
-      },
-      "verified": true,
-      "featured": true,
-      "containsProfanity": false,
-      "context": "Alex reframes scaling as keeping customers long enough for the business to stop shrinking, rather than treating acquisition alone as growth.",
-      "createdAt": "2026-08-24T01:38:00.000Z",
-      "updatedAt": "2026-08-24T01:50:00.000Z"
-    },
-    {
-      "id": "ff544e6a-175a-4959-8320-5b8447e55aeb",
-      "text": "The thing about helping younger folks in business is that they tend to advance faster because they don’t spend nearly the amount of time trying to justify why something won’t work. They also don’t even know what “a lot” of money is - it’s all just Monopoly money to them.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Business Building",
-      "tags": [
-        "learning",
-        "risk",
-        "early-career"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceURL": "https://x.com/AlexHormozi/status/1950263853867991144",
-      "sourceDate": "2025-07-29",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Original post",
-        "postID": "1950263853867991144"
-      },
-      "verified": true,
-      "featured": false,
-      "containsProfanity": false,
-      "context": "Alex observes that less experience can sometimes speed up progress because there are fewer learned objections and fewer fixed assumptions about scale.",
-      "createdAt": "2026-08-24T01:38:00.000Z",
-      "updatedAt": "2026-08-24T01:45:00.000Z"
-    },
-    {
-      "id": "d428ce94-1ff7-4abc-84fc-65a5a9ae38ed",
-      "text": "All income is not created equally… If over 4 years you transition from very active to very passive with the same business income. You still 2-4x enterprise value and your net worth. Sometimes doing less for the same IS the fastest growth. Just doesn’t feel that way.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Business Building",
-      "tags": [
-        "enterprise-value",
-        "leverage",
-        "business-model"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceURL": "https://x.com/AlexHormozi/status/1467177762582450182",
-      "sourceDate": "2021-12-04",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Original post",
-        "postID": "1467177762582450182"
-      },
-      "verified": true,
-      "featured": false,
-      "containsProfanity": false,
-      "context": "Alex explains that reducing a business owner’s required involvement can increase company value even when income stays flat.",
-      "createdAt": "2026-08-24T01:38:00.000Z",
-      "updatedAt": "2026-08-24T01:45:00.000Z"
-    },
-    {
-      "id": "2bf736d9-5f89-4a3f-92c7-b7f83a80bbb6",
-      "text": "Best way to learn sales without selling: Listen to close call recordings. The real world teaches more than any script.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Sales",
-      "tags": [
-        "sales-training",
-        "call-review",
-        "learning"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceURL": "https://x.com/AlexHormozi/status/1561016524135141378",
-      "sourceDate": "2022-08-20",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Original post",
-        "postID": "1561016524135141378"
-      },
-      "verified": true,
-      "featured": true,
-      "containsProfanity": false,
-      "context": "Alex recommends studying real sales calls as a practical way to build sales judgment before taking calls yourself.",
-      "createdAt": "2026-08-24T01:38:00.000Z",
-      "updatedAt": "2026-08-24T01:45:00.000Z"
-    },
-    {
-      "id": "950ebee2-02b5-44a3-893f-b22de6b199c6",
-      "text": "The fastest way to change your life is to change where you invest: Look at your calendar for where you spend your time. Your credit card statement for how you spend your money. And your phone for where you spend your attention. Change your inputs. Change your outputs.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Mindset",
-      "tags": [
-        "time",
-        "money",
-        "attention"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceURL": "https://x.com/AlexHormozi/status/1896568848234512852",
-      "sourceDate": "2025-03-03",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Original post",
-        "postID": "1896568848234512852"
-      },
-      "verified": true,
-      "featured": true,
-      "containsProfanity": false,
-      "context": "Alex turns personal change into an audit of the three resources people continuously allocate: time, money, and attention.",
-      "createdAt": "2026-08-24T01:38:00.000Z",
-      "updatedAt": "2026-08-24T01:45:00.000Z"
-    },
-    {
-      "id": "606ed260-d19f-499f-972d-10fab230aa35",
-      "text": "Hard and soft skills are another way of saying: “Skills we have an easy way to measure and skills we haven’t figured out how to measure yet.”",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Business Building",
-      "tags": [
-        "skills",
-        "measurement",
-        "teams"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceURL": "https://x.com/AlexHormozi/status/1667272898434809857",
-      "sourceDate": "2023-06-09",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Original post",
-        "postID": "1667272898434809857"
-      },
-      "verified": true,
-      "featured": false,
-      "containsProfanity": false,
-      "context": "Alex challenges the hard-skill versus soft-skill distinction by reframing it as a measurement problem.",
-      "createdAt": "2026-08-24T01:38:00.000Z",
-      "updatedAt": "2026-08-24T01:45:00.000Z"
-    },
-    {
-      "id": "fba747e2-9a21-4109-a720-5abbb1c0fe6d",
-      "text": "The easiest way to reduce churn is to sell stuff people already don’t cancel out of. TLDR: you’re never gonna make a gym membership stickier than Internet service across a large population.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Business Building",
-      "tags": [
-        "retention",
-        "churn",
-        "business-model"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceURL": "https://x.com/AlexHormozi/status/1889127978984215010",
-      "sourceDate": "2025-02-11",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Original post",
-        "postID": "1889127978984215010"
-      },
-      "verified": true,
-      "featured": true,
-      "containsProfanity": false,
-      "context": "Alex argues that retention is partly structural: some categories naturally support more durable customer relationships than others.",
-      "createdAt": "2026-08-24T01:38:00.000Z",
-      "updatedAt": "2026-08-24T01:45:00.000Z"
-    },
-    {
-      "id": "8f02520b-f6ea-497f-9dfd-6e1a7d1edd21",
-      "text": "That’s the thing about opportunity. It looks like risk when it’s an opportunity. And by the time it’s risk free, it’s not an opportunity anymore.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Decision Making",
-      "tags": [
-        "risk",
-        "opportunity",
-        "timing"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceURL": "https://x.com/AlexHormozi/status/1783183564743532941",
-      "sourceDate": "2024-04-24",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Original post",
-        "postID": "1783183564743532941"
-      },
-      "verified": true,
-      "featured": true,
-      "containsProfanity": false,
-      "context": "Alex explains why meaningful opportunities cannot be separated from uncertainty: certainty usually arrives only after the upside has disappeared.",
-      "createdAt": "2026-08-24T01:38:00.000Z",
-      "updatedAt": "2026-08-24T01:45:00.000Z"
-    },
-    {
-      "id": "b09ccf53-9640-4444-b98a-6ad98706e980",
-      "text": "Regrets come when we imagine an upside we didn’t experience without factoring in the cost we would’ve had to pay to get it.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Decision Making",
-      "tags": [
-        "regret",
-        "tradeoffs",
-        "decision-making"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceURL": "https://x.com/AlexHormozi/status/2025991606143275152",
-      "sourceDate": "2026-02-23",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Original post",
-        "postID": "2025991606143275152"
-      },
-      "verified": true,
-      "featured": true,
-      "containsProfanity": false,
-      "context": "Alex describes regret as an incomplete comparison that counts a missed benefit while ignoring the price required to obtain it.",
-      "createdAt": "2026-08-24T01:38:00.000Z",
-      "updatedAt": "2026-08-24T01:45:00.000Z"
-    },
-    {
-      "id": "2da4f3e4-6a61-42f4-aa5c-e8eaf333d156",
-      "text": "Cold calling and high volume selling are valuable because of the skills you learn, not the $. It’s hard to take 20+ consults a day and not get good. And once you’re good, it’s like getting a permanent $200k/yr pay raise. It’s worth giving a year to gain the skill for life.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Sales",
-      "tags": [
-        "sales-training",
-        "skill-building",
-        "practice"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceURL": "https://x.com/AlexHormozi/status/1540332812305281027",
-      "sourceDate": "2022-06-24",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Original post",
-        "postID": "1540332812305281027"
-      },
-      "verified": true,
-      "featured": true,
-      "containsProfanity": false,
-      "context": "Alex argues that the durable value of high-volume selling is the lifelong skill built through repeated real-world practice.",
-      "createdAt": "2026-08-24T01:38:00.000Z",
-      "updatedAt": "2026-08-24T01:45:00.000Z"
-    },
-    {
-      "id": "2ee5c144-c225-4d62-a717-a932b154c79e",
-      "text": "If you’re gonna do it next year, you might as well start now and start enjoying the benefits sooner. And if the benefits aren’t good enough to do it now, they’re not gonna be any better in the future. So either change the goal or change yourself.",
-      "author": "Alex Hormozi",
-      "primaryCategory": "Mindset",
-      "tags": [
-        "action",
-        "goals",
-        "urgency"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Post on X (@AlexHormozi)",
-      "sourceURL": "https://x.com/AlexHormozi/status/1870521208921538989",
-      "sourceDate": "2024-12-21",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Original post",
-        "postID": "1870521208921538989"
-      },
-      "verified": true,
-      "featured": true,
-      "containsProfanity": false,
-      "context": "Alex challenges delayed goals by asking whether the promised benefit is meaningful enough to justify beginning now.",
-      "createdAt": "2026-08-24T01:38:00.000Z",
-      "updatedAt": "2026-08-24T01:45:00.000Z"
+      "context": "Alex contrasts this framing with asking whether something can be done; the former starts from an assumption that a solution exists.",
+      "createdAt": "2026-08-23T23:00:00.000Z",
+      "updatedAt": "2026-08-23T23:35:00.000Z"
     }
   ]
 }

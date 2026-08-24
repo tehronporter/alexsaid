@@ -1,0 +1,195 @@
+{
+  "generatedAt": "2026-08-24T04:18:44.207Z",
+  "sourceCount": 21,
+  "results": [
+    {
+      "sourceID": "x-1540332812305281027",
+      "canonicalURL": "https://x.com/AlexHormozi/status/1540332812305281027",
+      "auditURL": "https://publish.x.com/oembed?omit_script=true&dnt=true&url=https%3A%2F%2Ftwitter.com%2FAlexHormozi%2Fstatus%2F1540332812305281027",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://publish.x.com/oembed?omit_script=true&dnt=true&url=https%3A%2F%2Ftwitter.com%2FAlexHormozi%2Fstatus%2F1540332812305281027"
+    },
+    {
+      "sourceID": "x-1561016524135141378",
+      "canonicalURL": "https://x.com/AlexHormozi/status/1561016524135141378",
+      "auditURL": "https://publish.x.com/oembed?omit_script=true&dnt=true&url=https%3A%2F%2Ftwitter.com%2FAlexHormozi%2Fstatus%2F1561016524135141378",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://publish.x.com/oembed?omit_script=true&dnt=true&url=https%3A%2F%2Ftwitter.com%2FAlexHormozi%2Fstatus%2F1561016524135141378"
+    },
+    {
+      "sourceID": "x-1625170518201581568",
+      "canonicalURL": "https://x.com/AlexHormozi/status/1625170518201581568",
+      "auditURL": "https://publish.x.com/oembed?omit_script=true&dnt=true&url=https%3A%2F%2Ftwitter.com%2FAlexHormozi%2Fstatus%2F1625170518201581568",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://publish.x.com/oembed?omit_script=true&dnt=true&url=https%3A%2F%2Ftwitter.com%2FAlexHormozi%2Fstatus%2F1625170518201581568"
+    },
+    {
+      "sourceID": "x-1689056435349463040",
+      "canonicalURL": "https://x.com/AlexHormozi/status/1689056435349463040",
+      "auditURL": "https://publish.x.com/oembed?omit_script=true&dnt=true&url=https%3A%2F%2Ftwitter.com%2FAlexHormozi%2Fstatus%2F1689056435349463040",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://publish.x.com/oembed?omit_script=true&dnt=true&url=https%3A%2F%2Ftwitter.com%2FAlexHormozi%2Fstatus%2F1689056435349463040"
+    },
+    {
+      "sourceID": "x-1717407643327971470",
+      "canonicalURL": "https://x.com/AlexHormozi/status/1717407643327971470",
+      "auditURL": "https://publish.x.com/oembed?omit_script=true&dnt=true&url=https%3A%2F%2Ftwitter.com%2FAlexHormozi%2Fstatus%2F1717407643327971470",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://publish.x.com/oembed?omit_script=true&dnt=true&url=https%3A%2F%2Ftwitter.com%2FAlexHormozi%2Fstatus%2F1717407643327971470"
+    },
+    {
+      "sourceID": "x-1748079193504780332",
+      "canonicalURL": "https://x.com/AlexHormozi/status/1748079193504780332",
+      "auditURL": "https://publish.x.com/oembed?omit_script=true&dnt=true&url=https%3A%2F%2Ftwitter.com%2FAlexHormozi%2Fstatus%2F1748079193504780332",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://publish.x.com/oembed?omit_script=true&dnt=true&url=https%3A%2F%2Ftwitter.com%2FAlexHormozi%2Fstatus%2F1748079193504780332"
+    },
+    {
+      "sourceID": "x-1783183564743532941",
+      "canonicalURL": "https://x.com/AlexHormozi/status/1783183564743532941",
+      "auditURL": "https://publish.x.com/oembed?omit_script=true&dnt=true&url=https%3A%2F%2Ftwitter.com%2FAlexHormozi%2Fstatus%2F1783183564743532941",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://publish.x.com/oembed?omit_script=true&dnt=true&url=https%3A%2F%2Ftwitter.com%2FAlexHormozi%2Fstatus%2F1783183564743532941"
+    },
+    {
+      "sourceID": "x-1842641542084952302",
+      "canonicalURL": "https://x.com/AlexHormozi/status/1842641542084952302",
+      "auditURL": "https://publish.x.com/oembed?omit_script=true&dnt=true&url=https%3A%2F%2Ftwitter.com%2FAlexHormozi%2Fstatus%2F1842641542084952302",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://publish.x.com/oembed?omit_script=true&dnt=true&url=https%3A%2F%2Ftwitter.com%2FAlexHormozi%2Fstatus%2F1842641542084952302"
+    },
+    {
+      "sourceID": "x-1870521208921538989",
+      "canonicalURL": "https://x.com/AlexHormozi/status/1870521208921538989",
+      "auditURL": "https://publish.x.com/oembed?omit_script=true&dnt=true&url=https%3A%2F%2Ftwitter.com%2FAlexHormozi%2Fstatus%2F1870521208921538989",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://publish.x.com/oembed?omit_script=true&dnt=true&url=https%3A%2F%2Ftwitter.com%2FAlexHormozi%2Fstatus%2F1870521208921538989"
+    },
+    {
+      "sourceID": "x-1885524074098520535",
+      "canonicalURL": "https://x.com/AlexHormozi/status/1885524074098520535",
+      "auditURL": "https://publish.x.com/oembed?omit_script=true&dnt=true&url=https%3A%2F%2Ftwitter.com%2FAlexHormozi%2Fstatus%2F1885524074098520535",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://publish.x.com/oembed?omit_script=true&dnt=true&url=https%3A%2F%2Ftwitter.com%2FAlexHormozi%2Fstatus%2F1885524074098520535"
+    },
+    {
+      "sourceID": "x-1889127978984215010",
+      "canonicalURL": "https://x.com/AlexHormozi/status/1889127978984215010",
+      "auditURL": "https://publish.x.com/oembed?omit_script=true&dnt=true&url=https%3A%2F%2Ftwitter.com%2FAlexHormozi%2Fstatus%2F1889127978984215010",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://publish.x.com/oembed?omit_script=true&dnt=true&url=https%3A%2F%2Ftwitter.com%2FAlexHormozi%2Fstatus%2F1889127978984215010"
+    },
+    {
+      "sourceID": "x-1896568848234512852",
+      "canonicalURL": "https://x.com/AlexHormozi/status/1896568848234512852",
+      "auditURL": "https://publish.x.com/oembed?omit_script=true&dnt=true&url=https%3A%2F%2Ftwitter.com%2FAlexHormozi%2Fstatus%2F1896568848234512852",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://publish.x.com/oembed?omit_script=true&dnt=true&url=https%3A%2F%2Ftwitter.com%2FAlexHormozi%2Fstatus%2F1896568848234512852"
+    },
+    {
+      "sourceID": "x-1924169850207064469",
+      "canonicalURL": "https://x.com/AlexHormozi/status/1924169850207064469",
+      "auditURL": "https://publish.x.com/oembed?omit_script=true&dnt=true&url=https%3A%2F%2Ftwitter.com%2FAlexHormozi%2Fstatus%2F1924169850207064469",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://publish.x.com/oembed?omit_script=true&dnt=true&url=https%3A%2F%2Ftwitter.com%2FAlexHormozi%2Fstatus%2F1924169850207064469"
+    },
+    {
+      "sourceID": "x-1985014541827117115",
+      "canonicalURL": "https://x.com/AlexHormozi/status/1985014541827117115",
+      "auditURL": "https://publish.x.com/oembed?omit_script=true&dnt=true&url=https%3A%2F%2Ftwitter.com%2FAlexHormozi%2Fstatus%2F1985014541827117115",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://publish.x.com/oembed?omit_script=true&dnt=true&url=https%3A%2F%2Ftwitter.com%2FAlexHormozi%2Fstatus%2F1985014541827117115"
+    },
+    {
+      "sourceID": "x-1986457549684523095",
+      "canonicalURL": "https://x.com/AlexHormozi/status/1986457549684523095",
+      "auditURL": "https://publish.x.com/oembed?omit_script=true&dnt=true&url=https%3A%2F%2Ftwitter.com%2FAlexHormozi%2Fstatus%2F1986457549684523095",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://publish.x.com/oembed?omit_script=true&dnt=true&url=https%3A%2F%2Ftwitter.com%2FAlexHormozi%2Fstatus%2F1986457549684523095"
+    },
+    {
+      "sourceID": "x-2025991606143275152",
+      "canonicalURL": "https://x.com/AlexHormozi/status/2025991606143275152",
+      "auditURL": "https://publish.x.com/oembed?omit_script=true&dnt=true&url=https%3A%2F%2Ftwitter.com%2FAlexHormozi%2Fstatus%2F2025991606143275152",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://publish.x.com/oembed?omit_script=true&dnt=true&url=https%3A%2F%2Ftwitter.com%2FAlexHormozi%2Fstatus%2F2025991606143275152"
+    },
+    {
+      "sourceID": "x-2035996696522678300",
+      "canonicalURL": "https://x.com/AlexHormozi/status/2035996696522678300",
+      "auditURL": "https://publish.x.com/oembed?omit_script=true&dnt=true&url=https%3A%2F%2Ftwitter.com%2FAlexHormozi%2Fstatus%2F2035996696522678300",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://publish.x.com/oembed?omit_script=true&dnt=true&url=https%3A%2F%2Ftwitter.com%2FAlexHormozi%2Fstatus%2F2035996696522678300"
+    },
+    {
+      "sourceID": "x-2046583916061229408",
+      "canonicalURL": "https://x.com/AlexHormozi/status/2046583916061229408",
+      "auditURL": "https://publish.x.com/oembed?omit_script=true&dnt=true&url=https%3A%2F%2Ftwitter.com%2FAlexHormozi%2Fstatus%2F2046583916061229408",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://publish.x.com/oembed?omit_script=true&dnt=true&url=https%3A%2F%2Ftwitter.com%2FAlexHormozi%2Fstatus%2F2046583916061229408"
+    },
+    {
+      "sourceID": "youtube-3fsjfuva6ts",
+      "canonicalURL": "https://www.youtube.com/watch?v=3fsJFUvA6Ts",
+      "auditURL": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D3fsJFUvA6Ts",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D3fsJFUvA6Ts"
+    },
+    {
+      "sourceID": "youtube-8vqsfbmms4m",
+      "canonicalURL": "https://www.youtube.com/watch?v=8VqSFBMMS4M",
+      "auditURL": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D8VqSFBMMS4M",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D8VqSFBMMS4M"
+    },
+    {
+      "sourceID": "youtube-fj5uxdv-j5y",
+      "canonicalURL": "https://www.youtube.com/watch?v=fj5uxdv_j5Y",
+      "auditURL": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dfj5uxdv_j5Y",
+      "outcome": "ok",
+      "status": 200,
+      "attempts": 1,
+      "detail": "Resolved to https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dfj5uxdv_j5Y"
+    }
+  ]
+}

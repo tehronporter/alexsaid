@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "provider": "x",
+  "year": 2021,
+  "updatedAt": "2026-08-24T03:49:22.103Z",
+  "sources": [
+    {
+      "sourceID": "x-1467177762582450182",
+      "externalID": "1467177762582450182",
+      "provider": "x",
+      "sourceType": "social",
+      "title": "Post on X (@AlexHormozi)",
+      "publisher": "Alex Hormozi",
+      "publishedAt": "2021-12-04",
+      "durationSeconds": null,
+      "canonicalURL": "https://x.com/AlexHormozi/status/1467177762582450182",
+      "mediaURL": null,
+      "transcriptURL": null,
+      "transcriptChecksum": null,
+      "retrievedAt": "2026-08-24T03:49:22.103Z",
+      "discoveryMethod": "direct-official-x-post",
+      "status": "reviewed",
+      "exclusionReason": null,
+      "blockingReason": null
+    }
+  ]
+}

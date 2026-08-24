@@ -18,4 +18,13 @@ describe("quote feed", () => {
     expect(quotes.length).toBeGreaterThan(0);
     expect(quotes.every(({ primaryCategory }) => primaryCategory === "Sales")).toBe(true);
   });
+
+  it("avoids immediate same-source runs whenever an alternative exists", () => {
+    const ordered = dailyQuoteOrder(catalog.quotes, defaultLocalState, new Date(2026, 7, 23, 12));
+    const source = (url: string | null) => url?.replace(/[?#](?:t|start)=?[^#&]*/g, "") ?? "";
+    for (let index = 1; index < ordered.length; index += 1) {
+      const alternatives = ordered.slice(index).some((quote) => source(quote.sourceURL) !== source(ordered[index - 1].sourceURL));
+      if (alternatives) expect(source(ordered[index].sourceURL)).not.toBe(source(ordered[index - 1].sourceURL));
+    }
+  });
 });

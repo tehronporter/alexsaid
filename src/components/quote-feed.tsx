@@ -12,10 +12,16 @@ import { useUserState } from "@/components/user-state-provider";
 import { dailyQuoteOrder } from "@/lib/feed";
 import { trackProductEvent } from "@/lib/analytics";
 import { quoteDisplaySize, quoteTypographyStyle } from "@/lib/typography";
+import { useOptionalCatalog } from "@/components/catalog-provider";
 
 let hasShownSaveHint = false;
+const EMPTY_QUOTES: readonly Quote[] = [];
 
-export function QuoteFeed({ quotes, initialQuoteID, developmentFixture = false }: { quotes: readonly Quote[]; initialQuoteID?: string; developmentFixture?: boolean }) {
+export function QuoteFeed({ quotes: suppliedQuotes, initialQuote, initialQuoteID, developmentFixture: suppliedDevelopmentFixture }: { quotes?: readonly Quote[]; initialQuote?: Quote; initialQuoteID?: string; developmentFixture?: boolean }) {
+  const catalogContext = useOptionalCatalog();
+  const catalogQuotes = catalogContext?.catalog?.quotes;
+  const quotes = useMemo(() => suppliedQuotes ?? catalogQuotes ?? (initialQuote ? [initialQuote] : EMPTY_QUOTES), [suppliedQuotes, catalogQuotes, initialQuote]);
+  const developmentFixture = suppliedDevelopmentFixture ?? catalogContext?.catalog?.developmentFixture ?? false;
   const { state, update, toggleSaved } = useUserState();
   const order = useMemo(() => dailyQuoteOrder(quotes, state), [quotes, state]);
   const [selectedQuoteID, setSelectedQuoteID] = useState<string | null>(null);
@@ -23,16 +29,19 @@ export function QuoteFeed({ quotes, initialQuoteID, developmentFixture = false }
   const [dragY, setDragY] = useState(0);
   const [dragging, setDragging] = useState(false);
   const touchStart = useRef<number | null>(null);
-  const activeQuoteID = selectedQuoteID ?? initialQuoteID ?? state.lastQuoteID ?? order[0]?.id;
+  const mainRef = useRef<HTMLElement | null>(null);
+  const activeQuoteID = selectedQuoteID ?? initialQuoteID ?? initialQuote?.id ?? state.lastQuoteID ?? order[0]?.id;
   const index = Math.max(0, order.findIndex((item) => item.id === activeQuoteID));
-  const quote = order[index] ?? quotes[0];
-  const saved = state.savedIDs.includes(quote.id);
-  const quoteSize = quoteDisplaySize(quote.text);
-  const quoteStyle = quoteTypographyStyle(quote.text);
+  const quote = order[index] ?? quotes[0] ?? initialQuote;
+  const saved = quote ? state.savedIDs.includes(quote.id) : false;
+  const quoteSize = quoteDisplaySize(quote?.text ?? "");
+  const quoteStyle = quoteTypographyStyle(quote?.text ?? "");
   const swipeLearned = state.successfulSwipeCount >= 3;
 
   const move = useCallback((direction: 1 | -1, historyMode: "push" | "replace" = "push") => {
-    const nextIndex = (index + direction + order.length) % order.length;
+    const routeQuoteID = typeof window === "undefined" ? null : window.location.pathname.match(/^\/q\/([^/]+)$/)?.[1];
+    const liveIndex = Math.max(0, order.findIndex((item) => item.id === (routeQuoteID ?? activeQuoteID)));
+    const nextIndex = (liveIndex + direction + order.length) % order.length;
     const target = order[nextIndex];
     if (target && typeof window !== "undefined") {
       setEnterDirection(direction);
@@ -40,7 +49,12 @@ export function QuoteFeed({ quotes, initialQuoteID, developmentFixture = false }
       window.history[historyMode === "push" ? "pushState" : "replaceState"]({}, "", `/q/${target.id}`);
       update({ lastQuoteID: target.id });
     }
-  }, [index, order, update]);
+  }, [activeQuoteID, order, update]);
+  const moveRef = useRef(move);
+
+  useEffect(() => {
+    moveRef.current = move;
+  }, [move]);
 
   const recordSuccessfulSwipe = useCallback(() => {
     const nextCount = Math.min(3, state.successfulSwipeCount + 1);
@@ -49,26 +63,33 @@ export function QuoteFeed({ quotes, initialQuoteID, developmentFixture = false }
 
   useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
-      if (["ArrowDown", "ArrowRight"].includes(event.key)) move(1);
-      if (["ArrowUp", "ArrowLeft"].includes(event.key)) move(-1);
+      if (["ArrowDown", "ArrowRight"].includes(event.key)) moveRef.current(1);
+      if (["ArrowUp", "ArrowLeft"].includes(event.key)) moveRef.current(-1);
     };
+    window.addEventListener("keydown", onKeyDown);
+    mainRef.current?.setAttribute("data-interactive", "true");
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, []);
+
+  useEffect(() => {
     const onPopState = () => {
       const id = window.location.pathname.match(/^\/q\/([^/]+)$/)?.[1];
       const restoredIndex = order.findIndex((item) => item.id === id);
       if (restoredIndex >= 0) setSelectedQuoteID(order[restoredIndex].id);
     };
-    window.addEventListener("keydown", onKeyDown);
     window.addEventListener("popstate", onPopState);
-    return () => { window.removeEventListener("keydown", onKeyDown); window.removeEventListener("popstate", onPopState); };
-  }, [move, order]);
+    return () => window.removeEventListener("popstate", onPopState);
+  }, [order]);
 
   useEffect(() => {
+    if (!quote) return;
     trackProductEvent("quote_viewed", { quote_id: quote.id, category: quote.primaryCategory });
-  }, [quote.id, quote.primaryCategory]);
+  }, [quote]);
 
-  if (!quote) return null;
+  if (!quote) return <main className="quote-surface purple-field min-h-dvh" aria-busy="true"><p className="sr-only">Loading quote catalog</p></main>;
+
   return (
-    <main className="quote-surface purple-field safe-pb min-h-dvh lg:pl-20">
+    <main ref={mainRef} className="quote-surface purple-field safe-pb min-h-dvh lg:pl-20" data-catalog-ready={quotes.length > 1}>
       <div className="grid min-h-[calc(100dvh-5.75rem)] lg:min-h-dvh lg:grid-cols-[minmax(0,1fr)_23rem] xl:grid-cols-[minmax(0,1fr)_26rem]">
         <section
           className="quote-stage flex min-h-[calc(100dvh-5.75rem)] select-none flex-col px-[var(--quote-page-margin)] pt-[calc(var(--quote-header-top)+var(--safe-top))] pb-5 md:min-h-dvh md:pb-9 lg:pb-12"

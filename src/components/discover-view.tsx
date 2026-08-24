@@ -11,14 +11,22 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { trackProductEvent } from "@/lib/analytics";
 import { rankQuotes } from "@/lib/search";
+import { useOptionalCatalog } from "@/components/catalog-provider";
 
 const RECENT_QUOTE_COUNT = 2;
+const EMPTY_QUOTES: readonly Quote[] = [];
+const EMPTY_CATEGORIES: readonly string[] = [];
+const EMPTY_COLLECTIONS: readonly Collection[] = [];
 
 function pluralize(count: number, singular: string, plural = `${singular}s`) {
   return `${count} ${count === 1 ? singular : plural}`;
 }
 
-export function DiscoverView({ quotes, categories, collections, initialTopic = "" }: { quotes: readonly Quote[]; categories: readonly string[]; collections: readonly Collection[]; initialTopic?: string }) {
+export function DiscoverView({ quotes: suppliedQuotes, categories: suppliedCategories, collections: suppliedCollections, initialTopic = "" }: { quotes?: readonly Quote[]; categories?: readonly string[]; collections?: readonly Collection[]; initialTopic?: string }) {
+  const catalogContext = useOptionalCatalog();
+  const quotes = suppliedQuotes ?? catalogContext?.catalog?.quotes ?? EMPTY_QUOTES;
+  const categories = suppliedCategories ?? catalogContext?.catalog?.categories ?? EMPTY_CATEGORIES;
+  const collections = suppliedCollections ?? catalogContext?.catalog?.collections ?? EMPTY_COLLECTIONS;
   const [query, setQuery] = useState(initialTopic);
   const deferredQuery = useDeferredValue(query);
 
@@ -32,8 +40,8 @@ export function DiscoverView({ quotes, categories, collections, initialTopic = "
     const trimmed = deferredQuery.trim();
     if (!trimmed) return [];
     const exactCategory = categories.find((category) => category.toLocaleLowerCase() === trimmed.toLocaleLowerCase());
-    return exactCategory ? quotes.filter((quote) => quote.primaryCategory === exactCategory) : rankQuotes(quotes, deferredQuery);
-  }, [deferredQuery, quotes, categories]);
+    return exactCategory ? quotes.filter((quote) => quote.primaryCategory === exactCategory) : suppliedQuotes ? rankQuotes(quotes, deferredQuery) : catalogContext?.search(deferredQuery) ?? [];
+  }, [deferredQuery, quotes, categories, suppliedQuotes, catalogContext]);
 
   const hasQuery = query.trim().length > 0;
   const clearSearch = () => {

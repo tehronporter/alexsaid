@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "provider": "youtube",
+  "year": 2018,
+  "updatedAt": "2026-08-24T04:08:14.976Z",
+  "sources": [
+    {
+      "sourceID": "youtube-ais5qh7umx4",
+      "externalID": "aiS5qH7UMX4",
+      "provider": "youtube",
+      "sourceType": "video",
+      "title": "Sell Anywhere (SELL TO ANY CUSTOMER in 2018)",
+      "publisher": "Alex Hormozi · YouTube",
+      "publishedAt": "2018-07-20",
+      "durationSeconds": 83,
+      "canonicalURL": "https://www.youtube.com/watch?v=aiS5qH7UMX4",
+      "mediaURL": "https://www.youtube.com/watch?v=aiS5qH7UMX4",
+      "transcriptURL": null,
+      "transcriptChecksum": null,
+      "retrievedAt": "2026-08-24T04:08:14.976Z",
+      "discoveryMethod": "verified-official-youtube-channel-enumeration",
+      "status": "blocked",
+      "exclusionReason": null,
+      "blockingReason": "YouTube captions are discovery-only and no stable public transcript URL is exposed; direct media mining and two listening passes are required"
+    }
+  ]
+}

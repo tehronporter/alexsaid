@@ -30,7 +30,7 @@ describe("DiscoverView", () => {
     expect(screen.getByRole("heading", { name: "Browse topics" })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Latest quotes" })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Collections" })).toBeInTheDocument();
-    expect(screen.getAllByRole("link", { name: /Business Building/ }).length).toBeGreaterThan(0);
+    expect(screen.getAllByRole("link", { name: /Business Models & Strategy/ }).length).toBeGreaterThan(0);
     expect(screen.getAllByRole("link", { name: /Better Decisions/ }).length).toBeGreaterThan(0);
   });
 

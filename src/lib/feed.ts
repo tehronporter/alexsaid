@@ -1,5 +1,24 @@
 import type { LocalUserStateV1, Quote } from "@/domain/catalog";
 
+function sourceKey(quote: Quote) {
+  if (!quote.sourceURL) return quote.sourceTitle ?? quote.id;
+  try {
+    const url = new URL(quote.sourceURL);
+    url.searchParams.delete("t");
+    url.searchParams.delete("start");
+    url.hash = "";
+    return url.toString();
+  } catch { return quote.sourceURL; }
+}
+
+function textSimilarity(left: string, right: string) {
+  const tokens = (value: string) => new Set(value.toLocaleLowerCase().match(/[a-z0-9]+/g) ?? []);
+  const a = tokens(left);
+  const b = tokens(right);
+  const intersection = [...a].filter((token) => b.has(token)).length;
+  return intersection / Math.max(1, a.size + b.size - intersection);
+}
+
 function hashSeed(value: string) {
   let hash = 2166136261;
   for (let index = 0; index < value.length; index += 1) {
@@ -50,5 +69,13 @@ export function dailyQuoteOrder(
     const swapIndex = Math.floor(random() * (index + 1));
     [result[index], result[swapIndex]] = [result[swapIndex], result[index]];
   }
-  return result;
+  const diversified: Quote[] = [];
+  while (result.length > 0) {
+    const previous = diversified.at(-1);
+    const preferredIndex = previous ? result.findIndex((candidate) => sourceKey(candidate) !== sourceKey(previous) && candidate.primaryCategory !== previous.primaryCategory && textSimilarity(candidate.text, previous.text) < 0.62) : 0;
+    const sourceSafeIndex = previous ? result.findIndex((candidate) => sourceKey(candidate) !== sourceKey(previous)) : 0;
+    const index = preferredIndex >= 0 ? preferredIndex : sourceSafeIndex >= 0 ? sourceSafeIndex : 0;
+    diversified.push(result.splice(index, 1)[0]);
+  }
+  return diversified;
 }

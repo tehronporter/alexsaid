@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "provider": "x",
+  "year": 2026,
+  "updatedAt": "2026-08-24T03:49:24.103Z",
+  "records": [
+    {
+      "candidateKey": "offer-not-converting-five-reasons",
+      "status": "verified",
+      "id": "53280e23-3898-47f6-ad02-a284497d4881",
+      "text": "5 reasons your offer isn't converting: 1) Targeting poor people 2) Not enough Proof 3) Too little friction 4) Big outcome not fast enough 5) \"Sounds like work\"",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Offers",
+      "tags": [
+        "offers",
+        "sales"
+      ],
+      "sourceID": "x-2046583916061229408",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/2046583916061229408",
+      "sourceDate": "2026-04-21",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post"
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex lists the most common reasons a sales offer fails to convert.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
+      "createdAt": "2026-08-23T23:58:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:23.103Z",
+          "reviewer": "codex-x-reaudit-pass-one",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened X's official embed, confirmed the @AlexHormozi author identity, contiguous wording, direct status URL, displayed publication date, and surrounding post context."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:24.103Z",
+          "reviewer": "codex-x-reaudit-pass-two",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Independently reopened X's official embed and reconfirmed authorship, exact contiguous text, direct locator, publication metadata, and honest standalone context."
+        },
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "regret-ignores-the-cost",
+      "status": "verified",
+      "id": "b09ccf53-9640-4444-b98a-6ad98706e980",
+      "text": "Regrets come when we imagine an upside we didn’t experience without factoring in the cost we would’ve had to pay to get it.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "stress",
+        "strategy",
+        "decision-making"
+      ],
+      "sourceID": "x-2025991606143275152",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/2025991606143275152",
+      "sourceDate": "2026-02-23",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "2025991606143275152"
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex describes regret as an incomplete comparison that counts a missed benefit while ignoring the price required to obtain it.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
+      "createdAt": "2026-08-24T01:38:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:23.103Z",
+          "reviewer": "codex-x-reaudit-pass-one",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened X's official embed, confirmed the @AlexHormozi author identity, contiguous wording, direct status URL, displayed publication date, and surrounding post context."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:24.103Z",
+          "reviewer": "codex-x-reaudit-pass-two",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Independently reopened X's official embed and reconfirmed authorship, exact contiguous text, direct locator, publication metadata, and honest standalone context."
+        },
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 1,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "scaling-flat-retention-curve",
+      "status": "verified",
+      "id": "63c18d6d-626c-489c-94a9-8e8ef70a7e98",
+      "text": "The biggest lie I believed for the first 10yrs of being a business owner was that scaling was about getting more customers. It's about getting customers to never leave. Scaling looks like a flat retention curve, and when your business never gets smaller, it scales by default.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Customer Success & Retention",
+      "tags": [
+        "retention",
+        "scaling",
+        "customer-experience"
+      ],
+      "sourceID": "x-2035996696522678300",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/2035996696522678300",
+      "sourceDate": "2026-03-23",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "2035996696522678300"
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex reframes scaling as keeping customers long enough for the business to stop shrinking, rather than treating acquisition alone as growth.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
+      "createdAt": "2026-08-24T01:38:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:23.103Z",
+          "reviewer": "codex-x-reaudit-pass-one",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened X's official embed, confirmed the @AlexHormozi author identity, contiguous wording, direct status URL, displayed publication date, and surrounding post context."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:24.103Z",
+          "reviewer": "codex-x-reaudit-pass-two",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Independently reopened X's official embed and reconfirmed authorship, exact contiguous text, direct locator, publication metadata, and honest standalone context."
+        },
+        "blindAudit": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T01:50:00.000Z",
+          "reviewer": "codex-blind-audit",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Blind audit fetched the X post again and matched its wording, @AlexHormozi authorship, status ID, and March 23, 2026 date to the ledger record."
+        }
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    }
+  ]
+}

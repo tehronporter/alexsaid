@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { catalogCategorySchema } from "@/domain/taxonomy";
 
 export const sourceTypeSchema = z.enum([
   "podcast",
@@ -51,8 +52,8 @@ export const quoteSchema = z.object({
   id: z.string().uuid(),
   text: z.string().trim().min(3).max(420),
   author: z.string().trim().min(1),
-  primaryCategory: z.string().trim().min(1),
-  tags: z.array(z.string().trim().min(1)).min(1),
+  primaryCategory: catalogCategorySchema,
+  tags: z.array(z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/)).min(2).max(5),
   sourceType: sourceTypeSchema,
   sourceTitle: z.string().trim().min(1).nullable(),
   sourceURL: z.string().url().nullable(),
@@ -85,9 +86,57 @@ export const quoteCatalogSchema = z.object({
   quotes: z.array(quoteSchema).min(1)
 });
 
+export const publicSourceSchema = z.object({
+  sourceID: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),
+  sourceType: sourceTypeSchema,
+  title: z.string().trim().min(1),
+  publisher: z.string().trim().min(1),
+  publishedAt: isoDateSchema,
+  canonicalURL: z.string().url(),
+  mediaURL: z.string().url().nullable(),
+  transcriptURL: z.string().url().nullable(),
+  durationSeconds: z.number().int().positive().nullable()
+});
+
+export const publicQuoteV3Schema = z.object({
+  id: z.string().uuid(),
+  text: z.string().trim().min(3).max(420),
+  author: z.literal("Alex Hormozi"),
+  primaryCategory: catalogCategorySchema,
+  tags: z.array(z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/)).min(2).max(5),
+  sourceID: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),
+  sourceLocator: sourceLocatorSchema,
+  verified: z.literal(true),
+  featured: z.boolean(),
+  containsProfanity: z.boolean(),
+  context: z.string().trim().min(1).nullable(),
+  createdAt: isoDateTimeSchema,
+  updatedAt: isoDateTimeSchema,
+  shortVersion: z.string().trim().min(1).max(140).optional(),
+  shareCardVersion: z.string().trim().min(1).max(260).optional()
+});
+
+export const quoteCatalogV3Schema = z.object({
+  schemaVersion: z.literal(3),
+  generatedAt: isoDateTimeSchema,
+  developmentFixture: z.boolean(),
+  categories: z.array(catalogCategorySchema).min(1),
+  collections: z.array(collectionSchema),
+  sources: z.array(publicSourceSchema).min(1),
+  quotes: z.array(publicQuoteV3Schema).min(1)
+}).superRefine((catalog, context) => {
+  const sourceIDs = new Set(catalog.sources.map((source) => source.sourceID));
+  for (const [index, quote] of catalog.quotes.entries()) {
+    if (!sourceIDs.has(quote.sourceID)) context.addIssue({ code: "custom", message: `Unknown sourceID: ${quote.sourceID}`, path: ["quotes", index, "sourceID"] });
+  }
+});
+
 export type Quote = z.infer<typeof quoteSchema>;
 export type Collection = z.infer<typeof collectionSchema>;
 export type QuoteCatalogV2 = z.infer<typeof quoteCatalogSchema>;
+export type PublicSource = z.infer<typeof publicSourceSchema>;
+export type PublicQuoteV3 = z.infer<typeof publicQuoteV3Schema>;
+export type QuoteCatalogV3 = z.infer<typeof quoteCatalogV3Schema>;
 /** @deprecated Use QuoteCatalogV2. Kept as a source-compatible alias for app code. */
 export type QuoteCatalogV1 = QuoteCatalogV2;
 export type SourceType = z.infer<typeof sourceTypeSchema>;

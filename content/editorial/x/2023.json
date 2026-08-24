@@ -1,0 +1,529 @@
+{
+  "schemaVersion": 1,
+  "provider": "x",
+  "year": 2023,
+  "updatedAt": "2026-08-24T03:49:24.103Z",
+  "records": [
+    {
+      "candidateKey": "customer-backwards-to-money",
+      "status": "rejected",
+      "id": "91657a20-4705-4ef7-a62d-8061df5b01c5",
+      "text": "Build from the customer backwards to money, not the other way around.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Business Models & Strategy",
+      "tags": [
+        "customer-experience",
+        "business-models",
+        "strategy"
+      ],
+      "sourceID": "x-1717582169223360990",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1717582169223360990",
+      "sourceDate": "2023-10-26",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post"
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Another line from the same numbered list of advice Alex gave a 'stuck' founder about how to structure a business around customers first.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
+      "createdAt": "2026-08-23T23:58:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T00:05:00.000Z",
+          "reviewer": "codex-primary",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened the tweet directly at x.com/AlexHormozi/status/1717582169223360990 and confirmed this numbered item is an exact, verbatim line from the live post, plus author handle and posting date."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T00:25:00.000Z",
+          "reviewer": "codex-independent",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Independently reopened the same tweet a second time and re-confirmed the line matches verbatim, with attribution and the Oct 26, 2023 timestamp against the live post."
+        },
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [
+        "Batch 0 X re-audit: X's official public embed truncates before this excerpt, and the direct page is unavailable to automated verification; publication is blocked rather than inferred from a mirror."
+      ],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "gonna-die-already-won",
+      "status": "rejected",
+      "id": "77ae2432-e27c-469c-b16c-caebb3c6dabc",
+      "text": "Remember you're gonna die and it's not gonna matter so don't stress so much - you've already won.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "stress"
+      ],
+      "sourceID": "x-1717582169223360990",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1717582169223360990",
+      "sourceDate": "2023-10-26",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post"
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "The closing line of a numbered list of advice Alex gave a 'stuck' founder, zooming out on stress with a mortality reminder.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
+      "createdAt": "2026-08-23T23:58:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T00:05:00.000Z",
+          "reviewer": "codex-primary",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened the tweet directly at x.com/AlexHormozi/status/1717582169223360990 and confirmed this numbered item is an exact, verbatim line from the live post, plus author handle and posting date."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T00:25:00.000Z",
+          "reviewer": "codex-independent",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Independently reopened the same tweet a second time and re-confirmed the line matches verbatim, with attribution and the Oct 26, 2023 timestamp against the live post."
+        },
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [
+        "Batch 0 X re-audit: X's official public embed truncates before this excerpt, and the direct page is unavailable to automated verification; publication is blocked rather than inferred from a mirror."
+      ],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "hard-soft-skills-measurement",
+      "status": "rejected",
+      "id": "606ed260-d19f-499f-972d-10fab230aa35",
+      "text": "Hard and soft skills are another way of saying: “Skills we have an easy way to measure and skills we haven’t figured out how to measure yet.”",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Leadership & Teams",
+      "tags": [
+        "learning",
+        "measurement",
+        "leadership"
+      ],
+      "sourceID": "x-1667272898434809857",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1667272898434809857",
+      "sourceDate": "2023-06-09",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "1667272898434809857"
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex challenges the hard-skill versus soft-skill distinction by reframing it as a measurement problem.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
+      "createdAt": "2026-08-24T01:38:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:23.103Z",
+          "reviewer": "codex-x-reaudit-pass-one",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened X's official embed, confirmed the @AlexHormozi author identity, contiguous wording, direct status URL, displayed publication date, and surrounding post context."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:24.103Z",
+          "reviewer": "codex-x-reaudit-pass-two",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Independently reopened X's official embed and reconfirmed authorship, exact contiguous text, direct locator, publication metadata, and honest standalone context."
+        },
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 1,
+        "distinctiveness": 2,
+        "fanRelevance": 1,
+        "productFit": 2
+      },
+      "rejectionNotes": [
+        "Batch 0 re-audit: the prior 8/10 score does not meet the 9/10 production threshold."
+      ],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "hard-times-epic-story",
+      "status": "verified",
+      "id": "ca64f810-6276-4dd1-a2de-0d8456fb4caa",
+      "text": "Hard times feel long. But an epic story lasts a lifetime.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "resilience",
+        "perspective"
+      ],
+      "sourceID": "x-1689056435349463040",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1689056435349463040",
+      "sourceDate": "2023-08-08",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post"
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex offers a reframe for enduring difficulty: the story you will tell later outlasts how long the hardship feels right now.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
+      "createdAt": "2026-08-23T23:58:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:23.103Z",
+          "reviewer": "codex-x-reaudit-pass-one",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened X's official embed, confirmed the @AlexHormozi author identity, contiguous wording, direct status URL, displayed publication date, and surrounding post context."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:24.103Z",
+          "reviewer": "codex-x-reaudit-pass-two",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Independently reopened X's official embed and reconfirmed authorship, exact contiguous text, direct locator, publication metadata, and honest standalone context."
+        },
+        "blindAudit": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:25.103Z",
+          "reviewer": "codex-x-blind-audit",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "A third isolated official X embed read matched Alex Hormozi's authorship, the exact contiguous excerpt, status locator, date, and full post context."
+        }
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "risk-when-poor",
+      "status": "verified",
+      "id": "9277b663-62ee-47b2-8931-343c3b585a44",
+      "text": "Best reason to take risk when you're poor: If you \"have nothing left\" it also means you have \"nothing to lose.\" Giving you no reason not to take your shot.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "risk",
+        "perspective"
+      ],
+      "sourceID": "x-1717407643327971470",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1717407643327971470",
+      "sourceDate": "2023-10-26",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post"
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex reframes having nothing left as having nothing to lose, removing the excuse not to act.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
+      "createdAt": "2026-08-23T23:58:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:23.103Z",
+          "reviewer": "codex-x-reaudit-pass-one",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened X's official embed, confirmed the @AlexHormozi author identity, contiguous wording, direct status URL, displayed publication date, and surrounding post context."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:24.103Z",
+          "reviewer": "codex-x-reaudit-pass-two",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Independently reopened X's official embed and reconfirmed authorship, exact contiguous text, direct locator, publication metadata, and honest standalone context."
+        },
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "stressed-because-not-deciding",
+      "status": "verified",
+      "id": "a9b2875e-f381-48d0-9df8-b0cc76eaf17b",
+      "text": "The reason you are stressed is you have decisions to make and you're not making them.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "decision-making",
+        "stress"
+      ],
+      "sourceID": "x-1625170518201581568",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1625170518201581568",
+      "sourceDate": "2023-02-13",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post"
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex locates the source of stress in unresolved decisions rather than in the decisions themselves.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
+      "createdAt": "2026-08-23T23:58:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:23.103Z",
+          "reviewer": "codex-x-reaudit-pass-one",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened X's official embed, confirmed the @AlexHormozi author identity, contiguous wording, direct status URL, displayed publication date, and surrounding post context."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:24.103Z",
+          "reviewer": "codex-x-reaudit-pass-two",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Independently reopened X's official embed and reconfirmed authorship, exact contiguous text, direct locator, publication metadata, and honest standalone context."
+        },
+        "blindAudit": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T00:40:00.000Z",
+          "reviewer": "codex-blind-audit",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Blind audit reopened the live post a third time on a separate tab and confirmed the exact wording, the @AlexHormozi handle, and the Feb 13, 2023 timestamp."
+        }
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    }
+  ]
+}

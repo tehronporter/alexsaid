@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "provider": "x",
+  "year": 2022,
+  "updatedAt": "2026-08-24T03:49:24.103Z",
+  "records": [
+    {
+      "candidateKey": "learn-sales-from-close-calls",
+      "status": "verified",
+      "id": "2bf736d9-5f89-4a3f-92c7-b7f83a80bbb6",
+      "text": "Best way to learn sales without selling: Listen to close call recordings. The real world teaches more than any script.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Sales",
+      "tags": [
+        "sales-training",
+        "learning"
+      ],
+      "sourceID": "x-1561016524135141378",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1561016524135141378",
+      "sourceDate": "2022-08-20",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "1561016524135141378"
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex recommends studying real sales calls as a practical way to build sales judgment before taking calls yourself.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
+      "createdAt": "2026-08-24T01:38:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:23.103Z",
+          "reviewer": "codex-x-reaudit-pass-one",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened X's official embed, confirmed the @AlexHormozi author identity, contiguous wording, direct status URL, displayed publication date, and surrounding post context."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:24.103Z",
+          "reviewer": "codex-x-reaudit-pass-two",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Independently reopened X's official embed and reconfirmed authorship, exact contiguous text, direct locator, publication metadata, and honest standalone context."
+        },
+        "blindAudit": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:25.103Z",
+          "reviewer": "codex-x-blind-audit",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "A third isolated official X embed read matched Alex Hormozi's authorship, the exact contiguous excerpt, status locator, date, and full post context."
+        }
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 1,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "sales-skill-permanent-raise",
+      "status": "verified",
+      "id": "2da4f3e4-6a61-42f4-aa5c-e8eaf333d156",
+      "text": "Cold calling and high volume selling are valuable because of the skills you learn, not the $. It’s hard to take 20+ consults a day and not get good. And once you’re good, it’s like getting a permanent $200k/yr pay raise. It’s worth giving a year to gain the skill for life.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Sales",
+      "tags": [
+        "sales-training",
+        "learning"
+      ],
+      "sourceID": "x-1540332812305281027",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1540332812305281027",
+      "sourceDate": "2022-06-24",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "1540332812305281027"
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex argues that the durable value of high-volume selling is the lifelong skill built through repeated real-world practice.",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-0-existing",
+        "duplicateDecision": "unique",
+        "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
+      },
+      "createdAt": "2026-08-24T01:38:00.000Z",
+      "updatedAt": "2026-08-24T03:49:24.103Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:23.103Z",
+          "reviewer": "codex-x-reaudit-pass-one",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened X's official embed, confirmed the @AlexHormozi author identity, contiguous wording, direct status URL, displayed publication date, and surrounding post context."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:24.103Z",
+          "reviewer": "codex-x-reaudit-pass-two",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Independently reopened X's official embed and reconfirmed authorship, exact contiguous text, direct locator, publication metadata, and honest standalone context."
+        },
+        "blindAudit": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-24T03:49:25.103Z",
+          "reviewer": "codex-x-blind-audit",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "A third isolated official X embed read matched Alex Hormozi's authorship, the exact contiguous excerpt, status locator, date, and full post context."
+        }
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 1,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    }
+  ]
+}

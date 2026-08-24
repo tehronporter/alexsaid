@@ -2,9 +2,10 @@ import { describe, expect, it } from "vitest";
 import { editorialLedgerSchema, editorialRecordSchema, type EditorialRecord } from "@/domain/editorial";
 import {
   findNearDuplicatePairs,
-  generatePublicCatalog,
+  generateCatalogV3,
   isExactExcerpt,
   publishabilityIssues,
+  projectCatalogV2,
   qualityIssues,
   sourceURLIssues,
   transitionEditorialRecord
@@ -15,8 +16,10 @@ const passed = {
   checkedAt: "2026-08-23T23:00:00.000Z",
   reviewer: "reviewer",
   method: "direct-media-listen" as const,
+  isolatedReview: true,
   sourceReopened: true,
   surroundingContextReviewed: true,
+  surroundingContextSeconds: 30,
   wordingConfirmed: true,
   attributionConfirmed: true,
   locatorConfirmed: true,
@@ -35,7 +38,8 @@ function makeRecord(overrides: Partial<EditorialRecord> = {}): EditorialRecord {
     text: "People only feel sold to if it's bad.",
     author: "Alex Hormozi",
     primaryCategory: "Sales",
-    tags: ["sales"],
+    tags: ["sales", "customer-experience"],
+    sourceID: "youtube-source",
     sourceType: "video",
     sourceTitle: "A complete direct recording",
     sourceURL: "https://www.youtube.com/watch?v=source&t=413s",
@@ -44,6 +48,7 @@ function makeRecord(overrides: Partial<EditorialRecord> = {}): EditorialRecord {
     featured: true,
     containsProfanity: false,
     context: "Alex is responding to a founder's concern about selling.",
+    provenance: { transcriptFingerprint: null, cueStart: null, cueEnd: null, batchID: "test-batch", duplicateDecision: "unique", duplicateNote: "No similar quote exists in this test fixture." },
     createdAt: "2026-08-23T23:00:00.000Z",
     updatedAt: "2026-08-23T23:00:00.000Z",
     verification: { firstPass: passed, secondPass, blindAudit: null },
@@ -88,7 +93,7 @@ describe("editorial gates", () => {
     expect(isExactExcerpt(full, "…the undefeated champion is do nothing.")).toBe(true);
     expect(isExactExcerpt(full, "The undefeated winner is do nothing.")).toBe(false);
     expect(qualityIssues({ standaloneClarity: 2, practicalUsefulness: 2, distinctiveness: 0, fanRelevance: 2, productFit: 2 })).toContain("Every quality dimension must score at least 1");
-    expect(qualityIssues({ standaloneClarity: 1, practicalUsefulness: 1, distinctiveness: 1, fanRelevance: 2, productFit: 2 }).join(" ")).toContain("at least 8");
+    expect(qualityIssues({ standaloneClarity: 1, practicalUsefulness: 1, distinctiveness: 1, fanRelevance: 2, productFit: 2 }).join(" ")).toContain("at least 9");
   });
 
   it("finds exact and high-confidence near duplicates", () => {
@@ -112,9 +117,11 @@ describe("public catalog generation", () => {
     const accepted = makeRecord({ verification: { firstPass: passed, secondPass, blindAudit: { ...secondPass, checkedAt: "2026-08-23T23:10:00.000Z", reviewer: "blind-auditor" } } });
     const rejected = editorialRecordSchema.parse({ ...accepted, candidateKey: "rejected", status: "rejected", id: undefined, featured: false, rejectionNotes: ["Wrong speaker"] });
     const ledger = editorialLedgerSchema.parse({ schemaVersion: 1, updatedAt: "2026-08-23T23:00:00.000Z", records: [accepted, rejected], collections: [] });
-    const catalog = generatePublicCatalog(ledger, "2026-08-23T23:00:00.000Z");
+    const source = { sourceID: "youtube-source", externalID: "source", provider: "youtube" as const, sourceType: "video" as const, title: "A complete direct recording", publisher: "Alex Hormozi", publishedAt: "2026-08-23", durationSeconds: 900, canonicalURL: "https://www.youtube.com/watch?v=source", mediaURL: "https://www.youtube.com/watch?v=source", transcriptURL: null, transcriptChecksum: null, retrievedAt: "2026-08-23T23:00:00.000Z", discoveryMethod: "test-fixture", status: "reviewed" as const, exclusionReason: null, blockingReason: null };
+    const taxonomy = { schemaVersion: 1 as const, categories: ["Offers", "Leads & Marketing", "Sales", "Customer Success & Retention", "Business Models & Strategy", "Operations & Scaling", "Leadership & Teams", "Decision Making", "Productivity & Execution", "Mindset & Personal Growth"] as ["Offers", "Leads & Marketing", "Sales", "Customer Success & Retention", "Business Models & Strategy", "Operations & Scaling", "Leadership & Teams", "Decision Making", "Productivity & Execution", "Mindset & Personal Growth"], tags: [{ slug: "sales", label: "Sales", definition: "Helping qualified prospects make purchase decisions.", aliases: [] }, { slug: "customer-experience", label: "Customer experience", definition: "How customers experience company interactions.", aliases: [] }] };
+    const catalog = projectCatalogV2(generateCatalogV3(ledger, [source], taxonomy, "2026-08-23T23:00:00.000Z"));
     expect(catalog.quotes.map(({ id }) => id)).toEqual([accepted.id]);
-    expect(catalog.categories).toEqual(["Sales"]);
+    expect(catalog.categories).toContain("Sales");
     expect(catalog.developmentFixture).toBe(false);
   });
 });
