@@ -19,12 +19,15 @@ function NavItem({ item, mobile = false }: { item: (typeof items)[number]; mobil
   const Icon = item.icon;
   return (
     <Link href={item.href} aria-current={active ? "page" : undefined} className={cn(
-      "group flex items-center rounded-xl transition-all active:scale-95",
+      "group flex items-center rounded-2xl transition-all active:scale-95",
       mobile
         ? cn("min-w-0 flex-1 flex-col justify-center gap-1 px-1 py-2 text-[0.65rem]", active ? "text-white" : "text-white/55")
-        : cn("gap-3 px-3 py-2.5 text-sm font-semibold text-white/70 hover:bg-white/10 hover:text-white", active && "bg-white text-black hover:bg-white hover:text-black")
+        : cn(
+            "flex-col justify-center gap-1.5 px-2 py-3 text-[0.7rem] font-semibold tracking-wide",
+            active ? "bg-white text-black" : "text-white/60 hover:bg-white/10 hover:text-white"
+          )
     )}>
-      <Icon className={mobile ? "size-5" : "size-4"} strokeWidth={active ? 2.4 : 1.8} />
+      <Icon className={mobile ? "size-5" : "size-5"} strokeWidth={active ? 2.4 : 1.8} />
       <span className={mobile ? "truncate" : undefined}>{item.label}</span>
     </Link>
   );
@@ -32,12 +35,11 @@ function NavItem({ item, mobile = false }: { item: (typeof items)[number]; mobil
 
 export function DesktopNavigation() {
   return (
-    <aside className="fixed inset-y-0 left-0 z-40 hidden w-28 flex-col border-r border-white/10 bg-black px-3 py-5 lg:flex">
-      <BrandMark compact className="mb-8 justify-center" />
-      <nav className="flex flex-1 flex-col gap-2" aria-label="Primary navigation">
+    <aside className="rail-glass fixed inset-y-0 left-0 z-40 hidden w-24 flex-col border-r border-white/10 px-2.5 py-6 lg:flex">
+      <BrandMark compact className="mb-9 justify-center" />
+      <nav className="flex flex-1 flex-col gap-1.5" aria-label="Primary navigation">
         {items.map((item) => <NavItem key={item.href} item={item} />)}
       </nav>
-      <p className="px-2 text-[0.62rem] leading-relaxed text-white/55">Unofficial fan-made quote app.</p>
     </aside>
   );
 }

@@ -121,6 +121,26 @@ button, a { touch-action: manipulation; }
     radial-gradient(circle at 86% 78%, rgb(39 7 118 / 24%), transparent 34rem),
     var(--purple);
 }
+
+/* Desktop stage depth: a soft top-left key light with a deep bottom-right falloff
+   so the display type separates from the field instead of floating on flat colour. */
+.quote-stage { position: relative; isolation: isolate; }
+.quote-stage::before {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  content: "";
+  background:
+    radial-gradient(75% 55% at 12% 8%, rgb(178 140 255 / 38%), transparent 70%),
+    radial-gradient(85% 70% at 108% 112%, rgb(22 3 68 / 52%), transparent 72%);
+}
+
+.rail-glass {
+  background: linear-gradient(180deg, rgb(9 6 20 / 82%) 0%, rgb(6 4 14 / 90%) 100%);
+  backdrop-filter: blur(28px) saturate(140%);
+  -webkit-backdrop-filter: blur(28px) saturate(140%);
+}
 .purple-field::before {
   position: fixed;
   inset: 0;
@@ -179,5 +199,6 @@ button, a { touch-action: manipulation; }
 }
 
 @media (min-width: 1024px) {
-  .page-wrap { padding: 2rem 2rem 2rem 8.5rem; }
+  /* 6rem nav rail + a 2rem gutter that matches the right-hand padding. */
+  .page-wrap { padding: 2.5rem 2rem 2.5rem 8rem; }
 }
