@@ -24,13 +24,12 @@ describe("DiscoverView", () => {
   beforeEach(() => localStorage.clear());
   afterEach(() => cleanup());
 
-  it("surfaces topics, themes, collections, and recent quotes by default", () => {
+  it("surfaces topics, collections, and recent quotes by default", () => {
     renderDiscover();
 
-    expect(screen.getByRole("heading", { name: "Explore topics" })).toBeInTheDocument();
-    expect(screen.getByRole("heading", { name: "Browse themes" })).toBeInTheDocument();
-    expect(screen.getByRole("heading", { name: "Curated collections" })).toBeInTheDocument();
-    expect(screen.getByRole("heading", { name: "New to the library" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Browse topics" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Latest quotes" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Collections" })).toBeInTheDocument();
     expect(screen.getAllByRole("link", { name: /Business Building/ }).length).toBeGreaterThan(0);
     expect(screen.getAllByRole("link", { name: /Better Decisions/ }).length).toBeGreaterThan(0);
   });
@@ -46,7 +45,7 @@ describe("DiscoverView", () => {
 
     await user.click(screen.getByRole("button", { name: "Clear search" }));
     expect(search).toHaveValue("");
-    expect(screen.getByRole("heading", { name: "Explore topics" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Browse topics" })).toBeInTheDocument();
   });
 
   it("offers useful recovery themes when a search has no results", async () => {
@@ -54,7 +53,7 @@ describe("DiscoverView", () => {
     renderDiscover();
 
     await user.type(screen.getByRole("searchbox", { name: "Search quotes" }), "definitely-not-a-topic");
-    expect(await screen.findByText("No verified ideas match that search.")).toBeInTheDocument();
+    expect(await screen.findByText("No matching quotes.")).toBeInTheDocument();
     expect(screen.getAllByRole("button").length).toBeGreaterThan(1);
   });
 });

@@ -12,7 +12,7 @@ export default async function DiscoverPage({ searchParams }: { searchParams: Pro
       <PageHeader
         eyebrow={`${catalog.quotes.length} verified ideas`}
         title="Discover"
-        description="Search Alex Hormozi’s verified quotes by topic, theme, source, or exact phrase."
+        description="Search the library or browse by topic."
       />
       <DiscoverView
         key={topic}
