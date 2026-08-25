@@ -30,8 +30,8 @@ function LinkDirectory({ links, offset = 0 }: { links: readonly { href: string; 
 }
 
 export default function MorePage() {
-  const contact = process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "hello@example.com";
-  const supportLinks = [{ href: `mailto:${contact}?subject=Hormozi%20Said%20quote%20suggestion`, title: "Suggest a quote", body: "Send the quote and its original source" }];
+  const contact = process.env.NEXT_PUBLIC_CONTACT_EMAIL?.trim() || "tehronporter@gmail.com";
+  const supportLinks = [{ href: `mailto:${contact}?subject=Alex%20Said%20quote%20suggestion`, title: "Suggest a quote", body: "Send the quote and its original source" }];
   return (
     <main className="page-wrap">
       <PageHeader eyebrow="Directory" title="More" description="Preferences, policies, and a direct way to suggest a source." />
