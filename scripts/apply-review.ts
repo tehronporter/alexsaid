@@ -36,6 +36,7 @@ const completedSchema = z.object({
     quality: qualityScoreSchema.optional(),
     featured: z.boolean().optional(),
     containsProfanity: z.boolean().optional(),
+    verificationStandard: z.enum(["direct-source-twice", "official-transcript-reviewed"]).optional(),
     duplicateDecision: z.enum(["unique", "keep", "reject"]).optional(),
     duplicateNote: z.string().trim().min(8).optional(),
     rejectionReason: z.string().trim().min(3).nullable().default(null)
@@ -54,7 +55,7 @@ const candidateShards = await Promise.all(candidateFiles.map(async (file) => ({ 
 const records = new Map(editorialShards.flatMap(({ shard }) => shard.records).map((record) => [record.candidateKey, record]));
 const candidates = new Map(candidateShards.flatMap(({ shard }) => shard.candidates).map((candidate) => [candidate.candidateKey, candidate]));
 
-function verification(entry: z.infer<typeof completedSchema>["entries"][number], method: "direct-media-listen" | "direct-web-read" | "direct-book-read") {
+function verification(entry: z.infer<typeof completedSchema>["entries"][number], method: "direct-media-listen" | "direct-web-read" | "direct-book-read" | "official-transcript-read") {
   return verificationPassSchema.parse({
     outcome: entry.outcome,
     checkedAt: entry.checkedAt,
@@ -83,7 +84,13 @@ for (const entry of completed.entries) {
   const source = sourceID ? sourceByID.get(sourceID) : null;
   if (!source) throw new Error(`${entry.candidateKey}: source not found`);
   if (!source.publishedAt) throw new Error(`${entry.candidateKey}: source publication date is unresolved`);
-  const method = source.sourceType === "podcast" || source.sourceType === "video" ? "direct-media-listen" : source.sourceType === "book" ? "direct-book-read" : "direct-web-read";
+  const method = entry.verificationStandard === "official-transcript-reviewed"
+    ? "official-transcript-read"
+    : source.sourceType === "podcast" || source.sourceType === "video"
+      ? "direct-media-listen"
+      : source.sourceType === "book"
+        ? "direct-book-read"
+        : "direct-web-read";
   const pass = verification(entry, method);
 
   if (entry.outcome === "failed") {
@@ -97,9 +104,11 @@ for (const entry of completed.entries) {
     if (!entry.primaryCategory || !entry.tags || !entry.context || !entry.quality || entry.featured === undefined || entry.containsProfanity === undefined || !entry.duplicateDecision || !entry.duplicateNote) throw new Error(`${entry.candidateKey}: first review is missing editorial fields`);
     for (const tag of entry.tags) if (!validTags.has(tag)) throw new Error(`${entry.candidateKey}: unknown tag ${tag}`);
     const sourceURL = source.mediaURL ? `${source.mediaURL}#t=${Math.floor(candidate.startSeconds)}` : source.canonicalURL;
+    const verificationStandard = entry.verificationStandard ?? "direct-source-twice";
     const record: EditorialRecord = {
       candidateKey: candidate.candidateKey,
-      status: "in_review",
+      ...(verificationStandard === "official-transcript-reviewed" ? { id: randomUUID() } : {}),
+      status: verificationStandard === "official-transcript-reviewed" ? "verified" : "in_review",
       text: entry.exactText,
       author: "Alex Hormozi",
       primaryCategory: entry.primaryCategory,
@@ -113,7 +122,7 @@ for (const entry of completed.entries) {
       featured: entry.featured,
       containsProfanity: entry.containsProfanity,
       context: entry.context,
-      verificationStandard: "direct-source-twice",
+      verificationStandard,
       provenance: { transcriptFingerprint: candidate.transcriptFingerprint, cueStart: candidate.cueStart, cueEnd: candidate.cueEnd, batchID: completed.packetID.toLocaleLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""), duplicateDecision: entry.duplicateDecision, duplicateNote: entry.duplicateNote },
       createdAt: entry.checkedAt,
       updatedAt: entry.checkedAt,
@@ -122,8 +131,12 @@ for (const entry of completed.entries) {
       rejectionNotes: [],
       unresolvedWarnings: []
     };
+    if (verificationStandard === "official-transcript-reviewed") {
+      const issues = publishabilityIssues(record);
+      if (issues.length > 0) throw new Error(`${entry.candidateKey}: ${issues.join("; ")}`);
+    }
     updatedRecords.set(entry.candidateKey, record);
-    updatedCandidates.set(entry.candidateKey, { ...candidate, status: "in_review" });
+    updatedCandidates.set(entry.candidateKey, { ...candidate, status: verificationStandard === "official-transcript-reviewed" ? "accepted" : "in_review" });
   } else {
     if (!existing) throw new Error(`${entry.candidateKey}: ${completed.stage} review requires an editorial record`);
     if (entry.exactText !== existing.text) throw new Error(`${entry.candidateKey}: later review found different text; quarantine and return the record to in_review`);

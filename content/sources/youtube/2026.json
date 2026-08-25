@@ -771,17 +771,17 @@
       "sourceType": "video",
       "title": "It took me 37 years to realize what I'll tell you in 18 minutes.",
       "publisher": "Alex Hormozi · YouTube",
-      "publishedAt": "2026-08-18",
+      "publishedAt": "2026-08-19",
       "durationSeconds": 1117,
       "canonicalURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0",
       "mediaURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0",
       "transcriptURL": null,
-      "transcriptChecksum": null,
+      "transcriptChecksum": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
       "retrievedAt": "2026-08-24T04:08:14.976Z",
       "discoveryMethod": "verified-official-youtube-channel-enumeration",
-      "status": "blocked",
+      "status": "reviewed",
       "exclusionReason": null,
-      "blockingReason": "YouTube captions are discovery-only and no stable public transcript URL is exposed; direct media mining and two listening passes are required"
+      "blockingReason": null
     },
     {
       "sourceID": "youtube-mrlsb0o5qnu",

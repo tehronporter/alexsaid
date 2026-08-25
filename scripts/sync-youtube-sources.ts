@@ -74,7 +74,7 @@ for (let offset = 0; offset < entries.length; offset += CONCURRENCY) {
       canonicalURL,
       mediaURL: canonicalURL,
       transcriptURL: null,
-      transcriptChecksum: null,
+      transcriptChecksum: existing?.transcriptChecksum ?? null,
       retrievedAt: existing?.retrievedAt ?? retrievedAt,
       discoveryMethod: "verified-official-youtube-channel-enumeration",
       status,

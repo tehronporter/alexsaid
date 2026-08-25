@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-08-24T05:04:26.298Z",
+  "generatedAt": "2026-08-25T13:17:41.742Z",
   "developmentFixture": false,
   "categories": [
     "Offers",
@@ -607,6 +607,17 @@
       "mediaURL": "https://www.youtube.com/watch?v=fj5uxdv_j5Y",
       "transcriptURL": null,
       "durationSeconds": 717
+    },
+    {
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "title": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "publisher": "Alex Hormozi · YouTube",
+      "publishedAt": "2026-08-19",
+      "canonicalURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0",
+      "mediaURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0",
+      "transcriptURL": null,
+      "durationSeconds": 1117
     }
   ],
   "quotes": [
@@ -1994,6 +2005,872 @@
       "context": "Alex contrasts this framing with asking whether something can be done; the former starts from an assumption that a solution exists.",
       "createdAt": "2026-08-23T23:00:00.000Z",
       "updatedAt": "2026-08-23T23:35:00.000Z"
+    },
+    {
+      "id": "04f51d5f-dc42-4225-b2dd-1d8f5951ccb1",
+      "text": "The person who has the most context on you is you.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "decision-making",
+        "perspective"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 1000,
+        "endSeconds": 1003
+      },
+      "verified": true,
+      "verificationStandard": "official-transcript-reviewed",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex argues that personal decisions should weigh one's own complete context more heavily than partial outside opinions.",
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z"
+    },
+    {
+      "id": "b8bdb531-446e-4f11-a837-a29cd21ab476",
+      "text": "You will live an imperfect life. Period.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "stress"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 349,
+        "endSeconds": 353
+      },
+      "verified": true,
+      "verificationStandard": "official-transcript-reviewed",
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex presents imperfection as the unavoidable result of finite time and competing priorities.",
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z"
+    },
+    {
+      "id": "f6b901ad-61d7-4cff-b145-38bb3db7ea4c",
+      "text": "The goal of youth is optionality and the goal of adulthood is commitment.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "opportunity",
+        "decision-making",
+        "strategy"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 160,
+        "endSeconds": 164
+      },
+      "verified": true,
+      "verificationStandard": "official-transcript-reviewed",
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex contrasts preserving possibilities early in life with deliberately eliminating alternatives through adult commitments.",
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z"
+    },
+    {
+      "id": "1bf1bea2-f95c-46be-95e3-0e68e74a18a6",
+      "text": "Being cringe is the tax you pay when you start to prove to the world that you care more about what you want than how you look.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "ambition",
+        "risk",
+        "perspective"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 103,
+        "endSeconds": 109
+      },
+      "verified": true,
+      "verificationStandard": "official-transcript-reviewed",
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex argues that visible earnestness is a necessary cost of prioritizing a meaningful goal over appearances.",
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z"
+    },
+    {
+      "id": "296ac19b-9922-43a1-a647-7821fbe301a8",
+      "text": "You finish what you started.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "execution",
+        "accountability"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 95,
+        "endSeconds": 97
+      },
+      "verified": true,
+      "verificationStandard": "official-transcript-reviewed",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex emphasizes completion as the standard for honoring a commitment.",
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z"
+    },
+    {
+      "id": "5d73332f-7ef7-4150-8e97-153d088d4ab2",
+      "text": "Right now, everyone who’s listening to this, you have accomplished things that you said would make you happy.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "goals"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 635,
+        "endSeconds": 641
+      },
+      "verified": true,
+      "verificationStandard": "official-transcript-reviewed",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex asks listeners to notice that achievements once expected to create happiness may already be present.",
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z"
+    },
+    {
+      "id": "52a6233e-97c1-42b7-8abc-8a9dce8d350b",
+      "text": "If you like the priorities that you have, then you won.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "prioritization",
+        "perspective"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 707,
+        "endSeconds": 712
+      },
+      "verified": true,
+      "verificationStandard": "official-transcript-reviewed",
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex defines success as genuinely valuing the priorities reflected by one's actual life.",
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z"
+    },
+    {
+      "id": "5f0ab598-1f6b-4d64-96bc-095ead2bfc49",
+      "text": "You have to make the call. You have to make the decision.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "decision-making",
+        "execution",
+        "urgency"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 224,
+        "endSeconds": 227
+      },
+      "verified": true,
+      "verificationStandard": "official-transcript-reviewed",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex emphasizes that progress requires choosing rather than continuing to preserve every alternative.",
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z"
+    },
+    {
+      "id": "c0274244-a59b-4db9-9dbc-2549ed7de69e",
+      "text": "Today, you do the only thing you can do. You fight.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "resilience",
+        "execution"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 90,
+        "endSeconds": 94
+      },
+      "verified": true,
+      "verificationStandard": "official-transcript-reviewed",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex describes action and resistance as the response available when circumstances are difficult.",
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z"
+    },
+    {
+      "id": "ef32746e-b0bd-4159-887c-d0d1a2b2b972",
+      "text": "The larger game is trying to win at life and realizing that each of these are components of it.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "goals",
+        "prioritization"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 930,
+        "endSeconds": 938
+      },
+      "verified": true,
+      "verificationStandard": "official-transcript-reviewed",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex places individual life categories inside the broader objective of building a satisfying life overall.",
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z"
+    },
+    {
+      "id": "34f52958-19ed-4427-903c-b10cfcf6b72f",
+      "text": "Stand tall. Don’t crack. Endure.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "resilience",
+        "risk"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 86,
+        "endSeconds": 89
+      },
+      "verified": true,
+      "verificationStandard": "official-transcript-reviewed",
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex opens with a challenge to remain steady and courageous under pressure.",
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z"
+    },
+    {
+      "id": "cdaad756-4486-456a-b5e4-78fb4bb53e5f",
+      "text": "You rage on.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "resilience",
+        "ambition"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 93,
+        "endSeconds": 95
+      },
+      "verified": true,
+      "verificationStandard": "official-transcript-reviewed",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex delivers a short imperative to continue with intensity through adversity.",
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z"
+    },
+    {
+      "id": "7faf94a6-afe8-4014-9fd3-e75fe2cc040f",
+      "text": "I’m willing to give up these other things for the things that I care about most.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "prioritization",
+        "strategy",
+        "goals"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 741,
+        "endSeconds": 745
+      },
+      "verified": true,
+      "verificationStandard": "official-transcript-reviewed",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex frames intentional living as willingly sacrificing lower priorities for what matters most.",
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z"
+    },
+    {
+      "id": "22e81132-5887-4192-85f6-6d75df9b88b7",
+      "text": "Be more dangerous than the forces that hope to destroy you.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "resilience",
+        "risk"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 137,
+        "endSeconds": 141
+      },
+      "verified": true,
+      "verificationStandard": "official-transcript-reviewed",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex frames resilience as developing greater strength than the opposition or pressure one faces.",
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z"
+    },
+    {
+      "id": "46cc1fec-08f9-4fa3-88cb-633eca4af067",
+      "text": "They sit passively by and let options expire.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "opportunity",
+        "urgency",
+        "decision-making"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 726,
+        "endSeconds": 730
+      },
+      "verified": true,
+      "verificationStandard": "official-transcript-reviewed",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex warns that refusing to choose still produces an outcome as available options expire.",
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z"
+    },
+    {
+      "id": "36830e77-7c84-4cef-8768-8dd67d937db7",
+      "text": "A lot of the best things in life come on the other side of commitments.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "accountability",
+        "goals"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 193,
+        "endSeconds": 196
+      },
+      "verified": true,
+      "verificationStandard": "official-transcript-reviewed",
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex argues that many valuable outcomes only become available after a person commits.",
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z"
+    },
+    {
+      "id": "cad5c998-ab0b-462c-a199-f544b33aff98",
+      "text": "There’s only one because only one thing can come first.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "prioritization",
+        "focus"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 249,
+        "endSeconds": 252
+      },
+      "verified": true,
+      "verificationStandard": "official-transcript-reviewed",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex explains why a true priority is singular: only one thing can occupy the first position.",
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z"
+    },
+    {
+      "id": "1481be17-c037-41b2-815c-2fffec007d72",
+      "text": "Options only have value when they are exercised.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "opportunity",
+        "decision-making",
+        "execution"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 212,
+        "endSeconds": 215
+      },
+      "verified": true,
+      "verificationStandard": "official-transcript-reviewed",
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex explains that preserving options creates no realized value until a choice is actually made.",
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z"
+    },
+    {
+      "id": "a2e35269-10d0-4204-9261-71f43e5ddacd",
+      "text": "I am the problem.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "accountability",
+        "perspective"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 609,
+        "endSeconds": 611
+      },
+      "verified": true,
+      "verificationStandard": "official-transcript-reviewed",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex turns dissatisfaction inward and identifies himself as the constant across changing circumstances.",
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z"
+    },
+    {
+      "id": "55b087a5-bdfb-4918-9185-73268942b278",
+      "text": "Your goals will become easier to accomplish when you become harder to distract.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "focus",
+        "attention",
+        "goals"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 120,
+        "endSeconds": 124
+      },
+      "verified": true,
+      "verificationStandard": "official-transcript-reviewed",
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex connects progress toward goals with strengthening control over attention and distraction.",
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z"
+    },
+    {
+      "id": "78b0b012-9d8c-4d47-b22e-81524d4112c0",
+      "text": "You’re the only one who has to live with you.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "accountability",
+        "perspective"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 1002,
+        "endSeconds": 1005
+      },
+      "verified": true,
+      "verificationStandard": "official-transcript-reviewed",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex emphasizes personal responsibility because each person must ultimately live with their own choices.",
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z"
+    },
+    {
+      "id": "0deb99c2-cb48-4e7e-b54d-18dbf91594fc",
+      "text": "You can be a master of your own life to a degree.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "accountability",
+        "decision-making"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 738,
+        "endSeconds": 741
+      },
+      "verified": true,
+      "verificationStandard": "official-transcript-reviewed",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex argues that deliberate trade-offs provide a meaningful degree of agency over one's life.",
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z"
+    },
+    {
+      "id": "9b4cdb13-49e2-40d4-89dd-a7e8d3879504",
+      "text": "You get to pick your regrets or they will be chosen for you.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "decision-making",
+        "stress",
+        "perspective"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 327,
+        "endSeconds": 333
+      },
+      "verified": true,
+      "verificationStandard": "official-transcript-reviewed",
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex argues that intentional trade-offs let people choose their regrets instead of inheriting them through inaction.",
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z"
+    },
+    {
+      "id": "bed670de-7730-4b14-ad13-32bec73bc234",
+      "text": "They don’t want consequences. They don’t want conflict.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "risk",
+        "decision-making"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 402,
+        "endSeconds": 406
+      },
+      "verified": true,
+      "verificationStandard": "official-transcript-reviewed",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex describes avoidance of consequences and conflict as a reason people refuse to make clear choices.",
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z"
+    },
+    {
+      "id": "cbe939bd-898e-4882-968e-32bd4f69b45f",
+      "text": "Whatever you don’t have is what you want.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "stress"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 633,
+        "endSeconds": 636
+      },
+      "verified": true,
+      "verificationStandard": "official-transcript-reviewed",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex summarizes how attention shifts toward the benefits of whichever life choice was not made.",
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z"
+    },
+    {
+      "id": "ab30f8e1-c988-450d-ba64-7feb94b50ddc",
+      "text": "Whenever you invest in any of those 10 things, you pull away from others.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "prioritization",
+        "productivity",
+        "strategy"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 334,
+        "endSeconds": 340
+      },
+      "verified": true,
+      "verificationStandard": "official-transcript-reviewed",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex explains that time invested in one life priority necessarily reduces the time available to another.",
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z"
+    },
+    {
+      "id": "9e61ee52-1f4b-4a99-b615-de90cb451544",
+      "text": "Make reality your today.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "execution",
+        "urgency"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 141,
+        "endSeconds": 144
+      },
+      "verified": true,
+      "verificationStandard": "official-transcript-reviewed",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex gives a compact call to turn an intended future into present action.",
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z"
+    },
+    {
+      "id": "094b9b9e-0c22-4014-9106-85437aa66720",
+      "text": "You have to cut off one future.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "decision-making",
+        "strategy",
+        "risk"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 226,
+        "endSeconds": 228
+      },
+      "verified": true,
+      "verificationStandard": "official-transcript-reviewed",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex describes decision-making as selecting one path by closing off another possible future.",
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z"
+    },
+    {
+      "id": "65c3c703-2481-420a-b7f2-b619cc95db37",
+      "text": "What box am I living in that I’m unaware of that has invisible walls that is keeping me in?",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "problem-solving"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 1072,
+        "endSeconds": 1078
+      },
+      "verified": true,
+      "verificationStandard": "official-transcript-reviewed",
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex uses a reflective question to uncover unspoken rules and assumptions that constrain action.",
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z"
+    },
+    {
+      "id": "13f9a520-b0b9-4c8a-a94e-73e97e4ac99f",
+      "text": "Some games that even if you’re just playing them, you beat everyone else because the game that you’re optimizing for is just a superior game.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Business Models & Strategy",
+      "tags": [
+        "strategy",
+        "measurement",
+        "prioritization"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 883,
+        "endSeconds": 891
+      },
+      "verified": true,
+      "verificationStandard": "official-transcript-reviewed",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex explains that choosing a superior objective can create an advantage before execution quality is compared.",
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z"
+    },
+    {
+      "id": "2a906219-18ce-4569-a67c-577ffc3cd437",
+      "text": "No matter how much it costs, how long it takes, or how much it hurts because you said you would.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "resilience",
+        "accountability",
+        "goals"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 96,
+        "endSeconds": 102
+      },
+      "verified": true,
+      "verificationStandard": "official-transcript-reviewed",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex frames endurance as keeping a promise even when the cost, duration, or discomfort increases.",
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z"
+    },
+    {
+      "id": "38189e0a-8c7a-4054-b34c-31176544d937",
+      "text": "The constant source of dissatisfaction is me.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "accountability",
+        "perspective"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 655,
+        "endSeconds": 659
+      },
+      "verified": true,
+      "verificationStandard": "official-transcript-reviewed",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex identifies his own recurring desire for alternatives as the stable source of dissatisfaction.",
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z"
+    },
+    {
+      "id": "70a98a34-ea0a-4490-b886-020c6ef4e94a",
+      "text": "At some point, you have to pull the trigger.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "decision-making",
+        "urgency",
+        "risk"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 222,
+        "endSeconds": 225
+      },
+      "verified": true,
+      "verificationStandard": "official-transcript-reviewed",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex says optionality must eventually give way to a concrete decision.",
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z"
+    },
+    {
+      "id": "141e0cf5-b19c-4535-9812-dc84f3dd3712",
+      "text": "You do what you came to do.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "execution",
+        "goals"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 94,
+        "endSeconds": 96
+      },
+      "verified": true,
+      "verificationStandard": "official-transcript-reviewed",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex urges the listener to stay aligned with the purpose that brought them to the work.",
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z"
+    },
+    {
+      "id": "d680b740-a905-4f67-aa36-3b00d7aa0371",
+      "text": "If you do not have courage, nothing else matters.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "risk",
+        "resilience"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 143,
+        "endSeconds": 146
+      },
+      "verified": true,
+      "verificationStandard": "official-transcript-reviewed",
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex presents courage as the prerequisite for making any other strength useful.",
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z"
+    },
+    {
+      "id": "29e38145-2a37-491f-8210-3122fc29295a",
+      "text": "You must make trades. You have to make a trade.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "strategy",
+        "decision-making",
+        "prioritization"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 413,
+        "endSeconds": 417
+      },
+      "verified": true,
+      "verificationStandard": "official-transcript-reviewed",
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex states that meaningful prioritization always requires accepting a trade-off.",
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z"
+    },
+    {
+      "id": "79ea4098-1a9b-4ccf-934c-ab5d36c666c5",
+      "text": "We always want what we can’t have.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "stress"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 613,
+        "endSeconds": 615
+      },
+      "verified": true,
+      "verificationStandard": "official-transcript-reviewed",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex describes the recurring human tendency to desire whichever alternative is unavailable.",
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z"
     }
   ]
 }

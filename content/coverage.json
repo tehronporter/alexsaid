@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T05:08:04.645Z",
+  "generatedAt": "2026-08-25T13:19:21.216Z",
   "sources": {
     "total": 1763,
     "byProvider": {
@@ -9,10 +9,10 @@
       "youtube": 517
     },
     "byStatus": {
-      "blocked": 561,
+      "blocked": 560,
       "excluded": 38,
       "mined": 1141,
-      "reviewed": 23
+      "reviewed": 24
     },
     "terminal": 622,
     "unresolvedCount": 1141,
@@ -40,24 +40,25 @@
     ]
   },
   "candidates": {
-    "total": 18157,
+    "total": 18197,
     "byStatus": {
-      "accepted": 32,
-      "candidate": 18125
+      "accepted": 69,
+      "candidate": 18125,
+      "rejected": 3
     },
     "unresolved": 18125
   },
   "editorial": {
-    "total": 69,
+    "total": 106,
     "byStatus": {
       "rejected": 9,
-      "verified": 60
+      "verified": 97
     },
     "publishedByVerificationStandard": {
       "direct-source-twice": 28,
-      "official-transcript-reviewed": 32
+      "official-transcript-reviewed": 69
     },
-    "published": 60,
+    "published": 97,
     "rejected": 9,
     "unresolvedWarnings": 0
   },

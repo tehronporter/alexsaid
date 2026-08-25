@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "provider": "youtube",
   "year": 2026,
-  "updatedAt": "2026-08-24T05:04:26.298Z",
+  "updatedAt": "2026-08-25T13:17:41.742Z",
   "records": [
     {
       "candidateKey": "already-growing-rejected",
@@ -1028,6 +1028,2463 @@
       "quality": {
         "standaloneClarity": 2,
         "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-05ef6724ae01",
+      "status": "verified",
+      "id": "04f51d5f-dc42-4225-b2dd-1d8f5951ccb1",
+      "text": "The person who has the most context on you is you.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "decision-making",
+        "perspective"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0#t=1000",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 1000,
+        "endSeconds": 1003
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex argues that personal decisions should weigh one's own complete context more heavily than partial outside opinions.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 1076,
+        "cueEnd": 1080,
+        "batchID": "tehron-direct-first-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
+      },
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T13:17:38.536Z",
+          "reviewer": "Tehron Porter + Codex · official YouTube caption review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-16770f872bdb",
+      "status": "verified",
+      "id": "b8bdb531-446e-4f11-a837-a29cd21ab476",
+      "text": "You will live an imperfect life. Period.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "stress"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0#t=349",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 349,
+        "endSeconds": 353
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex presents imperfection as the unavoidable result of finite time and competing priorities.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 392,
+        "cueEnd": 396,
+        "batchID": "tehron-direct-first-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
+      },
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T13:17:38.536Z",
+          "reviewer": "Tehron Porter + Codex · official YouTube caption review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-1dd05adea894",
+      "status": "verified",
+      "id": "f6b901ad-61d7-4cff-b145-38bb3db7ea4c",
+      "text": "The goal of youth is optionality and the goal of adulthood is commitment.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "opportunity",
+        "decision-making",
+        "strategy"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0#t=160",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 160,
+        "endSeconds": 164
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex contrasts preserving possibilities early in life with deliberately eliminating alternatives through adult commitments.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 175,
+        "cueEnd": 177,
+        "batchID": "tehron-direct-first-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
+      },
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T13:17:38.536Z",
+          "reviewer": "Tehron Porter + Codex · official YouTube caption review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-1eead4a6299a",
+      "status": "verified",
+      "id": "1bf1bea2-f95c-46be-95e3-0e68e74a18a6",
+      "text": "Being cringe is the tax you pay when you start to prove to the world that you care more about what you want than how you look.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "ambition",
+        "risk",
+        "perspective"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0#t=103",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 103,
+        "endSeconds": 109
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex argues that visible earnestness is a necessary cost of prioritizing a meaningful goal over appearances.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 109,
+        "cueEnd": 115,
+        "batchID": "tehron-direct-first-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
+      },
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T13:17:38.536Z",
+          "reviewer": "Tehron Porter + Codex · official YouTube caption review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-21e042e64349",
+      "status": "verified",
+      "id": "296ac19b-9922-43a1-a647-7821fbe301a8",
+      "text": "You finish what you started.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "execution",
+        "accountability"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0#t=95",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 95,
+        "endSeconds": 97
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex emphasizes completion as the standard for honoring a commitment.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 101,
+        "cueEnd": 101,
+        "batchID": "tehron-direct-first-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
+      },
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T13:17:38.536Z",
+          "reviewer": "Tehron Porter + Codex · official YouTube caption review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-2d5f0eca3e9a",
+      "status": "verified",
+      "id": "5d73332f-7ef7-4150-8e97-153d088d4ab2",
+      "text": "Right now, everyone who’s listening to this, you have accomplished things that you said would make you happy.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "goals"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0#t=635",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 635,
+        "endSeconds": 641
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex asks listeners to notice that achievements once expected to create happiness may already be present.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 702,
+        "cueEnd": 708,
+        "batchID": "tehron-direct-first-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
+      },
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T13:17:38.536Z",
+          "reviewer": "Tehron Porter + Codex · official YouTube caption review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-2dce0cf6cc7a",
+      "status": "verified",
+      "id": "52a6233e-97c1-42b7-8abc-8a9dce8d350b",
+      "text": "If you like the priorities that you have, then you won.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "prioritization",
+        "perspective"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0#t=707",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 707,
+        "endSeconds": 712
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex defines success as genuinely valuing the priorities reflected by one's actual life.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 778,
+        "cueEnd": 782,
+        "batchID": "tehron-direct-first-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
+      },
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T13:17:38.536Z",
+          "reviewer": "Tehron Porter + Codex · official YouTube caption review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-309309cc8f16",
+      "status": "verified",
+      "id": "5f0ab598-1f6b-4d64-96bc-095ead2bfc49",
+      "text": "You have to make the call. You have to make the decision.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "decision-making",
+        "execution",
+        "urgency"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0#t=224",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 224,
+        "endSeconds": 227
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex emphasizes that progress requires choosing rather than continuing to preserve every alternative.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 245,
+        "cueEnd": 247,
+        "batchID": "tehron-direct-first-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
+      },
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T13:17:38.536Z",
+          "reviewer": "Tehron Porter + Codex · official YouTube caption review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-31765a4f1134",
+      "status": "verified",
+      "id": "c0274244-a59b-4db9-9dbc-2549ed7de69e",
+      "text": "Today, you do the only thing you can do. You fight.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "resilience",
+        "execution"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0#t=90",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 90,
+        "endSeconds": 94
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex describes action and resistance as the response available when circumstances are difficult.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 97,
+        "cueEnd": 99,
+        "batchID": "tehron-direct-first-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
+      },
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T13:17:38.536Z",
+          "reviewer": "Tehron Porter + Codex · official YouTube caption review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-326bf73aef37",
+      "status": "verified",
+      "id": "ef32746e-b0bd-4159-887c-d0d1a2b2b972",
+      "text": "The larger game is trying to win at life and realizing that each of these are components of it.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "goals",
+        "prioritization"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0#t=930",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 930,
+        "endSeconds": 938
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex places individual life categories inside the broader objective of building a satisfying life overall.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 1012,
+        "cueEnd": 1018,
+        "batchID": "tehron-direct-first-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
+      },
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T13:17:38.536Z",
+          "reviewer": "Tehron Porter + Codex · official YouTube caption review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-38606385d849",
+      "status": "verified",
+      "id": "34f52958-19ed-4427-903c-b10cfcf6b72f",
+      "text": "Stand tall. Don’t crack. Endure.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "resilience",
+        "risk"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0#t=86",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 86,
+        "endSeconds": 89
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex opens with a challenge to remain steady and courageous under pressure.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 93,
+        "cueEnd": 93,
+        "batchID": "tehron-direct-first-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
+      },
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T13:17:38.536Z",
+          "reviewer": "Tehron Porter + Codex · official YouTube caption review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-403f4d5c8547",
+      "status": "verified",
+      "id": "cdaad756-4486-456a-b5e4-78fb4bb53e5f",
+      "text": "You rage on.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "resilience",
+        "ambition"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0#t=93",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 93,
+        "endSeconds": 95
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex delivers a short imperative to continue with intensity through adversity.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 99,
+        "cueEnd": 99,
+        "batchID": "tehron-direct-first-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
+      },
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T13:17:38.536Z",
+          "reviewer": "Tehron Porter + Codex · official YouTube caption review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 1,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-4c80a6e4a827",
+      "status": "verified",
+      "id": "7faf94a6-afe8-4014-9fd3-e75fe2cc040f",
+      "text": "I’m willing to give up these other things for the things that I care about most.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "prioritization",
+        "strategy",
+        "goals"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0#t=741",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 741,
+        "endSeconds": 745
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex frames intentional living as willingly sacrificing lower priorities for what matters most.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 814,
+        "cueEnd": 818,
+        "batchID": "tehron-direct-first-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
+      },
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T13:17:38.536Z",
+          "reviewer": "Tehron Porter + Codex · official YouTube caption review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-56423c877f5d",
+      "status": "verified",
+      "id": "22e81132-5887-4192-85f6-6d75df9b88b7",
+      "text": "Be more dangerous than the forces that hope to destroy you.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "resilience",
+        "risk"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0#t=137",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 137,
+        "endSeconds": 141
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex frames resilience as developing greater strength than the opposition or pressure one faces.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 149,
+        "cueEnd": 151,
+        "batchID": "tehron-direct-first-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
+      },
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T13:17:38.536Z",
+          "reviewer": "Tehron Porter + Codex · official YouTube caption review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-582d66dcbca0",
+      "status": "verified",
+      "id": "46cc1fec-08f9-4fa3-88cb-633eca4af067",
+      "text": "They sit passively by and let options expire.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "opportunity",
+        "urgency",
+        "decision-making"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0#t=726",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 726,
+        "endSeconds": 730
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex warns that refusing to choose still produces an outcome as available options expire.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 800,
+        "cueEnd": 802,
+        "batchID": "tehron-direct-first-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
+      },
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T13:17:38.536Z",
+          "reviewer": "Tehron Porter + Codex · official YouTube caption review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-5a1ad58ec495",
+      "status": "verified",
+      "id": "36830e77-7c84-4cef-8768-8dd67d937db7",
+      "text": "A lot of the best things in life come on the other side of commitments.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "accountability",
+        "goals"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0#t=193",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 193,
+        "endSeconds": 196
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex argues that many valuable outcomes only become available after a person commits.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 207,
+        "cueEnd": 211,
+        "batchID": "tehron-direct-first-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
+      },
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T13:17:38.536Z",
+          "reviewer": "Tehron Porter + Codex · official YouTube caption review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-61d6bf821735",
+      "status": "verified",
+      "id": "cad5c998-ab0b-462c-a199-f544b33aff98",
+      "text": "There’s only one because only one thing can come first.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "prioritization",
+        "focus"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0#t=249",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 249,
+        "endSeconds": 252
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex explains why a true priority is singular: only one thing can occupy the first position.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 277,
+        "cueEnd": 279,
+        "batchID": "tehron-direct-first-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
+      },
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T13:17:38.536Z",
+          "reviewer": "Tehron Porter + Codex · official YouTube caption review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-657291529f35",
+      "status": "verified",
+      "id": "1481be17-c037-41b2-815c-2fffec007d72",
+      "text": "Options only have value when they are exercised.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "opportunity",
+        "decision-making",
+        "execution"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0#t=212",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 212,
+        "endSeconds": 215
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex explains that preserving options creates no realized value until a choice is actually made.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 231,
+        "cueEnd": 233,
+        "batchID": "tehron-direct-first-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
+      },
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T13:17:38.536Z",
+          "reviewer": "Tehron Porter + Codex · official YouTube caption review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-69e5cc82db39",
+      "status": "verified",
+      "id": "a2e35269-10d0-4204-9261-71f43e5ddacd",
+      "text": "I am the problem.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "accountability",
+        "perspective"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0#t=609",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 609,
+        "endSeconds": 611
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex turns dissatisfaction inward and identifies himself as the constant across changing circumstances.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 672,
+        "cueEnd": 672,
+        "batchID": "tehron-direct-first-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
+      },
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T13:17:38.536Z",
+          "reviewer": "Tehron Porter + Codex · official YouTube caption review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 1,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-6ca39beaef5c",
+      "status": "verified",
+      "id": "55b087a5-bdfb-4918-9185-73268942b278",
+      "text": "Your goals will become easier to accomplish when you become harder to distract.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "focus",
+        "attention",
+        "goals"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0#t=120",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 120,
+        "endSeconds": 124
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex connects progress toward goals with strengthening control over attention and distraction.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 127,
+        "cueEnd": 131,
+        "batchID": "tehron-direct-first-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
+      },
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T13:17:38.536Z",
+          "reviewer": "Tehron Porter + Codex · official YouTube caption review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-6e7e3875dc06",
+      "status": "verified",
+      "id": "78b0b012-9d8c-4d47-b22e-81524d4112c0",
+      "text": "You’re the only one who has to live with you.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "accountability",
+        "perspective"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0#t=1002",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 1002,
+        "endSeconds": 1005
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex emphasizes personal responsibility because each person must ultimately live with their own choices.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 1080,
+        "cueEnd": 1082,
+        "batchID": "tehron-direct-first-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
+      },
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T13:17:38.536Z",
+          "reviewer": "Tehron Porter + Codex · official YouTube caption review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-899f55aef0a5",
+      "status": "verified",
+      "id": "0deb99c2-cb48-4e7e-b54d-18dbf91594fc",
+      "text": "You can be a master of your own life to a degree.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "accountability",
+        "decision-making"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0#t=738",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 738,
+        "endSeconds": 741
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex argues that deliberate trade-offs provide a meaningful degree of agency over one's life.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 812,
+        "cueEnd": 814,
+        "batchID": "tehron-direct-first-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
+      },
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T13:17:38.536Z",
+          "reviewer": "Tehron Porter + Codex · official YouTube caption review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-92fd57daeaee",
+      "status": "verified",
+      "id": "9b4cdb13-49e2-40d4-89dd-a7e8d3879504",
+      "text": "You get to pick your regrets or they will be chosen for you.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "decision-making",
+        "stress",
+        "perspective"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0#t=327",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 327,
+        "endSeconds": 333
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex argues that intentional trade-offs let people choose their regrets instead of inheriting them through inaction.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 364,
+        "cueEnd": 370,
+        "batchID": "tehron-direct-first-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
+      },
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T13:17:38.536Z",
+          "reviewer": "Tehron Porter + Codex · official YouTube caption review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-94594f1afdc6",
+      "status": "verified",
+      "id": "bed670de-7730-4b14-ad13-32bec73bc234",
+      "text": "They don’t want consequences. They don’t want conflict.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "risk",
+        "decision-making"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0#t=402",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 402,
+        "endSeconds": 406
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex describes avoidance of consequences and conflict as a reason people refuse to make clear choices.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 454,
+        "cueEnd": 456,
+        "batchID": "tehron-direct-first-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
+      },
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T13:17:38.536Z",
+          "reviewer": "Tehron Porter + Codex · official YouTube caption review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-971ecfc3f709",
+      "status": "verified",
+      "id": "cbe939bd-898e-4882-968e-32bd4f69b45f",
+      "text": "Whatever you don’t have is what you want.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "stress"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0#t=633",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 633,
+        "endSeconds": 636
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex summarizes how attention shifts toward the benefits of whichever life choice was not made.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 700,
+        "cueEnd": 702,
+        "batchID": "tehron-direct-first-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
+      },
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T13:17:38.536Z",
+          "reviewer": "Tehron Porter + Codex · official YouTube caption review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-9d7f47cc7b0f",
+      "status": "verified",
+      "id": "ab30f8e1-c988-450d-ba64-7feb94b50ddc",
+      "text": "Whenever you invest in any of those 10 things, you pull away from others.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "prioritization",
+        "productivity",
+        "strategy"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0#t=334",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 334,
+        "endSeconds": 340
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex explains that time invested in one life priority necessarily reduces the time available to another.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 374,
+        "cueEnd": 378,
+        "batchID": "tehron-direct-first-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
+      },
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T13:17:38.536Z",
+          "reviewer": "Tehron Porter + Codex · official YouTube caption review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-a75028a593b6",
+      "status": "verified",
+      "id": "9e61ee52-1f4b-4a99-b615-de90cb451544",
+      "text": "Make reality your today.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "execution",
+        "urgency"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0#t=141",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 141,
+        "endSeconds": 144
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex gives a compact call to turn an intended future into present action.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 153,
+        "cueEnd": 153,
+        "batchID": "tehron-direct-first-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
+      },
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T13:17:38.536Z",
+          "reviewer": "Tehron Porter + Codex · official YouTube caption review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 1,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-a911e8f76542",
+      "status": "verified",
+      "id": "094b9b9e-0c22-4014-9106-85437aa66720",
+      "text": "You have to cut off one future.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "decision-making",
+        "strategy",
+        "risk"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0#t=226",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 226,
+        "endSeconds": 228
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex describes decision-making as selecting one path by closing off another possible future.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 247,
+        "cueEnd": 249,
+        "batchID": "tehron-direct-first-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
+      },
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T13:17:38.536Z",
+          "reviewer": "Tehron Porter + Codex · official YouTube caption review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-a9ab241f1d05",
+      "status": "verified",
+      "id": "65c3c703-2481-420a-b7f2-b619cc95db37",
+      "text": "What box am I living in that I’m unaware of that has invisible walls that is keeping me in?",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "problem-solving"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0#t=1072",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 1072,
+        "endSeconds": 1078
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex uses a reflective question to uncover unspoken rules and assumptions that constrain action.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 1158,
+        "cueEnd": 1164,
+        "batchID": "tehron-direct-first-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
+      },
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T13:17:38.536Z",
+          "reviewer": "Tehron Porter + Codex · official YouTube caption review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-ba45852558e5",
+      "status": "verified",
+      "id": "13f9a520-b0b9-4c8a-a94e-73e97e4ac99f",
+      "text": "Some games that even if you’re just playing them, you beat everyone else because the game that you’re optimizing for is just a superior game.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Business Models & Strategy",
+      "tags": [
+        "strategy",
+        "measurement",
+        "prioritization"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0#t=883",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 883,
+        "endSeconds": 891
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex explains that choosing a superior objective can create an advantage before execution quality is compared.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 962,
+        "cueEnd": 970,
+        "batchID": "tehron-direct-first-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
+      },
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T13:17:38.536Z",
+          "reviewer": "Tehron Porter + Codex · official YouTube caption review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-bffa859110dc",
+      "status": "verified",
+      "id": "2a906219-18ce-4569-a67c-577ffc3cd437",
+      "text": "No matter how much it costs, how long it takes, or how much it hurts because you said you would.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "resilience",
+        "accountability",
+        "goals"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0#t=96",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 96,
+        "endSeconds": 102
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex frames endurance as keeping a promise even when the cost, duration, or discomfort increases.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 103,
+        "cueEnd": 107,
+        "batchID": "tehron-direct-first-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
+      },
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T13:17:38.536Z",
+          "reviewer": "Tehron Porter + Codex · official YouTube caption review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-c52d17b384d5",
+      "status": "verified",
+      "id": "38189e0a-8c7a-4054-b34c-31176544d937",
+      "text": "The constant source of dissatisfaction is me.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "accountability",
+        "perspective"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0#t=655",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 655,
+        "endSeconds": 659
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex identifies his own recurring desire for alternatives as the stable source of dissatisfaction.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 724,
+        "cueEnd": 728,
+        "batchID": "tehron-direct-first-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
+      },
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T13:17:38.536Z",
+          "reviewer": "Tehron Porter + Codex · official YouTube caption review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-d3d0f7616b21",
+      "status": "verified",
+      "id": "70a98a34-ea0a-4490-b886-020c6ef4e94a",
+      "text": "At some point, you have to pull the trigger.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "decision-making",
+        "urgency",
+        "risk"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0#t=222",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 222,
+        "endSeconds": 225
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex says optionality must eventually give way to a concrete decision.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 243,
+        "cueEnd": 245,
+        "batchID": "tehron-direct-first-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
+      },
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T13:17:38.536Z",
+          "reviewer": "Tehron Porter + Codex · official YouTube caption review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-e20b58ff5f15",
+      "status": "verified",
+      "id": "141e0cf5-b19c-4535-9812-dc84f3dd3712",
+      "text": "You do what you came to do.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "execution",
+        "goals"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0#t=94",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 94,
+        "endSeconds": 96
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex urges the listener to stay aligned with the purpose that brought them to the work.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 99,
+        "cueEnd": 101,
+        "batchID": "tehron-direct-first-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
+      },
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T13:17:38.536Z",
+          "reviewer": "Tehron Porter + Codex · official YouTube caption review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-ea8317dc77eb",
+      "status": "verified",
+      "id": "d680b740-a905-4f67-aa36-3b00d7aa0371",
+      "text": "If you do not have courage, nothing else matters.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "risk",
+        "resilience"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0#t=143",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 143,
+        "endSeconds": 146
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex presents courage as the prerequisite for making any other strength useful.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 155,
+        "cueEnd": 157,
+        "batchID": "tehron-direct-first-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
+      },
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T13:17:38.536Z",
+          "reviewer": "Tehron Porter + Codex · official YouTube caption review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-ef1256513731",
+      "status": "verified",
+      "id": "29e38145-2a37-491f-8210-3122fc29295a",
+      "text": "You must make trades. You have to make a trade.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "strategy",
+        "decision-making",
+        "prioritization"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0#t=413",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 413,
+        "endSeconds": 417
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex states that meaningful prioritization always requires accepting a trade-off.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 466,
+        "cueEnd": 468,
+        "batchID": "tehron-direct-first-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
+      },
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T13:17:38.536Z",
+          "reviewer": "Tehron Porter + Codex · official YouTube caption review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-f110e724302e",
+      "status": "verified",
+      "id": "79ea4098-1a9b-4ccf-934c-ab5d36c666c5",
+      "text": "We always want what we can’t have.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "stress"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0#t=613",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 613,
+        "endSeconds": 615
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex describes the recurring human tendency to desire whichever alternative is unavailable.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 676,
+        "cueEnd": 678,
+        "batchID": "tehron-direct-first-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
+      },
+      "createdAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T13:17:38.536Z",
+          "reviewer": "Tehron Porter + Codex · official YouTube caption review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 1,
         "distinctiveness": 2,
         "fanRelevance": 2,
         "productFit": 2

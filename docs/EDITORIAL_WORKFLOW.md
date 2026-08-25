@@ -24,7 +24,7 @@ Mining joins only consecutive WebVTT cues from one uninterrupted passage. It acc
 Every publishable quote must use one of two review standards:
 
 - `direct-source-twice`: two isolated reviews of the direct recording or original written post. Media reviews listen to at least 30 seconds before and after the excerpt. The 20% blind-audit rule applies to this cohort.
-- `official-transcript-reviewed`: one careful editorial review of contiguous timestamped cues supplied through Alex's official RSS feed. The reviewer reads surrounding cues, confirms the passage stands alone, rejects attributed quotations, and makes no wording changes beyond punctuation normalization. This is explicitly labeled “Official transcript reviewed” in the product and is not represented as an audio check.
+- `official-transcript-reviewed`: one careful editorial review of contiguous timestamped cues supplied through Alex's official RSS feed or retrieved directly from a verified official YouTube upload. The reviewer reads surrounding cues, fingerprints the transcript or caption track, confirms the passage stands alone, rejects attributed quotations, and makes no wording changes beyond punctuation normalization. This is explicitly labeled “Official transcript reviewed” in the product and is not represented as an audio check.
 
 For either standard:
 
@@ -46,6 +46,7 @@ npm run content:candidates:mine -- --all        # complete ready archive
 npm run content:curate:transcripts              # preview hand-selected transcript candidates with context
 npm run content:curate:transcripts -- --apply   # apply only after reviewing the complete preview
 npm run content:review:packet -- --stage=first --limit=25
+npm run content:review:packet -- --stage=first --source=youtube-source-id --limit=40
 npm run content:review:packet -- --stage=second --limit=25
 npm run content:review:packet -- --stage=blind --limit=25
 npm run content:review:apply -- .content-cache/review-packets/completed.json
