@@ -29,9 +29,8 @@ test("case-study landing page introduces the project and opens the app", async (
   await page.goto("/");
   await expect(page).toHaveTitle("Alex Said · A Case Study by Tehron Porter");
   await expect(page.getByRole("heading", { name: /I didn’t just apply/ })).toBeVisible();
-  await expect(page.getByRole("link", { name: /Graphic Designer/ })).toHaveAttribute("href", /ashbyhq\.com/);
-  await expect(page.getByRole("link", { name: /Senior AI Engineer/ })).toHaveAttribute("href", /ashbyhq\.com/);
-  await expect(page.getByRole("link", { name: "Resume (PDF)" })).toHaveAttribute("href", "/tehron-porter-resume.pdf");
+  await expect(page.getByRole("link", { name: "View full portfolio" })).toHaveAttribute("href", "https://tehron.vercel.app");
+  await expect(page.getByRole("link", { name: "Download resume" })).toHaveAttribute("href", "/tehron-porter-resume.pdf");
   await page.getByRole("link", { name: "View the live app" }).click();
   await expect(page).toHaveURL(/\/app$/);
   await expect(page.locator("main.quote-surface")).toBeVisible();

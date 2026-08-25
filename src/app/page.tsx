@@ -43,11 +43,6 @@ const merch: { src: StaticImageData; alt: string }[] = [
   { src: merchFour, alt: "Black Acquisition.com T-shirt mockup with a quote about progress" }
 ];
 
-const roles: { title: string; href: string }[] = [
-  { title: "Graphic Designer", href: "https://jobs.ashbyhq.com/acquisition/c837c116-e606-4ba3-8c0d-42511997c28f" },
-  { title: "Senior AI Engineer", href: "https://jobs.ashbyhq.com/acquisition/9789dd49-c6bd-4672-8cd3-9f67f2dea7c1" }
-];
-
 const capabilities = [
   ["01", "Straight from the source", "Every quote is pulled from Alex’s own content and links back to the episode, video, or post it came from."],
   ["02", "Built to be a daily habit", "Install it to the home screen, get an idea each day, save the ones that land, and share them in one tap."],
@@ -63,7 +58,6 @@ function CaseStudyHeader() {
       </Link>
       <nav className={styles.nav} aria-label="Case study navigation">
         <a href="#product">The product</a>
-        <a href="#apply">The ask</a>
         <a href="#contact">Contact</a>
       </nav>
       <Link href="/app" className={styles.headerCta}>
@@ -223,37 +217,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section id="apply" className={styles.askSection} aria-labelledby="ask-title">
-        <div className={styles.sectionNumber}>06 / The ask</div>
-        <div className={styles.askIntro}>
-          <p className={styles.eyebrow}>Why you are on this page</p>
-          <h2 id="ask-title">Two roles.<br />One application.</h2>
-          <p>
-            Everything above was designed and built for Acquisition.com by one person, unprompted. It is the same work sample for both openings, because the point is that the design and the build are not two different people here.
-          </p>
-        </div>
-        <ul className={styles.roleList}>
-          {roles.map((role, index) => (
-            <li key={role.href}>
-              <a href={role.href} target="_blank" rel="noreferrer">
-                <span className={styles.roleIndex}>{String(index + 1).padStart(2, "0")}</span>
-                <span className={styles.roleTitle}>{role.title}</span>
-                <span className={styles.roleMeta}>Acquisition.com · Las Vegas</span>
-                <ArrowUpRight aria-hidden="true" />
-              </a>
-            </li>
-          ))}
-        </ul>
-        <div className={styles.askDownloads}>
-          <a href="/tehron-porter-resume.pdf" target="_blank" rel="noreferrer">
-            <Download aria-hidden="true" /> Resume (PDF)
-          </a>
-          <a href="/tehron-porter-acq-pitch.pdf" target="_blank" rel="noreferrer">
-            <Download aria-hidden="true" /> One-page pitch (PDF)
-          </a>
-        </div>
-      </section>
-
       <footer id="contact" className={styles.contact}>
         <p className={styles.eyebrow}>Tehron Porter / Las Vegas, NV</p>
         <h2>Let’s build what<br />people remember.</h2>
@@ -261,6 +224,7 @@ export default function HomePage() {
           <a href="mailto:tehronporter@gmail.com">tehronporter@gmail.com <ArrowUpRight aria-hidden="true" /></a>
           <a href="tel:+18082123394">808.212.3394 <ArrowUpRight aria-hidden="true" /></a>
           <a href="https://tehron.vercel.app" target="_blank" rel="noreferrer">View full portfolio <ArrowUpRight aria-hidden="true" /></a>
+          <a href="/tehron-porter-resume.pdf" target="_blank" rel="noreferrer">Download resume <Download aria-hidden="true" /></a>
         </div>
         <div className={styles.footerLine}>
           <span>Designer + Creative Technologist</span>
