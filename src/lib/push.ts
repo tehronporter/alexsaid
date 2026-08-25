@@ -6,7 +6,7 @@ export function makePushPayload(quote: Quote): PushPayload {
   return pushPayloadSchema.parse({
     version: 1,
     quoteID: quote.id,
-    title: "Hormozi Said",
+    title: "Alex Said",
     body: quote.shortVersion ?? quote.text,
     url: `/q/${quote.id}`,
     icon: "/icons/icon-192.png"

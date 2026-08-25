@@ -32,9 +32,9 @@ export function ShareActions({ quote, trigger }: { quote: Quote; trigger?: React
       const blob = await renderShareCardBlob(quote, "square");
       const file = new File([blob], `hormozi-said-${quote.id}.png`, { type: "image/png" });
       if (navigator.canShare?.({ files: [file] })) {
-        await navigator.share({ title: "Hormozi Said", text: `“${quote.text}” — ${quote.author}`, url: canonicalURL(quote), files: [file] });
+        await navigator.share({ title: "Alex Said", text: `“${quote.text}” — ${quote.author}`, url: canonicalURL(quote), files: [file] });
       } else {
-        await navigator.share({ title: "Hormozi Said", text: `“${quote.text}” — ${quote.author}`, url: canonicalURL(quote) });
+        await navigator.share({ title: "Alex Said", text: `“${quote.text}” — ${quote.author}`, url: canonicalURL(quote) });
       }
       trackProductEvent("quote_shared", { quote_id: quote.id, method: "native" });
     } catch (error) {

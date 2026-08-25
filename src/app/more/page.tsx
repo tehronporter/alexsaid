@@ -7,7 +7,7 @@ export const metadata: Metadata = { title: "More" };
 
 const appLinks = [
   { href: "/settings", title: "Settings", body: "Topics, local data, and feed preferences" },
-  { href: "/install", title: "Install", body: "Add Hormozi Said to your Home Screen" },
+  { href: "/install", title: "Install", body: "Add Alex Said to your Home Screen" },
 ];
 
 const legalLinks = [
@@ -39,7 +39,7 @@ export default function MorePage() {
         <div className="space-y-12"><EditorialSection title="App"><LinkDirectory links={appLinks} /></EditorialSection><EditorialSection title="Support"><LinkDirectory links={supportLinks} offset={2} /></EditorialSection></div>
         <EditorialSection title="Legal"><LinkDirectory links={legalLinks} offset={3} /></EditorialSection>
       </div>
-      <p className="mt-14 max-w-2xl border-t border-white/14 pt-6 text-xs leading-relaxed text-white/58">Hormozi Said is an unofficial, fan-made project. It is not affiliated with, endorsed by, or sponsored by Alex Hormozi, Acquisition.com, or their related companies.</p>
+      <p className="mt-14 max-w-2xl border-t border-white/14 pt-6 text-xs leading-relaxed text-white/58">Alex Said is an unofficial, fan-made project. It is not affiliated with, endorsed by, or sponsored by Alex Hormozi, Acquisition.com, or their related companies.</p>
     </main>
   );
 }

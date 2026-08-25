@@ -110,7 +110,7 @@ export function QuoteFeed({ quotes: suppliedQuotes, initialQuote, initialQuoteID
           }}
         >
           <header data-testid="quote-header" className="relative z-10 flex items-baseline justify-between">
-            <p className="text-sm font-extrabold tracking-[0.12em]">HORMOZI SAID</p>
+            <p className="text-sm font-extrabold tracking-[0.12em]">ALEX SAID</p>
             <div className="flex items-center gap-4">
               <p className="text-[0.68rem] font-semibold tabular-nums tracking-[0.08em] text-white/85 lg:hidden">{String(index + 1).padStart(2, "0")}</p>
               {developmentFixture ? <span className="border border-white/30 px-2 py-1 text-[0.62rem] font-bold uppercase tracking-[0.12em]">Dev content</span> : null}

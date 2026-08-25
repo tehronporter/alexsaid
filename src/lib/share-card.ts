@@ -59,7 +59,7 @@ export async function renderShareCardBlob(quote: Quote, format: ShareCardFormat)
   context.font = "700 30px Inter, sans-serif";
   context.fillText(quote.author.toUpperCase(), horizontalPadding, startY + contentHeight + 64);
   context.font = "700 25px Inter, sans-serif";
-  context.fillText("HORMOZI SAID", horizontalPadding, height - 92);
+  context.fillText("ALEX SAID", horizontalPadding, height - 92);
   context.textAlign = "right";
   context.fillText("UNOFFICIAL FAN APP", width - horizontalPadding, height - 92);
 

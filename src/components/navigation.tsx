@@ -8,7 +8,7 @@ import { ProductIcon } from "@/components/product-icon";
 import { cn } from "@/lib/utils";
 
 const items = [
-  { href: "/", label: "Quote", icon: "quote", matches: (path: string) => path === "/" || path.startsWith("/q/") || path.startsWith("/source/") },
+  { href: "/app", label: "Quote", icon: "quote", matches: (path: string) => path === "/app" || path.startsWith("/q/") || path.startsWith("/source/") },
   { href: "/discover", label: "Discover", icon: "discover", matches: (path: string) => path.startsWith("/discover") || path.startsWith("/collections/") },
   { href: "/saved", label: "Saved", icon: "save", matches: (path: string) => path.startsWith("/saved") },
   { href: "/more", label: "More", icon: "more", matches: (path: string) => path.startsWith("/more") || path.startsWith("/settings") || path.startsWith("/install") || path.startsWith("/privacy") || path.startsWith("/terms") || path.startsWith("/disclaimer") },

@@ -7,6 +7,7 @@ export type SurfaceMode = "quote" | "library";
 
 export function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
-  const surfaceMode: SurfaceMode = pathname === "/" || pathname.startsWith("/q/") ? "quote" : "library";
+  if (pathname === "/") return <>{children}</>;
+  const surfaceMode: SurfaceMode = pathname === "/app" || pathname.startsWith("/q/") ? "quote" : "library";
   return <div data-surface={surfaceMode} className="min-h-dvh"><DesktopNavigation surfaceMode={surfaceMode} />{children}<MobileNavigation surfaceMode={surfaceMode} /></div>;
 }

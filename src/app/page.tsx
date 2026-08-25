@@ -1,9 +1,237 @@
-import { QuoteFeed } from "@/components/quote-feed";
-import { catalog } from "@/lib/catalog";
-import { dailyQuoteOrder } from "@/lib/feed";
-import { defaultLocalState } from "@/lib/local-state";
+import type { Metadata } from "next";
+import Image, { type StaticImageData } from "next/image";
+import Link from "next/link";
+import { ArrowDown, ArrowUpRight } from "lucide-react";
+import styles from "./page.module.css";
+
+import phoneMockup from "./_assets/phone-mockup.jpg";
+import monster from "./_assets/hormozi-monster.jpg";
+import socialOne from "./_assets/social-quote-progress.jpg";
+import socialTwo from "./_assets/social-quote-bloodline.jpg";
+import socialThree from "./_assets/social-quote-leverage.jpg";
+import socialFour from "./_assets/social-monster-progress.jpg";
+import socialFive from "./_assets/social-monster-leverage.jpg";
+import socialSix from "./_assets/social-monster-bloodline.jpg";
+import merchOne from "./_assets/merch-black-charge-more.jpg";
+import merchTwo from "./_assets/merch-purple-bloodline.jpg";
+import merchThree from "./_assets/merch-purple-inflated.jpg";
+import merchFour from "./_assets/merch-black-progress.jpg";
+
+export const metadata: Metadata = {
+  title: { absolute: "Alex Said — A Case Study by Tehron Porter" },
+  description: "A working product, visual system, and campaign concept built by designer and creative technologist Tehron Porter for Acquisition.com.",
+  openGraph: {
+    title: "I didn’t just apply. I built something.",
+    description: "Alex Said — a product and brand case study by Tehron Porter.",
+    type: "website"
+  }
+};
+
+const socialPosts: { src: StaticImageData; alt: string }[] = [
+  { src: socialFour, alt: "Alex Said social post featuring the purple ACQ monster and a quote about progress" },
+  { src: socialOne, alt: "Purple Alex Said quote card about progress and an easy life" },
+  { src: socialFive, alt: "Alex Said social post featuring the ACQ monster and a quote about leverage" },
+  { src: socialTwo, alt: "Purple Alex Said quote card about changing your bloodline" },
+  { src: socialSix, alt: "Alex Said social post featuring the ACQ monster and a quote about what you do next" },
+  { src: socialThree, alt: "Purple Alex Said quote card about outleveraging the competition" }
+];
+
+const merch: { src: StaticImageData; alt: string }[] = [
+  { src: merchOne, alt: "Black Acquisition.com T-shirt mockup with an Alex Hormozi quote" },
+  { src: merchTwo, alt: "Purple Acquisition.com T-shirt mockup with an Alex Hormozi quote" },
+  { src: merchThree, alt: "Purple Acquisition.com T-shirt mockup reading Artificially Inflated" },
+  { src: merchFour, alt: "Black Acquisition.com T-shirt mockup with a quote about progress" }
+];
+
+const capabilities = [
+  ["01", "Verified library", "A curated, source-linked quote catalog organized for fast discovery."],
+  ["02", "Habit-first product", "A focused feed with search, saves, sharing, installation, and daily reminders."],
+  ["03", "Scalable output", "One content system that can move from product to social, character, and merchandise."],
+];
+
+function CaseStudyHeader() {
+  return (
+    <header className={styles.header}>
+      <Link href="#top" className={styles.wordmark} aria-label="Alex Said case study, back to top">
+        <span className={styles.wordmarkIcon} aria-hidden="true">AS</span>
+        <span>ALEX SAID</span>
+      </Link>
+      <nav className={styles.nav} aria-label="Case study navigation">
+        <a href="#product">The product</a>
+        <a href="#extensions">Extensions</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <Link href="/app" className={styles.headerCta}>
+        Open the app <ArrowUpRight aria-hidden="true" />
+      </Link>
+    </header>
+  );
+}
 
 export default function HomePage() {
-  const initialQuote = dailyQuoteOrder(catalog.quotes, defaultLocalState)[0] ?? catalog.quotes[0];
-  return <QuoteFeed initialQuote={initialQuote} developmentFixture={catalog.developmentFixture} />;
+  return (
+    <main id="top" className={styles.page}>
+      <CaseStudyHeader />
+
+      <section className={styles.hero} aria-labelledby="hero-title">
+        <div className={styles.heroCopy}>
+          <p className={styles.eyebrow}>A product + brand case study</p>
+          <h1 id="hero-title">I didn’t just apply.<br />I built something.</h1>
+          <p className={styles.heroIntro}>
+            Alex Said turns verified business ideas into a useful product—and one repeatable system for content, character, and culture.
+          </p>
+          <div className={styles.heroActions}>
+            <Link href="/app" className={styles.primaryButton}>
+              View the live app <ArrowUpRight aria-hidden="true" />
+            </Link>
+            <a href="#product" className={styles.textLink}>
+              Explore the case study <ArrowDown aria-hidden="true" />
+            </a>
+          </div>
+        </div>
+        <div className={styles.heroVisual}>
+          <div className={styles.heroStamp}>Designed + built<br />in Las Vegas</div>
+          <Image
+            src={phoneMockup}
+            alt="Two iPhones showing the Alex Said quote feed and searchable topic library"
+            priority
+            placeholder="blur"
+            sizes="(max-width: 800px) 92vw, 52vw"
+            className={styles.phoneImage}
+          />
+        </div>
+        <div className={styles.heroFooter}>
+          <span>Tehron Porter</span>
+          <span>Designer + Creative Technologist</span>
+          <span>2026</span>
+        </div>
+      </section>
+
+      <section id="product" className={styles.productSection} aria-labelledby="product-title">
+        <div className={styles.sectionNumber}>01 / The product</div>
+        <div className={styles.productHeading}>
+          <p className={styles.eyebrow}>From information to action</p>
+          <h2 id="product-title">Make the right idea<br />easy to find—and hard to forget.</h2>
+          <p>
+            The concept began with one question: what if business advice did not disappear into a saved folder? The answer is a focused, installable web app built around reading, finding, saving, and sharing source-linked ideas.
+          </p>
+        </div>
+        <div className={styles.capabilityGrid}>
+          {capabilities.map(([number, title, copy]) => (
+            <article key={number} className={styles.capabilityCard}>
+              <span>{number}</span>
+              <h3>{title}</h3>
+              <p>{copy}</p>
+            </article>
+          ))}
+        </div>
+        <div className={styles.productProof}>
+          <div>
+            <p className={styles.proofKicker}>The proof is in the product.</p>
+            <p>This is not a static prototype. Open it, browse it, save an idea, share it, and install it.</p>
+          </div>
+          <Link href="/app" className={styles.darkButton}>
+            Use Alex Said <ArrowUpRight aria-hidden="true" />
+          </Link>
+        </div>
+      </section>
+
+      <section id="extensions" className={styles.socialSection} aria-labelledby="social-title">
+        <div className={styles.sectionNumber}>02 / Social system</div>
+        <div className={styles.splitHeading}>
+          <h2 id="social-title">One source.<br />Many surfaces.</h2>
+          <p>
+            Every shared idea can become a recognizable piece of ACQ Media content. The system keeps typography, color, attribution, and pacing consistent while leaving room for multiple visual treatments.
+          </p>
+        </div>
+        <div className={styles.socialGrid}>
+          {socialPosts.map((post, index) => (
+            <figure key={post.src.src} className={index % 3 === 1 ? styles.socialOffset : undefined}>
+              <Image src={post.src} alt={post.alt} placeholder="blur" sizes="(max-width: 700px) 46vw, 28vw" />
+            </figure>
+          ))}
+        </div>
+      </section>
+
+      <section className={styles.monsterSection} aria-labelledby="monster-title">
+        <div className={styles.monsterCopy}>
+          <div className={styles.sectionNumber}>03 / Character concept</div>
+          <p className={styles.eyebrow}>A familiar face for a bigger audience</p>
+          <h2 id="monster-title">Meet the<br />Hormozi Monster.</h2>
+          <p>
+            A motion-ready character concept imagined for short-form content, event moments, or a future ACQ Kids universe. Recognizable on sight, flexible in tone, and built to make hard lessons more approachable.
+          </p>
+          <div className={styles.conceptTags} aria-label="Potential character applications">
+            <span>ACQ Kids</span><span>Social</span><span>Events</span><span>Animation</span>
+          </div>
+        </div>
+        <div className={styles.monsterVisual}>
+          <span className={styles.monsterLabel}>Character study / 001</span>
+          <Image
+            src={monster}
+            alt="Purple bearded Hormozi Monster character wearing Acquisition.com apparel"
+            placeholder="blur"
+            sizes="(max-width: 800px) 92vw, 50vw"
+          />
+        </div>
+      </section>
+
+      <section className={styles.merchSection} aria-labelledby="merch-title">
+        <div className={styles.sectionNumber}>04 / Merchandise</div>
+        <div className={styles.splitHeading}>
+          <h2 id="merch-title">From screen<br />to shelf.</h2>
+          <p>
+            Quotes already carry the message. A disciplined product system gives them a visual language that can travel—from a share card to a garment—without starting from zero each time.
+          </p>
+        </div>
+        <div className={styles.merchGrid}>
+          {merch.map((item) => (
+            <figure key={item.src.src}>
+              <Image src={item.src} alt={item.alt} placeholder="blur" sizes="(max-width: 700px) 92vw, 46vw" />
+            </figure>
+          ))}
+        </div>
+      </section>
+
+      <section className={styles.briefSection} aria-labelledby="brief-title">
+        <div className={styles.sectionNumber}>05 / Built for the brief</div>
+        <div className={styles.briefIntro}>
+          <p className={styles.eyebrow}>Design that ships</p>
+          <h2 id="brief-title">Creative direction<br />meets working software.</h2>
+        </div>
+        <div className={styles.briefGrid}>
+          <article>
+            <span>Design</span>
+            <h3>A system, not a pile of assets.</h3>
+            <p>Brand direction, product UI, social templates, character development, and merchandise—all connected by one clear visual idea.</p>
+          </article>
+          <article>
+            <span>Technology</span>
+            <h3>A build, not a presentation.</h3>
+            <p>An AI-assisted workflow turned the concept into a production web app with a structured content pipeline, reusable components, testing, and deployment.</p>
+          </article>
+          <article>
+            <span>Execution</span>
+            <h3>An idea taken all the way.</h3>
+            <p>Concept, art direction, prototyping, content design, implementation, QA, and launch—owned from the first sketch to the live URL.</p>
+          </article>
+        </div>
+      </section>
+
+      <footer id="contact" className={styles.contact}>
+        <p className={styles.eyebrow}>Tehron Porter / Las Vegas, NV</p>
+        <h2>Let’s build what<br />people remember.</h2>
+        <div className={styles.contactLinks}>
+          <a href="mailto:tehronporter@gmail.com">tehronporter@gmail.com <ArrowUpRight aria-hidden="true" /></a>
+          <a href="tel:+18082123394">808.212.3394 <ArrowUpRight aria-hidden="true" /></a>
+          <a href="https://tehron.vercel.app" target="_blank" rel="noreferrer">View full portfolio <ArrowUpRight aria-hidden="true" /></a>
+        </div>
+        <div className={styles.footerLine}>
+          <span>Designer + Creative Technologist</span>
+          <span>Independent concept for Acquisition.com</span>
+          <a href="#top">Back to top ↑</a>
+        </div>
+      </footer>
+    </main>
+  );
 }

@@ -1,5 +1,5 @@
-const CACHE = "hormozi-said-v6";
-const APP_SHELL = ["/", "/discover", "/saved", "/install", "/more", "/offline", "/catalog.v3.json", "/catalog.v2.json", "/icons/icon.svg", "/icons/icon-maskable.svg", "/icons/icon-192.png", "/icons/icon-512.png"];
+const CACHE = "hormozi-said-v7";
+const APP_SHELL = ["/app", "/discover", "/saved", "/install", "/more", "/offline", "/catalog.v3.json", "/catalog.v2.json", "/icons/icon.svg", "/icons/icon-maskable.svg", "/icons/icon-192.png", "/icons/icon-512.png"];
 
 async function cacheResponse(cache, url) {
   try {
@@ -48,7 +48,7 @@ self.addEventListener("fetch", (event) => {
       const copy = response.clone();
       caches.open(CACHE).then((cache) => cache.put(request, copy));
       return response;
-    }).catch(async () => (await caches.match(request)) || (await caches.match("/")) || caches.match("/offline")));
+    }).catch(async () => (await caches.match(request)) || (await caches.match("/app")) || caches.match("/offline")));
     return;
   }
 
@@ -64,7 +64,7 @@ self.addEventListener("fetch", (event) => {
 self.addEventListener("push", (event) => {
   if (!event.data) return;
   const payload = event.data.json();
-  event.waitUntil(self.registration.showNotification(payload.title || "Hormozi Said", {
+  event.waitUntil(self.registration.showNotification(payload.title || "Alex Said", {
     body: payload.body,
     icon: payload.icon || "/icons/icon.svg",
     badge: "/icons/icon.svg",
@@ -81,7 +81,7 @@ self.addEventListener("message", (event) => {
 
 self.addEventListener("notificationclick", (event) => {
   event.notification.close();
-  const target = new URL(event.notification.data?.url || "/", self.location.origin).href;
+  const target = new URL(event.notification.data?.url || "/app", self.location.origin).href;
   event.waitUntil(self.clients.matchAll({ type: "window", includeUncontrolled: true }).then(async (clients) => {
     for (const client of clients) {
       if ("navigate" in client) await client.navigate(target);

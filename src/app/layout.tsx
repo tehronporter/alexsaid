@@ -11,12 +11,12 @@ const bebas = Bebas_Neue({ subsets: ["latin"], variable: "--font-bebas", weight:
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"),
-  title: { default: "Hormozi Said", template: "%s · Hormozi Said" },
-  description: "Business advice worth remembering, one verified quote at a time.",
-  applicationName: "Hormozi Said",
+  title: { default: "Alex Said — A Case Study by Tehron Porter", template: "%s · Alex Said" },
+  description: "A working product and brand case study built by Tehron Porter for Acquisition.com.",
+  applicationName: "Alex Said",
   manifest: "/manifest.webmanifest",
   icons: { icon: "/icons/icon.svg", apple: "/icons/icon-192.png" },
-  appleWebApp: { capable: true, statusBarStyle: "black-translucent", title: "Hormozi Said" },
+  appleWebApp: { capable: true, statusBarStyle: "black-translucent", title: "Alex Said" },
   formatDetection: { telephone: false }
 };
 

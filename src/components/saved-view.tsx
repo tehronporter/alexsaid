@@ -16,7 +16,7 @@ export function SavedView({ quotes: suppliedQuotes }: { quotes?: readonly Quote[
     <section className="max-w-xl border-t border-white/16 py-12">
       <p className="text-xl font-semibold tracking-[-0.025em]">Your useful ideas will live here.</p>
       <p className="mt-3 max-w-md text-sm leading-relaxed text-white/62">Save any quote and it will stay on this device—even when you’re offline.</p>
-      <Button asChild className="mt-7 bg-white text-black hover:bg-white/90"><Link href="/">Browse quotes</Link></Button>
+      <Button asChild className="mt-7 bg-white text-black hover:bg-white/90"><Link href="/app">Browse quotes</Link></Button>
     </section>
   );
   return <div className="grid lg:grid-cols-2 lg:gap-x-12">{saved.map((quote) => <QuoteListCard key={quote.id} quote={quote} />)}</div>;

@@ -5,7 +5,7 @@ import catalogJSON from "../../src/data/catalog.json" with { type: "json" };
 const productionPWA = Boolean(process.env.CI || process.env.E2E_PRODUCTION);
 
 test.beforeEach(async ({ page }) => {
-  await page.goto("/");
+  await page.goto("/app");
   await page.evaluate(() => {
     localStorage.clear();
     localStorage.setItem("hormozi-said:user-state:v1", JSON.stringify({
@@ -23,6 +23,15 @@ test.beforeEach(async ({ page }) => {
   await expect(page.getByRole("button", { name: "Skip" })).not.toBeVisible();
   await expect(page.locator("main.quote-surface")).toHaveAttribute("data-interactive", "true");
   await expect(page.locator("main.quote-surface")).toHaveAttribute("data-catalog-ready", "true");
+});
+
+test("case-study landing page introduces the project and opens the app", async ({ page }) => {
+  await page.goto("/");
+  await expect(page).toHaveTitle("Alex Said — A Case Study by Tehron Porter");
+  await expect(page.getByRole("heading", { name: /I didn’t just apply/ })).toBeVisible();
+  await page.getByRole("link", { name: "View the live app" }).click();
+  await expect(page).toHaveURL(/\/app$/);
+  await expect(page.locator("main.quote-surface")).toBeVisible();
 });
 
 test("first quote renders behind skippable onboarding", async ({ page }) => {
@@ -203,7 +212,7 @@ test("a warmed quote and saved view remain usable offline", async ({ page, conte
   await page.getByRole("button", { name: "Save quote" }).click();
   await page.goto("/saved");
   await expect(page.locator("main").getByRole("link", { name: /Read quote/ })).toBeVisible();
-  await page.goto("/");
+  await page.goto("/app");
 
   await context.setOffline(true);
   await page.reload({ waitUntil: "domcontentloaded" });
@@ -241,7 +250,7 @@ test("local-data export and reset include the learned-swipe state", async ({ pag
 
 test("key screens have no serious accessibility violations", async ({ page }) => {
   test.setTimeout(120_000);
-  for (const path of ["/", "/discover", "/saved", `/source/${catalogJSON.quotes[0].id}`, "/install", "/more", "/settings", "/privacy"]) {
+  for (const path of ["/", "/app", "/discover", "/saved", `/source/${catalogJSON.quotes[0].id}`, "/install", "/more", "/settings", "/privacy"]) {
     await page.goto(path);
     // Let quote entrance transitions settle before axe computes color contrast.
     await page.waitForTimeout(400);
@@ -251,7 +260,7 @@ test("key screens have no serious accessibility violations", async ({ page }) =>
 });
 
 test("editorial surfaces preserve the purple quote and dark library distinction", async ({ page }) => {
-  await page.goto("/");
+  await page.goto("/app");
   await expect(page.locator("main")).toHaveClass(/quote-surface/);
   await expect(page.locator('[data-surface="quote"]')).toBeVisible();
   await page.goto("/discover");
