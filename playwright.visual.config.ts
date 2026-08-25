@@ -5,7 +5,7 @@ export default defineConfig({
   workers: 1,
   reporter: "list",
   expect: { toHaveScreenshot: { animations: "disabled", maxDiffPixelRatio: 0.03 } },
-  use: { baseURL: "http://127.0.0.1:3000" },
+  use: { baseURL: "http://127.0.0.1:3000", timezoneId: "UTC" },
   projects: [
     { name: "iphone-se", use: { ...devices["iPhone SE"] } },
     { name: "modern-iphone", use: { ...devices["iPhone 14"] } },

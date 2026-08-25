@@ -1,5 +1,6 @@
 import { expect, test } from "@playwright/test";
 import catalogJSON from "../../src/data/catalog.json" with { type: "json" };
+import { pinClock } from "./pinned-clock";
 
 const completedState = {
   schemaVersion: 1,
@@ -13,6 +14,7 @@ const completedState = {
 };
 
 test.beforeEach(async ({ page }) => {
+  await pinClock(page);
   await page.goto("/");
   await page.evaluate((state) => localStorage.setItem("hormozi-said:user-state:v1", JSON.stringify(state)), completedState);
 });
@@ -36,7 +38,7 @@ for (const [name, path] of [
 
 test("onboarding sheet", async ({ page }) => {
   await page.evaluate(() => localStorage.clear());
-  await page.goto("/");
+  await page.goto("/app");
   await expect(page.getByRole("button", { name: "Skip" })).toBeVisible();
   await expect(page).toHaveScreenshot("onboarding.png");
 });

@@ -7,7 +7,11 @@ export default defineConfig({
   fullyParallel: false,
   workers: 2,
   timeout: 60_000,
-  retries: process.env.CI ? 2 : 0,
+  // Local runs boot `next dev`, so the first hit on each route waits on a Turbopack
+  // cold compile while two workers race for it. CI builds first and serves with
+  // `npm start`, where this does not happen. One retry keeps local runs honest
+  // without turning compile latency into a red suite.
+  retries: process.env.CI ? 2 : 1,
   reporter: process.env.CI ? "github" : "list",
   use: { baseURL: "http://127.0.0.1:3000", trace: "on-first-retry" },
   projects: [

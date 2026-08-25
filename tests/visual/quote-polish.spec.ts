@@ -1,5 +1,6 @@
 import { expect, test } from "@playwright/test";
 import catalogJSON from "../../src/data/catalog.json" with { type: "json" };
+import { pinClock, settleAnimations } from "./pinned-clock";
 
 const completedState = {
   schemaVersion: 1,
@@ -23,6 +24,7 @@ const reviewQuotes = [
 ] as const;
 
 test.beforeEach(async ({ page }) => {
+  await pinClock(page);
   await page.goto("/");
   await page.evaluate((state) => localStorage.setItem("hormozi-said:user-state:v1", JSON.stringify(state)), completedState);
 });
@@ -32,6 +34,7 @@ for (const [label, quote] of reviewQuotes) {
     test.skip(!["iphone-se", "modern-iphone", "large-iphone"].includes(testInfo.project.name));
     await page.goto(`/q/${quote.id}`);
     await expect(page.getByTestId("quote-text")).toHaveText(quote.text);
+    await settleAnimations(page);
 
     const boxes = await page.evaluate(() => {
       const box = (selector: string) => document.querySelector(selector)?.getBoundingClientRect();
