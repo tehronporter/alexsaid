@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Image, { type StaticImageData } from "next/image";
 import Link from "next/link";
-import { ArrowDown, ArrowUpRight } from "lucide-react";
+import { ArrowDown, ArrowUpRight, Download } from "lucide-react";
 import styles from "./page.module.css";
 
 import phoneMockup from "./_assets/phone-mockup.jpg";
@@ -18,11 +18,11 @@ import merchThree from "./_assets/merch-purple-inflated.jpg";
 import merchFour from "./_assets/merch-black-progress.jpg";
 
 export const metadata: Metadata = {
-  title: { absolute: "Alex Said — A Case Study by Tehron Porter" },
-  description: "A working product, visual system, and campaign concept built by designer and creative technologist Tehron Porter for Acquisition.com.",
+  title: { absolute: "Alex Said · A Case Study by Tehron Porter" },
+  description: "A daily quote app for Alex Hormozi’s audience, designed, engineered, and shipped by Tehron Porter for Acquisition.com.",
   openGraph: {
-    title: "I didn’t just apply. I built something.",
-    description: "Alex Said — a product and brand case study by Tehron Porter.",
+    title: "I didn’t just apply. I built something too.",
+    description: "A daily quote app for Alex’s audience, designed and built by Tehron Porter.",
     type: "website"
   }
 };
@@ -43,10 +43,15 @@ const merch: { src: StaticImageData; alt: string }[] = [
   { src: merchFour, alt: "Black Acquisition.com T-shirt mockup with a quote about progress" }
 ];
 
+const roles: { title: string; href: string }[] = [
+  { title: "Graphic Designer", href: "https://jobs.ashbyhq.com/acquisition/c837c116-e606-4ba3-8c0d-42511997c28f" },
+  { title: "Senior AI Engineer", href: "https://jobs.ashbyhq.com/acquisition/9789dd49-c6bd-4672-8cd3-9f67f2dea7c1" }
+];
+
 const capabilities = [
-  ["01", "Verified library", "A curated, source-linked quote catalog organized for fast discovery."],
-  ["02", "Habit-first product", "A focused feed with search, saves, sharing, installation, and daily reminders."],
-  ["03", "Scalable output", "One content system that can move from product to social, character, and merchandise."],
+  ["01", "Straight from the source", "Every quote is pulled from Alex’s own content and links back to the episode, video, or post it came from."],
+  ["02", "Built to be a daily habit", "Install it to the home screen, get an idea each day, save the ones that land, and share them in one tap."],
+  ["03", "Designed and engineered by one person", "Brand, interface, content pipeline, and code. I used AI tools the same way I would use them on your team."],
 ];
 
 function CaseStudyHeader() {
@@ -58,7 +63,7 @@ function CaseStudyHeader() {
       </Link>
       <nav className={styles.nav} aria-label="Case study navigation">
         <a href="#product">The product</a>
-        <a href="#extensions">Extensions</a>
+        <a href="#apply">The ask</a>
         <a href="#contact">Contact</a>
       </nav>
       <Link href="/app" className={styles.headerCta}>
@@ -76,9 +81,9 @@ export default function HomePage() {
       <section className={styles.hero} aria-labelledby="hero-title">
         <div className={styles.heroCopy}>
           <p className={styles.eyebrow}>A product + brand case study</p>
-          <h1 id="hero-title">I didn’t just apply.<br />I built something.</h1>
+          <h1 id="hero-title">I didn’t just apply.<br />I built<br />something too.</h1>
           <p className={styles.heroIntro}>
-            Alex Said turns verified business ideas into a useful product—and one repeatable system for content, character, and culture.
+            Alex Said is a daily quote app for Alex’s audience. Every quote comes straight from his own content. I designed it, engineered it, and shipped it.
           </p>
           <div className={styles.heroActions}>
             <Link href="/app" className={styles.primaryButton}>
@@ -110,10 +115,10 @@ export default function HomePage() {
       <section id="product" className={styles.productSection} aria-labelledby="product-title">
         <div className={styles.sectionNumber}>01 / The product</div>
         <div className={styles.productHeading}>
-          <p className={styles.eyebrow}>From information to action</p>
-          <h2 id="product-title">Make the right idea<br />easy to find—and hard to forget.</h2>
+          <p className={styles.eyebrow}>What it is</p>
+          <h2 id="product-title">One idea a day<br />in Alex’s own words.</h2>
           <p>
-            The concept began with one question: what if business advice did not disappear into a saved folder? The answer is a focused, installable web app built around reading, finding, saving, and sharing source-linked ideas.
+            People keep affirmation apps on their home screen and open them every morning. This does the same job with Alex’s own words. Every quote is pulled directly from his podcasts, videos, and posts, and every one links back to where it came from.
           </p>
         </div>
         <div className={styles.capabilityGrid}>
@@ -141,7 +146,7 @@ export default function HomePage() {
         <div className={styles.splitHeading}>
           <h2 id="social-title">One source.<br />Many surfaces.</h2>
           <p>
-            Every shared idea can become a recognizable piece of ACQ Media content. The system keeps typography, color, attribution, and pacing consistent while leaving room for multiple visual treatments.
+            Once the quotes live in one place, the content almost makes itself. Any quote in the app can come out as a finished post, so ACQ Media could run a daily feed without a designer starting from a blank file every morning.
           </p>
         </div>
         <div className={styles.socialGrid}>
@@ -159,7 +164,7 @@ export default function HomePage() {
           <p className={styles.eyebrow}>A familiar face for a bigger audience</p>
           <h2 id="monster-title">Meet the<br />Hormozi Monster.</h2>
           <p>
-            A motion-ready character concept imagined for short-form content, event moments, or a future ACQ Kids universe. Recognizable on sight, flexible in tone, and built to make hard lessons more approachable.
+            A character I drew to show what else this brand could reach for. Simple enough to redraw in any pose, recognizable at thumbnail size, and built to carry a hard lesson to an audience that would never sit through a business lecture. ACQ Kids is one direction. Short form and live events are others.
           </p>
           <div className={styles.conceptTags} aria-label="Potential character applications">
             <span>ACQ Kids</span><span>Social</span><span>Events</span><span>Animation</span>
@@ -181,7 +186,7 @@ export default function HomePage() {
         <div className={styles.splitHeading}>
           <h2 id="merch-title">From screen<br />to shelf.</h2>
           <p>
-            Quotes already carry the message. A disciplined product system gives them a visual language that can travel—from a share card to a garment—without starting from zero each time.
+            Version 2.0 of the app. The quotes people save become things they can order without leaving it. Shirts, posters, prints. The catalog is already built, so every quote is a product that never needs a new design brief.
           </p>
         </div>
         <div className={styles.merchGrid}>
@@ -203,18 +208,49 @@ export default function HomePage() {
           <article>
             <span>Design</span>
             <h3>A system, not a pile of assets.</h3>
-            <p>Brand direction, product UI, social templates, character development, and merchandise—all connected by one clear visual idea.</p>
+            <p>Brand direction, product interface, social templates, character design, and merchandise, all running off one visual idea.</p>
           </article>
           <article>
             <span>Technology</span>
             <h3>A build, not a presentation.</h3>
-            <p>An AI-assisted workflow turned the concept into a production web app with a structured content pipeline, reusable components, testing, and deployment.</p>
+            <p>A production web app with a structured content pipeline, reusable components, tests, and a real deployment. AI tools did the heavy lifting. The judgment calls were mine.</p>
           </article>
           <article>
             <span>Execution</span>
             <h3>An idea taken all the way.</h3>
-            <p>Concept, art direction, prototyping, content design, implementation, QA, and launch—owned from the first sketch to the live URL.</p>
+            <p>Concept, art direction, prototyping, content design, implementation, QA, and launch. Owned from the first sketch to the live URL.</p>
           </article>
+        </div>
+      </section>
+
+      <section id="apply" className={styles.askSection} aria-labelledby="ask-title">
+        <div className={styles.sectionNumber}>06 / The ask</div>
+        <div className={styles.askIntro}>
+          <p className={styles.eyebrow}>Why you are on this page</p>
+          <h2 id="ask-title">Two roles.<br />One application.</h2>
+          <p>
+            Everything above was designed and built for Acquisition.com by one person, unprompted. It is the same work sample for both openings, because the point is that the design and the build are not two different people here.
+          </p>
+        </div>
+        <ul className={styles.roleList}>
+          {roles.map((role, index) => (
+            <li key={role.href}>
+              <a href={role.href} target="_blank" rel="noreferrer">
+                <span className={styles.roleIndex}>{String(index + 1).padStart(2, "0")}</span>
+                <span className={styles.roleTitle}>{role.title}</span>
+                <span className={styles.roleMeta}>Acquisition.com · Las Vegas</span>
+                <ArrowUpRight aria-hidden="true" />
+              </a>
+            </li>
+          ))}
+        </ul>
+        <div className={styles.askDownloads}>
+          <a href="/tehron-porter-resume.pdf" target="_blank" rel="noreferrer">
+            <Download aria-hidden="true" /> Resume (PDF)
+          </a>
+          <a href="/tehron-porter-acq-pitch.pdf" target="_blank" rel="noreferrer">
+            <Download aria-hidden="true" /> One-page pitch (PDF)
+          </a>
         </div>
       </section>
 

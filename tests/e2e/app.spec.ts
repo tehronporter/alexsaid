@@ -27,8 +27,11 @@ test.beforeEach(async ({ page }) => {
 
 test("case-study landing page introduces the project and opens the app", async ({ page }) => {
   await page.goto("/");
-  await expect(page).toHaveTitle("Alex Said — A Case Study by Tehron Porter");
+  await expect(page).toHaveTitle("Alex Said · A Case Study by Tehron Porter");
   await expect(page.getByRole("heading", { name: /I didn’t just apply/ })).toBeVisible();
+  await expect(page.getByRole("link", { name: /Graphic Designer/ })).toHaveAttribute("href", /ashbyhq\.com/);
+  await expect(page.getByRole("link", { name: /Senior AI Engineer/ })).toHaveAttribute("href", /ashbyhq\.com/);
+  await expect(page.getByRole("link", { name: "Resume (PDF)" })).toHaveAttribute("href", "/tehron-porter-resume.pdf");
   await page.getByRole("link", { name: "View the live app" }).click();
   await expect(page).toHaveURL(/\/app$/);
   await expect(page.locator("main.quote-surface")).toBeVisible();
@@ -158,7 +161,9 @@ test("source action matches the visible quote", async ({ page }) => {
 });
 
 test("every accepted quote stays exact across library, saved, source, and sharing views", async ({ page, context }) => {
-  test.setTimeout(120_000);
+  // Walks every quote in the catalog. 120s fits a production server; `next dev`
+  // compiles each route on first hit, so the same walk needs a wider budget.
+  test.setTimeout(productionPWA ? 120_000 : 420_000);
   await context.grantPermissions(["clipboard-read", "clipboard-write"]);
   for (const quote of catalogJSON.quotes) {
     await page.goto(`/q/${quote.id}`);
