@@ -2,20 +2,16 @@ import type { Metadata } from "next";
 import Image, { type StaticImageData } from "next/image";
 import Link from "next/link";
 import { ArrowDown, ArrowUpRight, Download } from "lucide-react";
+import { catalog } from "@/lib/catalog";
 import styles from "./page.module.css";
 
 import phoneMockup from "./_assets/phone-mockup.jpg";
 import monster from "./_assets/hormozi-monster.jpg";
 import socialOne from "./_assets/social-quote-progress.jpg";
-import socialTwo from "./_assets/social-quote-bloodline.jpg";
-import socialThree from "./_assets/social-quote-leverage.jpg";
 import socialFour from "./_assets/social-monster-progress.jpg";
 import socialFive from "./_assets/social-monster-leverage.jpg";
-import socialSix from "./_assets/social-monster-bloodline.jpg";
 import merchOne from "./_assets/merch-black-charge-more.jpg";
 import merchTwo from "./_assets/merch-purple-bloodline.jpg";
-import merchThree from "./_assets/merch-purple-inflated.jpg";
-import merchFour from "./_assets/merch-black-progress.jpg";
 
 export const metadata: Metadata = {
   title: { absolute: "Alex Said · A Case Study by Tehron Porter" },
@@ -30,23 +26,26 @@ export const metadata: Metadata = {
 const socialPosts: { src: StaticImageData; alt: string }[] = [
   { src: socialFour, alt: "Alex Said social post featuring the purple ACQ monster and a quote about progress" },
   { src: socialOne, alt: "Purple Alex Said quote card about progress and an easy life" },
-  { src: socialFive, alt: "Alex Said social post featuring the ACQ monster and a quote about leverage" },
-  { src: socialTwo, alt: "Purple Alex Said quote card about changing your bloodline" },
-  { src: socialSix, alt: "Alex Said social post featuring the ACQ monster and a quote about what you do next" },
-  { src: socialThree, alt: "Purple Alex Said quote card about outleveraging the competition" }
+  { src: socialFive, alt: "Alex Said social post featuring the ACQ monster and a quote about leverage" }
 ];
 
 const merch: { src: StaticImageData; alt: string }[] = [
   { src: merchOne, alt: "Black Acquisition.com T-shirt mockup with an Alex Hormozi quote" },
-  { src: merchTwo, alt: "Purple Acquisition.com T-shirt mockup with an Alex Hormozi quote" },
-  { src: merchThree, alt: "Purple Acquisition.com T-shirt mockup reading Artificially Inflated" },
-  { src: merchFour, alt: "Black Acquisition.com T-shirt mockup with a quote about progress" }
+  { src: merchTwo, alt: "Purple Acquisition.com T-shirt mockup with an Alex Hormozi quote" }
 ];
 
 const capabilities = [
   ["01", "Straight from the source", "Every quote is pulled from Alex’s own content and links back to the episode, video, or post it came from."],
   ["02", "Built to be a daily habit", "Install it to the home screen, get an idea each day, save the ones that land, and share them in one tap."],
-  ["03", "Designed and engineered by one person", "Brand, interface, content pipeline, and code. I used AI tools the same way I would use them on your team."],
+  ["03", "Designed and engineered by one person", "Brand, interface, content pipeline, and code. AI accelerated production; I owned the strategy, design direction, implementation, content review, and QA."],
+];
+
+const buildFacts = [
+  ["Stack", "Next.js 16 + TypeScript"],
+  ["Product", "Offline-ready PWA"],
+  ["Library", `${catalog.quotes.length} source-linked quotes`],
+  ["Quality", "Automated test suite"],
+  ["Delivery", "Live on Vercel"],
 ];
 
 function CaseStudyHeader() {
@@ -158,7 +157,7 @@ export default function HomePage() {
           <p className={styles.eyebrow}>A familiar face for a bigger audience</p>
           <h2 id="monster-title">Meet the<br />Hormozi Monster.</h2>
           <p>
-            A character I drew to show what else this brand could reach for. Simple enough to redraw in any pose, recognizable at thumbnail size, and built to carry a hard lesson to an audience that would never sit through a business lecture. ACQ Kids is one direction. Short form and live events are others.
+            A character concept I developed and directed to show what else this brand could reach for. Simple enough to redraw in any pose, recognizable at thumbnail size, and built to carry a hard lesson to an audience that would never sit through a business lecture. ACQ Kids is one direction. Short form and live events are others.
           </p>
           <div className={styles.conceptTags} aria-label="Potential character applications">
             <span>ACQ Kids</span><span>Social</span><span>Events</span><span>Animation</span>
@@ -180,7 +179,7 @@ export default function HomePage() {
         <div className={styles.splitHeading}>
           <h2 id="merch-title">From screen<br />to shelf.</h2>
           <p>
-            Version 2.0 of the app. The quotes people save become things they can order without leaving it. Shirts, posters, prints. The catalog is already built, so every quote is a product that never needs a new design brief.
+            A future commerce direction for the app: saved quotes could become shirts, posters, and prints without leaving the product. Because the catalog already structures the content, each quote can extend into merchandise without starting from a new design brief.
           </p>
         </div>
         <div className={styles.merchGrid}>
@@ -207,7 +206,7 @@ export default function HomePage() {
           <article>
             <span>Technology</span>
             <h3>A build, not a presentation.</h3>
-            <p>A production web app with a structured content pipeline, reusable components, tests, and a real deployment. AI tools did the heavy lifting. The judgment calls were mine.</p>
+            <p>A production Next.js and TypeScript PWA with a structured content pipeline, reusable components, source-linked content, automated tests, and a live Vercel deployment.</p>
           </article>
           <article>
             <span>Execution</span>
@@ -215,6 +214,14 @@ export default function HomePage() {
             <p>Concept, art direction, prototyping, content design, implementation, QA, and launch. Owned from the first sketch to the live URL.</p>
           </article>
         </div>
+        <dl className={styles.buildProof} aria-label="Technical build details">
+          {buildFacts.map(([label, value]) => (
+            <div key={label}>
+              <dt>{label}</dt>
+              <dd>{value}</dd>
+            </div>
+          ))}
+        </dl>
       </section>
 
       <footer id="contact" className={styles.contact}>
