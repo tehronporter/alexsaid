@@ -1,0 +1,67 @@
+// Archived prototype: intentionally excluded from the production Next.js route tree.
+import { catalog } from "@/lib/catalog";
+import { dailyQuoteOrder } from "@/lib/feed";
+import { defaultLocalState } from "@/lib/local-state";
+import { instagramCaption } from "@/lib/social-caption";
+import { getSiteUrl } from "@/lib/site-url";
+
+const GRAPH_API_VERSION = "v21.0";
+
+export async function GET(request: Request) {
+  const startedAt = Date.now();
+  const requestId = request.headers.get("x-vercel-id");
+  const log = (level: "info" | "error", message: string, extra: Record<string, unknown> = {}) =>
+    console[level](JSON.stringify({ level, message, route: "/api/cron/instagram-post", requestId, duration_ms: Date.now() - startedAt, ...extra }));
+
+  if (!process.env.CRON_SECRET || request.headers.get("authorization") !== `Bearer ${process.env.CRON_SECRET}`) {
+    log("error", "instagram post cron unauthorized");
+    return Response.json({ error: "Unauthorized" }, { status: 401 });
+  }
+
+  const accessToken = process.env.IG_ACCESS_TOKEN;
+  const businessAccountId = process.env.IG_BUSINESS_ACCOUNT_ID;
+  if (!accessToken || !businessAccountId) {
+    log("info", "instagram post cron disabled: missing IG credentials");
+    return Response.json({ status: "disabled", reason: "IG_ACCESS_TOKEN or IG_BUSINESS_ACCOUNT_ID is not configured" }, { status: 503 });
+  }
+
+  const quote = dailyQuoteOrder(catalog.quotes, defaultLocalState)[0] ?? catalog.quotes[0];
+  const imageUrl = `${getSiteUrl()}/api/social/feed/${quote.id}`;
+  const caption = instagramCaption(quote);
+
+  try {
+    const containerResponse = await fetch(
+      `https://graph.facebook.com/${GRAPH_API_VERSION}/${businessAccountId}/media`,
+      {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ image_url: imageUrl, caption, access_token: accessToken })
+      }
+    );
+    const containerBody = await containerResponse.json();
+    if (!containerResponse.ok || !containerBody.id) {
+      log("error", "instagram media container creation failed", { quoteId: quote.id, response: containerBody });
+      return Response.json({ error: "Failed to create media container", details: containerBody }, { status: 502 });
+    }
+
+    const publishResponse = await fetch(
+      `https://graph.facebook.com/${GRAPH_API_VERSION}/${businessAccountId}/media_publish`,
+      {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ creation_id: containerBody.id, access_token: accessToken })
+      }
+    );
+    const publishBody = await publishResponse.json();
+    if (!publishResponse.ok || !publishBody.id) {
+      log("error", "instagram media publish failed", { quoteId: quote.id, response: publishBody });
+      return Response.json({ error: "Failed to publish media", details: publishBody }, { status: 502 });
+    }
+
+    log("info", "instagram post cron delivered", { quoteId: quote.id, mediaId: publishBody.id });
+    return Response.json({ status: "posted", quoteId: quote.id, mediaId: publishBody.id });
+  } catch (error) {
+    log("error", "instagram post cron threw", { quoteId: quote.id, error: error instanceof Error ? error.message : String(error) });
+    return Response.json({ error: "Unexpected failure posting to Instagram" }, { status: 500 });
+  }
+}

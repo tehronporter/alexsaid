@@ -1,6 +1,6 @@
-# Hormozi Said
+# Alex Said + Leila Said
 
-A purple-first, text-focused quote PWA built with Next.js 16, React 19, TypeScript, Tailwind CSS, and owned shadcn/Radix components.
+Two source-verified quote PWAs built from one Next.js 16, React 19, and TypeScript product system.
 
 ## Local development
 
@@ -10,10 +10,17 @@ cp .env.example .env.local
 npm run dev
 ```
 
+Alex is the safe default. Run the Leila product locally with:
+
+```bash
+SAID_PRODUCT=leila npm run dev
+```
+
 Core checks:
 
 ```bash
 npm run content:validate
+npm run content:validate:leila
 npm run lint
 npm run typecheck
 npm test
@@ -25,7 +32,7 @@ npm run test:lighthouse # with a production server running on port 3000
 
 ## Content safety gate
 
-`src/data/catalog.json` is generated output, not an editorial workspace. The build-only ledger at `content/editorial-ledger.json` is the source of truth. A quote can enter the public catalog through either two direct-media checks or an editorial review of contiguous cues from an official timestamped transcript. The public catalog identifies the standard used for each quote. Every published quote also needs a quality score of at least 9/10 with no zero dimension and no unresolved source or context warnings. The 20% blind-audit requirement applies to the twice-checked direct-source cohort. There is no numerical quote minimum.
+`src/data/catalog.json` and `src/data/leila/catalog.json` are generated outputs, not editorial workspaces. Alex uses `content/editorial-ledger.json`; Leila uses `content/leila/editorial-ledger.json`. A quote can enter a public catalog through either two direct-media checks or an editorial review of contiguous cues from an official timestamped transcript. The compiler rejects an Alex quote in Leila's catalog, or a Leila quote in Alex's catalog.
 
 Import candidate JSON or CSV into a separate review ledger, then review and generate:
 
@@ -52,4 +59,11 @@ Scheduled delivery remains feature-disabled until Supabase and VAPID are configu
 
 ## Deployment
 
-Connect the repository to Vercel Pro, enable Web Analytics and Speed Insights, and use preview deployments for review. The checked-in workflow runs content validation, linting, type checking, unit tests, production build, and Chromium end-to-end tests.
+Import the same GitHub repository into two Vercel projects:
+
+- Existing Alex project: `SAID_PRODUCT=alex` (or omit it), `NEXT_PUBLIC_SITE_URL` set to the existing Alex production URL, and `LEILA_SITE_URL` set to the final Leila production URL.
+- New Leila project (`leilasaid`): `SAID_PRODUCT=leila` and `NEXT_PUBLIC_SITE_URL=https://leilasaid.vercel.app`.
+
+Set those variables for Production and Preview. Do not add domains, rewrites, or DNS. The Leila project opens the app at `/`; Alex retains its case study at `/` and app at `/app`. See `docs/TWO_PRODUCT_RELEASE.md` for the exact release checklist.
+
+The checked-in workflow runs content validation, linting, type checking, unit tests, a production build, and Chromium end-to-end tests for both products. Social publishing automation is archived in `experiments/instagram-automation` and is not part of either deployment.

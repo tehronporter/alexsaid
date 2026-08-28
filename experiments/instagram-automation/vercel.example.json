@@ -1,0 +1,6 @@
+{
+  "$comment": "Archived prototype only. Do not copy into the repository root for the two-product release.",
+  "crons": [
+    { "path": "/api/cron/instagram-post", "schedule": "0 16 * * *" }
+  ]
+}

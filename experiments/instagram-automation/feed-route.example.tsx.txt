@@ -1,0 +1,45 @@
+// Archived prototype: intentionally excluded from the production Next.js route tree.
+import { ImageResponse } from "next/og";
+import { quoteRepository } from "@/lib/catalog";
+
+export const runtime = "edge";
+
+export async function GET(_request: Request, { params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  const quote = quoteRepository.getById(id);
+  if (!quote) return new Response("Not found", { status: 404 });
+
+  const text = (quote.shareCardVersion ?? quote.text).toUpperCase();
+  const fontSize = text.length > 100 ? 46 : text.length > 60 ? 56 : 68;
+
+  return new ImageResponse(
+    (
+      <div
+        style={{
+          width: "100%",
+          height: "100%",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "space-between",
+          padding: "72px",
+          backgroundImage: "linear-gradient(160deg, #9D6CFF 0%, #6B2CFF 45%, #35108F 100%)",
+          fontFamily: "Arial Narrow, sans-serif",
+          color: "white"
+        }}
+      >
+        <div style={{ display: "flex", fontSize: 76, lineHeight: 1, fontWeight: 700 }}>&ldquo;</div>
+        <div style={{ display: "flex", maxWidth: 900, fontSize, lineHeight: 1.04, fontWeight: 900, textTransform: "uppercase" }}>
+          {text}
+        </div>
+        <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
+          <div style={{ display: "flex", fontSize: 28, fontWeight: 700 }}>{quote.author.toUpperCase()}</div>
+          <div style={{ display: "flex", justifyContent: "space-between", fontSize: 22, fontWeight: 700, opacity: 0.85 }}>
+            <span>ALEX SAID · UNOFFICIAL</span>
+            <span>LINK IN BIO</span>
+          </div>
+        </div>
+      </div>
+    ),
+    { width: 1080, height: 1080 }
+  );
+}

@@ -1,0 +1,9 @@
+// Archived prototype: intentionally excluded from the production TypeScript build.
+import type { Quote } from "@/domain/catalog";
+
+const CTA = "Full app + the build story behind it: link in bio.";
+
+export function instagramCaption(quote: Quote) {
+  const hashtags = ["#AlexHormozi", "#Entrepreneurship", ...quote.tags.slice(0, 3).map((tag) => `#${tag.replace(/-/g, "")}`)];
+  return [`"${quote.text}"`, `— ${quote.author}`, "", CTA, "", hashtags.join(" ")].join("\n");
+}
