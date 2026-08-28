@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-08-25T13:19:21.216Z",
+  "generatedAt": "2026-08-26T04:20:47.074Z",
   "sources": {
-    "total": 1763,
+    "total": 1770,
     "byProvider": {
       "acquisition-com": 81,
       "the-game-rss": 1143,
-      "x": 22,
+      "x": 29,
       "youtube": 517
     },
     "byStatus": {
       "blocked": 560,
       "excluded": 38,
       "mined": 1141,
-      "reviewed": 24
+      "reviewed": 31
     },
-    "terminal": 622,
+    "terminal": 629,
     "unresolvedCount": 1141,
     "unresolvedSample": [
       "the-game-rss-009526dd-4ab9-470a-aa93-fbf7b7d105b4",
@@ -49,16 +49,16 @@
     "unresolved": 18125
   },
   "editorial": {
-    "total": 106,
+    "total": 113,
     "byStatus": {
       "rejected": 9,
-      "verified": 97
+      "verified": 104
     },
     "publishedByVerificationStandard": {
-      "direct-source-twice": 28,
+      "direct-source-twice": 35,
       "official-transcript-reviewed": 69
     },
-    "published": 97,
+    "published": 104,
     "rejected": 9,
     "unresolvedWarnings": 0
   },

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "provider": "x",
   "year": 2024,
-  "updatedAt": "2026-08-25T13:17:41.742Z",
+  "updatedAt": "2026-08-25T21:40:00.000Z",
   "records": [
     {
       "candidateKey": "always-making-things-happen-faster",
@@ -337,6 +337,202 @@
           "evidenceNote": "Independently reopened X's official embed and reconfirmed authorship, exact contiguous text, direct locator, publication metadata, and honest standalone context."
         },
         "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "higher-standards-better-alternatives",
+      "status": "verified",
+      "id": "cde498b0-49ba-5d2d-9e76-c768f16f911b",
+      "text": "People don’t have shorter attention spans, they have higher standards and better alternatives.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Leads & Marketing",
+      "tags": [
+        "attention",
+        "marketing"
+      ],
+      "sourceID": "x-1764701152837357878",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1764701152837357878",
+      "sourceDate": "2024-03-04",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "1764701152837357878"
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex pushes back on the idea that audiences cannot focus, arguing what actually changed is what audiences will tolerate.",
+      "verificationStandard": "direct-source-twice",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-x-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared against the full published catalog by exact, token, and character-ngram similarity with no match."
+      },
+      "createdAt": "2026-08-25T21:40:00.000Z",
+      "updatedAt": "2026-08-25T21:40:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T21:40:06.000Z",
+          "reviewer": "codex-x-embed-pass-one",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened the official publish.x.com embed, confirmed @AlexHormozi authorship, exact contiguous post text, status locator, and displayed publication date."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T21:40:07.000Z",
+          "reviewer": "codex-x-embed-pass-two",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Independently reopened the official X embed and reconfirmed authorship, verbatim wording, direct status URL, and publication metadata."
+        },
+        "blindAudit": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T21:40:08.000Z",
+          "reviewer": "codex-x-embed-blind-audit",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "A third isolated official X embed read matched the same authorship, verbatim text, status locator, and publication date."
+        }
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "standards-when-no-one-is-watching",
+      "status": "verified",
+      "id": "527e0b4b-08a5-5c70-a37b-cd56fda80851",
+      "text": "We don’t rise to the standards we have when others are watching we fall to the standards we have when no one is.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "accountability",
+        "ambition"
+      ],
+      "sourceID": "x-1810115467497095234",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1810115467497095234",
+      "sourceDate": "2024-07-08",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "1810115467497095234"
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex describes standards as what you hold to privately, not what you perform when an audience is present.",
+      "verificationStandard": "direct-source-twice",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-x-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared against the full published catalog by exact, token, and character-ngram similarity with no match."
+      },
+      "createdAt": "2026-08-25T21:40:00.000Z",
+      "updatedAt": "2026-08-25T21:40:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T21:40:18.000Z",
+          "reviewer": "codex-x-embed-pass-one",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened the official publish.x.com embed, confirmed @AlexHormozi authorship, exact contiguous post text, status locator, and displayed publication date."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T21:40:19.000Z",
+          "reviewer": "codex-x-embed-pass-two",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Independently reopened the official X embed and reconfirmed authorship, verbatim wording, direct status URL, and publication metadata."
+        },
+        "blindAudit": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T21:40:20.000Z",
+          "reviewer": "codex-x-embed-blind-audit",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "A third isolated official X embed read matched the same authorship, verbatim text, status locator, and publication date."
+        }
       },
       "quality": {
         "standaloneClarity": 2,

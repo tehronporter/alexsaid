@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "provider": "x",
   "year": 2023,
-  "updatedAt": "2026-08-24T03:49:22.103Z",
+  "updatedAt": "2026-08-25T21:40:00.000Z",
   "sources": [
     {
       "sourceID": "x-1625170518201581568",
@@ -62,6 +62,25 @@
       "blockingReason": null
     },
     {
+      "sourceID": "x-1694024195267604696",
+      "externalID": "1694024195267604696",
+      "provider": "x",
+      "sourceType": "social",
+      "title": "Post on X (@AlexHormozi)",
+      "publisher": "Alex Hormozi",
+      "publishedAt": "2023-08-22",
+      "durationSeconds": null,
+      "canonicalURL": "https://x.com/AlexHormozi/status/1694024195267604696",
+      "mediaURL": null,
+      "transcriptURL": null,
+      "transcriptChecksum": null,
+      "retrievedAt": "2026-08-25T21:40:00.000Z",
+      "discoveryMethod": "direct-official-x-post",
+      "status": "reviewed",
+      "exclusionReason": null,
+      "blockingReason": null
+    },
+    {
       "sourceID": "x-1717407643327971470",
       "externalID": "1717407643327971470",
       "provider": "x",
@@ -98,6 +117,44 @@
       "status": "blocked",
       "exclusionReason": null,
       "blockingReason": "Official X embed truncates before catalog excerpts: customer-backwards-to-money, gonna-die-already-won"
+    },
+    {
+      "sourceID": "x-1720282193862250599",
+      "externalID": "1720282193862250599",
+      "provider": "x",
+      "sourceType": "social",
+      "title": "Post on X (@AlexHormozi)",
+      "publisher": "Alex Hormozi",
+      "publishedAt": "2023-11-03",
+      "durationSeconds": null,
+      "canonicalURL": "https://x.com/AlexHormozi/status/1720282193862250599",
+      "mediaURL": null,
+      "transcriptURL": null,
+      "transcriptChecksum": null,
+      "retrievedAt": "2026-08-25T21:40:00.000Z",
+      "discoveryMethod": "direct-official-x-post",
+      "status": "reviewed",
+      "exclusionReason": null,
+      "blockingReason": null
+    },
+    {
+      "sourceID": "x-1725983511515984283",
+      "externalID": "1725983511515984283",
+      "provider": "x",
+      "sourceType": "social",
+      "title": "Post on X (@AlexHormozi)",
+      "publisher": "Alex Hormozi",
+      "publishedAt": "2023-11-18",
+      "durationSeconds": null,
+      "canonicalURL": "https://x.com/AlexHormozi/status/1725983511515984283",
+      "mediaURL": null,
+      "transcriptURL": null,
+      "transcriptChecksum": null,
+      "retrievedAt": "2026-08-25T21:40:00.000Z",
+      "discoveryMethod": "direct-official-x-post",
+      "status": "reviewed",
+      "exclusionReason": null,
+      "blockingReason": null
     }
   ]
 }

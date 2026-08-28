@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "provider": "x",
   "year": 2023,
-  "updatedAt": "2026-08-25T13:17:41.742Z",
+  "updatedAt": "2026-08-25T21:40:00.000Z",
   "records": [
     {
       "candidateKey": "customer-backwards-to-money",
@@ -530,6 +530,302 @@
       },
       "rejectionNotes": [],
       "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "mediocre-people-world-class-goals",
+      "status": "verified",
+      "id": "aeb83054-2e29-53fb-b0a2-db89f8a3c783",
+      "text": "Don’t expect mediocre people to support world class goals.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Leadership & Teams",
+      "tags": [
+        "ambition",
+        "leadership"
+      ],
+      "sourceID": "x-1725983511515984283",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1725983511515984283",
+      "sourceDate": "2023-11-18",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "1725983511515984283"
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Alex warns that people who have not pursued a demanding goal themselves often will not encourage one.",
+      "verificationStandard": "direct-source-twice",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-x-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared against the full published catalog by exact, token, and character-ngram similarity with no match."
+      },
+      "createdAt": "2026-08-25T21:40:00.000Z",
+      "updatedAt": "2026-08-25T21:40:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T21:40:09.000Z",
+          "reviewer": "codex-x-embed-pass-one",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened the official publish.x.com embed, confirmed @AlexHormozi authorship, exact contiguous post text, status locator, and displayed publication date."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T21:40:10.000Z",
+          "reviewer": "codex-x-embed-pass-two",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Independently reopened the official X embed and reconfirmed authorship, verbatim wording, direct status URL, and publication metadata."
+        },
+        "blindAudit": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T21:40:11.000Z",
+          "reviewer": "codex-x-embed-blind-audit",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "A third isolated official X embed read matched the same authorship, verbatim text, status locator, and publication date."
+        }
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 1
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "changed-versus-grown",
+      "status": "verified",
+      "id": "30994773-36f2-5e45-9e78-3da7305b39c6",
+      "text": "When your friends start to say “you’ve changed” - remember it’s because they don’t know how to say “you’ve grown.”",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "resilience"
+      ],
+      "sourceID": "x-1694024195267604696",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1694024195267604696",
+      "sourceDate": "2023-08-22",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "1694024195267604696"
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex reframes a common criticism from friends as a description of growth rather than of betrayal.",
+      "verificationStandard": "direct-source-twice",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-x-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared against the full published catalog by exact, token, and character-ngram similarity with no match."
+      },
+      "createdAt": "2026-08-25T21:40:00.000Z",
+      "updatedAt": "2026-08-25T21:40:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T21:40:12.000Z",
+          "reviewer": "codex-x-embed-pass-one",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened the official publish.x.com embed, confirmed @AlexHormozi authorship, exact contiguous post text, status locator, and displayed publication date."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T21:40:13.000Z",
+          "reviewer": "codex-x-embed-pass-two",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Independently reopened the official X embed and reconfirmed authorship, verbatim wording, direct status URL, and publication metadata."
+        },
+        "blindAudit": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T21:40:14.000Z",
+          "reviewer": "codex-x-embed-blind-audit",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "A third isolated official X embed read matched the same authorship, verbatim text, status locator, and publication date."
+        }
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "fit-in-or-be-exceptional",
+      "status": "verified",
+      "id": "418a0b89-d70e-5092-994f-a1c8b2c2cb37",
+      "text": "You can’t fit in and also be exceptional. Both have discomfort. When you fit in, you have internal conflict because you’re not being 100% you. When you’re exceptional, you have external conflict because everyone sees you as different. Pick.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "ambition",
+        "perspective",
+        "decision-making"
+      ],
+      "sourceID": "x-1720282193862250599",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1720282193862250599",
+      "sourceDate": "2023-11-03",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "1720282193862250599"
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex lays out the tradeoff between belonging and standing out, and argues that both choices carry a cost.",
+      "verificationStandard": "direct-source-twice",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-x-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared against the full published catalog by exact, token, and character-ngram similarity with no match."
+      },
+      "createdAt": "2026-08-25T21:40:00.000Z",
+      "updatedAt": "2026-08-25T21:40:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T21:40:15.000Z",
+          "reviewer": "codex-x-embed-pass-one",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened the official publish.x.com embed, confirmed @AlexHormozi authorship, exact contiguous post text, status locator, and displayed publication date."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T21:40:16.000Z",
+          "reviewer": "codex-x-embed-pass-two",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Independently reopened the official X embed and reconfirmed authorship, verbatim wording, direct status URL, and publication metadata."
+        },
+        "blindAudit": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T21:40:17.000Z",
+          "reviewer": "codex-x-embed-blind-audit",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "A third isolated official X embed read matched the same authorship, verbatim text, status locator, and publication date."
+        }
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": [],
+      "shortVersion": "You can’t fit in and also be exceptional…"
     }
   ]
 }

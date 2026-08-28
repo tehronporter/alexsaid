@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "provider": "x",
   "year": 2022,
-  "updatedAt": "2026-08-25T13:17:41.742Z",
+  "updatedAt": "2026-08-25T21:40:00.000Z",
   "records": [
     {
       "candidateKey": "learn-sales-from-close-calls",
@@ -199,6 +199,204 @@
       },
       "rejectionNotes": [],
       "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "consistency-not-complexity",
+      "status": "verified",
+      "id": "6712e851-db2e-530a-8083-c6c3c9e8ac33",
+      "text": "Success is hard because it requires consistency not complexity.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "execution",
+        "productivity"
+      ],
+      "sourceID": "x-1564957397977669633",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1564957397977669633",
+      "sourceDate": "2022-08-31",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "1564957397977669633"
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex reframes why success is difficult: the hard part is repeating simple actions, not finding a more complicated method.",
+      "verificationStandard": "direct-source-twice",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-x-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared against the full published catalog by exact, token, and character-ngram similarity with no match."
+      },
+      "createdAt": "2026-08-25T21:40:00.000Z",
+      "updatedAt": "2026-08-25T21:40:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T21:40:00.000Z",
+          "reviewer": "codex-x-embed-pass-one",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened the official publish.x.com embed, confirmed @AlexHormozi authorship, exact contiguous post text, status locator, and displayed publication date."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T21:40:01.000Z",
+          "reviewer": "codex-x-embed-pass-two",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Independently reopened the official X embed and reconfirmed authorship, verbatim wording, direct status URL, and publication metadata."
+        },
+        "blindAudit": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T21:40:02.000Z",
+          "reviewer": "codex-x-embed-blind-audit",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "A third isolated official X embed read matched the same authorship, verbatim text, status locator, and publication date."
+        }
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "outwork-your-self-doubt",
+      "status": "verified",
+      "id": "389e9452-7204-595e-825e-6ee2de4599f7",
+      "text": "You don’t become confident by shouting affirmations in the mirror, but by having a stack of undeniable proof that you are who you say you are. Outwork your self doubt.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "resilience",
+        "accountability",
+        "execution"
+      ],
+      "sourceID": "x-1586441477952921600",
+      "sourceType": "social",
+      "sourceTitle": "Post on X (@AlexHormozi)",
+      "sourceURL": "https://x.com/AlexHormozi/status/1586441477952921600",
+      "sourceDate": "2022-10-29",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Original post",
+        "postID": "1586441477952921600"
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Alex argues confidence is built from an accumulated record of your own work rather than from self-talk.",
+      "verificationStandard": "direct-source-twice",
+      "provenance": {
+        "transcriptFingerprint": null,
+        "cueStart": null,
+        "cueEnd": null,
+        "batchID": "batch-x-2026-08-25",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Compared against the full published catalog by exact, token, and character-ngram similarity with no match."
+      },
+      "createdAt": "2026-08-25T21:40:00.000Z",
+      "updatedAt": "2026-08-25T21:40:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T21:40:03.000Z",
+          "reviewer": "codex-x-embed-pass-one",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Reopened the official publish.x.com embed, confirmed @AlexHormozi authorship, exact contiguous post text, status locator, and displayed publication date."
+        },
+        "secondPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T21:40:04.000Z",
+          "reviewer": "codex-x-embed-pass-two",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Independently reopened the official X embed and reconfirmed authorship, verbatim wording, direct status URL, and publication metadata."
+        },
+        "blindAudit": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-25T21:40:05.000Z",
+          "reviewer": "codex-x-embed-blind-audit",
+          "method": "direct-web-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "A third isolated official X embed read matched the same authorship, verbatim text, status locator, and publication date."
+        }
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": [],
+      "shortVersion": "…Outwork your self doubt."
     }
   ]
 }
