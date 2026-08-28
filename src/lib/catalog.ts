@@ -1,5 +1,7 @@
-import rawCatalog from "@/data/catalog.json";
-import rawCatalogV3 from "@/data/catalog.v3.json";
+import rawAlexCatalog from "@/data/catalog.json";
+import rawAlexCatalogV3 from "@/data/catalog.v3.json";
+import rawLeilaCatalog from "@/data/leila/catalog.json";
+import rawLeilaCatalogV3 from "@/data/leila/catalog.v3.json";
 import {
   quoteCatalogSchema,
   quoteCatalogV3Schema,
@@ -9,6 +11,10 @@ import {
   type QuoteRepository
 } from "@/domain/catalog";
 import { rankQuotes } from "@/lib/search";
+import { activeProductID } from "@/lib/product";
+
+const rawCatalog = activeProductID === "leila" ? rawLeilaCatalog : rawAlexCatalog;
+const rawCatalogV3 = activeProductID === "leila" ? rawLeilaCatalogV3 : rawAlexCatalogV3;
 
 export const catalog: QuoteCatalogV2 = quoteCatalogSchema.parse(rawCatalog);
 export const catalogV3 = quoteCatalogV3Schema.parse(rawCatalogV3);

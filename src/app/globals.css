@@ -11,6 +11,11 @@
   --near-black: #0b0b0b;
   --dark-gray: #1a1a1a;
   --muted-purple: #d6c7ff;
+  --quote-bg: var(--purple);
+  --quote-fg: var(--white);
+  --quote-muted: rgb(255 255 255 / 85%);
+  --quote-subtle: rgb(255 255 255 / 60%);
+  --quote-rule: rgb(255 255 255 / 40%);
   --border-light: rgb(255 255 255 / 18%);
   --focus-ring: var(--purple-light);
   --radius-control: 0.75rem;
@@ -121,11 +126,12 @@ button, a { touch-action: manipulation; }
 ::selection { background: var(--purple); color: var(--white); }
 :focus-visible { outline: 3px solid var(--focus-ring); outline-offset: 3px; }
 
-.quote-surface :focus-visible { outline-color: var(--white); }
+.quote-surface :focus-visible { outline-color: var(--quote-fg); }
 
 .purple-field {
   position: relative;
-  background: var(--purple);
+  background: var(--quote-bg);
+  color: var(--quote-fg);
 }
 
 .quote-stage { position: relative; }

@@ -1,5 +1,6 @@
 import { expect, test } from "@playwright/test";
-import catalogJSON from "../../src/data/catalog.json" with { type: "json" };
+import alexCatalog from "../../src/data/catalog.json" with { type: "json" };
+import leilaCatalog from "../../src/data/leila/catalog.json" with { type: "json" };
 import { pinClock, settleAnimations } from "./pinned-clock";
 
 const completedState = {
@@ -12,6 +13,11 @@ const completedState = {
   lastQuoteID: null,
   successfulSwipeCount: 0,
 };
+
+const leilaProduct = process.env.SAID_PRODUCT === "leila";
+const catalogJSON = leilaProduct ? leilaCatalog : alexCatalog;
+const stateKey = leilaProduct ? "leila-said:user-state:v1" : "hormozi-said:user-state:v1";
+const snapshot = (name: string) => leilaProduct ? `${name}-leila.png` : `${name}.png`;
 
 const quotesByLength = [...catalogJSON.quotes].sort((left, right) => left.text.trim().length - right.text.trim().length);
 const shortestQuote = quotesByLength[0]!;
@@ -26,7 +32,7 @@ const reviewQuotes = [
 test.beforeEach(async ({ page }) => {
   await pinClock(page);
   await page.goto("/");
-  await page.evaluate((state) => localStorage.setItem("hormozi-said:user-state:v1", JSON.stringify(state)), completedState);
+  await page.evaluate(({ state, storageKey }) => localStorage.setItem(storageKey, JSON.stringify(state)), { state: completedState, storageKey: stateKey });
 });
 
 for (const [label, quote] of reviewQuotes) {
@@ -54,17 +60,17 @@ for (const [label, quote] of reviewQuotes) {
     expect(boxes.text?.bottom ?? 0).toBeLessThan(boxes.author?.top ?? 0);
     expect(boxes.author?.bottom ?? 0).toBeLessThan(boxes.actions?.top ?? 0);
     expect(boxes.actions?.bottom ?? 0).toBeLessThanOrEqual(boxes.navigation?.top ?? Number.POSITIVE_INFINITY);
-    await expect(page).toHaveScreenshot(`${label}-quote.png`);
+    await expect(page).toHaveScreenshot(snapshot(`${label}-quote`));
   });
 }
 
 test("learned swipe state removes the hint", async ({ page }, testInfo) => {
   test.skip(testInfo.project.name !== "modern-iphone");
-  await page.evaluate(() => {
-    const state = JSON.parse(localStorage.getItem("hormozi-said:user-state:v1") ?? "{}");
-    localStorage.setItem("hormozi-said:user-state:v1", JSON.stringify({ ...state, successfulSwipeCount: 3 }));
-  });
+  await page.evaluate((storageKey) => {
+    const state = JSON.parse(localStorage.getItem(storageKey) ?? "{}");
+    localStorage.setItem(storageKey, JSON.stringify({ ...state, successfulSwipeCount: 3 }));
+  }, stateKey);
   await page.goto(`/q/${shortestQuote.id}`);
   await expect(page.locator(".swipe-hint")).not.toBeVisible();
-  await expect(page).toHaveScreenshot("swipe-learned.png");
+  await expect(page).toHaveScreenshot(snapshot("swipe-learned"));
 });

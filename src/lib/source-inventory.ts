@@ -4,13 +4,13 @@ import { CONTENT_ROOT, listJSONFiles, readJSON } from "@/lib/content-files";
 
 export const SOURCE_INVENTORY_ROOT = join(CONTENT_ROOT, "sources");
 
-export async function loadSourceShards() {
-  const files = await listJSONFiles(SOURCE_INVENTORY_ROOT);
+export async function loadSourceShards(sourceRoot = SOURCE_INVENTORY_ROOT) {
+  const files = await listJSONFiles(sourceRoot);
   return Promise.all(files.map(async (file) => ({ file, shard: sourceShardSchema.parse(await readJSON<unknown>(file)) })));
 }
 
-export async function loadSources(): Promise<SourceRecord[]> {
-  const shards = await loadSourceShards();
+export async function loadSources(sourceRoot = SOURCE_INVENTORY_ROOT): Promise<SourceRecord[]> {
+  const shards = await loadSourceShards(sourceRoot);
   return shards.flatMap(({ shard }) => shard.sources).sort((left, right) => left.sourceID.localeCompare(right.sourceID));
 }
 

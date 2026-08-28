@@ -161,11 +161,11 @@ export function sourceURLIssues(record: Pick<EditorialRecord, "sourceURL" | "sou
   return issues;
 }
 
-export function publishabilityIssues(record: EditorialRecord) {
+export function publishabilityIssues(record: EditorialRecord, expectedAuthor: "Alex Hormozi" | "Leila Hormozi" = "Alex Hormozi") {
   const issues: string[] = [];
   if (record.status !== "verified") issues.push(`Record status is ${record.status}, not verified`);
   if (!record.id) issues.push("Accepted record has no stable UUID");
-  if (record.author !== "Alex Hormozi") issues.push(`Unsupported attribution: ${record.author}`);
+  if (record.author !== expectedAuthor) issues.push(`Unsupported attribution for ${expectedAuthor}: ${record.author}`);
   if (record.provenance.duplicateDecision === "reject") issues.push("Duplicate review decision rejects this record");
   issues.push(...passIssues(record.verification.firstPass, "First-pass"));
   if (record.verification.blindAudit) issues.push(...passIssues(record.verification.blindAudit, "Blind-audit"));
@@ -209,9 +209,9 @@ export function transitionEditorialRecord(record: EditorialRecord, nextStatus: E
   return candidate;
 }
 
-function compilationErrors(ledger: EditorialLedger, sources: readonly SourceRecord[], taxonomy: Taxonomy) {
+function compilationErrors(ledger: EditorialLedger, sources: readonly SourceRecord[], taxonomy: Taxonomy, expectedAuthor: "Alex Hormozi" | "Leila Hormozi") {
   const verified = ledger.records.filter((record) => record.status === "verified");
-  const errors = verified.flatMap((record) => publishabilityIssues(record).map((issue) => `${record.candidateKey}: ${issue}`));
+  const errors = verified.flatMap((record) => publishabilityIssues(record, expectedAuthor).map((issue) => `${record.candidateKey}: ${issue}`));
   const directSourceVerified = verified.filter((record) => record.verificationStandard === "direct-source-twice");
   const audited = directSourceVerified.filter(({ verification }) => verification.blindAudit && passIssues(verification.blindAudit, "Blind-audit").length === 0).length;
   const requiredAudits = Math.ceil(directSourceVerified.length * 0.2);
@@ -241,8 +241,8 @@ function compilationErrors(ledger: EditorialLedger, sources: readonly SourceReco
   return { errors, verified, sourceByID };
 }
 
-export function generateCatalogV3(ledger: EditorialLedger, sources: readonly SourceRecord[], taxonomy: Taxonomy, generatedAt = new Date().toISOString()): QuoteCatalogV3 {
-  const { errors, verified, sourceByID } = compilationErrors(ledger, sources, taxonomy);
+export function generateCatalogV3(ledger: EditorialLedger, sources: readonly SourceRecord[], taxonomy: Taxonomy, generatedAt = new Date().toISOString(), expectedAuthor: "Alex Hormozi" | "Leila Hormozi" = "Alex Hormozi"): QuoteCatalogV3 {
+  const { errors, verified, sourceByID } = compilationErrors(ledger, sources, taxonomy, expectedAuthor);
   if (errors.length > 0) throw new Error(errors.join("\n"));
 
   const usedSourceIDs = new Set(verified.map((record) => record.sourceID));

@@ -1,0 +1,1970 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-08-28T19:00:00.000Z",
+  "records": [
+    {
+      "candidateKey": "build-rss-ep-374-q-25",
+      "status": "verified",
+      "id": "01957b97-6a0e-4f18-a432-a923a165c472",
+      "text": "life happens on the way to your goals. Not once you get there.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "goals",
+        "perspective"
+      ],
+      "sourceID": "build-rss-ep-374",
+      "sourceType": "podcast",
+      "sourceTitle": "Success Is Who You Become, Behavior Beats Mindset, and Clarity Creates Speed | Ep. 374",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/01KWGBSAF712MMDRVVVJW38BCS.mp3#t=98",
+      "sourceDate": "2026-07-02",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 98,
+        "endSeconds": 147
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Leila reflects on why progress and life happen during the process rather than at the finish line.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:443c85625653645a6889559d7447ded729e016e88c189bcd84e5bc98bf74e280",
+        "cueStart": 4,
+        "cueEnd": 5,
+        "batchID": "leila-build-launch",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest launch-catalog similarity 0.19; no material duplicate found."
+      },
+      "createdAt": "2026-08-28T19:00:00.000Z",
+      "updatedAt": "2026-08-28T19:00:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-28T19:00:00.000Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched an exact contiguous excerpt in official BUILD transcript cues 4-5; surrounding cues were reviewed for context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "build-rss-ep-374-q-26",
+      "status": "verified",
+      "id": "5bafcc5e-113c-44d9-a318-acaf855662e7",
+      "text": "It really taught me that success is about who you become. It's about the character that you build.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "resilience",
+        "goals"
+      ],
+      "sourceID": "build-rss-ep-374",
+      "sourceType": "podcast",
+      "sourceTitle": "Success Is Who You Become, Behavior Beats Mindset, and Clarity Creates Speed | Ep. 374",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/01KWGBSAF712MMDRVVVJW38BCS.mp3#t=158",
+      "sourceDate": "2026-07-02",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 158,
+        "endSeconds": 185
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Leila describes success as the character built through a demanding process.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:443c85625653645a6889559d7447ded729e016e88c189bcd84e5bc98bf74e280",
+        "cueStart": 7,
+        "cueEnd": 7,
+        "batchID": "leila-build-launch",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest launch-catalog similarity 0.19; no material duplicate found."
+      },
+      "createdAt": "2026-08-28T19:00:00.000Z",
+      "updatedAt": "2026-08-28T19:00:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-28T19:00:00.000Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched an exact contiguous excerpt in official BUILD transcript cues 7-7; surrounding cues were reviewed for context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "build-rss-ep-374-q-27",
+      "status": "verified",
+      "id": "946eda23-cd38-4abd-a560-947705179116",
+      "text": "But different is created through the process, not this artificial ceremony of what you just did.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "goals"
+      ],
+      "sourceID": "build-rss-ep-374",
+      "sourceType": "podcast",
+      "sourceTitle": "Success Is Who You Become, Behavior Beats Mindset, and Clarity Creates Speed | Ep. 374",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/01KWGBSAF712MMDRVVVJW38BCS.mp3#t=200",
+      "sourceDate": "2026-07-02",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 200,
+        "endSeconds": 230
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Leila contrasts personal change through a process with the brief ceremony of an outcome.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:443c85625653645a6889559d7447ded729e016e88c189bcd84e5bc98bf74e280",
+        "cueStart": 9,
+        "cueEnd": 9,
+        "batchID": "leila-build-launch",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest launch-catalog similarity 0.20; no material duplicate found."
+      },
+      "createdAt": "2026-08-28T19:00:00.000Z",
+      "updatedAt": "2026-08-28T19:00:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-28T19:00:00.000Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched an exact contiguous excerpt in official BUILD transcript cues 9-9; surrounding cues were reviewed for context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "build-rss-ep-374-q-28",
+      "status": "verified",
+      "id": "6676d502-5f54-4ce2-a154-4bd1861a27a6",
+      "text": "It is more valuable and you will learn more if you practice being successful than if you visualize being successful.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "execution",
+        "learning"
+      ],
+      "sourceID": "build-rss-ep-374",
+      "sourceType": "podcast",
+      "sourceTitle": "Success Is Who You Become, Behavior Beats Mindset, and Clarity Creates Speed | Ep. 374",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/01KWGBSAF712MMDRVVVJW38BCS.mp3#t=544",
+      "sourceDate": "2026-07-02",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 544,
+        "endSeconds": 562
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Leila favors practicing successful behavior over relying only on visualization.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:443c85625653645a6889559d7447ded729e016e88c189bcd84e5bc98bf74e280",
+        "cueStart": 24,
+        "cueEnd": 24,
+        "batchID": "leila-build-launch",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest launch-catalog similarity 0.14; no material duplicate found."
+      },
+      "createdAt": "2026-08-28T19:00:00.000Z",
+      "updatedAt": "2026-08-28T19:00:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-28T19:00:00.000Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched an exact contiguous excerpt in official BUILD transcript cues 24-24; surrounding cues were reviewed for context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "build-rss-ep-374-q-29",
+      "status": "verified",
+      "id": "544a2941-bc18-43c3-ae5e-3c2d66e8e204",
+      "text": "clarity creates speed. Speed leads to progress. Progress leads to momentum, and momentum leads to success.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "execution",
+        "focus",
+        "goals"
+      ],
+      "sourceID": "build-rss-ep-374",
+      "sourceType": "podcast",
+      "sourceTitle": "Success Is Who You Become, Behavior Beats Mindset, and Clarity Creates Speed | Ep. 374",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/01KWGBSAF712MMDRVVVJW38BCS.mp3#t=607",
+      "sourceDate": "2026-07-02",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 607,
+        "endSeconds": 636
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Leila links clear direction with the momentum created by consistent progress.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:443c85625653645a6889559d7447ded729e016e88c189bcd84e5bc98bf74e280",
+        "cueStart": 27,
+        "cueEnd": 27,
+        "batchID": "leila-build-launch",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest launch-catalog similarity 0.11; no material duplicate found."
+      },
+      "createdAt": "2026-08-28T19:00:00.000Z",
+      "updatedAt": "2026-08-28T19:00:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-28T19:00:00.000Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched an exact contiguous excerpt in official BUILD transcript cues 27-27; surrounding cues were reviewed for context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "build-rss-ep-376-q-21",
+      "status": "verified",
+      "id": "c1076260-4207-43f4-ac31-c35e32c1146f",
+      "text": "It is okay to feel unsure and you can still speak confidently. Those things can exist at the same time.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "resilience"
+      ],
+      "sourceID": "build-rss-ep-376",
+      "sourceType": "podcast",
+      "sourceTitle": "5 Ways to Project Confidence (Even When You Don’t Feel It) | Ep. 376",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/01KX1CDHBAAN6D5XMJEEPGHBAV.mp3#t=162",
+      "sourceDate": "2026-07-09",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 162,
+        "endSeconds": 188
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Leila separates the internal feeling of uncertainty from the external choice to communicate clearly.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:18cba2fa30ed577f23cf2975a2ec2e6a3560618fdf06c6bef38e7748571f0f1b",
+        "cueStart": 8,
+        "cueEnd": 8,
+        "batchID": "leila-build-launch",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest launch-catalog similarity 0.17; no material duplicate found."
+      },
+      "createdAt": "2026-08-28T19:00:00.000Z",
+      "updatedAt": "2026-08-28T19:00:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-28T19:00:00.000Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched an exact contiguous excerpt in official BUILD transcript cues 8-8; surrounding cues were reviewed for context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "build-rss-ep-376-q-22",
+      "status": "verified",
+      "id": "fef178f6-4e47-4972-a489-bdc5e13f8b59",
+      "text": "I can't always control my thoughts, but I can control how I act.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "accountability",
+        "perspective"
+      ],
+      "sourceID": "build-rss-ep-376",
+      "sourceType": "podcast",
+      "sourceTitle": "5 Ways to Project Confidence (Even When You Don’t Feel It) | Ep. 376",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/01KX1CDHBAAN6D5XMJEEPGHBAV.mp3#t=301",
+      "sourceDate": "2026-07-09",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 301,
+        "endSeconds": 320
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Leila explains why behavior can remain intentional even when thoughts are difficult to control.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:18cba2fa30ed577f23cf2975a2ec2e6a3560618fdf06c6bef38e7748571f0f1b",
+        "cueStart": 13,
+        "cueEnd": 13,
+        "batchID": "leila-build-launch",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest launch-catalog similarity 0.14; no material duplicate found."
+      },
+      "createdAt": "2026-08-28T19:00:00.000Z",
+      "updatedAt": "2026-08-28T19:00:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-28T19:00:00.000Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched an exact contiguous excerpt in official BUILD transcript cues 13-13; surrounding cues were reviewed for context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "build-rss-ep-376-q-23",
+      "status": "verified",
+      "id": "a9f0ce5d-7569-4bd0-a40a-30a10d6055f1",
+      "text": "The best leaders and the most confident people that I know ask the most questions, listen the most, probably do more listening and less talking in meetings.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Leadership & Teams",
+      "tags": [
+        "leadership",
+        "learning"
+      ],
+      "sourceID": "build-rss-ep-376",
+      "sourceType": "podcast",
+      "sourceTitle": "5 Ways to Project Confidence (Even When You Don’t Feel It) | Ep. 376",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/01KX1CDHBAAN6D5XMJEEPGHBAV.mp3#t=1139",
+      "sourceDate": "2026-07-09",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 1139,
+        "endSeconds": 1163
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Leila contrasts grounded confidence with dominating a room or talking over other people.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:18cba2fa30ed577f23cf2975a2ec2e6a3560618fdf06c6bef38e7748571f0f1b",
+        "cueStart": 53,
+        "cueEnd": 53,
+        "batchID": "leila-build-launch",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest launch-catalog similarity 0.22; no material duplicate found."
+      },
+      "createdAt": "2026-08-28T19:00:00.000Z",
+      "updatedAt": "2026-08-28T19:00:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-28T19:00:00.000Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched an exact contiguous excerpt in official BUILD transcript cues 53-53; surrounding cues were reviewed for context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "build-rss-ep-376-q-24",
+      "status": "verified",
+      "id": "6e465bd1-9ceb-4c13-a7ac-dbcbfb31585e",
+      "text": "There's something you do every day where you can practice one of these things. Be very specific.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "execution",
+        "learning"
+      ],
+      "sourceID": "build-rss-ep-376",
+      "sourceType": "podcast",
+      "sourceTitle": "5 Ways to Project Confidence (Even When You Don’t Feel It) | Ep. 376",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/01KX1CDHBAAN6D5XMJEEPGHBAV.mp3#t=1265",
+      "sourceDate": "2026-07-09",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 1265,
+        "endSeconds": 1294
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Leila recommends attaching confidence practice to a specific recurring situation.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:18cba2fa30ed577f23cf2975a2ec2e6a3560618fdf06c6bef38e7748571f0f1b",
+        "cueStart": 58,
+        "cueEnd": 58,
+        "batchID": "leila-build-launch",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest launch-catalog similarity 0.18; no material duplicate found."
+      },
+      "createdAt": "2026-08-28T19:00:00.000Z",
+      "updatedAt": "2026-08-28T19:00:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-28T19:00:00.000Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched an exact contiguous excerpt in official BUILD transcript cues 58-58; surrounding cues were reviewed for context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "build-rss-ep-378-q-16",
+      "status": "verified",
+      "id": "f7a7b646-cba7-4286-abdc-139d948a05d9",
+      "text": "All skills are additional, whereas leadership is the only skill that multiplies.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Leadership & Teams",
+      "tags": [
+        "leadership",
+        "scaling"
+      ],
+      "sourceID": "build-rss-ep-378",
+      "sourceType": "podcast",
+      "sourceTitle": "Leaders Solve Instead of Complain, and Business Is Always Personal | Ep. 378",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/01KXKZ7RR1JDG8181BC7HSH1Z3.mp3#t=0",
+      "sourceDate": "2026-07-16",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 0,
+        "endSeconds": 29
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Leila explains why leadership multiplies the value of every other capability in a company.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:0c8045b0a9dd9d86d01466370fe604e57d8dbe6df668f9400957e98e8554fc1b",
+        "cueStart": 0,
+        "cueEnd": 0,
+        "batchID": "leila-build-launch",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest launch-catalog similarity 0.15; no material duplicate found."
+      },
+      "createdAt": "2026-08-28T19:00:00.000Z",
+      "updatedAt": "2026-08-28T19:00:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-28T19:00:00.000Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched an exact contiguous excerpt in official BUILD transcript cues 0-0; surrounding cues were reviewed for context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "build-rss-ep-378-q-17",
+      "status": "verified",
+      "id": "a6f43a7f-3b8b-4a8b-a6f2-4c24de21d635",
+      "text": "So the best leaders I've recognized on a call when they bring me a problem, they spend about 10% of the time on the problem and 90% of the time on the possible solutions to solve it.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Leadership & Teams",
+      "tags": [
+        "leadership",
+        "problem-solving"
+      ],
+      "sourceID": "build-rss-ep-378",
+      "sourceType": "podcast",
+      "sourceTitle": "Leaders Solve Instead of Complain, and Business Is Always Personal | Ep. 378",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/01KXKZ7RR1JDG8181BC7HSH1Z3.mp3#t=95",
+      "sourceDate": "2026-07-16",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 95,
+        "endSeconds": 114
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Leila describes the problem-to-solution ratio she sees in effective leaders.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:0c8045b0a9dd9d86d01466370fe604e57d8dbe6df668f9400957e98e8554fc1b",
+        "cueStart": 4,
+        "cueEnd": 4,
+        "batchID": "leila-build-launch",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest launch-catalog similarity 0.23; no material duplicate found."
+      },
+      "createdAt": "2026-08-28T19:00:00.000Z",
+      "updatedAt": "2026-08-28T19:00:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-28T19:00:00.000Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched an exact contiguous excerpt in official BUILD transcript cues 4-4; surrounding cues were reviewed for context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "build-rss-ep-378-q-18",
+      "status": "verified",
+      "id": "d0c8d428-a766-4b5e-afcb-9d91d6c1b5e7",
+      "text": "And in the moment when I'm dealing with the problem, I ask myself, am I focusing in my thoughts on the problem or on what I need to do next?",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "problem-solving",
+        "execution",
+        "focus"
+      ],
+      "sourceID": "build-rss-ep-378",
+      "sourceType": "podcast",
+      "sourceTitle": "Leaders Solve Instead of Complain, and Business Is Always Personal | Ep. 378",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/01KXKZ7RR1JDG8181BC7HSH1Z3.mp3#t=185",
+      "sourceDate": "2026-07-16",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 185,
+        "endSeconds": 206
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Leila shares a live self-audit for moving attention from an obstacle to the next action.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:0c8045b0a9dd9d86d01466370fe604e57d8dbe6df668f9400957e98e8554fc1b",
+        "cueStart": 8,
+        "cueEnd": 8,
+        "batchID": "leila-build-launch",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest launch-catalog similarity 0.19; no material duplicate found."
+      },
+      "createdAt": "2026-08-28T19:00:00.000Z",
+      "updatedAt": "2026-08-28T19:00:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-28T19:00:00.000Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched an exact contiguous excerpt in official BUILD transcript cues 8-8; surrounding cues were reviewed for context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "build-rss-ep-378-q-19",
+      "status": "verified",
+      "id": "bfeebb7c-88e7-46c6-a576-46a78e182ecd",
+      "text": "And the values you live your personal life by, whether you like it or not, become the values at which you operate your company.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Leadership & Teams",
+      "tags": [
+        "leadership",
+        "accountability"
+      ],
+      "sourceID": "build-rss-ep-378",
+      "sourceType": "podcast",
+      "sourceTitle": "Leaders Solve Instead of Complain, and Business Is Always Personal | Ep. 378",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/01KXKZ7RR1JDG8181BC7HSH1Z3.mp3#t=398",
+      "sourceDate": "2026-07-16",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 398,
+        "endSeconds": 417
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Leila connects a leader's personal conduct with the values that appear inside the company.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:0c8045b0a9dd9d86d01466370fe604e57d8dbe6df668f9400957e98e8554fc1b",
+        "cueStart": 17,
+        "cueEnd": 17,
+        "batchID": "leila-build-launch",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest launch-catalog similarity 0.20; no material duplicate found."
+      },
+      "createdAt": "2026-08-28T19:00:00.000Z",
+      "updatedAt": "2026-08-28T19:00:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-28T19:00:00.000Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched an exact contiguous excerpt in official BUILD transcript cues 17-17; surrounding cues were reviewed for context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "build-rss-ep-378-q-20",
+      "status": "verified",
+      "id": "e6809ea5-e6b4-4fcd-a811-d3026e8faeb1",
+      "text": "And it's funny because people say like values, like values are what you do, not what you say.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Leadership & Teams",
+      "tags": [
+        "leadership",
+        "accountability"
+      ],
+      "sourceID": "build-rss-ep-378",
+      "sourceType": "podcast",
+      "sourceTitle": "Leaders Solve Instead of Complain, and Business Is Always Personal | Ep. 378",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/01KXKZ7RR1JDG8181BC7HSH1Z3.mp3#t=416",
+      "sourceDate": "2026-07-16",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 416,
+        "endSeconds": 442
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Leila emphasizes that values are visible in repeated behavior rather than stated intention.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:0c8045b0a9dd9d86d01466370fe604e57d8dbe6df668f9400957e98e8554fc1b",
+        "cueStart": 18,
+        "cueEnd": 18,
+        "batchID": "leila-build-launch",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest launch-catalog similarity 0.25; no material duplicate found."
+      },
+      "createdAt": "2026-08-28T19:00:00.000Z",
+      "updatedAt": "2026-08-28T19:00:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-28T19:00:00.000Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched an exact contiguous excerpt in official BUILD transcript cues 18-18; surrounding cues were reviewed for context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "build-rss-ep-381-q-11",
+      "status": "verified",
+      "id": "2b1435df-b770-4d9d-a887-2a3439457953",
+      "text": "A great leader hires people smarter than them.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Leadership & Teams",
+      "tags": [
+        "leadership",
+        "learning"
+      ],
+      "sourceID": "build-rss-ep-381",
+      "sourceType": "podcast",
+      "sourceTitle": "Hire People Smarter Than You, Pick the Right People, and Adapt to Reality | Ep. 381",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/01KYJRHDHZ704WKQD96HM3K07Q.mp3#t=0",
+      "sourceDate": "2026-07-28",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 0,
+        "endSeconds": 29
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Leila opens with a standard for leaders who want the company and themselves to grow.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:3e0e671521ec972f4337bc2f48de322ff31b69134eb445f1c36d2107546902e3",
+        "cueStart": 0,
+        "cueEnd": 0,
+        "batchID": "leila-build-launch",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest launch-catalog similarity 0.24; no material duplicate found."
+      },
+      "createdAt": "2026-08-28T19:00:00.000Z",
+      "updatedAt": "2026-08-28T19:00:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-28T19:00:00.000Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched an exact contiguous excerpt in official BUILD transcript cues 0-0; surrounding cues were reviewed for context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "build-rss-ep-381-q-12",
+      "status": "verified",
+      "id": "d48e170c-17bf-4af4-a07d-3598ec2b9758",
+      "text": "Just like you shortcut your way to making more money in investing by using other people's money, you can shortcut your way to success in business by using other people's brains.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Operations & Scaling",
+      "tags": [
+        "scaling",
+        "leadership",
+        "learning"
+      ],
+      "sourceID": "build-rss-ep-381",
+      "sourceType": "podcast",
+      "sourceTitle": "Hire People Smarter Than You, Pick the Right People, and Adapt to Reality | Ep. 381",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/01KYJRHDHZ704WKQD96HM3K07Q.mp3#t=187",
+      "sourceDate": "2026-07-28",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 187,
+        "endSeconds": 212
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Leila compares hiring specialized talent to using leverage in investing.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:3e0e671521ec972f4337bc2f48de322ff31b69134eb445f1c36d2107546902e3",
+        "cueStart": 8,
+        "cueEnd": 8,
+        "batchID": "leila-build-launch",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest launch-catalog similarity 0.19; no material duplicate found."
+      },
+      "createdAt": "2026-08-28T19:00:00.000Z",
+      "updatedAt": "2026-08-28T19:00:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-28T19:00:00.000Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched an exact contiguous excerpt in official BUILD transcript cues 8-8; surrounding cues were reviewed for context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "build-rss-ep-381-q-13",
+      "status": "verified",
+      "id": "289eceb8-15a7-456d-a64d-cbe94e6d54d7",
+      "text": "The goal is to hire people who beat you at what you were doing, who are better than you at what you were doing.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Leadership & Teams",
+      "tags": [
+        "leadership",
+        "scaling"
+      ],
+      "sourceID": "build-rss-ep-381",
+      "sourceType": "podcast",
+      "sourceTitle": "Hire People Smarter Than You, Pick the Right People, and Adapt to Reality | Ep. 381",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/01KYJRHDHZ704WKQD96HM3K07Q.mp3#t=211",
+      "sourceDate": "2026-07-28",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 211,
+        "endSeconds": 240
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Leila says a strong hire should raise the standard of work the leader previously owned.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:3e0e671521ec972f4337bc2f48de322ff31b69134eb445f1c36d2107546902e3",
+        "cueStart": 9,
+        "cueEnd": 9,
+        "batchID": "leila-build-launch",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest launch-catalog similarity 0.24; no material duplicate found."
+      },
+      "createdAt": "2026-08-28T19:00:00.000Z",
+      "updatedAt": "2026-08-28T19:00:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-28T19:00:00.000Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched an exact contiguous excerpt in official BUILD transcript cues 9-9; surrounding cues were reviewed for context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "build-rss-ep-381-q-14",
+      "status": "verified",
+      "id": "79fe5f7f-6add-464a-aae5-8ddc544cbde4",
+      "text": "The best leaders learn to adapt to that change and they come out stronger on the other end.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Leadership & Teams",
+      "tags": [
+        "leadership",
+        "resilience"
+      ],
+      "sourceID": "build-rss-ep-381",
+      "sourceType": "podcast",
+      "sourceTitle": "Hire People Smarter Than You, Pick the Right People, and Adapt to Reality | Ep. 381",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/01KYJRHDHZ704WKQD96HM3K07Q.mp3#t=569",
+      "sourceDate": "2026-07-28",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 569,
+        "endSeconds": 600
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Leila frames adaptation as a defining response to fear, change, and uncertain conditions.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:3e0e671521ec972f4337bc2f48de322ff31b69134eb445f1c36d2107546902e3",
+        "cueStart": 25,
+        "cueEnd": 25,
+        "batchID": "leila-build-launch",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest launch-catalog similarity 0.23; no material duplicate found."
+      },
+      "createdAt": "2026-08-28T19:00:00.000Z",
+      "updatedAt": "2026-08-28T19:00:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-28T19:00:00.000Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched an exact contiguous excerpt in official BUILD transcript cues 25-25; surrounding cues were reviewed for context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "build-rss-ep-381-q-15",
+      "status": "verified",
+      "id": "5a8ff2ac-993e-48a1-a153-2fa522288bff",
+      "text": "Do I argue with reality or do I respond to reality?",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "decision-making",
+        "resilience"
+      ],
+      "sourceID": "build-rss-ep-381",
+      "sourceType": "podcast",
+      "sourceTitle": "Hire People Smarter Than You, Pick the Right People, and Adapt to Reality | Ep. 381",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/01KYJRHDHZ704WKQD96HM3K07Q.mp3#t=666",
+      "sourceDate": "2026-07-28",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 666,
+        "endSeconds": 697
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Leila offers a question for checking whether a leader is adapting or resisting current conditions.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:3e0e671521ec972f4337bc2f48de322ff31b69134eb445f1c36d2107546902e3",
+        "cueStart": 29,
+        "cueEnd": 29,
+        "batchID": "leila-build-launch",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest launch-catalog similarity 0.19; no material duplicate found."
+      },
+      "createdAt": "2026-08-28T19:00:00.000Z",
+      "updatedAt": "2026-08-28T19:00:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-28T19:00:00.000Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched an exact contiguous excerpt in official BUILD transcript cues 29-29; surrounding cues were reviewed for context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "build-rss-ep-383-q-06",
+      "status": "verified",
+      "id": "69240406-e257-4d34-a07b-e5428150328f",
+      "text": "It's usually been because I haven't had clarity around what the number one priority is, or I felt like I've had to balance like 17 things at once.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "prioritization",
+        "focus"
+      ],
+      "sourceID": "build-rss-ep-383",
+      "sourceType": "podcast",
+      "sourceTitle": "How to Win the Season You’re Currently In | Ep. 383",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/01KZ966MAZGWGAZDQQJ2W29NB2.mp3#t=124",
+      "sourceDate": "2026-08-05",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 124,
+        "endSeconds": 148
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Leila connects dissatisfaction with a lack of clarity about the current number-one priority.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:5a1a8818af9aa696063d5504e114602462e34403a0cdb3afb3404d1589299aa4",
+        "cueStart": 6,
+        "cueEnd": 6,
+        "batchID": "leila-build-launch",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest launch-catalog similarity 0.20; no material duplicate found."
+      },
+      "createdAt": "2026-08-28T19:00:00.000Z",
+      "updatedAt": "2026-08-28T19:00:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-28T19:00:00.000Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched an exact contiguous excerpt in official BUILD transcript cues 6-6; surrounding cues were reviewed for context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "build-rss-ep-383-q-07",
+      "status": "verified",
+      "id": "febe0264-dec5-4fe9-ae3e-966404895bfc",
+      "text": "But I think that it is so freeing once you do it, because the irony of it is that not deciding is still a decision.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "decision-making",
+        "prioritization"
+      ],
+      "sourceID": "build-rss-ep-383",
+      "sourceType": "podcast",
+      "sourceTitle": "How to Win the Season You’re Currently In | Ep. 383",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/01KZ966MAZGWGAZDQQJ2W29NB2.mp3#t=288",
+      "sourceDate": "2026-08-05",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 288,
+        "endSeconds": 313
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Leila argues that avoiding a decision is itself a consequential choice.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:5a1a8818af9aa696063d5504e114602462e34403a0cdb3afb3404d1589299aa4",
+        "cueStart": 13,
+        "cueEnd": 13,
+        "batchID": "leila-build-launch",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest launch-catalog similarity 0.26; no material duplicate found."
+      },
+      "createdAt": "2026-08-28T19:00:00.000Z",
+      "updatedAt": "2026-08-28T19:00:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-28T19:00:00.000Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched an exact contiguous excerpt in official BUILD transcript cues 13-13; surrounding cues were reviewed for context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "build-rss-ep-383-q-08",
+      "status": "verified",
+      "id": "de96b5b1-5401-41c9-a319-bdcf273acf6f",
+      "text": "A decision is not a decision unless you have to sacrifice.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "decision-making",
+        "strategy"
+      ],
+      "sourceID": "build-rss-ep-383",
+      "sourceType": "podcast",
+      "sourceTitle": "How to Win the Season You’re Currently In | Ep. 383",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/01KZ966MAZGWGAZDQQJ2W29NB2.mp3#t=431",
+      "sourceDate": "2026-08-05",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 431,
+        "endSeconds": 461
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Leila defines a real decision by the options and investments it requires a person to give up.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:5a1a8818af9aa696063d5504e114602462e34403a0cdb3afb3404d1589299aa4",
+        "cueStart": 20,
+        "cueEnd": 20,
+        "batchID": "leila-build-launch",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest launch-catalog similarity 0.21; no material duplicate found."
+      },
+      "createdAt": "2026-08-28T19:00:00.000Z",
+      "updatedAt": "2026-08-28T19:00:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-28T19:00:00.000Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched an exact contiguous excerpt in official BUILD transcript cues 20-20; surrounding cues were reviewed for context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "build-rss-ep-383-q-09",
+      "status": "verified",
+      "id": "3df7b74d-fd76-4d59-a957-b6eb3660139b",
+      "text": "you don't need to feel guilty for the fact that not everything is a fucking priority right now. I actually think there's something like really freeing about that because if everything's a priority, then nothing is.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "prioritization",
+        "focus"
+      ],
+      "sourceID": "build-rss-ep-383",
+      "sourceType": "podcast",
+      "sourceTitle": "How to Win the Season You’re Currently In | Ep. 383",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/01KZ966MAZGWGAZDQQJ2W29NB2.mp3#t=572",
+      "sourceDate": "2026-08-05",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 572,
+        "endSeconds": 599
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Leila explains why a season needs an explicit hierarchy instead of treating everything as equally urgent.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:5a1a8818af9aa696063d5504e114602462e34403a0cdb3afb3404d1589299aa4",
+        "cueStart": 26,
+        "cueEnd": 26,
+        "batchID": "leila-build-launch",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest launch-catalog similarity 0.26; no material duplicate found."
+      },
+      "createdAt": "2026-08-28T19:00:00.000Z",
+      "updatedAt": "2026-08-28T19:00:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-28T19:00:00.000Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched an exact contiguous excerpt in official BUILD transcript cues 26-26; surrounding cues were reviewed for context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "build-rss-ep-383-q-10",
+      "status": "verified",
+      "id": "c39d2c61-0fd8-4c8c-a662-e073eb243961",
+      "text": "If you can just make a choice about what matters most to you right now and accept that that means other things won't get as much time and attention or they will have less rather than none. I think a lot more people would be a lot happier.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "prioritization",
+        "perspective"
+      ],
+      "sourceID": "build-rss-ep-383",
+      "sourceType": "podcast",
+      "sourceTitle": "How to Win the Season You’re Currently In | Ep. 383",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/01KZ966MAZGWGAZDQQJ2W29NB2.mp3#t=735",
+      "sourceDate": "2026-08-05",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 735,
+        "endSeconds": 761
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Leila closes by asking people to choose what matters in the present season and accept the tradeoff.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:5a1a8818af9aa696063d5504e114602462e34403a0cdb3afb3404d1589299aa4",
+        "cueStart": 33,
+        "cueEnd": 33,
+        "batchID": "leila-build-launch",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest launch-catalog similarity 0.16; no material duplicate found."
+      },
+      "createdAt": "2026-08-28T19:00:00.000Z",
+      "updatedAt": "2026-08-28T19:00:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-28T19:00:00.000Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched an exact contiguous excerpt in official BUILD transcript cues 33-33; surrounding cues were reviewed for context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "build-rss-ep-384-q-01",
+      "status": "verified",
+      "id": "d8dd1268-e10b-4252-a68b-d01a90b2f85f",
+      "text": "You can have empathy for somebody yet not take responsibility for their feelings.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "decision-making",
+        "accountability",
+        "perspective"
+      ],
+      "sourceID": "build-rss-ep-384",
+      "sourceType": "podcast",
+      "sourceTitle": "You're Not Empathetic. You're Just Scared to Disappoint People | Ep. 384",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/01M0BJGHN0YM72E4RV6DGJK43M.mp3#t=219",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 219,
+        "endSeconds": 226
+      },
+      "featured": true,
+      "containsProfanity": false,
+      "context": "Leila distinguishes empathy from assuming responsibility for another person's emotional response.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:e86ad381a4bd2302f933785036c6e387f93ff764c9e016ec65e228e9f5ebdbee",
+        "cueStart": 49,
+        "cueEnd": 50,
+        "batchID": "leila-build-launch",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest launch-catalog similarity 0.17; no material duplicate found."
+      },
+      "createdAt": "2026-08-28T19:00:00.000Z",
+      "updatedAt": "2026-08-28T19:00:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-28T19:00:00.000Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched an exact contiguous excerpt in official BUILD transcript cues 49-50; surrounding cues were reviewed for context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "build-rss-ep-384-q-02",
+      "status": "verified",
+      "id": "67f62413-ed33-4b76-a98a-4ac5a109280a",
+      "text": "If you say yes, because you're worried about the reaction someone's gonna give if you say no, then it's all of a sudden like, what I'm really worried about is how they're gonna deal with their emotions.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "decision-making",
+        "accountability"
+      ],
+      "sourceID": "build-rss-ep-384",
+      "sourceType": "podcast",
+      "sourceTitle": "You're Not Empathetic. You're Just Scared to Disappoint People | Ep. 384",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/01M0BJGHN0YM72E4RV6DGJK43M.mp3#t=235",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 235,
+        "endSeconds": 248
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Leila explains how anticipated reactions can quietly turn a boundary into an unwanted yes.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:e86ad381a4bd2302f933785036c6e387f93ff764c9e016ec65e228e9f5ebdbee",
+        "cueStart": 53,
+        "cueEnd": 53,
+        "batchID": "leila-build-launch",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest launch-catalog similarity 0.20; no material duplicate found."
+      },
+      "createdAt": "2026-08-28T19:00:00.000Z",
+      "updatedAt": "2026-08-28T19:00:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-28T19:00:00.000Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched an exact contiguous excerpt in official BUILD transcript cues 53-53; surrounding cues were reviewed for context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "build-rss-ep-384-q-03",
+      "status": "verified",
+      "id": "e9531908-58e9-4f4a-a50a-3baaca9b9b1f",
+      "text": "people treat the feeling of guilt as evidence that they've done something wrong.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "accountability"
+      ],
+      "sourceID": "build-rss-ep-384",
+      "sourceType": "podcast",
+      "sourceTitle": "You're Not Empathetic. You're Just Scared to Disappoint People | Ep. 384",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/01M0BJGHN0YM72E4RV6DGJK43M.mp3#t=581",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 581,
+        "endSeconds": 595
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Leila challenges the assumption that feeling guilty is proof a decision was wrong.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:e86ad381a4bd2302f933785036c6e387f93ff764c9e016ec65e228e9f5ebdbee",
+        "cueStart": 121,
+        "cueEnd": 121,
+        "batchID": "leila-build-launch",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest launch-catalog similarity 0.21; no material duplicate found."
+      },
+      "createdAt": "2026-08-28T19:00:00.000Z",
+      "updatedAt": "2026-08-28T19:00:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-28T19:00:00.000Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched an exact contiguous excerpt in official BUILD transcript cues 121-121; surrounding cues were reviewed for context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "build-rss-ep-384-q-04",
+      "status": "verified",
+      "id": "04dca221-c60d-46d5-aaa1-a3e023d8c907",
+      "text": "What if feeling guilty, you could feel guilty whether you did wrong or right?",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "decision-making"
+      ],
+      "sourceID": "build-rss-ep-384",
+      "sourceType": "podcast",
+      "sourceTitle": "You're Not Empathetic. You're Just Scared to Disappoint People | Ep. 384",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/01M0BJGHN0YM72E4RV6DGJK43M.mp3#t=611",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 611,
+        "endSeconds": 615
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Leila reframes guilt as a feeling that can accompany either a right or wrong choice.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:e86ad381a4bd2302f933785036c6e387f93ff764c9e016ec65e228e9f5ebdbee",
+        "cueStart": 129,
+        "cueEnd": 129,
+        "batchID": "leila-build-launch",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest launch-catalog similarity 0.21; no material duplicate found."
+      },
+      "createdAt": "2026-08-28T19:00:00.000Z",
+      "updatedAt": "2026-08-28T19:00:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-28T19:00:00.000Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched an exact contiguous excerpt in official BUILD transcript cues 129-129; surrounding cues were reviewed for context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "build-rss-ep-384-q-05",
+      "status": "verified",
+      "id": "b2906975-297a-40b5-a1bf-43f7ea9fbbf2",
+      "text": "And that's okay because I have so much more freedom in my life and I feel like I'm living my life in a way that is in accordance with my values and not in accordance with other people's feelings.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "accountability"
+      ],
+      "sourceID": "build-rss-ep-384",
+      "sourceType": "podcast",
+      "sourceTitle": "You're Not Empathetic. You're Just Scared to Disappoint People | Ep. 384",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/01M0BJGHN0YM72E4RV6DGJK43M.mp3#t=758",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 758,
+        "endSeconds": 768
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Leila describes the freedom that comes from making decisions according to her values.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:e86ad381a4bd2302f933785036c6e387f93ff764c9e016ec65e228e9f5ebdbee",
+        "cueStart": 155,
+        "cueEnd": 155,
+        "batchID": "leila-build-launch",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Nearest launch-catalog similarity 0.25; no material duplicate found."
+      },
+      "createdAt": "2026-08-28T19:00:00.000Z",
+      "updatedAt": "2026-08-28T19:00:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-28T19:00:00.000Z",
+          "reviewer": "Codex transcript editorial review",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched an exact contiguous excerpt in official BUILD transcript cues 155-155; surrounding cues were reviewed for context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [],
+      "unresolvedWarnings": []
+    }
+  ],
+  "collections": [
+    {
+      "slug": "lead-with-clarity",
+      "title": "Lead with clarity",
+      "description": "Clear standards, stronger teams, and a bias toward solving.",
+      "quoteIDs": [
+        "2b1435df-b770-4d9d-a887-2a3439457953",
+        "289eceb8-15a7-456d-a64d-cbe94e6d54d7",
+        "f7a7b646-cba7-4286-abdc-139d948a05d9",
+        "a6f43a7f-3b8b-4a8b-a6f2-4c24de21d635",
+        "bfeebb7c-88e7-46c6-a576-46a78e182ecd",
+        "a9f0ce5d-7569-4bd0-a40a-30a10d6055f1"
+      ],
+      "displayOrder": 0
+    },
+    {
+      "slug": "choose-what-matters",
+      "title": "Choose what matters",
+      "description": "Priorities, tradeoffs, and decisions for the season you are in.",
+      "quoteIDs": [
+        "69240406-e257-4d34-a07b-e5428150328f",
+        "febe0264-dec5-4fe9-ae3e-966404895bfc",
+        "de96b5b1-5401-41c9-a319-bdcf273acf6f",
+        "3df7b74d-fd76-4d59-a957-b6eb3660139b",
+        "c39d2c61-0fd8-4c8c-a662-e073eb243961",
+        "5a8ff2ac-993e-48a1-a153-2fa522288bff"
+      ],
+      "displayOrder": 1
+    },
+    {
+      "slug": "build-earned-confidence",
+      "title": "Build earned confidence",
+      "description": "Use behavior, practice, and perspective to act through uncertainty.",
+      "quoteIDs": [
+        "e9531908-58e9-4f4a-a50a-3baaca9b9b1f",
+        "c1076260-4207-43f4-ac31-c35e32c1146f",
+        "fef178f6-4e47-4972-a489-bdc5e13f8b59",
+        "6e465bd1-9ceb-4c13-a7ac-dbcbfb31585e",
+        "01957b97-6a0e-4f18-a432-a923a165c472",
+        "5bafcc5e-113c-44d9-a318-acaf855662e7",
+        "6676d502-5f54-4ce2-a154-4bd1861a27a6",
+        "544a2941-bc18-43c3-ae5e-3c2d66e8e204"
+      ],
+      "displayOrder": 2
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 "use client";
 
 import type { Quote } from "@/domain/catalog";
+import type { BrandConfig } from "@/domain/product";
 
 export type ShareCardFormat = "square" | "story";
 
@@ -17,7 +18,7 @@ export function wrapShareCardLines(context: Pick<CanvasRenderingContext2D, "meas
   return lines;
 }
 
-export async function renderShareCardBlob(quote: Quote, format: ShareCardFormat) {
+export async function renderShareCardBlob(quote: Quote, format: ShareCardFormat, brand: BrandConfig) {
   await document.fonts.ready;
   const width = 1080;
   const height = format === "square" ? 1080 : 1920;
@@ -27,11 +28,15 @@ export async function renderShareCardBlob(quote: Quote, format: ShareCardFormat)
   const context = canvas.getContext("2d");
   if (!context) throw new Error("Canvas is not available");
 
-  const gradient = context.createLinearGradient(0, 0, width, height);
-  gradient.addColorStop(0, "#9D6CFF");
-  gradient.addColorStop(0.45, "#6B2CFF");
-  gradient.addColorStop(1, "#35108F");
-  context.fillStyle = gradient;
+  if (brand.id === "alex") {
+    const gradient = context.createLinearGradient(0, 0, width, height);
+    gradient.addColorStop(0, brand.colors.primaryLight);
+    gradient.addColorStop(0.45, brand.colors.primary);
+    gradient.addColorStop(1, "#35108F");
+    context.fillStyle = gradient;
+  } else {
+    context.fillStyle = brand.colors.shareBackground;
+  }
   context.fillRect(0, 0, width, height);
 
   context.globalAlpha = 0.13;
@@ -44,7 +49,7 @@ export async function renderShareCardBlob(quote: Quote, format: ShareCardFormat)
   context.globalAlpha = 1;
 
   const horizontalPadding = 96;
-  context.fillStyle = "#FFFFFF";
+  context.fillStyle = brand.colors.shareForeground;
   context.font = "700 100px 'Bebas Neue', 'Arial Narrow', sans-serif";
   context.fillText("“", horizontalPadding, format === "square" ? 150 : 240);
 
@@ -59,7 +64,7 @@ export async function renderShareCardBlob(quote: Quote, format: ShareCardFormat)
   context.font = "700 30px Inter, sans-serif";
   context.fillText(quote.author.toUpperCase(), horizontalPadding, startY + contentHeight + 64);
   context.font = "700 25px Inter, sans-serif";
-  context.fillText("ALEX SAID", horizontalPadding, height - 92);
+  context.fillText(brand.productName.toUpperCase(), horizontalPadding, height - 92);
   context.textAlign = "right";
   context.fillText("UNOFFICIAL FAN APP", width - horizontalPadding, height - 92);
 
@@ -68,12 +73,12 @@ export async function renderShareCardBlob(quote: Quote, format: ShareCardFormat)
   });
 }
 
-export async function downloadShareCard(quote: Quote, format: ShareCardFormat) {
-  const blob = await renderShareCardBlob(quote, format);
+export async function downloadShareCard(quote: Quote, format: ShareCardFormat, brand: BrandConfig) {
+  const blob = await renderShareCardBlob(quote, format, brand);
   const url = URL.createObjectURL(blob);
   const anchor = document.createElement("a");
   anchor.href = url;
-  anchor.download = `hormozi-said-${quote.id}-${format}.png`;
+  anchor.download = `${brand.id}-said-${quote.id}-${format}.png`;
   anchor.click();
   URL.revokeObjectURL(url);
 }

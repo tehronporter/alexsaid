@@ -6,6 +6,7 @@ const isoDateTimeSchema = z.string().datetime({ offset: true });
 
 export const sourceProviderSchema = z.enum([
   "the-game-rss",
+  "build-rss",
   "youtube",
   "x",
   "acquisition-com",

@@ -19,6 +19,7 @@ describe("quote typography", () => {
 
   it("returns reusable stage and panel classes for the selected tier", () => {
     expect(quoteDisplaySize("x".repeat(37))).toBe("quote-copy quote-copy--xl");
+    expect(quoteDisplaySize("Productivity comes from all the things you choose not to do.")).toBe("quote-copy quote-copy--large");
     expect(quoteDisplaySize("x".repeat(241), "panel")).toBe("quote-copy quote-panel-copy quote-copy--small");
   });
 });

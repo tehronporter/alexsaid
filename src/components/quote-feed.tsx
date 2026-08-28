@@ -14,11 +14,13 @@ import { trackProductEvent } from "@/lib/analytics";
 import { quoteDisplaySize, quoteTypographyStyle } from "@/lib/typography";
 import { useOptionalCatalog } from "@/components/catalog-provider";
 import { verificationLabel } from "@/lib/verification-label";
+import { useBrand } from "@/components/brand-provider";
 
 let hasShownSaveHint = false;
 const EMPTY_QUOTES: readonly Quote[] = [];
 
 export function QuoteFeed({ quotes: suppliedQuotes, initialQuote, initialQuoteID, developmentFixture: suppliedDevelopmentFixture }: { quotes?: readonly Quote[]; initialQuote?: Quote; initialQuoteID?: string; developmentFixture?: boolean }) {
+  const brand = useBrand();
   const catalogContext = useOptionalCatalog();
   const catalogQuotes = catalogContext?.catalog?.quotes;
   const quotes = useMemo(() => suppliedQuotes ?? catalogQuotes ?? (initialQuote ? [initialQuote] : EMPTY_QUOTES), [suppliedQuotes, catalogQuotes, initialQuote]);
@@ -84,8 +86,8 @@ export function QuoteFeed({ quotes: suppliedQuotes, initialQuote, initialQuoteID
 
   useEffect(() => {
     if (!quote) return;
-    trackProductEvent("quote_viewed", { quote_id: quote.id, category: quote.primaryCategory });
-  }, [quote]);
+    trackProductEvent("quote_viewed", { product: brand.id, quote_id: quote.id, category: quote.primaryCategory });
+  }, [brand.id, quote]);
 
   if (!quote) return <main className="quote-surface purple-field min-h-dvh" aria-busy="true"><p className="sr-only">Loading quote catalog</p></main>;
 
@@ -110,10 +112,10 @@ export function QuoteFeed({ quotes: suppliedQuotes, initialQuote, initialQuoteID
           }}
         >
           <header data-testid="quote-header" className="relative z-10 flex items-baseline justify-between">
-            <p className="text-sm font-extrabold tracking-[0.12em]">ALEX SAID</p>
+            <p className="text-sm font-extrabold tracking-[0.12em]">{brand.productName.toUpperCase()}</p>
             <div className="flex items-center gap-4">
-              <p className="text-[0.68rem] font-semibold tabular-nums tracking-[0.08em] text-white/85 lg:hidden">{String(index + 1).padStart(2, "0")}</p>
-              {developmentFixture ? <span className="border border-white/30 px-2 py-1 text-[0.62rem] font-bold uppercase tracking-[0.12em]">Dev content</span> : null}
+              <p className="text-[0.68rem] font-semibold tabular-nums tracking-[0.08em] text-[var(--quote-muted)] lg:hidden">{String(index + 1).padStart(2, "0")}</p>
+              {developmentFixture ? <span className="border border-[var(--quote-rule)] px-2 py-1 text-[0.62rem] font-bold uppercase tracking-[0.12em]">Dev content</span> : null}
             </div>
           </header>
 
@@ -123,11 +125,11 @@ export function QuoteFeed({ quotes: suppliedQuotes, initialQuote, initialQuoteID
             style={{ transform: `translateY(${-dragY * 0.4}px)`, transition: dragging ? "none" : "transform 320ms var(--ease-ios)" }}
           >
             <div key={quote.id} className={`w-full ${enterDirection === 1 ? "animate-quote-up" : "animate-quote-down"}`}>
-              <div className="quote-category flex items-center gap-3 uppercase text-white"><span className="h-px w-6 bg-white/60" aria-hidden="true" />{quote.primaryCategory}</div>
-              <span className="quote-mark display-type text-white" aria-hidden="true">“</span>
-              <blockquote data-testid="quote-text" data-quote-size={quoteStyle} className={`display-type mt-2 max-w-4xl ${quoteSize} uppercase tracking-[0.01em] text-white xl:max-w-[64rem] 2xl:max-w-[72rem]`}>{quote.text}</blockquote>
+              <div className="quote-category flex items-center gap-3 uppercase text-[var(--quote-fg)]"><span className="h-px w-6 bg-[var(--quote-subtle)]" aria-hidden="true" />{quote.primaryCategory}</div>
+              <span className="quote-mark display-type text-[var(--quote-fg)]" aria-hidden="true">“</span>
+              <blockquote data-testid="quote-text" data-quote-size={quoteStyle} className={`display-type mt-2 max-w-4xl ${quoteSize} uppercase tracking-[0.01em] text-[var(--quote-fg)] xl:max-w-[64rem] 2xl:max-w-[72rem]`}>{quote.text}</blockquote>
               <div data-testid="quote-author" className="quote-author flex items-center gap-3">
-                <span className="hidden h-px w-10 bg-white/40 lg:block" aria-hidden="true" />
+                <span className="hidden h-px w-10 bg-[var(--quote-rule)] lg:block" aria-hidden="true" />
                 <p className="text-sm font-extrabold uppercase tracking-[0.08em]">{quote.author}</p>
               </div>
             </div>
@@ -136,7 +138,7 @@ export function QuoteFeed({ quotes: suppliedQuotes, initialQuote, initialQuoteID
           <div data-testid="quote-actions" className="relative z-10 flex gap-[var(--quote-control-gap)]">
             <Button className="size-[var(--quote-control-size)] rounded-full bg-black p-0 text-white hover:bg-white hover:text-black [&_svg]:size-5" aria-label={saved ? "Remove quote from saved" : "Save quote"} onClick={() => {
               toggleSaved(quote.id);
-              trackProductEvent(saved ? "quote_unsaved" : "quote_saved", { quote_id: quote.id, category: quote.primaryCategory });
+              trackProductEvent(saved ? "quote_unsaved" : "quote_saved", { product: brand.id, quote_id: quote.id, category: quote.primaryCategory });
               if (!saved && !hasShownSaveHint) { hasShownSaveHint = true; toast.success("Saved for later", { description: "Find it anytime in Saved." }); }
               else toast.success(saved ? "Removed from saved" : "Saved for later");
             }}><ProductIcon name="save" filled={saved} /></Button>
@@ -144,7 +146,7 @@ export function QuoteFeed({ quotes: suppliedQuotes, initialQuote, initialQuoteID
             <Button asChild className="size-[var(--quote-control-size)] rounded-full bg-black p-0 text-white hover:bg-white hover:text-black [&_svg]:size-5"><Link href={`/source/${quote.id}`} aria-label="View quote source"><ProductIcon name="external" /></Link></Button>
           </div>
 
-          <p className="swipe-hint relative z-10 text-center text-[0.65rem] font-bold uppercase tracking-[0.14em] text-white/85 lg:hidden" data-learned={swipeLearned} aria-hidden={swipeLearned}><span>Swipe for another</span></p>
+          <p className="swipe-hint relative z-10 text-center text-[0.65rem] font-bold uppercase tracking-[0.14em] text-[var(--quote-muted)] lg:hidden" data-learned={swipeLearned} aria-hidden={swipeLearned}><span>Swipe for another</span></p>
         </section>
 
         <aside className="rail-glass hidden gap-10 border-l border-white/10 px-7 py-12 text-white lg:flex lg:flex-col lg:justify-between">
@@ -161,7 +163,7 @@ export function QuoteFeed({ quotes: suppliedQuotes, initialQuote, initialQuoteID
           </div>
 
           <div className="border-t border-white/10 pt-6">
-            <p className="text-[0.68rem] font-bold uppercase tracking-[0.16em] text-white/45">Source</p>
+            <p className="text-[0.68rem] font-bold uppercase tracking-[0.16em] text-white/55">Source</p>
             <p className="mt-3 line-clamp-2 text-sm font-semibold leading-snug text-white/90">{quote.sourceTitle ?? "Source title unavailable"}</p>
             <div className="mt-3 flex flex-wrap items-center gap-x-2 gap-y-1.5 text-xs text-white/55">
               <span className="capitalize">{quote.sourceType}</span>
@@ -173,7 +175,7 @@ export function QuoteFeed({ quotes: suppliedQuotes, initialQuote, initialQuoteID
           <div className="space-y-3">
             <Button asChild className="w-full bg-white text-black hover:bg-white/90"><Link href={`/source/${quote.id}`}>View source<ProductIcon name="external" /></Link></Button>
             <ShareActions quote={quote} trigger={<Button variant="outline" className="w-full border-white/20 bg-transparent text-white hover:bg-white hover:text-black">Share this quote<ProductIcon name="share" /></Button>} />
-            <p className="pt-3 text-[0.62rem] leading-relaxed text-white/45">Unofficial and fan-made. Every quote links to its public source and states its review standard.</p>
+            <p className="pt-3 text-[0.62rem] leading-relaxed text-white/55">Unofficial and fan-made. Every quote links to its public source and states its review standard.</p>
           </div>
         </aside>
       </div>

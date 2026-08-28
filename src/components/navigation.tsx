@@ -6,15 +6,17 @@ import type { SurfaceMode } from "@/components/app-shell";
 import { BrandMark } from "@/components/brand-mark";
 import { ProductIcon } from "@/components/product-icon";
 import { cn } from "@/lib/utils";
+import { useBrand } from "@/components/brand-provider";
 
-const items = [
-  { href: "/app", label: "Quote", icon: "quote", matches: (path: string) => path === "/app" || path.startsWith("/q/") || path.startsWith("/source/") },
+const libraryItems = [
   { href: "/discover", label: "Discover", icon: "discover", matches: (path: string) => path.startsWith("/discover") || path.startsWith("/collections/") },
   { href: "/saved", label: "Saved", icon: "save", matches: (path: string) => path.startsWith("/saved") },
   { href: "/more", label: "More", icon: "more", matches: (path: string) => path.startsWith("/more") || path.startsWith("/settings") || path.startsWith("/install") || path.startsWith("/privacy") || path.startsWith("/terms") || path.startsWith("/disclaimer") },
 ] as const;
 
-function NavItem({ item, mobile = false }: { item: (typeof items)[number]; mobile?: boolean }) {
+type NavigationItem = (typeof libraryItems)[number] | { href: string; label: "Quote"; icon: "quote"; matches: (path: string) => boolean };
+
+function NavItem({ item, mobile = false }: { item: NavigationItem; mobile?: boolean }) {
   const pathname = usePathname();
   const active = item.matches(pathname);
   return (
@@ -36,6 +38,11 @@ function NavItem({ item, mobile = false }: { item: (typeof items)[number]; mobil
 }
 
 export function DesktopNavigation({ surfaceMode }: { surfaceMode: SurfaceMode }) {
+  const brand = useBrand();
+  const items: readonly NavigationItem[] = [
+    { href: brand.homePath, label: "Quote", icon: "quote", matches: (path) => path === brand.homePath || path.startsWith("/q/") || path.startsWith("/source/") },
+    ...libraryItems
+  ];
   return (
     <aside data-nav-surface={surfaceMode} className="app-rail fixed inset-y-0 left-0 z-40 hidden w-20 flex-col border-r border-white/12 bg-[var(--near-black)] px-2 py-6 lg:flex">
       <BrandMark compact className="mb-10 justify-center" />
@@ -47,6 +54,11 @@ export function DesktopNavigation({ surfaceMode }: { surfaceMode: SurfaceMode })
 }
 
 export function MobileNavigation({ surfaceMode }: { surfaceMode: SurfaceMode }) {
+  const brand = useBrand();
+  const items: readonly NavigationItem[] = [
+    { href: brand.homePath, label: "Quote", icon: "quote", matches: (path) => path === brand.homePath || path.startsWith("/q/") || path.startsWith("/source/") },
+    ...libraryItems
+  ];
   return (
     <nav data-nav-surface={surfaceMode} className="fixed inset-x-0 bottom-0 z-50 flex min-h-[var(--tab-bar-height)] border-t border-white/12 bg-[rgb(8_8_8/0.96)] px-2 pt-1 backdrop-blur-xl lg:hidden" style={{ paddingBottom: "max(0.35rem, env(safe-area-inset-bottom))" }} aria-label="Primary navigation">
       {items.map((item) => <NavItem key={item.href} item={item} mobile />)}

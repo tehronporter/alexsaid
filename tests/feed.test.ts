@@ -13,10 +13,11 @@ describe("quote feed", () => {
   });
 
   it("limits a favorite-topic feed without changing IDs", () => {
-    const state = { ...defaultLocalState, feedScope: "favorite-topics" as const, favoriteCategories: ["Sales"] };
+    const category = catalog.quotes[0].primaryCategory;
+    const state = { ...defaultLocalState, feedScope: "favorite-topics" as const, favoriteCategories: [category] };
     const quotes = eligibleQuotes(catalog.quotes, state);
     expect(quotes.length).toBeGreaterThan(0);
-    expect(quotes.every(({ primaryCategory }) => primaryCategory === "Sales")).toBe(true);
+    expect(quotes.every(({ primaryCategory }) => primaryCategory === category)).toBe(true);
   });
 
   it("avoids immediate same-source runs whenever an alternative exists", () => {

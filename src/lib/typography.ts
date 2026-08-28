@@ -16,8 +16,10 @@ const quoteTypographyClasses: Record<"stage" | "panel", Record<QuoteTypographySt
 };
 
 export function quoteTypographyStyle(text: string): QuoteTypographyStyle {
-  const length = text.trim().length;
-  if (length <= 80) return "xl";
+  const normalized = text.trim();
+  const length = normalized.length;
+  const wordCount = normalized.split(/\s+/).filter(Boolean).length;
+  if (length <= 80 && wordCount <= 9) return "xl";
   if (length <= 150) return "large";
   if (length <= 240) return "medium";
   return "small";

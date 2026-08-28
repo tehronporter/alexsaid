@@ -14,11 +14,13 @@ import { useUserState } from "@/components/user-state-provider";
 import { exportLocalState } from "@/lib/local-state";
 import { cn } from "@/lib/utils";
 import { useOptionalCatalog } from "@/components/catalog-provider";
+import { useBrand } from "@/components/brand-provider";
 
 const EMPTY_CATEGORIES: readonly string[] = [];
 const EMPTY_QUOTES: readonly Quote[] = [];
 
 export function SettingsView({ categories: suppliedCategories, quotes: suppliedQuotes }: { categories?: readonly string[]; quotes?: readonly Quote[] }) {
+  const brand = useBrand();
   const catalogContext = useOptionalCatalog();
   const categories = suppliedCategories ?? catalogContext?.catalog?.categories ?? EMPTY_CATEGORIES;
   const quotes = suppliedQuotes ?? catalogContext?.catalog?.quotes ?? EMPTY_QUOTES;
@@ -68,7 +70,7 @@ export function SettingsView({ categories: suppliedCategories, quotes: suppliedQ
         <EditorialSection title="Your data">
           <p className="max-w-md text-sm leading-relaxed text-white/60">Saved quotes and preferences live only in this browser.</p>
           <div className="mt-6 flex flex-col items-start gap-4 sm:flex-row sm:items-center">
-            <Button variant="outline" className="border-white/22 bg-transparent text-white hover:bg-white hover:text-black" onClick={() => exportLocalState(state)}><ProductIcon name="download" />Export data</Button>
+            <Button variant="outline" className="border-white/22 bg-transparent text-white hover:bg-white hover:text-black" onClick={() => exportLocalState(state, brand.exportFileName)}><ProductIcon name="download" />Export data</Button>
             <AlertDialog>
               <AlertDialogTrigger asChild><button type="button" className="min-h-11 px-2 text-sm font-semibold text-red-300 underline decoration-red-300/40 underline-offset-4 hover:text-red-200">Reset all app data</button></AlertDialogTrigger>
               <AlertDialogContent className="fixed inset-x-0 bottom-0 top-auto left-0 w-full max-w-full translate-x-0 translate-y-0 rounded-t-[20px] rounded-b-none border-x-0 border-b-0 border-t border-white/18 bg-black pb-[calc(1.25rem+var(--safe-bottom))] text-white shadow-[var(--shadow-overlay)] sm:inset-x-auto sm:bottom-auto sm:top-1/2 sm:left-1/2 sm:w-full sm:max-w-sm sm:-translate-x-1/2 sm:-translate-y-1/2 sm:rounded-[20px] sm:border sm:pb-4">

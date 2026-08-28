@@ -3,6 +3,11 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   allowedDevOrigins: ["127.0.0.1"],
+  async redirects() {
+    return process.env.SAID_PRODUCT === "leila"
+      ? [{ source: "/app", destination: "/", permanent: true }]
+      : [];
+  },
   async headers() {
     return [
       {

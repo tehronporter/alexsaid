@@ -64,7 +64,8 @@ export function dailyQuoteOrder(
   date = new Date()
 ) {
   const result = [...eligibleQuotes(quotes, state)];
-  const random = randomFromSeed(hashSeed(`hormozi-said:${localDateKey(date)}`));
+  const productSeed = quotes[0]?.author === "Leila Hormozi" ? "leila-said" : "hormozi-said";
+  const random = randomFromSeed(hashSeed(`${productSeed}:${localDateKey(date)}`));
   for (let index = result.length - 1; index > 0; index -= 1) {
     const swapIndex = Math.floor(random() * (index + 1));
     [result[index], result[swapIndex]] = [result[swapIndex], result[index]];

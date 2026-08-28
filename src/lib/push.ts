@@ -1,14 +1,15 @@
 import { pushPayloadSchema, type PushPayload, type Quote } from "@/domain/catalog";
+import { brands, type BrandConfig } from "@/domain/product";
 
 export const pushEnabled = process.env.NEXT_PUBLIC_PUSH_ENABLED === "true";
 
-export function makePushPayload(quote: Quote): PushPayload {
+export function makePushPayload(quote: Quote, brand: BrandConfig = brands.alex): PushPayload {
   return pushPayloadSchema.parse({
     version: 1,
     quoteID: quote.id,
-    title: "Alex Said",
+    title: brand.productName,
     body: quote.shortVersion ?? quote.text,
     url: `/q/${quote.id}`,
-    icon: "/icons/icon-192.png"
+    icon: brand.appleIcon
   });
 }

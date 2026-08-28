@@ -26,12 +26,14 @@ describe("DiscoverView", () => {
 
   it("surfaces topics, collections, and recent quotes by default", () => {
     renderDiscover();
+    const populatedCategory = catalog.quotes[0].primaryCategory;
+    const firstCollection = catalog.collections.toSorted((a, b) => a.displayOrder - b.displayOrder)[0];
 
     expect(screen.getByRole("heading", { name: "Browse topics" })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Latest quotes" })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Collections" })).toBeInTheDocument();
-    expect(screen.getAllByRole("link", { name: /Business Models & Strategy/ }).length).toBeGreaterThan(0);
-    expect(screen.getAllByRole("link", { name: /Better Decisions/ }).length).toBeGreaterThan(0);
+    expect(screen.getAllByRole("link", { name: new RegExp(populatedCategory.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")) }).length).toBeGreaterThan(0);
+    expect(screen.getAllByRole("link", { name: new RegExp(firstCollection.title.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")) }).length).toBeGreaterThan(0);
   });
 
   it("searches tags and provides a clear reset action", async () => {
@@ -39,8 +41,9 @@ describe("DiscoverView", () => {
     renderDiscover();
 
     const search = screen.getByRole("searchbox", { name: "Search quotes" });
-    await user.type(search, "revenue retention");
-    expect(await screen.findByText("If you do not have what's called revenue retention, you have nothing.")).toBeInTheDocument();
+    const target = catalog.quotes[0];
+    await user.type(search, target.tags[0]);
+    expect(await screen.findByText(target.text)).toBeInTheDocument();
     expect(screen.getByText(/^\d+ results?$/)).toBeInTheDocument();
 
     await user.click(screen.getByRole("button", { name: "Clear search" }));

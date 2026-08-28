@@ -1,5 +1,10 @@
-const CACHE = "hormozi-said-v7";
-const APP_SHELL = ["/app", "/discover", "/saved", "/install", "/more", "/offline", "/catalog.v3.json", "/catalog.v2.json", "/icons/icon.svg", "/icons/icon-maskable.svg", "/icons/icon-192.png", "/icons/icon-512.png"];
+const serviceWorkerURL = new URL(self.location.href);
+const PRODUCT = serviceWorkerURL.searchParams.get("product") === "leila" ? "leila" : "alex";
+const HOME = PRODUCT === "leila" ? "/" : "/app";
+const PRODUCT_NAME = PRODUCT === "leila" ? "Leila Said" : "Alex Said";
+const ICON_ROOT = PRODUCT === "leila" ? "/icons/leila" : "/icons";
+const CACHE = `${PRODUCT}-said-v8`;
+const APP_SHELL = [HOME, "/discover", "/saved", "/install", "/more", "/offline", "/catalog.v3.json", `${ICON_ROOT}/icon.svg`, `${ICON_ROOT}/icon-maskable.svg`, `${ICON_ROOT}/icon-192.png`];
 
 async function cacheResponse(cache, url) {
   try {
@@ -48,7 +53,7 @@ self.addEventListener("fetch", (event) => {
       const copy = response.clone();
       caches.open(CACHE).then((cache) => cache.put(request, copy));
       return response;
-    }).catch(async () => (await caches.match(request)) || (await caches.match("/app")) || caches.match("/offline")));
+    }).catch(async () => (await caches.match(request)) || (await caches.match(HOME)) || caches.match("/offline")));
     return;
   }
 
@@ -64,10 +69,10 @@ self.addEventListener("fetch", (event) => {
 self.addEventListener("push", (event) => {
   if (!event.data) return;
   const payload = event.data.json();
-  event.waitUntil(self.registration.showNotification(payload.title || "Alex Said", {
+  event.waitUntil(self.registration.showNotification(payload.title || PRODUCT_NAME, {
     body: payload.body,
-    icon: payload.icon || "/icons/icon.svg",
-    badge: "/icons/icon.svg",
+    icon: payload.icon || `${ICON_ROOT}/icon.svg`,
+    badge: `${ICON_ROOT}/icon.svg`,
     data: { url: payload.url, quoteID: payload.quoteID },
     tag: payload.quoteID ? `daily-quote-${payload.quoteID}` : "daily-quote"
   }));
@@ -81,7 +86,7 @@ self.addEventListener("message", (event) => {
 
 self.addEventListener("notificationclick", (event) => {
   event.notification.close();
-  const target = new URL(event.notification.data?.url || "/app", self.location.origin).href;
+  const target = new URL(event.notification.data?.url || HOME, self.location.origin).href;
   event.waitUntil(self.clients.matchAll({ type: "window", includeUncontrolled: true }).then(async (clients) => {
     for (const client of clients) {
       if ("navigate" in client) await client.navigate(target);

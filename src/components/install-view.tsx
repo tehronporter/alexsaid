@@ -6,6 +6,7 @@ import { ProductIcon } from "@/components/product-icon";
 import { Button } from "@/components/ui/button";
 import { pushEnabled } from "@/lib/push";
 import { trackProductEvent } from "@/lib/analytics";
+import { useBrand } from "@/components/brand-provider";
 
 interface BeforeInstallPromptEvent extends Event { prompt(): Promise<void>; userChoice: Promise<{ outcome: "accepted" | "dismissed" }>; }
 
@@ -18,6 +19,7 @@ function subscribeDisplayMode(listener: () => void) {
 function subscribeEnvironment() { return () => undefined; }
 
 export function InstallView() {
+  const brand = useBrand();
   const [promptEvent, setPromptEvent] = useState<BeforeInstallPromptEvent | null>(null);
   const displayModeInstalled = useSyncExternalStore(subscribeDisplayMode, () => window.matchMedia("(display-mode: standalone)").matches, () => false);
   const isIOS = useSyncExternalStore(subscribeEnvironment, () => /iphone|ipad|ipod/i.test(navigator.userAgent), () => false);
@@ -48,7 +50,7 @@ export function InstallView() {
       <section className="relative min-h-[24rem] overflow-hidden bg-[var(--purple)] p-7 sm:p-10">
         <span className="display-type absolute -right-4 -top-20 text-[18rem] leading-none text-white/[0.08]" aria-hidden="true">”</span>
         <div className="relative flex h-full flex-col justify-between">
-          <p className="text-[0.68rem] font-bold uppercase tracking-[0.17em] text-white">Alex Said for your Home Screen</p>
+          <p className="text-[0.68rem] font-bold uppercase tracking-[0.17em] text-white">{brand.productName} for your Home Screen</p>
           <div>
             <h2 className="display-type max-w-xl text-6xl uppercase leading-[0.88] sm:text-7xl">Put useful ideas one tap away.</h2>
             <p className="mt-5 max-w-lg text-sm leading-relaxed text-white/90">Launch full-screen and keep the core quote library available after it has loaded—even without a connection.</p>
@@ -68,7 +70,7 @@ export function InstallView() {
               ))}
             </ol>
           ) : promptEvent ? (
-            <Button className="mt-6 bg-white text-black hover:bg-white/90" onClick={install}><ProductIcon name="download" />Install Alex Said</Button>
+            <Button className="mt-6 bg-white text-black hover:bg-white/90" onClick={install}><ProductIcon name="download" />Install {brand.productName}</Button>
           ) : (
             <p className="mt-5 text-sm leading-relaxed text-white/62">Use your browser menu and choose “Install app” or “Add to Home Screen.”</p>
           )}

@@ -1,14 +1,19 @@
 import { expect, test } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
-import catalogJSON from "../../src/data/catalog.json" with { type: "json" };
+import alexCatalog from "../../src/data/catalog.json" with { type: "json" };
+import leilaCatalog from "../../src/data/leila/catalog.json" with { type: "json" };
 
 const productionPWA = Boolean(process.env.CI || process.env.E2E_PRODUCTION);
+const leilaProduct = process.env.SAID_PRODUCT === "leila";
+const catalogJSON = leilaProduct ? leilaCatalog : alexCatalog;
+const homePath = leilaProduct ? "/" : "/app";
+const stateKey = leilaProduct ? "leila-said:user-state:v1" : "hormozi-said:user-state:v1";
 
 test.beforeEach(async ({ page }) => {
-  await page.goto("/app");
-  await page.evaluate(() => {
+  await page.goto(homePath);
+  await page.evaluate((storageKey) => {
     localStorage.clear();
-    localStorage.setItem("hormozi-said:user-state:v1", JSON.stringify({
+    localStorage.setItem(storageKey, JSON.stringify({
       schemaVersion: 1,
       savedIDs: [],
       favoriteCategories: [],
@@ -18,15 +23,23 @@ test.beforeEach(async ({ page }) => {
       lastQuoteID: null,
       successfulSwipeCount: 0
     }));
-  });
+  }, stateKey);
   await page.reload();
   await expect(page.getByRole("button", { name: "Skip" })).not.toBeVisible();
   await expect(page.locator("main.quote-surface")).toHaveAttribute("data-interactive", "true");
   await expect(page.locator("main.quote-surface")).toHaveAttribute("data-catalog-ready", "true");
 });
 
-test("case-study landing page introduces the project and opens the app", async ({ page }) => {
+test("deployment root preserves its canonical product entry", async ({ page }) => {
   await page.goto("/");
+  if (leilaProduct) {
+    await expect(page).toHaveTitle(/Leila Said/);
+    await expect(page.locator("main.quote-surface")).toBeVisible();
+    await expect(page.getByRole("blockquote")).toBeVisible();
+    await page.goto("/app");
+    await expect(page).toHaveURL(/\/$/);
+    return;
+  }
   await expect(page).toHaveTitle("Alex Said · A Case Study by Tehron Porter");
   await expect(page.getByRole("heading", { name: /I didn’t just apply/ })).toBeVisible();
   await expect(page.getByRole("link", { name: "View full portfolio" })).toHaveAttribute("href", "https://tehron.vercel.app");
@@ -59,7 +72,7 @@ test("quote navigation keeps an exact canonical ID", async ({ page }) => {
   await expect(page.getByRole("blockquote")).toHaveText(firstQuote ?? "");
   await page.reload();
   await expect(page.getByRole("blockquote")).toHaveText(firstQuote ?? "");
-  await expect.poll(() => page.evaluate(() => JSON.parse(localStorage.getItem("hormozi-said:user-state:v1") ?? "{}").successfulSwipeCount)).toBe(0);
+  await expect.poll(() => page.evaluate((storageKey) => JSON.parse(localStorage.getItem(storageKey) ?? "{}").successfulSwipeCount, stateKey)).toBe(0);
 });
 
 test("vertical swipe advances the exact quote", async ({ page }) => {
@@ -75,7 +88,7 @@ test("vertical swipe advances the exact quote", async ({ page }) => {
   });
   await expect(page).toHaveURL(/\/q\/[0-9a-f-]{36}$/);
   await expect(page.getByRole("blockquote")).not.toHaveText(before ?? "");
-  await expect.poll(() => page.evaluate(() => JSON.parse(localStorage.getItem("hormozi-said:user-state:v1") ?? "{}").successfulSwipeCount)).toBe(1);
+  await expect.poll(() => page.evaluate((storageKey) => JSON.parse(localStorage.getItem(storageKey) ?? "{}").successfulSwipeCount, stateKey)).toBe(1);
 });
 
 test("quote controls stay focused and three successful swipes teach the gesture", async ({ page }) => {
@@ -107,17 +120,17 @@ test("quote controls stay focused and three successful swipes teach the gesture"
   await swipe();
   await swipe();
   await expect(hint).not.toBeVisible();
-  await expect.poll(() => page.evaluate(() => JSON.parse(localStorage.getItem("hormozi-said:user-state:v1") ?? "{}").successfulSwipeCount)).toBe(3);
+  await expect.poll(() => page.evaluate((storageKey) => JSON.parse(localStorage.getItem(storageKey) ?? "{}").successfulSwipeCount, stateKey)).toBe(3);
   await page.reload();
   await expect(page.getByRole("main").locator(".swipe-hint")).not.toBeVisible();
 });
 
 test("reduced motion removes the learned swipe hint immediately", async ({ page }) => {
   await page.emulateMedia({ reducedMotion: "reduce" });
-  await page.evaluate(() => {
-    const state = JSON.parse(localStorage.getItem("hormozi-said:user-state:v1") ?? "{}");
-    localStorage.setItem("hormozi-said:user-state:v1", JSON.stringify({ ...state, successfulSwipeCount: 2 }));
-  });
+  await page.evaluate((storageKey) => {
+    const state = JSON.parse(localStorage.getItem(storageKey) ?? "{}");
+    localStorage.setItem(storageKey, JSON.stringify({ ...state, successfulSwipeCount: 2 }));
+  }, stateKey);
   await page.reload();
   await page.locator(".quote-stage").evaluate((element) => {
     const dispatchTouch = (type: string, clientY: number) => {
@@ -146,11 +159,13 @@ test("discover search opens the matching quote", async ({ page }) => {
   await page.goto("/discover");
   const search = page.getByRole("searchbox", { name: "Search quotes" });
   await expect(search).toHaveCount(1);
-  await search.fill("revenue retention");
-  await expect(page.getByText("If you do not have what's called revenue retention, you have nothing.")).toBeVisible();
-  await page.getByText("If you do not have what's called revenue retention, you have nothing.").click();
+  const matchingQuote = catalogJSON.quotes[0];
+  const searchTerm = matchingQuote.text.replace(/[^a-zA-Z0-9' ]/g, " ").split(/\s+/).filter(Boolean).slice(0, 5).join(" ");
+  await search.fill(searchTerm);
+  await expect(page.getByText(matchingQuote.text)).toBeVisible();
+  await page.getByText(matchingQuote.text).click();
   await expect(page).toHaveURL(/\/q\/[0-9a-f-]{36}$/);
-  await expect(page.locator("main.quote-surface blockquote")).toContainText("revenue retention");
+  await expect(page.locator("main.quote-surface blockquote")).toHaveText(matchingQuote.text);
 });
 
 test("source action matches the visible quote", async ({ page }) => {
@@ -160,9 +175,9 @@ test("source action matches the visible quote", async ({ page }) => {
 });
 
 test("every accepted quote stays exact across library, saved, source, and sharing views", async ({ page, context }) => {
-  // Walks every quote in the catalog. 120s fits a production server; `next dev`
-  // compiles each route on first hit, so the same walk needs a wider budget.
-  test.setTimeout(productionPWA ? 120_000 : 420_000);
+  // This intentionally walks every accepted quote and can take several minutes
+  // for Alex's full catalog on constrained CI runners.
+  test.setTimeout(420_000);
   await context.grantPermissions(["clipboard-read", "clipboard-write"]);
   for (const quote of catalogJSON.quotes) {
     await page.goto(`/q/${quote.id}`);
@@ -185,10 +200,10 @@ test("every accepted quote stays exact across library, saved, source, and sharin
     }
   }
 
-  await page.evaluate((savedIDs) => {
-    const state = JSON.parse(localStorage.getItem("hormozi-said:user-state:v1") ?? "{}");
-    localStorage.setItem("hormozi-said:user-state:v1", JSON.stringify({ ...state, schemaVersion: 1, savedIDs }));
-  }, catalogJSON.quotes.map(({ id }) => id));
+  await page.evaluate(({ savedIDs, storageKey }) => {
+    const state = JSON.parse(localStorage.getItem(storageKey) ?? "{}");
+    localStorage.setItem(storageKey, JSON.stringify({ ...state, schemaVersion: 1, savedIDs }));
+  }, { savedIDs: catalogJSON.quotes.map(({ id }) => id), storageKey: stateKey });
   await page.goto("/saved");
   for (const quote of catalogJSON.quotes) await expect(page.getByText(quote.text)).toBeVisible();
 });
@@ -216,7 +231,7 @@ test("a warmed quote and saved view remain usable offline", async ({ page, conte
   await page.getByRole("button", { name: "Save quote" }).click();
   await page.goto("/saved");
   await expect(page.locator("main").getByRole("link", { name: /Read quote/ })).toBeVisible();
-  await page.goto("/app");
+  await page.goto(homePath);
 
   await context.setOffline(true);
   await page.reload({ waitUntil: "domcontentloaded" });
@@ -233,10 +248,10 @@ test("install page explains current platform capability", async ({ page }) => {
 });
 
 test("local-data export and reset include the learned-swipe state", async ({ page }) => {
-  await page.evaluate(() => {
-    const state = JSON.parse(localStorage.getItem("hormozi-said:user-state:v1") ?? "{}");
-    localStorage.setItem("hormozi-said:user-state:v1", JSON.stringify({ ...state, successfulSwipeCount: 3 }));
-  });
+  await page.evaluate((storageKey) => {
+    const state = JSON.parse(localStorage.getItem(storageKey) ?? "{}");
+    localStorage.setItem(storageKey, JSON.stringify({ ...state, successfulSwipeCount: 3 }));
+  }, stateKey);
   await page.goto("/settings");
 
   const downloadPromise = page.waitForEvent("download");
@@ -249,7 +264,7 @@ test("local-data export and reset include the learned-swipe state", async ({ pag
 
   await page.getByRole("button", { name: "Reset all app data" }).click();
   await page.getByRole("button", { name: "Reset", exact: true }).click();
-  await expect.poll(() => page.evaluate(() => JSON.parse(localStorage.getItem("hormozi-said:user-state:v1") ?? "{}").successfulSwipeCount)).toBe(0);
+  await expect.poll(() => page.evaluate((storageKey) => JSON.parse(localStorage.getItem(storageKey) ?? "{}").successfulSwipeCount, stateKey)).toBe(0);
 });
 
 test("key screens have no serious accessibility violations", async ({ page }) => {
@@ -263,10 +278,11 @@ test("key screens have no serious accessibility violations", async ({ page }) =>
   }
 });
 
-test("editorial surfaces preserve the purple quote and dark library distinction", async ({ page }) => {
-  await page.goto("/app");
+test("editorial surfaces preserve the branded quote and dark library distinction", async ({ page }) => {
+  await page.goto(homePath);
   await expect(page.locator("main")).toHaveClass(/quote-surface/);
   await expect(page.locator('[data-surface="quote"]')).toBeVisible();
+  await expect(page.locator("main.quote-surface")).toHaveCSS("background-color", leilaProduct ? "rgb(255, 255, 255)" : "rgb(107, 44, 255)");
   await page.goto("/discover");
   await expect(page.locator('[data-surface="library"]')).toBeVisible();
   await expect(page.locator("main")).not.toHaveClass(/quote-surface/);

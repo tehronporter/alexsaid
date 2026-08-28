@@ -33,8 +33,10 @@ describe("quote catalog", () => {
   });
 
   it("ranks exact topic and tag matches in search", () => {
-    const results = quoteRepository.search("sales");
+    const target = catalog.quotes[0];
+    const query = target.tags[0];
+    const results = quoteRepository.search(query);
     expect(results.length).toBeGreaterThan(0);
-    expect(results[0]?.primaryCategory === "Sales" || results[0]?.tags.includes("sales")).toBe(true);
+    expect(results[0]?.tags.includes(query)).toBe(true);
   });
 });

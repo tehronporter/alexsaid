@@ -3,6 +3,10 @@ import Image, { type StaticImageData } from "next/image";
 import Link from "next/link";
 import { ArrowDown, ArrowUpRight, Download } from "lucide-react";
 import { catalog } from "@/lib/catalog";
+import { QuoteFeed } from "@/components/quote-feed";
+import { defaultLocalState } from "@/lib/local-state";
+import { dailyQuoteOrder } from "@/lib/feed";
+import { activeBrand, isLeilaProduct } from "@/lib/product";
 import styles from "./page.module.css";
 
 import phoneMockup from "./_assets/phone-mockup.jpg";
@@ -13,15 +17,24 @@ import socialFive from "./_assets/social-monster-leverage.jpg";
 import merchOne from "./_assets/merch-black-charge-more.jpg";
 import merchTwo from "./_assets/merch-purple-bloodline.jpg";
 
-export const metadata: Metadata = {
-  title: { absolute: "Alex Said · A Case Study by Tehron Porter" },
-  description: "A daily quote app for Alex Hormozi’s audience, designed, engineered, and shipped by Tehron Porter for Acquisition.com.",
-  openGraph: {
-    title: "I didn’t just apply. I built something too.",
-    description: "A daily quote app for Alex’s audience, designed and built by Tehron Porter.",
-    type: "website"
+export function generateMetadata(): Metadata {
+  if (isLeilaProduct) {
+    return {
+      title: { absolute: activeBrand.productName },
+      description: activeBrand.applicationDescription,
+      openGraph: { title: activeBrand.productName, description: activeBrand.description, type: "website" }
+    };
   }
-};
+  return {
+    title: { absolute: "Alex Said · A Case Study by Tehron Porter" },
+    description: "A daily quote app for Alex Hormozi’s audience, designed, engineered, and shipped by Tehron Porter for Acquisition.com.",
+    openGraph: {
+      title: "I didn’t just apply. I built something too.",
+      description: "A daily quote app for Alex’s audience, designed and built by Tehron Porter.",
+      type: "website"
+    }
+  };
+}
 
 const socialPosts: { src: StaticImageData; alt: string }[] = [
   { src: socialFour, alt: "Alex Said social post featuring the purple ACQ monster and a quote about progress" },
@@ -67,6 +80,12 @@ function CaseStudyHeader() {
 }
 
 export default function HomePage() {
+  if (isLeilaProduct) {
+    const initialQuote = dailyQuoteOrder(catalog.quotes, defaultLocalState)[0] ?? catalog.quotes[0];
+    return <QuoteFeed initialQuote={initialQuote} developmentFixture={catalog.developmentFixture} />;
+  }
+
+  const leilaSiteURL = process.env.LEILA_SITE_URL?.trim();
   return (
     <main id="top" className={styles.page}>
       <CaseStudyHeader />
@@ -191,8 +210,30 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section id="kept-building" className={styles.briefSection} aria-labelledby="kept-building-title">
+        <div className={styles.sectionNumber}>05 / August 28, 2026</div>
+        <div className={styles.productHeading}>
+          <div>
+            <p className={styles.eyebrow}>I kept building after applying</p>
+            <h2 id="kept-building-title">One concept became<br />a reusable system.</h2>
+          </div>
+          <p>
+            I rebuilt the original product around a shared, source-verified content and brand system, then used it to launch Leila Said from the same codebase. The two apps keep their own identity, content, saved state, URLs, and share cards without duplicating the product.
+          </p>
+        </div>
+        <div className={styles.capabilityGrid}>
+          <article className={styles.capabilityCard}><span>01</span><h3>Two real products</h3><p>Alex keeps the original case-study URL and app. Leila opens directly into her own quote experience on a separate deployment.</p></article>
+          <article className={styles.capabilityCard}><span>02</span><h3>One product system</h3><p>A typed brand configuration, shared interface, deployment-aware PWA assets, and one editorial pipeline power both experiences.</p></article>
+          <article className={styles.capabilityCard}><span>03</span><h3>Direct source proof</h3><p>Leila’s launch catalog is checked against official BUILD episode transcripts, with a timestamp and direct source on every quote.</p></article>
+        </div>
+        <div className={styles.productProof}>
+          <div><p className={styles.proofKicker}>The next build is live.</p><p>See how the original idea holds together as a second, complete product.</p></div>
+          {leilaSiteURL ? <a href={leilaSiteURL} className={styles.darkButton} target="_blank" rel="noreferrer">Open Leila Said <ArrowUpRight aria-hidden="true" /></a> : <span>Leila production URL added at release</span>}
+        </div>
+      </section>
+
       <section className={styles.briefSection} aria-labelledby="brief-title">
-        <div className={styles.sectionNumber}>05 / Built for the brief</div>
+        <div className={styles.sectionNumber}>06 / Built for the brief</div>
         <div className={styles.briefIntro}>
           <p className={styles.eyebrow}>Design that ships</p>
           <h2 id="brief-title">Creative direction<br />meets working software.</h2>

@@ -46,10 +46,10 @@ export function migrateLocalState(value: unknown): LocalUserStateV1 {
   return migrated.success ? migrated.data : defaultLocalState;
 }
 
-export function readLocalState(validQuoteIDs?: ReadonlySet<string>): LocalUserStateV1 {
+export function readLocalState(validQuoteIDs?: ReadonlySet<string>, storageKey = LOCAL_STATE_KEY): LocalUserStateV1 {
   if (typeof window === "undefined") return defaultLocalState;
   try {
-    const raw = window.localStorage.getItem(LOCAL_STATE_KEY);
+    const raw = window.localStorage.getItem(storageKey);
     if (!raw) return defaultLocalState;
     const parsed = migrateLocalState(JSON.parse(raw));
     if (!validQuoteIDs) return parsed;
@@ -63,16 +63,16 @@ export function readLocalState(validQuoteIDs?: ReadonlySet<string>): LocalUserSt
   }
 }
 
-export function writeLocalState(state: LocalUserStateV1) {
-  window.localStorage.setItem(LOCAL_STATE_KEY, JSON.stringify(state));
+export function writeLocalState(state: LocalUserStateV1, storageKey = LOCAL_STATE_KEY) {
+  window.localStorage.setItem(storageKey, JSON.stringify(state));
 }
 
-export function exportLocalState(state: LocalUserStateV1) {
+export function exportLocalState(state: LocalUserStateV1, fileName = "hormozi-said-data.json") {
   const blob = new Blob([JSON.stringify(state, null, 2)], { type: "application/json" });
   const url = URL.createObjectURL(blob);
   const anchor = document.createElement("a");
   anchor.href = url;
-  anchor.download = "hormozi-said-data.json";
+  anchor.download = fileName;
   anchor.click();
   URL.revokeObjectURL(url);
 }

@@ -1,0 +1,46 @@
+[
+  {
+    "slug": "lead-with-clarity",
+    "title": "Lead with clarity",
+    "description": "Clear standards, stronger teams, and a bias toward solving.",
+    "quoteIDs": [
+      "2b1435df-b770-4d9d-a887-2a3439457953",
+      "289eceb8-15a7-456d-a64d-cbe94e6d54d7",
+      "f7a7b646-cba7-4286-abdc-139d948a05d9",
+      "a6f43a7f-3b8b-4a8b-a6f2-4c24de21d635",
+      "bfeebb7c-88e7-46c6-a576-46a78e182ecd",
+      "a9f0ce5d-7569-4bd0-a40a-30a10d6055f1"
+    ],
+    "displayOrder": 0
+  },
+  {
+    "slug": "choose-what-matters",
+    "title": "Choose what matters",
+    "description": "Priorities, tradeoffs, and decisions for the season you are in.",
+    "quoteIDs": [
+      "69240406-e257-4d34-a07b-e5428150328f",
+      "febe0264-dec5-4fe9-ae3e-966404895bfc",
+      "de96b5b1-5401-41c9-a319-bdcf273acf6f",
+      "3df7b74d-fd76-4d59-a957-b6eb3660139b",
+      "c39d2c61-0fd8-4c8c-a662-e073eb243961",
+      "5a8ff2ac-993e-48a1-a153-2fa522288bff"
+    ],
+    "displayOrder": 1
+  },
+  {
+    "slug": "build-earned-confidence",
+    "title": "Build earned confidence",
+    "description": "Use behavior, practice, and perspective to act through uncertainty.",
+    "quoteIDs": [
+      "e9531908-58e9-4f4a-a50a-3baaca9b9b1f",
+      "c1076260-4207-43f4-ac31-c35e32c1146f",
+      "fef178f6-4e47-4972-a489-bdc5e13f8b59",
+      "6e465bd1-9ceb-4c13-a7ac-dbcbfb31585e",
+      "01957b97-6a0e-4f18-a432-a923a165c472",
+      "5bafcc5e-113c-44d9-a318-acaf855662e7",
+      "6676d502-5f54-4ce2-a154-4bd1861a27a6",
+      "544a2941-bc18-43c3-ae5e-3c2d66e8e204"
+    ],
+    "displayOrder": 2
+  }
+]

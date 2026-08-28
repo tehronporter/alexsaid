@@ -102,7 +102,7 @@ export const publicSourceSchema = z.object({
 export const publicQuoteV3Schema = z.object({
   id: z.string().uuid(),
   text: z.string().trim().min(3).max(420),
-  author: z.literal("Alex Hormozi"),
+  author: z.enum(["Alex Hormozi", "Leila Hormozi"]),
   primaryCategory: catalogCategorySchema,
   tags: z.array(z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/)).min(2).max(5),
   sourceID: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),

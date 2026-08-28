@@ -2,13 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { EditorialSection } from "@/components/editorial";
 import { PageHeader } from "@/components/page-header";
+import { activeBrand } from "@/lib/product";
 
 export const metadata: Metadata = { title: "More" };
-
-const appLinks = [
-  { href: "/settings", title: "Settings", body: "Topics, local data, and feed preferences" },
-  { href: "/install", title: "Install", body: "Add Alex Said to your Home Screen" },
-];
 
 const legalLinks = [
   { href: "/disclaimer", title: "Disclaimer", body: "Unofficial status and source policy" },
@@ -31,7 +27,11 @@ function LinkDirectory({ links, offset = 0 }: { links: readonly { href: string; 
 
 export default function MorePage() {
   const contact = process.env.NEXT_PUBLIC_CONTACT_EMAIL?.trim() || "tehronporter@gmail.com";
-  const supportLinks = [{ href: `mailto:${contact}?subject=Alex%20Said%20quote%20suggestion`, title: "Suggest a quote", body: "Send the quote and its original source" }];
+  const appLinks = [
+    { href: "/settings", title: "Settings", body: "Topics, local data, and feed preferences" },
+    { href: "/install", title: "Install", body: `Add ${activeBrand.productName} to your Home Screen` },
+  ];
+  const supportLinks = [{ href: `mailto:${contact}?subject=${encodeURIComponent(`${activeBrand.productName} quote suggestion`)}`, title: "Suggest a quote", body: "Send the quote and its original source" }];
   return (
     <main className="page-wrap">
       <PageHeader eyebrow="Directory" title="More" description="Preferences, policies, and a direct way to suggest a source." />
@@ -39,7 +39,7 @@ export default function MorePage() {
         <div className="space-y-12"><EditorialSection title="App"><LinkDirectory links={appLinks} /></EditorialSection><EditorialSection title="Support"><LinkDirectory links={supportLinks} offset={2} /></EditorialSection></div>
         <EditorialSection title="Legal"><LinkDirectory links={legalLinks} offset={3} /></EditorialSection>
       </div>
-      <p className="mt-14 max-w-2xl border-t border-white/14 pt-6 text-xs leading-relaxed text-white/58">Alex Said is an unofficial, fan-made project. It is not affiliated with, endorsed by, or sponsored by Alex Hormozi, Acquisition.com, or their related companies.</p>
+      <p className="mt-14 max-w-2xl border-t border-white/14 pt-6 text-xs leading-relaxed text-white/58">{activeBrand.productName} is an unofficial, fan-made project. It is not affiliated with, endorsed by, or sponsored by {activeBrand.authorName}, Acquisition.com, or their related companies.</p>
     </main>
   );
 }

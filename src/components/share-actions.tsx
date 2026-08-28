@@ -8,12 +8,14 @@ import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { downloadShareCard, renderShareCardBlob } from "@/lib/share-card";
 import { trackProductEvent } from "@/lib/analytics";
+import { useBrand } from "@/components/brand-provider";
 
 function canonicalURL(quote: Quote) {
   return `${window.location.origin}/q/${quote.id}`;
 }
 
 export function ShareActions({ quote, trigger }: { quote: Quote; trigger?: React.ReactNode }) {
+  const brand = useBrand();
   const [busy, setBusy] = useState(false);
   const copyQuote = async () => {
     await navigator.clipboard.writeText(`“${quote.text}” — ${quote.author}`);
@@ -29,12 +31,12 @@ export function ShareActions({ quote, trigger }: { quote: Quote; trigger?: React
     if (!navigator.share) { await copyLink(); return; }
     setBusy(true);
     try {
-      const blob = await renderShareCardBlob(quote, "square");
-      const file = new File([blob], `hormozi-said-${quote.id}.png`, { type: "image/png" });
+      const blob = await renderShareCardBlob(quote, "square", brand);
+      const file = new File([blob], `${brand.id}-said-${quote.id}.png`, { type: "image/png" });
       if (navigator.canShare?.({ files: [file] })) {
-        await navigator.share({ title: "Alex Said", text: `“${quote.text}” — ${quote.author}`, url: canonicalURL(quote), files: [file] });
+        await navigator.share({ title: brand.productName, text: `“${quote.text}” — ${quote.author}`, url: canonicalURL(quote), files: [file] });
       } else {
-        await navigator.share({ title: "Alex Said", text: `“${quote.text}” — ${quote.author}`, url: canonicalURL(quote) });
+        await navigator.share({ title: brand.productName, text: `“${quote.text}” — ${quote.author}`, url: canonicalURL(quote) });
       }
       trackProductEvent("quote_shared", { quote_id: quote.id, method: "native" });
     } catch (error) {
@@ -45,7 +47,7 @@ export function ShareActions({ quote, trigger }: { quote: Quote; trigger?: React
   const download = async (format: "square" | "story") => {
     setBusy(true);
     try {
-      await downloadShareCard(quote, format);
+      await downloadShareCard(quote, format, brand);
       trackProductEvent("quote_shared", { quote_id: quote.id, method: `download_${format}` });
       toast.success(`${format === "square" ? "Square" : "Story"} card saved`);
     } catch { toast.error("Could not create the card"); }
