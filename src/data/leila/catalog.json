@@ -62,6 +62,58 @@
   ],
   "quotes": [
     {
+      "id": "c6da860f-0670-49e9-99de-5580079b40f2",
+      "text": "Be flexible on your approach, rigid on your standard.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Leadership & Teams",
+      "tags": [
+        "leadership",
+        "strategy"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@leilahormozi)",
+      "sourceURL": "https://www.instagram.com/p/Dclr_8Xiatz/",
+      "sourceDate": "2026-08-28",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Post caption",
+        "postID": "Dclr_8Xiatz"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote Leila Hormozi wrote as the caption on her own Instagram post (@leilahormozi).",
+      "createdAt": "2026-08-28T14:00:00.000Z",
+      "updatedAt": "2026-08-28T14:00:06.000Z"
+    },
+    {
+      "id": "bf769fe1-c0f0-4f1f-b50a-4267a0bad706",
+      "text": "Be the type of person with whom people are always proud to associate, personally and professionally. Who you are in private is who you are in public.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Leadership & Teams",
+      "tags": [
+        "leadership",
+        "perspective"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@leilahormozi)",
+      "sourceURL": "https://www.instagram.com/p/DZXysyklPxi/",
+      "sourceDate": "2026-06-09",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Post caption",
+        "postID": "DZXysyklPxi"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote Leila Hormozi wrote as the caption on her own Instagram post (@leilahormozi).",
+      "createdAt": "2026-08-28T14:03:23.000Z",
+      "updatedAt": "2026-08-28T14:03:26.000Z"
+    },
+    {
       "id": "01957b97-6a0e-4f18-a432-a923a165c472",
       "text": "life happens on the way to your goals. Not once you get there.",
       "author": "Leila Hormozi",
@@ -818,6 +870,812 @@
       "context": "Leila describes the freedom that comes from making decisions according to her values.",
       "createdAt": "2026-08-28T19:00:00.000Z",
       "updatedAt": "2026-08-28T19:00:00.000Z"
+    },
+    {
+      "id": "fb57dd0d-33f1-4fe7-8490-5a36d66ba4a2",
+      "text": "Comfort won't change you.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "resilience",
+        "perspective"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@leilahormozi)",
+      "sourceURL": "https://www.instagram.com/p/DZQ8v4mGkxM/",
+      "sourceDate": "2026-06-07",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Post caption",
+        "postID": "DZQ8v4mGkxM"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote Leila Hormozi wrote as the caption on her own Instagram post (@leilahormozi).",
+      "createdAt": "2026-08-28T14:03:37.000Z",
+      "updatedAt": "2026-08-28T14:03:40.000Z"
+    },
+    {
+      "id": "928e6cbc-a11a-40d5-ac45-7dad84c74440",
+      "text": "F*ck your mood. Follow the plan.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "execution",
+        "accountability"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@leilahormozi)",
+      "sourceURL": "https://www.instagram.com/p/DZ_wcdyFJzt/",
+      "sourceDate": "2026-06-25",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Post caption",
+        "postID": "DZ_wcdyFJzt"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote Leila Hormozi wrote as the caption on her own Instagram post (@leilahormozi).",
+      "createdAt": "2026-08-28T14:02:55.000Z",
+      "updatedAt": "2026-08-28T14:02:58.000Z"
+    },
+    {
+      "id": "ee1ba044-8647-4e49-9eca-3d3387c9b0d8",
+      "text": "Failing is closer to success than thinking about success is.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "learning",
+        "resilience"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@leilahormozi)",
+      "sourceURL": "https://www.instagram.com/p/Db3i1W-kkq8/",
+      "sourceDate": "2026-08-10",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Post caption",
+        "postID": "Db3i1W-kkq8"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote Leila Hormozi wrote as the caption on her own Instagram post (@leilahormozi).",
+      "createdAt": "2026-08-28T14:01:31.000Z",
+      "updatedAt": "2026-08-28T14:01:34.000Z"
+    },
+    {
+      "id": "c1bd23a5-cd07-44a6-80a0-74e91ce47cde",
+      "text": "Financial freedom isn't about making more money. It's about stopping the habits that drain you before you even get started.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "accountability"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@leilahormozi)",
+      "sourceURL": "https://www.instagram.com/p/DccTNDvAUj0/",
+      "sourceDate": "2026-08-25",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Post caption",
+        "postID": "DccTNDvAUj0"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote Leila Hormozi wrote as the caption on her own Instagram post (@leilahormozi).",
+      "createdAt": "2026-08-28T14:00:21.000Z",
+      "updatedAt": "2026-08-28T14:00:27.000Z"
+    },
+    {
+      "id": "bba5362a-65a6-417e-80c6-b5bdff472246",
+      "text": "Freedom comes late if you don't learn all of this early.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "learning"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@leilahormozi)",
+      "sourceURL": "https://www.instagram.com/p/DcKKyXFCCgc/",
+      "sourceDate": "2026-08-17",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Post caption",
+        "postID": "DcKKyXFCCgc"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote Leila Hormozi wrote as the caption on her own Instagram post (@leilahormozi).",
+      "createdAt": "2026-08-28T14:01:17.000Z",
+      "updatedAt": "2026-08-28T14:01:20.000Z"
+    },
+    {
+      "id": "9721a28e-bad8-4fc4-bf63-8a5cc574adf8",
+      "text": "I built more discipline from one bad year than from ten good ones. Comfort teaches you nothing.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "resilience",
+        "learning"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@leilahormozi)",
+      "sourceURL": "https://www.instagram.com/p/DaeM4kIFoQa/",
+      "sourceDate": "2026-07-07",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Post caption",
+        "postID": "DaeM4kIFoQa"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote Leila Hormozi wrote as the caption on her own Instagram post (@leilahormozi).",
+      "createdAt": "2026-08-28T14:02:41.000Z",
+      "updatedAt": "2026-08-28T14:02:44.000Z"
+    },
+    {
+      "id": "41a21d22-41f0-45f8-96b1-33050d7188d4",
+      "text": "I've never won anything by being the smartest person in the room. I won by still being in the room. Deciding fast, being visibly bad at something, and refusing to leave are all unglamorous. They also beat talent almost every time. Set the deadline, start before you're good, and outlast everybody.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "resilience",
+        "execution"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@leilahormozi)",
+      "sourceURL": "https://www.instagram.com/p/DcO5G0FGccw/",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Post caption",
+        "postID": "DcO5G0FGccw"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote Leila Hormozi wrote as the caption on her own Instagram post (@leilahormozi).",
+      "createdAt": "2026-08-28T14:00:42.000Z",
+      "updatedAt": "2026-08-28T14:00:48.000Z"
+    },
+    {
+      "id": "c356506a-5593-426c-95b7-f0b4fefbb7d6",
+      "text": "Lead with your eyes. What people say doesn't matter nearly as much as we want it to. What they do is what matters.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Leadership & Teams",
+      "tags": [
+        "leadership",
+        "perspective"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@leilahormozi)",
+      "sourceURL": "https://www.instagram.com/p/DbEmZZRAfXF/",
+      "sourceDate": "2026-07-21",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Post caption",
+        "postID": "DbEmZZRAfXF"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote Leila Hormozi wrote as the caption on her own Instagram post (@leilahormozi).",
+      "createdAt": "2026-08-28T14:02:20.000Z",
+      "updatedAt": "2026-08-28T14:02:23.000Z"
+    },
+    {
+      "id": "85c6a52b-6667-4a8f-a8e5-ab2f23914e25",
+      "text": "Make friends with people who get mad at you when they see you're not living up to your potential.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "accountability",
+        "ambition"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@leilahormozi)",
+      "sourceURL": "https://www.instagram.com/p/DcWO21FG4GU/",
+      "sourceDate": "2026-08-22",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Post caption",
+        "postID": "DcWO21FG4GU"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote Leila Hormozi wrote as the caption on her own Instagram post (@leilahormozi).",
+      "createdAt": "2026-08-28T14:00:28.000Z",
+      "updatedAt": "2026-08-28T14:00:34.000Z"
+    },
+    {
+      "id": "32aea47e-69b4-49a2-9c89-1fbdc80b01fe",
+      "text": "Money is a byproduct of value creation.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Business Models & Strategy",
+      "tags": [
+        "business-models",
+        "strategy"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@leilahormozi)",
+      "sourceURL": "https://www.instagram.com/p/DZrJ0r8FC-b/",
+      "sourceDate": "2026-06-17",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Post caption",
+        "postID": "DZrJ0r8FC-b"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote Leila Hormozi wrote as the caption on her own Instagram post (@leilahormozi).",
+      "createdAt": "2026-08-28T14:03:02.000Z",
+      "updatedAt": "2026-08-28T14:03:05.000Z"
+    },
+    {
+      "id": "101e4bce-36dc-4ea8-b46d-10b74296ad22",
+      "text": "Most decisions don't need more information. They need a deadline. Set one and get to work.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "decision-making",
+        "execution"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@leilahormozi)",
+      "sourceURL": "https://www.instagram.com/p/DZosEzaFDy9/",
+      "sourceDate": "2026-06-16",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Post caption",
+        "postID": "DZosEzaFDy9"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote Leila Hormozi wrote as the caption on her own Instagram post (@leilahormozi).",
+      "createdAt": "2026-08-28T14:03:09.000Z",
+      "updatedAt": "2026-08-28T14:03:12.000Z"
+    },
+    {
+      "id": "6aa5c36e-e9f5-4ef0-9ae8-03eced930390",
+      "text": "Most people are good when it's easy. You're the same when it's hard.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "resilience",
+        "perspective"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@leilahormozi)",
+      "sourceURL": "https://www.instagram.com/p/DcMCm4QFPyx/",
+      "sourceDate": "2026-08-18",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Post caption",
+        "postID": "DcMCm4QFPyx"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote Leila Hormozi wrote as the caption on her own Instagram post (@leilahormozi).",
+      "createdAt": "2026-08-28T14:01:03.000Z",
+      "updatedAt": "2026-08-28T14:01:06.000Z"
+    },
+    {
+      "id": "7fc0f08f-f0b8-43ad-8e0a-dda626b578da",
+      "text": "Most people try hard when everyone is watching. You try hard when no one is.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "accountability",
+        "resilience"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@leilahormozi)",
+      "sourceURL": "https://www.instagram.com/p/DcMCm4QFPyx/",
+      "sourceDate": "2026-08-18",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Post caption",
+        "postID": "DcMCm4QFPyx"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote Leila Hormozi wrote as the caption on her own Instagram post (@leilahormozi).",
+      "createdAt": "2026-08-28T14:01:10.000Z",
+      "updatedAt": "2026-08-28T14:01:13.000Z"
+    },
+    {
+      "id": "a89989e6-c658-4843-80ca-d94480d18efc",
+      "text": "Most unhappiness isn't from choosing wrong. It's from never consciously choosing at all. Decide what matters most to you right now, on purpose, and stop trying to balance everything equally.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "decision-making",
+        "prioritization"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@leilahormozi)",
+      "sourceURL": "https://www.instagram.com/p/Dbd2eKwmj_1/",
+      "sourceDate": "2026-07-31",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Post caption",
+        "postID": "Dbd2eKwmj_1"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote Leila Hormozi wrote as the caption on her own Instagram post (@leilahormozi).",
+      "createdAt": "2026-08-28T14:01:52.000Z",
+      "updatedAt": "2026-08-28T14:01:55.000Z"
+    },
+    {
+      "id": "48158db4-0f25-431b-8de8-1786e30004a2",
+      "text": "No decision IS a decision",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "decision-making",
+        "accountability"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@leilahormozi)",
+      "sourceURL": "https://www.instagram.com/p/DcMyaT5GfNv/",
+      "sourceDate": "2026-08-18",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Post caption",
+        "postID": "DcMyaT5GfNv"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote Leila Hormozi wrote as the caption on her own Instagram post (@leilahormozi).",
+      "createdAt": "2026-08-28T14:00:56.000Z",
+      "updatedAt": "2026-08-28T14:00:59.000Z"
+    },
+    {
+      "id": "9ffcb820-884a-41d8-9d6a-0134b529ca7b",
+      "text": "Prune your circle of friends and associates. You become who you hang out with. Surround yourself with people who make it easier to achieve your goals, not harder.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "goals"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@leilahormozi)",
+      "sourceURL": "https://www.instagram.com/p/DaMou3ZFNLF/",
+      "sourceDate": "2026-06-30",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Post caption",
+        "postID": "DaMou3ZFNLF"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote Leila Hormozi wrote as the caption on her own Instagram post (@leilahormozi).",
+      "createdAt": "2026-08-28T14:02:48.000Z",
+      "updatedAt": "2026-08-28T14:02:51.000Z"
+    },
+    {
+      "id": "12e7f6aa-f9e9-418c-b001-723b77240f01",
+      "text": "Repetition beats luck. Outwork your odds.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "resilience",
+        "execution"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@leilahormozi)",
+      "sourceURL": "https://www.instagram.com/p/DcY3dw1CKZX/",
+      "sourceDate": "2026-08-23",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Post caption",
+        "postID": "DcY3dw1CKZX"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote Leila Hormozi wrote as the caption on her own Instagram post (@leilahormozi).",
+      "createdAt": "2026-08-28T14:00:35.000Z",
+      "updatedAt": "2026-08-28T14:00:41.000Z"
+    },
+    {
+      "id": "02f75ed0-3dc0-48a2-92ab-3b56b281dfbf",
+      "text": "Rest is strategic.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "productivity",
+        "stress"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@leilahormozi)",
+      "sourceURL": "https://www.instagram.com/p/DZMIiZsFGXK/",
+      "sourceDate": "2026-06-05",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Post caption",
+        "postID": "DZMIiZsFGXK"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote Leila Hormozi wrote as the caption on her own Instagram post (@leilahormozi).",
+      "createdAt": "2026-08-28T14:03:44.000Z",
+      "updatedAt": "2026-08-28T14:03:47.000Z"
+    },
+    {
+      "id": "7a1c37df-4652-44c5-8a87-cc8a2e7340ef",
+      "text": "Something that took me way too long to learn: It's better to overpay for an A player than underpay for three B players.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Leadership & Teams",
+      "tags": [
+        "leadership",
+        "scaling"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@leilahormozi)",
+      "sourceURL": "https://www.instagram.com/p/DZUJnYJFC9h/",
+      "sourceDate": "2026-06-08",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Post caption",
+        "postID": "DZUJnYJFC9h"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote Leila Hormozi wrote as the caption on her own Instagram post (@leilahormozi).",
+      "createdAt": "2026-08-28T14:03:30.000Z",
+      "updatedAt": "2026-08-28T14:03:33.000Z"
+    },
+    {
+      "id": "70680e2e-7b34-4bb2-afd7-ccfc7b2c27b9",
+      "text": "Stop focusing on looking for someone to complete you. Start becoming someone that you're worth staying with.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "accountability"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@leilahormozi)",
+      "sourceURL": "https://www.instagram.com/p/DcEPnOVm7g7/",
+      "sourceDate": "2026-08-15",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Post caption",
+        "postID": "DcEPnOVm7g7"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote Leila Hormozi wrote as the caption on her own Instagram post (@leilahormozi).",
+      "createdAt": "2026-08-28T14:01:24.000Z",
+      "updatedAt": "2026-08-28T14:01:27.000Z"
+    },
+    {
+      "id": "aeb3e42a-409e-454f-adea-f97516d58b65",
+      "text": "The bigger the dream, the bigger your tolerance for uncertainty, stress, and criticism must be.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "ambition",
+        "resilience"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@leilahormozi)",
+      "sourceURL": "https://www.instagram.com/p/DbehCqfj1pI/",
+      "sourceDate": "2026-08-01",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Post caption",
+        "postID": "DbehCqfj1pI"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote Leila Hormozi wrote as the caption on her own Instagram post (@leilahormozi).",
+      "createdAt": "2026-08-28T14:01:59.000Z",
+      "updatedAt": "2026-08-28T14:02:02.000Z"
+    },
+    {
+      "id": "8728eb4b-ab05-41fe-ae58-940b91443541",
+      "text": "The most successful people I know have a high tolerance for being misunderstood.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "resilience",
+        "perspective"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@leilahormozi)",
+      "sourceURL": "https://www.instagram.com/p/DbLhqXRDGdU/",
+      "sourceDate": "2026-07-24",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Post caption",
+        "postID": "DbLhqXRDGdU"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote Leila Hormozi wrote as the caption on her own Instagram post (@leilahormozi).",
+      "createdAt": "2026-08-28T14:02:06.000Z",
+      "updatedAt": "2026-08-28T14:02:09.000Z"
+    },
+    {
+      "id": "a9989bd3-d800-4ede-9a98-50e77cdbfb15",
+      "text": "The seat at the table is yours if you want it. Do the hard work. Build the skills no one can ignore. Adjust your mindset to match where you want to go. Then pull up a chair and sit down.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "ambition",
+        "execution"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@leilahormozi)",
+      "sourceURL": "https://www.instagram.com/p/Da8TSm_mgbV/",
+      "sourceDate": "2026-07-18",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Post caption",
+        "postID": "Da8TSm_mgbV"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote Leila Hormozi wrote as the caption on her own Instagram post (@leilahormozi).",
+      "createdAt": "2026-08-28T14:02:13.000Z",
+      "updatedAt": "2026-08-28T14:02:16.000Z"
+    },
+    {
+      "id": "d5d61492-f724-4664-a3e0-eac3858cf7bc",
+      "text": "The world rewards the bold and punishes the timid",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "risk",
+        "ambition"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@leilahormozi)",
+      "sourceURL": "https://www.instagram.com/p/DbozYbsAbCN/",
+      "sourceDate": "2026-08-05",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Post caption",
+        "postID": "DbozYbsAbCN"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote Leila Hormozi wrote as the caption on her own Instagram post (@leilahormozi).",
+      "createdAt": "2026-08-28T14:01:45.000Z",
+      "updatedAt": "2026-08-28T14:01:48.000Z"
+    },
+    {
+      "id": "2d0ace26-8777-4b6b-bedb-c56dcc45ff2f",
+      "text": "Titles don't make leaders… …actions do",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Leadership & Teams",
+      "tags": [
+        "leadership",
+        "execution"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@leilahormozi)",
+      "sourceURL": "https://www.instagram.com/p/DaicnS8E-Z5/",
+      "sourceDate": "2026-07-08",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Post caption",
+        "postID": "DaicnS8E-Z5"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote Leila Hormozi wrote as the caption on her own Instagram post (@leilahormozi).",
+      "createdAt": "2026-08-28T14:02:34.000Z",
+      "updatedAt": "2026-08-28T14:02:37.000Z"
+    },
+    {
+      "id": "8f343875-88f0-432e-820e-4be54fa7abc6",
+      "text": "You become confident by the relentless, teeth gritting, stomach turning work you do in private.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "resilience",
+        "execution"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@leilahormozi)",
+      "sourceURL": "https://www.instagram.com/p/Dap7xneExDA/",
+      "sourceDate": "2026-07-11",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Post caption",
+        "postID": "Dap7xneExDA"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote Leila Hormozi wrote as the caption on her own Instagram post (@leilahormozi).",
+      "createdAt": "2026-08-28T14:02:27.000Z",
+      "updatedAt": "2026-08-28T14:02:30.000Z"
+    },
+    {
+      "id": "303d0050-8889-48b6-8094-7ba1d9a0a0f0",
+      "text": "You can do anything. You just can't prioritize everything.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "prioritization",
+        "focus"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@leilahormozi)",
+      "sourceURL": "https://www.instagram.com/p/DcQ_bwoAdgE/",
+      "sourceDate": "2026-08-20",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Post caption",
+        "postID": "DcQ_bwoAdgE"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote Leila Hormozi wrote as the caption on her own Instagram post (@leilahormozi).",
+      "createdAt": "2026-08-28T14:00:49.000Z",
+      "updatedAt": "2026-08-28T14:00:52.000Z"
+    },
+    {
+      "id": "82143555-6453-4054-9601-7a4ec43883f0",
+      "text": "You can't build a million-dollar business with hundred-dollar habits.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Business Models & Strategy",
+      "tags": [
+        "business-models",
+        "accountability"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@leilahormozi)",
+      "sourceURL": "https://www.instagram.com/p/DZjY25dFH7K/",
+      "sourceDate": "2026-06-14",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Post caption",
+        "postID": "DZjY25dFH7K"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote Leila Hormozi wrote as the caption on her own Instagram post (@leilahormozi).",
+      "createdAt": "2026-08-28T14:03:16.000Z",
+      "updatedAt": "2026-08-28T14:03:19.000Z"
+    },
+    {
+      "id": "97f68405-163b-469b-a038-def3060b3117",
+      "text": "You can't expect consistent results if you don't have consistent habits.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "productivity",
+        "execution"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@leilahormozi)",
+      "sourceURL": "https://www.instagram.com/p/DckHzmkgTY1/",
+      "sourceDate": "2026-08-28",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Post caption",
+        "postID": "DckHzmkgTY1"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote Leila Hormozi wrote as the caption on her own Instagram post (@leilahormozi).",
+      "createdAt": "2026-08-28T14:00:14.000Z",
+      "updatedAt": "2026-08-28T14:00:20.000Z"
+    },
+    {
+      "id": "4f780a78-c4e9-48a5-aa09-8a89f615a215",
+      "text": "You can't lead people well if you're too busy pretending you don't have flaws. Be a human. Then be a leader. In that order.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Leadership & Teams",
+      "tags": [
+        "leadership",
+        "perspective"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@leilahormozi)",
+      "sourceURL": "https://www.instagram.com/p/DbyrAg-gZX3/",
+      "sourceDate": "2026-08-08",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Post caption",
+        "postID": "DbyrAg-gZX3"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote Leila Hormozi wrote as the caption on her own Instagram post (@leilahormozi).",
+      "createdAt": "2026-08-28T14:01:38.000Z",
+      "updatedAt": "2026-08-28T14:01:41.000Z"
+    },
+    {
+      "id": "65b71285-82aa-407d-8835-137c6932a8c6",
+      "text": "You don't learn confidence by thinking. You create it through action. Thoughts don't create results. Movement does.",
+      "author": "Leila Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "execution",
+        "perspective"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@leilahormozi)",
+      "sourceURL": "https://www.instagram.com/p/DcgZl6TFNdO/",
+      "sourceDate": "2026-08-26",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Post caption",
+        "postID": "DcgZl6TFNdO"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote Leila Hormozi wrote as the caption on her own Instagram post (@leilahormozi).",
+      "createdAt": "2026-08-28T14:00:07.000Z",
+      "updatedAt": "2026-08-28T14:00:13.000Z"
     }
   ]
 }

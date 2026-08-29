@@ -135,7 +135,7 @@ export function QuoteFeed({ quotes: suppliedQuotes, initialQuote, initialQuoteID
             </div>
           </div>
 
-          <div data-testid="quote-actions" className="relative z-10 flex gap-[var(--quote-control-gap)]">
+          <div data-testid="quote-actions" className="relative z-10 flex items-center gap-[var(--quote-control-gap)]">
             <Button className="size-[var(--quote-control-size)] rounded-full bg-black p-0 text-white hover:bg-white hover:text-black [&_svg]:size-5" aria-label={saved ? "Remove quote from saved" : "Save quote"} onClick={() => {
               toggleSaved(quote.id);
               trackProductEvent(saved ? "quote_unsaved" : "quote_saved", { product: brand.id, quote_id: quote.id, category: quote.primaryCategory });
@@ -144,9 +144,19 @@ export function QuoteFeed({ quotes: suppliedQuotes, initialQuote, initialQuoteID
             }}><ProductIcon name="save" filled={saved} /></Button>
             <ShareActions quote={quote} trigger={<Button className="size-[var(--quote-control-size)] rounded-full bg-black p-0 text-white hover:bg-white hover:text-black [&_svg]:size-5" aria-label="Share quote"><ProductIcon name="share" /></Button>} />
             <Button asChild className="size-[var(--quote-control-size)] rounded-full bg-black p-0 text-white hover:bg-white hover:text-black [&_svg]:size-5"><Link href={`/source/${quote.id}`} aria-label="View quote source"><ProductIcon name="external" /></Link></Button>
+            <div className="ml-2 hidden items-center gap-2 border-l border-[var(--quote-rule)] pl-4 lg:flex">
+              <Button className="size-[var(--quote-control-size)] rounded-full bg-black p-0 text-white hover:bg-white hover:text-black [&_svg]:size-5" aria-label="Previous quote" onClick={() => { move(-1); recordSuccessfulSwipe(); }}><ProductIcon name="previous" /></Button>
+              <Button className="size-[var(--quote-control-size)] rounded-full bg-black p-0 text-white hover:bg-white hover:text-black [&_svg]:size-5" aria-label="Next quote" onClick={() => { move(1); recordSuccessfulSwipe(); }}><ProductIcon name="next" /></Button>
+              <p className="nav-hint text-[0.65rem] font-bold uppercase tracking-[0.14em] text-[var(--quote-muted)]" data-learned={swipeLearned} aria-hidden={swipeLearned}><span>Use &uarr; &darr; or click to browse</span></p>
+            </div>
           </div>
 
-          <p className="swipe-hint relative z-10 text-center text-[0.65rem] font-bold uppercase tracking-[0.14em] text-[var(--quote-muted)] lg:hidden" data-learned={swipeLearned} aria-hidden={swipeLearned}><span>Swipe for another</span></p>
+          <p className="swipe-hint relative z-10 text-center text-[0.65rem] font-bold uppercase tracking-[0.14em] text-[var(--quote-muted)] lg:hidden" data-learned={swipeLearned} aria-hidden={swipeLearned}>
+            <span className="flex items-center justify-center gap-2">
+              <ProductIcon name="previous" className="swipe-hint-chevron size-3.5" />
+              Swipe for another
+            </span>
+          </p>
         </section>
 
         <aside className="rail-glass hidden gap-10 border-l border-white/10 px-7 py-12 text-white lg:flex lg:flex-col lg:justify-between">

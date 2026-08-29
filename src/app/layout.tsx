@@ -4,8 +4,7 @@ import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Bebas_Neue, Inter } from "next/font/google";
 import "./globals.css";
-import { AppProviders } from "@/components/app-providers";
-import { AppShell } from "@/components/app-shell";
+import { ProductRoot } from "@/components/product-root";
 import { activeBrand, isLeilaProduct } from "@/lib/product";
 import { getSiteUrl } from "@/lib/site-url";
 
@@ -51,9 +50,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="en" className={`${inter.variable} ${bebas.variable}`} data-scroll-behavior="smooth">
       <body className="antialiased" data-product={activeBrand.id} style={productStyle}>
-        <AppProviders brand={activeBrand}>
-          <AppShell>{children}</AppShell>
-        </AppProviders>
+        <ProductRoot brand={activeBrand}>{children}</ProductRoot>
         {process.env.VERCEL ? <Analytics /> : null}
         {process.env.VERCEL ? <SpeedInsights /> : null}
       </body>

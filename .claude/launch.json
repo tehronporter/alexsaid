@@ -6,6 +6,12 @@
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "dev"],
       "port": 3000
+    },
+    {
+      "name": "dev-leila",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["-c", "SAID_PRODUCT=leila PORT=3001 npm run dev"],
+      "port": 3001
     }
   ]
 }

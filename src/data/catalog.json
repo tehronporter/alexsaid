@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-25T21:40:00.000Z",
+  "generatedAt": "2026-08-28T12:00:00.000Z",
   "developmentFixture": false,
   "categories": [
     "Offers",
@@ -84,6 +84,32 @@
       "updatedAt": "2026-08-24T03:49:24.103Z"
     },
     {
+      "id": "7067dab9-8e3e-4def-88ff-5c08a522b15f",
+      "text": "Aggressive with effort. Relaxed with outcome.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "execution",
+        "stress"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DbuRncOIP_v/",
+      "sourceDate": "2026-08-07",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 10",
+        "postID": "DbuRncOIP_v"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:05:50.000Z",
+      "updatedAt": "2026-08-28T12:05:56.000Z"
+    },
+    {
       "id": "89237f45-0bfb-464e-acfe-6cfad1e2b46a",
       "text": "Always making things happen faster. Always disappointed it didn't happen faster.",
       "author": "Alex Hormozi",
@@ -133,6 +159,84 @@
       "context": "Alex draws a hard line between wanting something and actually working toward it.",
       "createdAt": "2026-08-23T23:58:00.000Z",
       "updatedAt": "2026-08-24T03:49:24.103Z"
+    },
+    {
+      "id": "fabf059c-26e0-4bd7-afda-87706a73f90f",
+      "text": "Ask the girl. Shoot the shot. Launch the business. Run the ad. Quit the job. Take the risk. / When you're 85 years old and on your deathbed, you're not gonna wish you had fewer crazy stories.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "risk",
+        "ambition"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/Db1__xLDmoN/",
+      "sourceDate": "2026-08-10",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 3",
+        "postID": "Db1__xLDmoN"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:03:51.000Z",
+      "updatedAt": "2026-08-28T12:03:54.000Z"
+    },
+    {
+      "id": "dd7b333f-115a-485a-9f4e-db8e2a940ce5",
+      "text": "Beginners ask what. Intermediates ask how. Experts ask who. Masters ask why.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "learning",
+        "leadership"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DbiwZoWlq-x/",
+      "sourceDate": "2026-08-02",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 5",
+        "postID": "DbiwZoWlq-x"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:07:56.000Z",
+      "updatedAt": "2026-08-28T12:08:02.000Z"
+    },
+    {
+      "id": "c476293e-345d-46cb-bfb8-94b964f9ce0d",
+      "text": "By the time you have all the information, the opportunity is gone. Sometimes you just gotta make your bet.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "decision-making",
+        "urgency"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/Dbrs0nSDr7t/",
+      "sourceDate": "2026-08-06",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 6",
+        "postID": "Dbrs0nSDr7t"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:06:18.000Z",
+      "updatedAt": "2026-08-28T12:06:21.000Z"
     },
     {
       "id": "950ebee2-02b5-44a3-893f-b22de6b199c6",
@@ -187,6 +291,32 @@
       "updatedAt": "2026-08-25T21:40:00.000Z"
     },
     {
+      "id": "6a95a085-b5f6-4976-9006-f3fac20643c7",
+      "text": "Consider yourself lucky if you find even one human who believes in you more than you do. And - never let them go.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "resilience"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DcU5iRtFOPh/",
+      "sourceDate": "2026-08-22",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 10",
+        "postID": "DcU5iRtFOPh"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:02:55.000Z",
+      "updatedAt": "2026-08-28T12:03:01.000Z"
+    },
+    {
       "id": "6712e851-db2e-530a-8083-c6c3c9e8ac33",
       "text": "Success is hard because it requires consistency not complexity.",
       "author": "Alex Hormozi",
@@ -211,6 +341,58 @@
       "context": "Alex reframes why success is difficult: the hard part is repeating simple actions, not finding a more complicated method.",
       "createdAt": "2026-08-25T21:40:00.000Z",
       "updatedAt": "2026-08-25T21:40:00.000Z"
+    },
+    {
+      "id": "9281b2a8-4e91-48f8-9782-f8e71225d646",
+      "text": "Consistent people beat inconsistent people - which is everyone.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "productivity",
+        "execution"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DbiwZoWlq-x/",
+      "sourceDate": "2026-08-02",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 4",
+        "postID": "DbiwZoWlq-x"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:07:49.000Z",
+      "updatedAt": "2026-08-28T12:07:52.000Z"
+    },
+    {
+      "id": "fb042b54-b96e-42d6-b52e-e424ebf52d26",
+      "text": "Customers become friends faster than friends become customers.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Customer Success & Retention",
+      "tags": [
+        "customer-experience",
+        "sales"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/Db1__xLDmoN/",
+      "sourceDate": "2026-08-10",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 2",
+        "postID": "Db1__xLDmoN"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:03:44.000Z",
+      "updatedAt": "2026-08-28T12:03:50.000Z"
     },
     {
       "id": "9fd38292-744b-4827-a2e2-47463c15ca7d",
@@ -240,6 +422,84 @@
       "shortVersion": "…the undefeated heavyweight champion of the world is do nothing."
     },
     {
+      "id": "90509102-1938-4300-af4e-30c0a9d85c55",
+      "text": "Don't ever take criticism from someone you wouldn't ask advice from.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "decision-making"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DcU5iRtFOPh/",
+      "sourceDate": "2026-08-22",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 4",
+        "postID": "DcU5iRtFOPh"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:02:13.000Z",
+      "updatedAt": "2026-08-28T12:02:16.000Z"
+    },
+    {
+      "id": "3e4564ab-9d30-44b7-a855-9f64c44e27aa",
+      "text": "Don't expect to be accepted if you want to be exceptional. To become exceptional, by definition, you are the exception.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "ambition",
+        "perspective"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DbwooTCFK98/",
+      "sourceDate": "2026-08-08",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 1",
+        "postID": "DbwooTCFK98"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:04:40.000Z",
+      "updatedAt": "2026-08-28T12:04:43.000Z"
+    },
+    {
+      "id": "642889cd-01a5-4a07-8557-d1e9ed48e2b3",
+      "text": "Don't get bored. Be violent. Create your own enemies. Break your own records. Leave no doubt. / At the end of your life, you're never gonna want to be the man who gave up early.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "ambition",
+        "resilience"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/Dbrs0nSDr7t/",
+      "sourceDate": "2026-08-06",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 4",
+        "postID": "Dbrs0nSDr7t"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:06:11.000Z",
+      "updatedAt": "2026-08-28T12:06:17.000Z"
+    },
+    {
       "id": "6783a7fb-8603-44f7-8f1b-ffa8730b5eb7",
       "text": "You might have suggested it because you are emotionally uncomfortable with your existing moment and just want something to do rather than the thing that you know is going to work.",
       "author": "Alex Hormozi",
@@ -264,6 +524,84 @@
       "context": "Alex warns that a new initiative can be an emotional escape from patiently continuing the proven course of action.",
       "createdAt": "2026-08-23T23:00:00.000Z",
       "updatedAt": "2026-08-23T23:35:00.000Z"
+    },
+    {
+      "id": "a2fed99e-7a5c-466c-90a5-c3cfcbd47e21",
+      "text": "Entrepreneurship is a test of will, not intellect.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "resilience",
+        "ambition"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/Db1__xLDmoN/",
+      "sourceDate": "2026-08-10",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 9",
+        "postID": "Db1__xLDmoN"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:04:26.000Z",
+      "updatedAt": "2026-08-28T12:04:29.000Z"
+    },
+    {
+      "id": "cb6b88a5-52b0-49e7-a8d6-c5d96ea7ed30",
+      "text": "Everybody sucks when they start. Nobody remembers by the time you finish.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "learning",
+        "resilience"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DbpIApBjpHE/",
+      "sourceDate": "2026-08-05",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 8",
+        "postID": "DbpIApBjpHE"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:07:28.000Z",
+      "updatedAt": "2026-08-28T12:07:34.000Z"
+    },
+    {
+      "id": "911e7a91-a933-46f5-a60f-bc22571f2208",
+      "text": "Everyone roots for you to win until winning means doing better than them.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "resilience"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DcNLGv0lAY5/",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 1",
+        "postID": "DcNLGv0lAY5"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:03:02.000Z",
+      "updatedAt": "2026-08-28T12:03:05.000Z"
     },
     {
       "id": "31545e53-4b71-4036-b59f-c42f55525d0a",
@@ -346,6 +684,32 @@
       "updatedAt": "2026-08-24T03:49:24.103Z"
     },
     {
+      "id": "29a03a3b-04ea-453a-93b7-5915e1e541bd",
+      "text": "Friendly reminder that after you make your first $10k per month you don't immediately have to start a coaching program.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Business Models & Strategy",
+      "tags": [
+        "business-models",
+        "small-business"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/Db1__xLDmoN/",
+      "sourceDate": "2026-08-10",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 8",
+        "postID": "Db1__xLDmoN"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:04:19.000Z",
+      "updatedAt": "2026-08-28T12:04:22.000Z"
+    },
+    {
       "id": "ca64f810-6276-4dd1-a2de-0d8456fb4caa",
       "text": "Hard times feel long. But an epic story lasts a lifetime.",
       "author": "Alex Hormozi",
@@ -397,6 +761,578 @@
       "updatedAt": "2026-08-25T21:40:00.000Z"
     },
     {
+      "id": "7fae527b-6053-4c03-9831-177482d879ae",
+      "text": "How to avoid tons of problems in life: Go to bed on time.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "productivity",
+        "stress"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DbuRncOIP_v/",
+      "sourceDate": "2026-08-07",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 3",
+        "postID": "DbuRncOIP_v"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:05:08.000Z",
+      "updatedAt": "2026-08-28T12:05:11.000Z"
+    },
+    {
+      "id": "64b25d98-561e-4d8f-9526-afe380d0cb63",
+      "text": "How to stay poor: Blame anything besides yourself for your problems.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "accountability",
+        "resilience"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DcXQfl9j0-k/",
+      "sourceDate": "2026-08-23",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 9",
+        "postID": "DcXQfl9j0-k"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:01:24.000Z",
+      "updatedAt": "2026-08-28T12:01:27.000Z"
+    },
+    {
+      "id": "f51ccdcc-47f3-4518-a5a4-cd1c324bbed4",
+      "text": "How to stay poor: Do what your poor friends do and expect to get rich.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "accountability"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DcXQfl9j0-k/",
+      "sourceDate": "2026-08-23",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 6",
+        "postID": "DcXQfl9j0-k"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:01:03.000Z",
+      "updatedAt": "2026-08-28T12:01:06.000Z"
+    },
+    {
+      "id": "6a1f2d71-75ed-49fa-8e8e-15b27794430c",
+      "text": "How to stay poor: Follow advice from people behind you in life on how to get ahead.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "learning",
+        "decision-making"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DcXQfl9j0-k/",
+      "sourceDate": "2026-08-23",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 7",
+        "postID": "DcXQfl9j0-k"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:01:10.000Z",
+      "updatedAt": "2026-08-28T12:01:13.000Z"
+    },
+    {
+      "id": "9854dcaa-4180-441b-894b-aa0c4b09bc67",
+      "text": "How to stay poor: Freak out whenever you need to learn any math related to money and say, \"I'm not a math person.\" Then, forever think the fact that you had a shitty 8th grade math teacher excuses you from learning anything new.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "learning",
+        "accountability"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DcXQfl9j0-k/",
+      "sourceDate": "2026-08-23",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 8",
+        "postID": "DcXQfl9j0-k"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:01:17.000Z",
+      "updatedAt": "2026-08-28T12:01:20.000Z"
+    },
+    {
+      "id": "b441d6cc-856a-4317-8872-09b7df6161a2",
+      "text": "How to stay poor: Get married to someone who spends more than you make",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "risk",
+        "decision-making"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DcXQfl9j0-k/",
+      "sourceDate": "2026-08-23",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 4",
+        "postID": "DcXQfl9j0-k"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:00:49.000Z",
+      "updatedAt": "2026-08-28T12:00:52.000Z"
+    },
+    {
+      "id": "4727c270-f04d-4624-a2ea-ec215661b0b1",
+      "text": "How to stay poor: Keep starting new things rather than getting good at one thing.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "focus",
+        "learning"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DcXQfl9j0-k/",
+      "sourceDate": "2026-08-23",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 5",
+        "postID": "DcXQfl9j0-k"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:00:56.000Z",
+      "updatedAt": "2026-08-28T12:00:59.000Z"
+    },
+    {
+      "id": "a0423243-4d50-49f5-9a02-f119ecb31baf",
+      "text": "How to stay poor: Only learn from people who look like you.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "learning",
+        "perspective"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DcXQfl9j0-k/",
+      "sourceDate": "2026-08-23",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 2",
+        "postID": "DcXQfl9j0-k"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:00:35.000Z",
+      "updatedAt": "2026-08-28T12:00:38.000Z"
+    },
+    {
+      "id": "00b199c3-8842-4b47-8197-de5973b6aacd",
+      "text": "How to stay poor: Prioritize looking smart over being smart.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "learning"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DcXQfl9j0-k/",
+      "sourceDate": "2026-08-23",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 10",
+        "postID": "DcXQfl9j0-k"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:01:31.000Z",
+      "updatedAt": "2026-08-28T12:01:34.000Z"
+    },
+    {
+      "id": "29f6afdb-dfa9-4b66-b4ae-8c482c338e8e",
+      "text": "How to stay poor: Quit.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "resilience",
+        "execution"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DcXQfl9j0-k/",
+      "sourceDate": "2026-08-23",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 12",
+        "postID": "DcXQfl9j0-k"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:01:45.000Z",
+      "updatedAt": "2026-08-28T12:01:51.000Z"
+    },
+    {
+      "id": "0eff3627-015b-46cb-ab28-9237a871791d",
+      "text": "How to stay poor: Start many projects. Finish none.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "execution",
+        "focus"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DcXQfl9j0-k/",
+      "sourceDate": "2026-08-23",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 3",
+        "postID": "DcXQfl9j0-k"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:00:42.000Z",
+      "updatedAt": "2026-08-28T12:00:48.000Z"
+    },
+    {
+      "id": "2db09976-0cb7-4123-8fa7-46d26f3e06a3",
+      "text": "How to stay poor: Think someone else winning means you losing.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "ambition"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DcXQfl9j0-k/",
+      "sourceDate": "2026-08-23",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 1",
+        "postID": "DcXQfl9j0-k"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:00:28.000Z",
+      "updatedAt": "2026-08-28T12:00:31.000Z"
+    },
+    {
+      "id": "1878b5f7-ba76-4313-85f0-7ad3e7d7f40a",
+      "text": "How to stay poor: Tolerate mediocre people.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Leadership & Teams",
+      "tags": [
+        "leadership",
+        "prioritization"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DcXQfl9j0-k/",
+      "sourceDate": "2026-08-23",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 11",
+        "postID": "DcXQfl9j0-k"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:01:38.000Z",
+      "updatedAt": "2026-08-28T12:01:41.000Z"
+    },
+    {
+      "id": "0b87efc7-746e-48d5-97a8-7a15316cafb1",
+      "text": "I've never admired anyone who insisted their birthday was a big deal.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "leadership"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DcL_fF-ETLo/",
+      "sourceDate": "2026-08-18",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 1",
+        "postID": "DcL_fF-ETLo"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:03:30.000Z",
+      "updatedAt": "2026-08-28T12:03:33.000Z"
+    },
+    {
+      "id": "0f585948-a2ef-41fa-ace9-911adfc67511",
+      "text": "\"I work a 9 to 5 and I can't find the time to work on my goals.\" You get 104 days off a year. They're called weekends. Use them.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "productivity",
+        "accountability"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/Dbrs0nSDr7t/",
+      "sourceDate": "2026-08-06",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 9",
+        "postID": "Dbrs0nSDr7t"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:06:39.000Z",
+      "updatedAt": "2026-08-28T12:06:42.000Z"
+    },
+    {
+      "id": "d285ce9c-1554-4267-a55b-120b9fb3ca23",
+      "text": "If you can't sit still, ignore notifications, and focus on one task for eight hours straight, never expect to build something great.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "focus",
+        "productivity"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/Dbe0zgBoOTa/",
+      "sourceDate": "2026-08-01",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 8",
+        "postID": "Dbe0zgBoOTa"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:09:06.000Z",
+      "updatedAt": "2026-08-28T12:09:09.000Z"
+    },
+    {
+      "id": "84fabc9d-cda7-4033-aeee-b2df783b1239",
+      "text": "If you don't control your schedule, you don't control your life.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "productivity",
+        "prioritization"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DbpIApBjpHE/",
+      "sourceDate": "2026-08-05",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 9",
+        "postID": "DbpIApBjpHE"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:07:35.000Z",
+      "updatedAt": "2026-08-28T12:07:38.000Z"
+    },
+    {
+      "id": "06820ae7-a29e-40c7-bdb9-7ac63d86ad0a",
+      "text": "If you don't track, you don't care.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Operations & Scaling",
+      "tags": [
+        "measurement",
+        "accountability"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DbpIApBjpHE/",
+      "sourceDate": "2026-08-05",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 6",
+        "postID": "DbpIApBjpHE"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:07:14.000Z",
+      "updatedAt": "2026-08-28T12:07:20.000Z"
+    },
+    {
+      "id": "5883165b-a7c8-4e49-8032-59f18aeb0d85",
+      "text": "If you have no money, you should have no shame. Knock. Call. Email. Text. DM. Ask. Life-changing doors don't open themselves.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Sales",
+      "tags": [
+        "sales",
+        "execution"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/Dbe0zgBoOTa/",
+      "sourceDate": "2026-08-01",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 5",
+        "postID": "Dbe0zgBoOTa"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:08:52.000Z",
+      "updatedAt": "2026-08-28T12:08:58.000Z"
+    },
+    {
+      "id": "76f2ac61-1bf8-4245-b512-6cb32f28cd40",
+      "text": "If you need perfect conditions to start, it means your success is conditional. If you want unconditional success, then be willing to start in under any circumstance.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "decision-making",
+        "execution"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DbpIApBjpHE/",
+      "sourceDate": "2026-08-05",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 5",
+        "postID": "DbpIApBjpHE"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:07:07.000Z",
+      "updatedAt": "2026-08-28T12:07:10.000Z"
+    },
+    {
+      "id": "934fbe80-dddd-4663-8c2d-25841fc2acf9",
+      "text": "If you're never willing to lose, you're never going to win.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "risk",
+        "ambition"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DbuRncOIP_v/",
+      "sourceDate": "2026-08-07",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 8",
+        "postID": "DbuRncOIP_v"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:05:36.000Z",
+      "updatedAt": "2026-08-28T12:05:39.000Z"
+    },
+    {
+      "id": "929c5639-d88f-4ea7-930c-053fd1b78093",
+      "text": "If you're willing to work exceptionally hard, get rejected, and live below your means for three years...you can beat just about everyone.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "resilience",
+        "sustainability"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DbuRncOIP_v/",
+      "sourceDate": "2026-08-07",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 5",
+        "postID": "DbuRncOIP_v"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:05:15.000Z",
+      "updatedAt": "2026-08-28T12:05:18.000Z"
+    },
+    {
       "id": "f4e4bf60-2700-48be-84bc-a499d14f36ea",
       "text": "And so, a lot of lack of focus is actually intellectual laziness.",
       "author": "Alex Hormozi",
@@ -421,6 +1357,84 @@
       "context": "Alex explains that people often retreat to familiar work when they encounter a problem they do not yet know how to solve.",
       "createdAt": "2026-08-23T23:00:00.000Z",
       "updatedAt": "2026-08-23T23:35:00.000Z"
+    },
+    {
+      "id": "5fb25d82-794a-462c-8ed9-e754cba83624",
+      "text": "Ironically, the fewer people you try to impress, the more impressive you become.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "leadership"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/Dbrs0nSDr7t/",
+      "sourceDate": "2026-08-06",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 3",
+        "postID": "Dbrs0nSDr7t"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:06:04.000Z",
+      "updatedAt": "2026-08-28T12:06:07.000Z"
+    },
+    {
+      "id": "8538f8a7-5c46-4971-947b-b2be16fb3aac",
+      "text": "It's always harder, takes longer, and costs more than you think it will.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "execution",
+        "resilience"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DbuRncOIP_v/",
+      "sourceDate": "2026-08-07",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 7",
+        "postID": "DbuRncOIP_v"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:05:29.000Z",
+      "updatedAt": "2026-08-28T12:05:32.000Z"
+    },
+    {
+      "id": "cfe08086-c97a-4804-9fde-a3dd84ed9cee",
+      "text": "It's never easy, fast, or works the first time. Get over it.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "resilience",
+        "execution"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DcNLGv0lAY5/",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 4",
+        "postID": "DcNLGv0lAY5"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:03:23.000Z",
+      "updatedAt": "2026-08-28T12:03:26.000Z"
     },
     {
       "id": "2bf736d9-5f89-4a3f-92c7-b7f83a80bbb6",
@@ -475,6 +1489,84 @@
       "updatedAt": "2026-08-25T21:40:00.000Z"
     },
     {
+      "id": "ec33d491-b395-4994-8715-12f828209e37",
+      "text": "Money loves speed. Wealth loves time. Poverty loves indecision.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "decision-making",
+        "strategy"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DbpIApBjpHE/",
+      "sourceDate": "2026-08-05",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 4",
+        "postID": "DbpIApBjpHE"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:07:00.000Z",
+      "updatedAt": "2026-08-28T12:07:03.000Z"
+    },
+    {
+      "id": "0b0561a4-7944-4289-b3ed-d35158c70d8f",
+      "text": "No one has ever regretted trying harder.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "resilience",
+        "ambition"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/Dbrs0nSDr7t/",
+      "sourceDate": "2026-08-06",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 7",
+        "postID": "Dbrs0nSDr7t"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:06:25.000Z",
+      "updatedAt": "2026-08-28T12:06:31.000Z"
+    },
+    {
+      "id": "6035043b-629c-41f0-99f3-da5a244a4ebc",
+      "text": "Normalize ignoring the opinions of people who have smaller dreams for your life than you do.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "ambition",
+        "focus"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DbwooTCFK98/",
+      "sourceDate": "2026-08-08",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 3",
+        "postID": "DbwooTCFK98"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:04:47.000Z",
+      "updatedAt": "2026-08-28T12:04:50.000Z"
+    },
+    {
       "id": "53280e23-3898-47f6-ad02-a284497d4881",
       "text": "5 reasons your offer isn't converting: 1) Targeting poor people 2) Not enough Proof 3) Too little friction 4) Big outcome not fast enough 5) \"Sounds like work\"",
       "author": "Alex Hormozi",
@@ -498,6 +1590,58 @@
       "context": "Alex lists the most common reasons a sales offer fails to convert.",
       "createdAt": "2026-08-23T23:58:00.000Z",
       "updatedAt": "2026-08-24T03:49:24.103Z"
+    },
+    {
+      "id": "1c242795-fa4a-45d4-871f-b1c46013cabd",
+      "text": "Once you realize just how much more work it takes to go from good to great...you realize you can only be great at a few things and ignore the rest.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "focus",
+        "prioritization"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DbiwZoWlq-x/",
+      "sourceDate": "2026-08-02",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 10",
+        "postID": "DbiwZoWlq-x"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:08:31.000Z",
+      "updatedAt": "2026-08-28T12:08:34.000Z"
+    },
+    {
+      "id": "17f1c3fe-e250-4430-9d18-74a8234c2eaa",
+      "text": "One of the things no one tells you about delayed gratification is that once you learn how to do it, you keep doing it until you die. Then what you delayed never happens.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "productivity",
+        "prioritization"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DcNLGv0lAY5/",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 3",
+        "postID": "DcNLGv0lAY5"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:03:16.000Z",
+      "updatedAt": "2026-08-28T12:03:19.000Z"
     },
     {
       "id": "8f02520b-f6ea-497f-9dfd-6e1a7d1edd21",
@@ -552,6 +1696,240 @@
       "createdAt": "2026-08-25T21:40:00.000Z",
       "updatedAt": "2026-08-25T21:40:00.000Z",
       "shortVersion": "…Outwork your self doubt."
+    },
+    {
+      "id": "d434b7ed-d61e-488e-a65e-a03051c83f90",
+      "text": "People measure the risk and cost of taking action but rarely the risk and cost of doing nothing. This keeps people poorer than they ought to be.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "risk",
+        "decision-making"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DcZ1StUD1Pn/",
+      "sourceDate": "2026-08-24",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 1",
+        "postID": "DcZ1StUD1Pn"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:00:21.000Z",
+      "updatedAt": "2026-08-28T12:00:24.000Z"
+    },
+    {
+      "id": "ac73f3de-46c3-40dd-b874-c6a284aa9812",
+      "text": "People stop rooting when you start winning because they only love an underdog as long as it stays an underdog.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "resilience",
+        "perspective"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DcU5iRtFOPh/",
+      "sourceDate": "2026-08-22",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 9",
+        "postID": "DcU5iRtFOPh"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:02:48.000Z",
+      "updatedAt": "2026-08-28T12:02:51.000Z"
+    },
+    {
+      "id": "eee10cf1-a880-4264-9984-847ecd9d4c74",
+      "text": "People underestimate how much brute force you have to use to will your goals into existence.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "ambition",
+        "execution"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/Dbe0zgBoOTa/",
+      "sourceDate": "2026-08-01",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 4",
+        "postID": "Dbe0zgBoOTa"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:08:45.000Z",
+      "updatedAt": "2026-08-28T12:08:48.000Z"
+    },
+    {
+      "id": "1241b279-7be5-4a3a-af05-c608750e32da",
+      "text": "People want you to lose because it helps them justify the risks they chose not to take.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "risk"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/Db1__xLDmoN/",
+      "sourceDate": "2026-08-10",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 4",
+        "postID": "Db1__xLDmoN"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:03:58.000Z",
+      "updatedAt": "2026-08-28T12:04:01.000Z"
+    },
+    {
+      "id": "5af46da3-8cff-4285-9615-7632f8487f39",
+      "text": "People will treat you as poorly as you allow.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "accountability",
+        "leadership"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DcU5iRtFOPh/",
+      "sourceDate": "2026-08-22",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 7",
+        "postID": "DcU5iRtFOPh"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:02:34.000Z",
+      "updatedAt": "2026-08-28T12:02:37.000Z"
+    },
+    {
+      "id": "1eef47d1-d8a6-4a10-a90b-c80b70751baa",
+      "text": "People work. Sacrifice. Then get rich. Then get time. Then fill their time with weird routines. Then forget how they got rich in the 1st place. Then tell others the weird routines made them rich...rather than what they did. / Which is whatever it took. Not a 3hr morning routine.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "execution"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DbiwZoWlq-x/",
+      "sourceDate": "2026-08-02",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 7",
+        "postID": "DbiwZoWlq-x"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:08:10.000Z",
+      "updatedAt": "2026-08-28T12:08:13.000Z"
+    },
+    {
+      "id": "39a442f6-41c9-4b5b-91fd-e9f515ff6cf7",
+      "text": "People work their whole lives for what they could get in a few years if they just went all in. / Deleting work life balance for a season gives you more work life balance over a lifetime. / You're not crazy for working hard, you're crazy for trying to get them to understand.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "productivity",
+        "sustainability"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DbwooTCFK98/",
+      "sourceDate": "2026-08-08",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 5",
+        "postID": "DbwooTCFK98"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:04:54.000Z",
+      "updatedAt": "2026-08-28T12:04:57.000Z"
+    },
+    {
+      "id": "159d04ea-13df-492b-b32d-fa85c4138b14",
+      "text": "Poor people delay doing things they don't like for longer than it takes to do them. This keeps them poorer, longer.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "productivity",
+        "execution"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DcU5iRtFOPh/",
+      "sourceDate": "2026-08-22",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 5",
+        "postID": "DcU5iRtFOPh"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:02:20.000Z",
+      "updatedAt": "2026-08-28T12:02:23.000Z"
+    },
+    {
+      "id": "e231cacc-7f13-47a4-b9a6-3fb2c2d39242",
+      "text": "Poor people want no one to be rich. Rich people want everyone to be rich. One of these worldviews is superior.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "leadership"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/Dbe0zgBoOTa/",
+      "sourceDate": "2026-08-01",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 6",
+        "postID": "Dbe0zgBoOTa"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:08:59.000Z",
+      "updatedAt": "2026-08-28T12:09:02.000Z"
     },
     {
       "id": "3ca22a3f-4f5e-4ed1-804c-c3358d8e9feb",
@@ -843,6 +2221,84 @@
       "updatedAt": "2026-08-24T03:49:24.103Z"
     },
     {
+      "id": "5b87b05c-62bb-4f74-bbc9-8f94aaa82b0f",
+      "text": "Selling is a transference of belief over a bridge of trust. Therefore you cannot sell unless you believe. And they will not buy unless they believe YOU.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Sales",
+      "tags": [
+        "sales",
+        "sales-training"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DbcKHCBFA-7/",
+      "sourceDate": "2026-07-31",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 1",
+        "postID": "DbcKHCBFA-7"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:09:20.000Z",
+      "updatedAt": "2026-08-28T12:09:23.000Z"
+    },
+    {
+      "id": "3b23f9ad-e64b-43c8-a385-4b96fa4521c3",
+      "text": "So don't be in the bleachers when that fat pitch comes. Be at the plate. Ready to swing big.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "opportunity",
+        "ambition"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DchjtmUEinA/",
+      "sourceDate": "2026-08-27",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 8",
+        "postID": "DchjtmUEinA"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:00:14.000Z",
+      "updatedAt": "2026-08-28T12:00:20.000Z"
+    },
+    {
+      "id": "6716038c-b191-41eb-ab5b-7bf5a8b4af1c",
+      "text": "Stand tall. Dont crack. Endure. You can die tomorrow. Today you do the only thing you can do. You fight. You rage on. You do what you came to do. You finish what you started. No matter how much it costs. How long it takes. Or how much it hurts. Because you said you would.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "resilience",
+        "accountability"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DcKmPmLHLfG/",
+      "sourceDate": "2026-08-18",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 1",
+        "postID": "DcKmPmLHLfG"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:03:37.000Z",
+      "updatedAt": "2026-08-28T12:03:40.000Z"
+    },
+    {
       "id": "527e0b4b-08a5-5c70-a37b-cd56fda80851",
       "text": "We don’t rise to the standards we have when others are watching we fall to the standards we have when no one is.",
       "author": "Alex Hormozi",
@@ -946,6 +2402,84 @@
       "context": "Alex qualifies the advice for people early in their careers whose current industry structurally lacks repeat purchasing.",
       "createdAt": "2026-08-23T23:00:00.000Z",
       "updatedAt": "2026-08-23T23:35:00.000Z"
+    },
+    {
+      "id": "94072b42-8c76-4b50-a02c-5b3b2b2566d5",
+      "text": "The best way to make money is solve problems for people who have money.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Business Models & Strategy",
+      "tags": [
+        "business-models",
+        "offers"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/Dbrs0nSDr7t/",
+      "sourceDate": "2026-08-06",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 2",
+        "postID": "Dbrs0nSDr7t"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:05:57.000Z",
+      "updatedAt": "2026-08-28T12:06:00.000Z"
+    },
+    {
+      "id": "bce143f8-e96d-4214-8f21-03ebe97c1c18",
+      "text": "The day I saw $100,000 in my checking account is the richest I've ever felt. I remember thinking \"I can make no money for 3 years and still be okay\" It had a huge difference on my daily life. Ignore what others say. Work as hard as you can to get there. Then you can breathe.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "sustainability",
+        "resilience"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DbuRncOIP_v/",
+      "sourceDate": "2026-08-07",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 6",
+        "postID": "DbuRncOIP_v"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:05:22.000Z",
+      "updatedAt": "2026-08-28T12:05:25.000Z"
+    },
+    {
+      "id": "8e7ceb8f-35e0-425b-b79d-ebcbd3a23e28",
+      "text": "The fact that you don't know if it's gonna work - is exactly what makes it worth doing. It's why entrepreneurship isn't for the faint of heart. Embrace uncertainty.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "risk",
+        "opportunity"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DbiwZoWlq-x/",
+      "sourceDate": "2026-08-02",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 2",
+        "postID": "DbiwZoWlq-x"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:07:42.000Z",
+      "updatedAt": "2026-08-28T12:07:45.000Z"
     },
     {
       "id": "9c2b5b69-cc74-4d51-a753-9e7f90d46494",
@@ -1783,6 +3317,214 @@
       "updatedAt": "2026-08-24T05:04:26.298Z"
     },
     {
+      "id": "c6bc0e33-782d-409d-883e-53244b103026",
+      "text": "The most important skill you can develop is the ability to keep doing what needs to be done without anyone telling you \"good job.\"",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "accountability",
+        "execution"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DbiwZoWlq-x/",
+      "sourceDate": "2026-08-02",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 8",
+        "postID": "DbiwZoWlq-x"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:08:17.000Z",
+      "updatedAt": "2026-08-28T12:08:20.000Z"
+    },
+    {
+      "id": "472718a0-4b6d-47fa-bfc6-8f2cf1141e7a",
+      "text": "The single greatest skill you can develop is the ability to stay in a great mood in the absence of things to be in a great mood about.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "stress",
+        "perspective"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/Dbe0zgBoOTa/",
+      "sourceDate": "2026-08-01",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 2",
+        "postID": "Dbe0zgBoOTa"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:08:38.000Z",
+      "updatedAt": "2026-08-28T12:08:41.000Z"
+    },
+    {
+      "id": "23595053-42dd-4cc4-82c5-f7a09f6c72f8",
+      "text": "The thing about opportunities is that they present themselves to everyone and only people with capacity can both recognize and capitalize on them.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "opportunity",
+        "decision-making"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DchjtmUEinA/",
+      "sourceDate": "2026-08-27",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 7",
+        "postID": "DchjtmUEinA"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:00:07.000Z",
+      "updatedAt": "2026-08-28T12:00:10.000Z"
+    },
+    {
+      "id": "82198d43-1dc2-4952-b592-97e9105ccbc0",
+      "text": "The truest test of friendship isn't if they're there for you at your worst but if they're happy for you when you do better than them.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "accountability"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DcNLGv0lAY5/",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 2",
+        "postID": "DcNLGv0lAY5"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:03:09.000Z",
+      "updatedAt": "2026-08-28T12:03:12.000Z"
+    },
+    {
+      "id": "8619cfec-8620-43e2-92b7-dd58fe3c6602",
+      "text": "Three levels of wealth: > No meetings > Lots of meetings > No meetings",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Business Models & Strategy",
+      "tags": [
+        "strategy",
+        "scaling"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/Db1__xLDmoN/",
+      "sourceDate": "2026-08-10",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 7",
+        "postID": "Db1__xLDmoN"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:04:12.000Z",
+      "updatedAt": "2026-08-28T12:04:18.000Z"
+    },
+    {
+      "id": "a5a4f7de-5319-4bdf-aafb-8fe5e9733350",
+      "text": "Until you win, everyone asks you why you're working so hard. After you win, everyone asks why you're working so hard.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "resilience",
+        "perspective"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DcU5iRtFOPh/",
+      "sourceDate": "2026-08-22",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 2",
+        "postID": "DcU5iRtFOPh"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:01:59.000Z",
+      "updatedAt": "2026-08-28T12:02:02.000Z"
+    },
+    {
+      "id": "036417fe-09f8-4580-817a-50e8acfad420",
+      "text": "What every beginner needs to learn: Failing is closer to success than thinking about success. Failure become success over time. Thinking becomes failure over time.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "learning",
+        "resilience"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DbiwZoWlq-x/",
+      "sourceDate": "2026-08-02",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 9",
+        "postID": "DbiwZoWlq-x"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:08:24.000Z",
+      "updatedAt": "2026-08-28T12:08:27.000Z"
+    },
+    {
+      "id": "e0907345-1076-4a63-a597-38fe2bd06027",
+      "text": "What to do when you're not sure what to do: Build capacity.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "decision-making",
+        "execution"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DchjtmUEinA/",
+      "sourceDate": "2026-08-27",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 1",
+        "postID": "DchjtmUEinA"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:00:00.000Z",
+      "updatedAt": "2026-08-28T12:00:06.000Z"
+    },
+    {
       "id": "2a2a3dc1-8e1c-4e2a-8149-cb97f61ec542",
       "text": "And so, I almost always wrap my questions with \"What would it take?\" because it assumes success.",
       "author": "Alex Hormozi",
@@ -1808,6 +3550,188 @@
       "context": "Alex contrasts this framing with asking whether something can be done; the former starts from an assumption that a solution exists.",
       "createdAt": "2026-08-23T23:00:00.000Z",
       "updatedAt": "2026-08-23T23:35:00.000Z"
+    },
+    {
+      "id": "037b9ae5-a1bf-4869-935c-987bcdf81e2a",
+      "text": "What you avoid controls you.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "accountability",
+        "stress"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/Dbe0zgBoOTa/",
+      "sourceDate": "2026-08-01",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 9",
+        "postID": "Dbe0zgBoOTa"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:09:13.000Z",
+      "updatedAt": "2026-08-28T12:09:19.000Z"
+    },
+    {
+      "id": "de5ef538-a45d-4fb0-8b56-9f00395db9a1",
+      "text": "You can beat 99% of people if you can master the shame of rejection, the boredom of repetition, and pain of feedback.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "resilience",
+        "sales-training"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DbuRncOIP_v/",
+      "sourceDate": "2026-08-07",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 2",
+        "postID": "DbuRncOIP_v"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:05:01.000Z",
+      "updatedAt": "2026-08-28T12:05:04.000Z"
+    },
+    {
+      "id": "882bb3af-885c-4710-8b95-e571a02e3475",
+      "text": "You can beat most people at anything if you just stick with it for a year.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "resilience",
+        "learning"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DbpIApBjpHE/",
+      "sourceDate": "2026-08-05",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 2",
+        "postID": "DbpIApBjpHE"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:06:46.000Z",
+      "updatedAt": "2026-08-28T12:06:49.000Z"
+    },
+    {
+      "id": "2cd291e4-99f4-4db4-8bbd-5257902c2e44",
+      "text": "You have to learn to do things you hate in order to do the things you love. No payoffs come without sacrifice.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "execution",
+        "productivity"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/Db1__xLDmoN/",
+      "sourceDate": "2026-08-10",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 6",
+        "postID": "Db1__xLDmoN"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:04:05.000Z",
+      "updatedAt": "2026-08-28T12:04:08.000Z"
+    },
+    {
+      "id": "581b5485-0097-4ae9-bf3d-ccb75ee9306b",
+      "text": "You'll be rewarded far more in life for your determination than your intelligence. The problem is - determination just looks like a long string of failures until it works.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "resilience",
+        "perspective"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DbpIApBjpHE/",
+      "sourceDate": "2026-08-05",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 7",
+        "postID": "DbpIApBjpHE"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:07:21.000Z",
+      "updatedAt": "2026-08-28T12:07:24.000Z"
+    },
+    {
+      "id": "7d0bfeae-a03f-4f62-a383-f2ace9b09d0e",
+      "text": "You only need to get rich once. So you might as well work as hard as you can to get it done as fast as you can.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "ambition",
+        "urgency"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/DcU5iRtFOPh/",
+      "sourceDate": "2026-08-22",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 1",
+        "postID": "DcU5iRtFOPh"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:01:52.000Z",
+      "updatedAt": "2026-08-28T12:01:55.000Z"
+    },
+    {
+      "id": "51e6fc62-01f3-43b3-825a-f791a36cb011",
+      "text": "You're allowed to be happy before you hit your goal, just not satisfied.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "goals"
+      ],
+      "sourceType": "social",
+      "sourceTitle": "Instagram post (@hormozi)",
+      "sourceURL": "https://www.instagram.com/p/Dbrs0nSDr7t/",
+      "sourceDate": "2026-08-06",
+      "sourceLocator": {
+        "kind": "web",
+        "section": "Carousel slide 8",
+        "postID": "Dbrs0nSDr7t"
+      },
+      "verified": true,
+      "verificationStandard": "direct-source-twice",
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Quote card Alex Hormozi posted to his own Instagram grid (@hormozi), reposted from his X account.",
+      "createdAt": "2026-08-28T12:06:32.000Z",
+      "updatedAt": "2026-08-28T12:06:35.000Z"
     },
     {
       "id": "04f51d5f-dc42-4225-b2dd-1d8f5951ccb1",

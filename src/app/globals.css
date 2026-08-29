@@ -192,6 +192,27 @@ button, a { touch-action: manipulation; }
   margin-top: 0;
   opacity: 0;
 }
+.swipe-hint-chevron { animation: swipe-hint-bounce 1.6s ease-in-out infinite; }
+
+.nav-hint {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  opacity: 1;
+  transition:
+    max-width var(--quote-hint-duration) ease,
+    opacity var(--quote-hint-duration) ease;
+}
+.nav-hint > span { overflow: hidden; }
+.nav-hint[data-learned="false"] { max-width: 14rem; }
+.nav-hint[data-learned="true"] { opacity: 0; }
+
+@keyframes swipe-hint-bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-3px); }
+}
 
 .brand-monogram {
   position: relative;

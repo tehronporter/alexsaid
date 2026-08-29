@@ -111,7 +111,8 @@ export default function HomePage() {
           <Image
             src={phoneMockup}
             alt="Two iPhones showing the Alex Said quote feed and searchable topic library"
-            priority
+            loading="eager"
+            fetchPriority="high"
             placeholder="blur"
             sizes="(max-width: 800px) 92vw, 52vw"
             className={styles.phoneImage}

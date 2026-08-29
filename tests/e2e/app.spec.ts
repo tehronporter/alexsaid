@@ -104,11 +104,11 @@ test("quote controls stay focused and three successful swipes teach the gesture"
   });
 
   const actions = page.getByTestId("quote-actions");
+  const isDesktopViewport = (page.viewportSize()?.width ?? 0) >= 1024;
   await expect(actions.getByRole("button", { name: "Save quote" })).toBeVisible();
   await expect(actions.getByRole("button", { name: "Share quote" })).toBeVisible();
   await expect(actions.getByRole("link", { name: "View quote source" })).toBeVisible();
-  await expect(page.getByRole("button", { name: /Previous quote|Next quote/ })).toHaveCount(0);
-  await expect(page.getByText("Arrow keys")).toHaveCount(0);
+  await expect(page.getByRole("button", { name: /Previous quote|Next quote/ })).toHaveCount(isDesktopViewport ? 2 : 0);
   const hint = page.locator(".swipe-hint");
   if ((page.viewportSize()?.width ?? 0) < 1024) {
     await expect(hint).toBeVisible();
