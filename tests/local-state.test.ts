@@ -36,6 +36,14 @@ describe("local user state", () => {
     expect(migrateLocalState({ ...defaultLocalState, successfulSwipeCount: -2 }).successfulSwipeCount).toBe(0);
   });
 
+  it("defaults and clamps the navigation onboarding version", () => {
+    const storedWithoutVersion = { ...defaultLocalState } as Record<string, unknown>;
+    delete storedWithoutVersion.navigationOnboardingVersion;
+    expect(migrateLocalState(storedWithoutVersion).navigationOnboardingVersion).toBe(0);
+    expect(migrateLocalState({ ...defaultLocalState, navigationOnboardingVersion: 9 }).navigationOnboardingVersion).toBe(2);
+    expect(migrateLocalState({ ...defaultLocalState, navigationOnboardingVersion: -1 }).navigationOnboardingVersion).toBe(0);
+  });
+
   it("expands legacy category preferences into the controlled taxonomy", () => {
     const state = migrateLocalState({ ...defaultLocalState, favoriteCategories: ["Mindset", "Business Building", "Sales", "Decision Making"] });
     expect(state.favoriteCategories).toEqual([

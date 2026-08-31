@@ -31,7 +31,7 @@ export function QuoteFeed({ quotes: suppliedQuotes, initialQuote, initialQuoteID
   const [enterDirection, setEnterDirection] = useState<1 | -1>(1);
   const [dragY, setDragY] = useState(0);
   const [dragging, setDragging] = useState(false);
-  const touchStart = useRef<number | null>(null);
+  const pointerStart = useRef<{ pointerID: number; clientY: number; startedAt: number } | null>(null);
   const mainRef = useRef<HTMLElement | null>(null);
   const activeQuoteID = selectedQuoteID ?? initialQuoteID ?? initialQuote?.id ?? state.lastQuoteID ?? order[0]?.id;
   const index = Math.max(0, order.findIndex((item) => item.id === activeQuoteID));
@@ -39,7 +39,7 @@ export function QuoteFeed({ quotes: suppliedQuotes, initialQuote, initialQuoteID
   const saved = quote ? state.savedIDs.includes(quote.id) : false;
   const quoteSize = quoteDisplaySize(quote?.text ?? "");
   const quoteStyle = quoteTypographyStyle(quote?.text ?? "");
-  const swipeLearned = state.successfulSwipeCount >= 3;
+  const navigationCoachVisible = state.onboardingComplete && state.navigationOnboardingVersion < 2;
 
   const move = useCallback((direction: 1 | -1, historyMode: "push" | "replace" = "push") => {
     const routeQuoteID = typeof window === "undefined" ? null : window.location.pathname.match(/^\/q\/([^/]+)$/)?.[1];
@@ -59,15 +59,25 @@ export function QuoteFeed({ quotes: suppliedQuotes, initialQuote, initialQuoteID
     moveRef.current = move;
   }, [move]);
 
-  const recordSuccessfulSwipe = useCallback(() => {
+  const completeNavigationCoach = useCallback((method: "gesture" | "control") => {
     const nextCount = Math.min(3, state.successfulSwipeCount + 1);
-    if (nextCount !== state.successfulSwipeCount) update({ successfulSwipeCount: nextCount });
-  }, [state.successfulSwipeCount, update]);
+    const updateState = {
+      navigationOnboardingVersion: 2,
+      ...(method === "gesture" ? { successfulSwipeCount: nextCount } : {})
+    };
+    if (state.navigationOnboardingVersion < 2 || (method === "gesture" && nextCount !== state.successfulSwipeCount)) update(updateState);
+    if (method === "control" && state.navigationOnboardingVersion < 2 && window.matchMedia("(max-width: 1023px)").matches) {
+      toast("You can also swipe", { description: "Swipe up for the next quote or down to go back." });
+    }
+  }, [state.navigationOnboardingVersion, state.successfulSwipeCount, update]);
 
   useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
-      if (["ArrowDown", "ArrowRight"].includes(event.key)) moveRef.current(1);
-      if (["ArrowUp", "ArrowLeft"].includes(event.key)) moveRef.current(-1);
+      const target = event.target instanceof HTMLElement ? event.target : null;
+      const blocked = target?.closest("input, textarea, select, [contenteditable='true'], [role='dialog'], [role='menu']");
+      if (blocked || event.defaultPrevented || event.metaKey || event.ctrlKey || event.altKey) return;
+      if (["ArrowDown", "ArrowRight"].includes(event.key)) { event.preventDefault(); moveRef.current(1); }
+      if (["ArrowUp", "ArrowLeft"].includes(event.key)) { event.preventDefault(); moveRef.current(-1); }
     };
     window.addEventListener("keydown", onKeyDown);
     mainRef.current?.setAttribute("data-interactive", "true");
@@ -89,6 +99,26 @@ export function QuoteFeed({ quotes: suppliedQuotes, initialQuote, initialQuoteID
     trackProductEvent("quote_viewed", { product: brand.id, quote_id: quote.id, category: quote.primaryCategory });
   }, [brand.id, quote]);
 
+  const resetPointer = useCallback(() => {
+    pointerStart.current = null;
+    setDragging(false);
+    setDragY(0);
+  }, []);
+
+  const finishPointerNavigation = useCallback((clientY: number) => {
+    const start = pointerStart.current;
+    if (!start) { resetPointer(); return; }
+    const delta = start.clientY - clientY;
+    const elapsed = Math.max(1, performance.now() - start.startedAt);
+    const velocity = Math.abs(delta) / elapsed;
+    const committed = Math.abs(delta) > 56 || (Math.abs(delta) > 28 && velocity > 0.45);
+    if (committed) {
+      completeNavigationCoach("gesture");
+      move(delta > 0 ? 1 : -1);
+    }
+    resetPointer();
+  }, [completeNavigationCoach, move, resetPointer]);
+
   if (!quote) return <main className="quote-surface purple-field min-h-dvh" aria-busy="true"><p className="sr-only">Loading quote catalog</p></main>;
 
   return (
@@ -96,21 +126,31 @@ export function QuoteFeed({ quotes: suppliedQuotes, initialQuote, initialQuoteID
       <div className="grid min-h-[calc(100dvh-5.75rem)] lg:min-h-dvh lg:grid-cols-[minmax(0,1fr)_23rem] xl:grid-cols-[minmax(0,1fr)_26rem]">
         <section
           className="quote-stage flex min-h-[calc(100dvh-5.75rem)] select-none flex-col px-[var(--quote-page-margin)] pt-[calc(var(--quote-header-top)+var(--safe-top))] pb-5 md:min-h-dvh md:pb-9 lg:pb-12"
-          onTouchStart={(event) => { touchStart.current = event.changedTouches[0]?.clientY ?? null; setDragging(true); }}
-          onTouchMove={(event) => {
-            if (touchStart.current === null) return;
-            const currentY = event.changedTouches[0]?.clientY ?? touchStart.current;
-            setDragY(Math.max(-120, Math.min(120, touchStart.current - currentY)));
+          data-coaching={navigationCoachVisible}
+          onPointerDown={(event) => {
+            if (event.pointerType === "mouse" || event.button !== 0) return;
+            pointerStart.current = { pointerID: event.pointerId, clientY: event.clientY, startedAt: performance.now() };
+            try { event.currentTarget.setPointerCapture(event.pointerId); } catch { /* Synthetic test events do not own a native pointer capture. */ }
+            setDragging(true);
           }}
-          onTouchEnd={(event) => {
-            if (touchStart.current === null) { setDragging(false); return; }
-            const delta = touchStart.current - (event.changedTouches[0]?.clientY ?? touchStart.current);
-            if (Math.abs(delta) > 56) { recordSuccessfulSwipe(); move(delta > 0 ? 1 : -1); }
-            touchStart.current = null;
-            setDragging(false);
-            setDragY(0);
+          onPointerMove={(event) => {
+            const start = pointerStart.current;
+            if (!start || start.pointerID !== event.pointerId) return;
+            event.preventDefault();
+            setDragY(Math.max(-120, Math.min(120, start.clientY - event.clientY)));
           }}
+          onPointerUp={(event) => finishPointerNavigation(event.clientY)}
+          onPointerCancel={resetPointer}
         >
+          <div
+            className="gesture-preview"
+            data-active={dragging || navigationCoachVisible}
+            data-direction={dragY < 0 ? "previous" : "next"}
+            style={{ opacity: dragging ? Math.min(1, Math.abs(dragY) / 60) : 0.72 }}
+            aria-hidden="true"
+          >
+            {dragY < 0 ? <><ProductIcon name="next" />Previous quote</> : <>Next quote<ProductIcon name="previous" /></>}
+          </div>
           <header data-testid="quote-header" className="relative z-10 flex items-baseline justify-between">
             <p className="text-sm font-extrabold tracking-[0.12em]">{brand.productName.toUpperCase()}</p>
             <div className="flex items-center gap-4">
@@ -121,6 +161,7 @@ export function QuoteFeed({ quotes: suppliedQuotes, initialQuote, initialQuoteID
 
           <div
             data-quote-size={quoteStyle}
+            data-coaching={navigationCoachVisible}
             className="quote-composition relative z-10 flex flex-1 items-center py-[var(--quote-composition-space)]"
             style={{ transform: `translateY(${-dragY * 0.4}px)`, transition: dragging ? "none" : "transform 320ms var(--ease-ios)" }}
           >
@@ -135,28 +176,32 @@ export function QuoteFeed({ quotes: suppliedQuotes, initialQuote, initialQuoteID
             </div>
           </div>
 
-          <div data-testid="quote-actions" className="relative z-10 flex items-center gap-[var(--quote-control-gap)]">
-            <Button className="size-[var(--quote-control-size)] rounded-full bg-black p-0 text-white hover:bg-white hover:text-black [&_svg]:size-5" aria-label={saved ? "Remove quote from saved" : "Save quote"} onClick={() => {
-              toggleSaved(quote.id);
-              trackProductEvent(saved ? "quote_unsaved" : "quote_saved", { product: brand.id, quote_id: quote.id, category: quote.primaryCategory });
-              if (!saved && !hasShownSaveHint) { hasShownSaveHint = true; toast.success("Saved for later", { description: "Find it anytime in Saved." }); }
-              else toast.success(saved ? "Removed from saved" : "Saved for later");
-            }}><ProductIcon name="save" filled={saved} /></Button>
-            <ShareActions quote={quote} trigger={<Button className="size-[var(--quote-control-size)] rounded-full bg-black p-0 text-white hover:bg-white hover:text-black [&_svg]:size-5" aria-label="Share quote"><ProductIcon name="share" /></Button>} />
-            <Button asChild className="size-[var(--quote-control-size)] rounded-full bg-black p-0 text-white hover:bg-white hover:text-black [&_svg]:size-5"><Link href={`/source/${quote.id}`} aria-label="View quote source"><ProductIcon name="external" /></Link></Button>
-            <div className="ml-2 hidden items-center gap-2 border-l border-[var(--quote-rule)] pl-4 lg:flex">
-              <Button className="size-[var(--quote-control-size)] rounded-full bg-black p-0 text-white hover:bg-white hover:text-black [&_svg]:size-5" aria-label="Previous quote" onClick={() => { move(-1); recordSuccessfulSwipe(); }}><ProductIcon name="previous" /></Button>
-              <Button className="size-[var(--quote-control-size)] rounded-full bg-black p-0 text-white hover:bg-white hover:text-black [&_svg]:size-5" aria-label="Next quote" onClick={() => { move(1); recordSuccessfulSwipe(); }}><ProductIcon name="next" /></Button>
-              <p className="nav-hint text-[0.65rem] font-bold uppercase tracking-[0.14em] text-[var(--quote-muted)]" data-learned={swipeLearned} aria-hidden={swipeLearned}><span>Use &uarr; &darr; or click to browse</span></p>
+          <div className="relative z-10 flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
+            <div data-testid="quote-browse-controls" className="order-1 flex min-h-12 w-full items-center gap-2 lg:order-2 lg:w-auto lg:border-l lg:border-[var(--quote-rule)] lg:pl-5" aria-label="Browse quotes">
+              <Button variant="outline" className="h-12 flex-1 border-[var(--quote-rule)] bg-transparent px-4 text-[var(--quote-fg)] hover:bg-black hover:text-white lg:flex-none" aria-label="Previous quote" onClick={() => { completeNavigationCoach("control"); move(-1); }}>
+                <ProductIcon name="previous" className="rotate-180 lg:rotate-0" />Previous
+              </Button>
+              <p className="min-w-14 text-center text-[0.65rem] font-bold tabular-nums tracking-[0.12em] text-[var(--quote-muted)]" aria-hidden="true">{String(index + 1).padStart(2, "0")} / {order.length}</p>
+              <Button className="h-12 flex-1 bg-black px-4 text-white hover:bg-white hover:text-black lg:flex-none" aria-label="Next quote" onClick={() => { completeNavigationCoach("control"); move(1); }}>
+                Next quote<ProductIcon name="next" className="rotate-180 lg:rotate-0" />
+              </Button>
+              <p className="hidden text-[0.62rem] font-bold uppercase tracking-[0.12em] text-[var(--quote-muted)] xl:block">Arrow keys work too</p>
+            </div>
+            <p className="navigation-coach order-2 text-center text-[0.65rem] font-bold uppercase tracking-[0.12em] text-[var(--quote-muted)] lg:hidden" data-visible={navigationCoachVisible} aria-hidden={!navigationCoachVisible}>
+              <span><strong>Swipe up for next</strong><span aria-hidden="true"> · </span>Swipe down to go back</span>
+            </p>
+            <div data-testid="quote-actions" className="order-3 flex items-center justify-center gap-[var(--quote-control-gap)] lg:order-1 lg:justify-start">
+              <Button className="size-[var(--quote-control-size)] rounded-full bg-black p-0 text-white hover:bg-white hover:text-black [&_svg]:size-5" aria-label={saved ? "Remove quote from saved" : "Save quote"} onClick={() => {
+                toggleSaved(quote.id);
+                trackProductEvent(saved ? "quote_unsaved" : "quote_saved", { product: brand.id, quote_id: quote.id, category: quote.primaryCategory });
+                if (!saved && !hasShownSaveHint) { hasShownSaveHint = true; toast.success("Saved for later", { description: "Find it anytime in Saved." }); }
+                else toast.success(saved ? "Removed from saved" : "Saved for later");
+              }}><ProductIcon name="save" filled={saved} /></Button>
+              <ShareActions quote={quote} trigger={<Button className="size-[var(--quote-control-size)] rounded-full bg-black p-0 text-white hover:bg-white hover:text-black [&_svg]:size-5" aria-label="Share quote"><ProductIcon name="share" /></Button>} />
+              <Button asChild className="size-[var(--quote-control-size)] rounded-full bg-black p-0 text-white hover:bg-white hover:text-black [&_svg]:size-5"><Link href={`/source/${quote.id}`} aria-label="View quote source"><ProductIcon name="external" /></Link></Button>
             </div>
           </div>
-
-          <p className="swipe-hint relative z-10 text-center text-[0.65rem] font-bold uppercase tracking-[0.14em] text-[var(--quote-muted)] lg:hidden" data-learned={swipeLearned} aria-hidden={swipeLearned}>
-            <span className="flex items-center justify-center gap-2">
-              <ProductIcon name="previous" className="swipe-hint-chevron size-3.5" />
-              Swipe for another
-            </span>
-          </p>
+          <p className="sr-only" aria-live="polite" aria-atomic="true">Quote {index + 1} of {order.length}, by {quote.author}.</p>
         </section>
 
         <aside className="rail-glass hidden gap-10 border-l border-white/10 px-7 py-12 text-white lg:flex lg:flex-col lg:justify-between">

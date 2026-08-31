@@ -12,6 +12,7 @@ const completedState = {
   onboardingComplete: true,
   lastQuoteID: null,
   successfulSwipeCount: 0,
+  navigationOnboardingVersion: 2,
 };
 
 const leilaProduct = process.env.SAID_PRODUCT === "leila";

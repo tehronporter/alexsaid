@@ -10,7 +10,8 @@ export const defaultLocalState: LocalUserStateV1 = {
   feedScope: "all",
   onboardingComplete: false,
   lastQuoteID: null,
-  successfulSwipeCount: 0
+  successfulSwipeCount: 0,
+  navigationOnboardingVersion: 0
 };
 
 function stringArray(value: unknown) {
@@ -41,6 +42,9 @@ export function migrateLocalState(value: unknown): LocalUserStateV1 {
     lastQuoteID: typeof legacy.lastQuoteID === "string" ? legacy.lastQuoteID : null,
     successfulSwipeCount: typeof legacy.successfulSwipeCount === "number" && Number.isFinite(legacy.successfulSwipeCount)
       ? Math.max(0, Math.min(3, Math.trunc(legacy.successfulSwipeCount)))
+      : 0,
+    navigationOnboardingVersion: typeof legacy.navigationOnboardingVersion === "number" && Number.isFinite(legacy.navigationOnboardingVersion)
+      ? Math.max(0, Math.min(2, Math.trunc(legacy.navigationOnboardingVersion)))
       : 0
   });
   return migrated.success ? migrated.data : defaultLocalState;

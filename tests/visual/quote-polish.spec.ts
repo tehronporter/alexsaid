@@ -12,6 +12,7 @@ const completedState = {
   onboardingComplete: true,
   lastQuoteID: null,
   successfulSwipeCount: 0,
+  navigationOnboardingVersion: 2,
 };
 
 const leilaProduct = process.env.SAID_PRODUCT === "leila";
@@ -64,13 +65,13 @@ for (const [label, quote] of reviewQuotes) {
   });
 }
 
-test("learned swipe state removes the hint", async ({ page }, testInfo) => {
+test("learned navigation state removes the coach", async ({ page }, testInfo) => {
   test.skip(testInfo.project.name !== "modern-iphone");
   await page.evaluate((storageKey) => {
     const state = JSON.parse(localStorage.getItem(storageKey) ?? "{}");
-    localStorage.setItem(storageKey, JSON.stringify({ ...state, successfulSwipeCount: 3 }));
+    localStorage.setItem(storageKey, JSON.stringify({ ...state, successfulSwipeCount: 1, navigationOnboardingVersion: 2 }));
   }, stateKey);
   await page.goto(`/q/${shortestQuote.id}`);
-  await expect(page.locator(".swipe-hint")).not.toBeVisible();
+  await expect(page.locator(".navigation-coach")).not.toBeVisible();
   await expect(page).toHaveScreenshot(snapshot("swipe-learned"));
 });

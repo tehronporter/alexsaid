@@ -160,7 +160,8 @@ export const localUserStateSchema = z.object({
   feedScope: z.enum(["all", "favorite-topics"]),
   onboardingComplete: z.boolean(),
   lastQuoteID: z.string().uuid().nullable(),
-  successfulSwipeCount: z.number().int().min(0).max(3).default(0)
+  successfulSwipeCount: z.number().int().min(0).max(3).default(0),
+  navigationOnboardingVersion: z.number().int().min(0).max(2).default(0)
 });
 
 export type LocalUserStateV1 = z.infer<typeof localUserStateSchema>;

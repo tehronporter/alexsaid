@@ -134,7 +134,37 @@ button, a { touch-action: manipulation; }
   color: var(--quote-fg);
 }
 
-.quote-stage { position: relative; }
+.quote-stage {
+  position: relative;
+  overscroll-behavior-y: contain;
+  touch-action: pan-x;
+}
+
+.gesture-preview {
+  position: absolute;
+  z-index: 1;
+  right: var(--quote-page-margin);
+  left: var(--quote-page-margin);
+  display: flex;
+  min-height: 2rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  border: 1px solid var(--quote-rule);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--quote-bg) 84%, black 16%);
+  color: var(--quote-fg);
+  font-size: 0.6rem;
+  font-weight: 800;
+  letter-spacing: 0.13em;
+  opacity: 0;
+  pointer-events: none;
+  text-transform: uppercase;
+  transition: opacity 140ms ease, transform 220ms var(--ease-ios);
+}
+.gesture-preview[data-direction="next"] { bottom: 0.35rem; transform: translateY(0.65rem); }
+.gesture-preview[data-direction="previous"] { top: calc(var(--safe-top) + 0.35rem); transform: translateY(-0.65rem); }
+.gesture-preview[data-active="true"] { transform: translateY(0); }
 
 .rail-glass {
   background: rgb(8 8 8 / 92%);
@@ -176,42 +206,23 @@ button, a { touch-action: manipulation; }
 .quote-composition[data-quote-size="medium"],
 .quote-composition[data-quote-size="small"] { padding-block: clamp(1.25rem, 4dvh, 2.5rem); }
 
-.swipe-hint {
+.navigation-coach {
   display: grid;
   grid-template-rows: 1fr;
-  margin-top: 1.25rem;
   opacity: 1;
   transition:
     grid-template-rows var(--quote-hint-duration) ease,
-    margin-top var(--quote-hint-duration) ease,
     opacity var(--quote-hint-duration) ease;
 }
-.swipe-hint > span { overflow: hidden; }
-.swipe-hint[data-learned="true"] {
+.navigation-coach > span { overflow: hidden; }
+.navigation-coach[data-visible="false"] {
   grid-template-rows: 0fr;
-  margin-top: 0;
   opacity: 0;
 }
-.swipe-hint-chevron { animation: swipe-hint-bounce 1.6s ease-in-out infinite; }
 
-.nav-hint {
-  display: grid;
-  grid-template-columns: 1fr;
-  max-width: 0;
-  overflow: hidden;
-  white-space: nowrap;
-  opacity: 1;
-  transition:
-    max-width var(--quote-hint-duration) ease,
-    opacity var(--quote-hint-duration) ease;
-}
-.nav-hint > span { overflow: hidden; }
-.nav-hint[data-learned="false"] { max-width: 14rem; }
-.nav-hint[data-learned="true"] { opacity: 0; }
-
-@keyframes swipe-hint-bounce {
+@keyframes navigation-coach-lift {
   0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-3px); }
+  45% { transform: translateY(-14px); }
 }
 
 .brand-monogram {
@@ -278,7 +289,7 @@ button, a { touch-action: manipulation; }
   .quote-panel-copy.quote-copy--large { --quote-font-size: clamp(2.75rem, 3.5vw, 3.4rem); }
   .quote-panel-copy.quote-copy--medium { --quote-font-size: clamp(2.35rem, 3vw, 2.9rem); }
   .quote-panel-copy.quote-copy--small { --quote-font-size: clamp(1.9rem, 2.4vw, 2.4rem); }
-  .swipe-hint { display: none; }
+  .gesture-preview { display: none; }
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
@@ -287,7 +298,13 @@ button, a { touch-action: manipulation; }
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
-  .swipe-hint[data-learned="true"] { transition: none !important; }
+  .navigation-coach[data-visible="false"] { transition: none !important; }
+}
+
+@media (max-width: 1023px) and (prefers-reduced-motion: no-preference) {
+  .quote-composition[data-coaching="true"] > div {
+    animation: navigation-coach-lift 1.4s var(--ease-ios) 450ms 1;
+  }
 }
 
 @layer base {

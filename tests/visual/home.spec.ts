@@ -16,7 +16,8 @@ test("branded quote experience", async ({ page }) => {
     feedScope: "all",
     onboardingComplete: true,
     lastQuoteID: null,
-    successfulSwipeCount: 0
+    successfulSwipeCount: 0,
+    navigationOnboardingVersion: 2
   })), stateKey);
   await page.reload();
   await expect(page.getByRole("blockquote")).toBeVisible();
