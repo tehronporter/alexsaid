@@ -34,11 +34,9 @@
       "title": "Choose what matters",
       "description": "Priorities, tradeoffs, and decisions for the season you are in.",
       "quoteIDs": [
-        "69240406-e257-4d34-a07b-e5428150328f",
-        "febe0264-dec5-4fe9-ae3e-966404895bfc",
+        "183efe3f-cd52-4638-a1c5-f69f264b0d8f",
+        "f7fdd384-c5d1-4a74-93c9-fc89370a0bca",
         "de96b5b1-5401-41c9-a319-bdcf273acf6f",
-        "3df7b74d-fd76-4d59-a957-b6eb3660139b",
-        "c39d2c61-0fd8-4c8c-a662-e073eb243961",
         "5a8ff2ac-993e-48a1-a153-2fa522288bff"
       ],
       "displayOrder": 1
@@ -51,9 +49,9 @@
         "e9531908-58e9-4f4a-a50a-3baaca9b9b1f",
         "c1076260-4207-43f4-ac31-c35e32c1146f",
         "fef178f6-4e47-4972-a489-bdc5e13f8b59",
-        "6e465bd1-9ceb-4c13-a7ac-dbcbfb31585e",
+        "45b6566d-02c0-43d8-b70e-0012007f069f",
         "01957b97-6a0e-4f18-a432-a923a165c472",
-        "5bafcc5e-113c-44d9-a318-acaf855662e7",
+        "9454c290-6e70-4fc5-941a-2665a12a1ce2",
         "6676d502-5f54-4ce2-a154-4bd1861a27a6",
         "544a2941-bc18-43c3-ae5e-3c2d66e8e204"
       ],
@@ -140,8 +138,8 @@
       "updatedAt": "2026-08-28T19:00:00.000Z"
     },
     {
-      "id": "5bafcc5e-113c-44d9-a318-acaf855662e7",
-      "text": "It really taught me that success is about who you become. It's about the character that you build.",
+      "id": "9454c290-6e70-4fc5-941a-2665a12a1ce2",
+      "text": "Success is about who you become. It's about the character that you build.",
       "author": "Leila Hormozi",
       "primaryCategory": "Mindset & Personal Growth",
       "tags": [
@@ -155,19 +153,19 @@
       "sourceLocator": {
         "kind": "media",
         "startSeconds": 158,
-        "endSeconds": 185
+        "endSeconds": 184
       },
       "verified": true,
       "verificationStandard": "official-transcript-reviewed",
       "featured": false,
       "containsProfanity": false,
-      "context": "Leila describes success as the character built through a demanding process.",
-      "createdAt": "2026-08-28T19:00:00.000Z",
-      "updatedAt": "2026-08-28T19:00:00.000Z"
+      "context": "Full catalog QC rescue: a contiguous source-exact passage selected because it communicates the source idea as a complete standalone thought.",
+      "createdAt": "2026-08-30T17:00:00.000Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z"
     },
     {
-      "id": "946eda23-cd38-4abd-a560-947705179116",
-      "text": "But different is created through the process, not this artificial ceremony of what you just did.",
+      "id": "47aeb09e-883b-4444-a014-b169fe4ff032",
+      "text": "It wasn't about winning. It wasn't about the prize. It was about who I was going to become on the way.",
       "author": "Leila Hormozi",
       "primaryCategory": "Mindset & Personal Growth",
       "tags": [
@@ -176,20 +174,20 @@
       ],
       "sourceType": "podcast",
       "sourceTitle": "Success Is Who You Become, Behavior Beats Mindset, and Clarity Creates Speed | Ep. 374",
-      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/01KWGBSAF712MMDRVVVJW38BCS.mp3#t=200",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/01KWGBSAF712MMDRVVVJW38BCS.mp3#t=229",
       "sourceDate": "2026-07-02",
       "sourceLocator": {
         "kind": "media",
-        "startSeconds": 200,
-        "endSeconds": 230
+        "startSeconds": 229,
+        "endSeconds": 257
       },
       "verified": true,
       "verificationStandard": "official-transcript-reviewed",
       "featured": false,
       "containsProfanity": false,
-      "context": "Leila contrasts personal change through a process with the brief ceremony of an outcome.",
-      "createdAt": "2026-08-28T19:00:00.000Z",
-      "updatedAt": "2026-08-28T19:00:00.000Z"
+      "context": "Full catalog QC rescue: a contiguous source-exact passage selected because it communicates the source idea as a complete standalone thought.",
+      "createdAt": "2026-08-30T17:00:00.000Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z"
     },
     {
       "id": "6676d502-5f54-4ce2-a154-4bd1861a27a6",
@@ -323,8 +321,8 @@
       "updatedAt": "2026-08-28T19:00:00.000Z"
     },
     {
-      "id": "6e465bd1-9ceb-4c13-a7ac-dbcbfb31585e",
-      "text": "There's something you do every day where you can practice one of these things. Be very specific.",
+      "id": "45b6566d-02c0-43d8-b70e-0012007f069f",
+      "text": "You do not build habits in the abstract. You build them in the specific.",
       "author": "Leila Hormozi",
       "primaryCategory": "Productivity & Execution",
       "tags": [
@@ -338,15 +336,15 @@
       "sourceLocator": {
         "kind": "media",
         "startSeconds": 1265,
-        "endSeconds": 1294
+        "endSeconds": 1293
       },
       "verified": true,
       "verificationStandard": "official-transcript-reviewed",
       "featured": false,
       "containsProfanity": false,
-      "context": "Leila recommends attaching confidence practice to a specific recurring situation.",
-      "createdAt": "2026-08-28T19:00:00.000Z",
-      "updatedAt": "2026-08-28T19:00:00.000Z"
+      "context": "Full catalog QC rescue: a contiguous source-exact passage selected because it communicates the source idea as a complete standalone thought.",
+      "createdAt": "2026-08-30T17:00:00.000Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z"
     },
     {
       "id": "f7a7b646-cba7-4286-abdc-139d948a05d9",
@@ -454,8 +452,8 @@
       "updatedAt": "2026-08-28T19:00:00.000Z"
     },
     {
-      "id": "e6809ea5-e6b4-4fcd-a811-d3026e8faeb1",
-      "text": "And it's funny because people say like values, like values are what you do, not what you say.",
+      "id": "cbc43468-43c7-4a8f-a7d4-52abf90375d0",
+      "text": "Values are what you do, not what you say.",
       "author": "Leila Hormozi",
       "primaryCategory": "Leadership & Teams",
       "tags": [
@@ -475,9 +473,9 @@
       "verificationStandard": "official-transcript-reviewed",
       "featured": false,
       "containsProfanity": false,
-      "context": "Leila emphasizes that values are visible in repeated behavior rather than stated intention.",
-      "createdAt": "2026-08-28T19:00:00.000Z",
-      "updatedAt": "2026-08-28T19:00:00.000Z"
+      "context": "Full catalog QC rescue: a contiguous source-exact passage selected because it communicates the source idea as a complete standalone thought.",
+      "createdAt": "2026-08-30T17:00:00.000Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z"
     },
     {
       "id": "2b1435df-b770-4d9d-a887-2a3439457953",
@@ -559,8 +557,8 @@
       "updatedAt": "2026-08-28T19:00:00.000Z"
     },
     {
-      "id": "79fe5f7f-6add-464a-aae5-8ddc544cbde4",
-      "text": "The best leaders learn to adapt to that change and they come out stronger on the other end.",
+      "id": "adc1b845-6bdd-4c8f-b380-49eca2246abf",
+      "text": "Adapting means a change in the environment occurs. So you change your behavior as well.",
       "author": "Leila Hormozi",
       "primaryCategory": "Leadership & Teams",
       "tags": [
@@ -569,20 +567,20 @@
       ],
       "sourceType": "podcast",
       "sourceTitle": "Hire People Smarter Than You, Pick the Right People, and Adapt to Reality | Ep. 381",
-      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/01KYJRHDHZ704WKQD96HM3K07Q.mp3#t=569",
+      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/01KYJRHDHZ704WKQD96HM3K07Q.mp3#t=552",
       "sourceDate": "2026-07-28",
       "sourceLocator": {
         "kind": "media",
-        "startSeconds": 569,
-        "endSeconds": 600
+        "startSeconds": 552,
+        "endSeconds": 570
       },
       "verified": true,
       "verificationStandard": "official-transcript-reviewed",
       "featured": false,
       "containsProfanity": false,
-      "context": "Leila frames adaptation as a defining response to fear, change, and uncertain conditions.",
-      "createdAt": "2026-08-28T19:00:00.000Z",
-      "updatedAt": "2026-08-28T19:00:00.000Z"
+      "context": "Full catalog QC rescue: a contiguous source-exact passage selected because it communicates the source idea as a complete standalone thought.",
+      "createdAt": "2026-08-30T17:00:00.000Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z"
     },
     {
       "id": "5a8ff2ac-993e-48a1-a153-2fa522288bff",
@@ -611,8 +609,8 @@
       "updatedAt": "2026-08-28T19:00:00.000Z"
     },
     {
-      "id": "69240406-e257-4d34-a07b-e5428150328f",
-      "text": "It's usually been because I haven't had clarity around what the number one priority is, or I felt like I've had to balance like 17 things at once.",
+      "id": "183efe3f-cd52-4638-a1c5-f69f264b0d8f",
+      "text": "I set myself up to fail because I didn't define my priorities.",
       "author": "Leila Hormozi",
       "primaryCategory": "Productivity & Execution",
       "tags": [
@@ -630,15 +628,15 @@
       },
       "verified": true,
       "verificationStandard": "official-transcript-reviewed",
-      "featured": true,
+      "featured": false,
       "containsProfanity": false,
-      "context": "Leila connects dissatisfaction with a lack of clarity about the current number-one priority.",
-      "createdAt": "2026-08-28T19:00:00.000Z",
-      "updatedAt": "2026-08-28T19:00:00.000Z"
+      "context": "Full catalog QC rescue: a contiguous source-exact passage selected because it communicates the source idea as a complete standalone thought.",
+      "createdAt": "2026-08-30T17:00:00.000Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z"
     },
     {
-      "id": "febe0264-dec5-4fe9-ae3e-966404895bfc",
-      "text": "But I think that it is so freeing once you do it, because the irony of it is that not deciding is still a decision.",
+      "id": "f7fdd384-c5d1-4a74-93c9-fc89370a0bca",
+      "text": "Not deciding is still a decision. It's just one that you don't have to take credit for if it's not good.",
       "author": "Leila Hormozi",
       "primaryCategory": "Decision Making",
       "tags": [
@@ -658,9 +656,9 @@
       "verificationStandard": "official-transcript-reviewed",
       "featured": false,
       "containsProfanity": false,
-      "context": "Leila argues that avoiding a decision is itself a consequential choice.",
-      "createdAt": "2026-08-28T19:00:00.000Z",
-      "updatedAt": "2026-08-28T19:00:00.000Z"
+      "context": "Full catalog QC rescue: a contiguous source-exact passage selected because it communicates the source idea as a complete standalone thought.",
+      "createdAt": "2026-08-30T17:00:00.000Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z"
     },
     {
       "id": "de96b5b1-5401-41c9-a319-bdcf273acf6f",
@@ -685,58 +683,6 @@
       "featured": false,
       "containsProfanity": false,
       "context": "Leila defines a real decision by the options and investments it requires a person to give up.",
-      "createdAt": "2026-08-28T19:00:00.000Z",
-      "updatedAt": "2026-08-28T19:00:00.000Z"
-    },
-    {
-      "id": "3df7b74d-fd76-4d59-a957-b6eb3660139b",
-      "text": "you don't need to feel guilty for the fact that not everything is a fucking priority right now. I actually think there's something like really freeing about that because if everything's a priority, then nothing is.",
-      "author": "Leila Hormozi",
-      "primaryCategory": "Productivity & Execution",
-      "tags": [
-        "prioritization",
-        "focus"
-      ],
-      "sourceType": "podcast",
-      "sourceTitle": "How to Win the Season You’re Currently In | Ep. 383",
-      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/01KZ966MAZGWGAZDQQJ2W29NB2.mp3#t=572",
-      "sourceDate": "2026-08-05",
-      "sourceLocator": {
-        "kind": "media",
-        "startSeconds": 572,
-        "endSeconds": 599
-      },
-      "verified": true,
-      "verificationStandard": "official-transcript-reviewed",
-      "featured": false,
-      "containsProfanity": false,
-      "context": "Leila explains why a season needs an explicit hierarchy instead of treating everything as equally urgent.",
-      "createdAt": "2026-08-28T19:00:00.000Z",
-      "updatedAt": "2026-08-28T19:00:00.000Z"
-    },
-    {
-      "id": "c39d2c61-0fd8-4c8c-a662-e073eb243961",
-      "text": "If you can just make a choice about what matters most to you right now and accept that that means other things won't get as much time and attention or they will have less rather than none. I think a lot more people would be a lot happier.",
-      "author": "Leila Hormozi",
-      "primaryCategory": "Mindset & Personal Growth",
-      "tags": [
-        "prioritization",
-        "perspective"
-      ],
-      "sourceType": "podcast",
-      "sourceTitle": "How to Win the Season You’re Currently In | Ep. 383",
-      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/01KZ966MAZGWGAZDQQJ2W29NB2.mp3#t=735",
-      "sourceDate": "2026-08-05",
-      "sourceLocator": {
-        "kind": "media",
-        "startSeconds": 735,
-        "endSeconds": 761
-      },
-      "verified": true,
-      "verificationStandard": "official-transcript-reviewed",
-      "featured": false,
-      "containsProfanity": false,
-      "context": "Leila closes by asking people to choose what matters in the present season and accept the tradeoff.",
       "createdAt": "2026-08-28T19:00:00.000Z",
       "updatedAt": "2026-08-28T19:00:00.000Z"
     },
@@ -768,32 +714,6 @@
       "updatedAt": "2026-08-28T19:00:00.000Z"
     },
     {
-      "id": "67f62413-ed33-4b76-a98a-4ac5a109280a",
-      "text": "If you say yes, because you're worried about the reaction someone's gonna give if you say no, then it's all of a sudden like, what I'm really worried about is how they're gonna deal with their emotions.",
-      "author": "Leila Hormozi",
-      "primaryCategory": "Decision Making",
-      "tags": [
-        "decision-making",
-        "accountability"
-      ],
-      "sourceType": "podcast",
-      "sourceTitle": "You're Not Empathetic. You're Just Scared to Disappoint People | Ep. 384",
-      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/01M0BJGHN0YM72E4RV6DGJK43M.mp3#t=235",
-      "sourceDate": "2026-08-19",
-      "sourceLocator": {
-        "kind": "media",
-        "startSeconds": 235,
-        "endSeconds": 248
-      },
-      "verified": true,
-      "verificationStandard": "official-transcript-reviewed",
-      "featured": false,
-      "containsProfanity": false,
-      "context": "Leila explains how anticipated reactions can quietly turn a boundary into an unwanted yes.",
-      "createdAt": "2026-08-28T19:00:00.000Z",
-      "updatedAt": "2026-08-28T19:00:00.000Z"
-    },
-    {
       "id": "e9531908-58e9-4f4a-a50a-3baaca9b9b1f",
       "text": "people treat the feeling of guilt as evidence that they've done something wrong.",
       "author": "Leila Hormozi",
@@ -820,34 +740,8 @@
       "updatedAt": "2026-08-28T19:00:00.000Z"
     },
     {
-      "id": "04dca221-c60d-46d5-aaa1-a3e023d8c907",
-      "text": "What if feeling guilty, you could feel guilty whether you did wrong or right?",
-      "author": "Leila Hormozi",
-      "primaryCategory": "Mindset & Personal Growth",
-      "tags": [
-        "perspective",
-        "decision-making"
-      ],
-      "sourceType": "podcast",
-      "sourceTitle": "You're Not Empathetic. You're Just Scared to Disappoint People | Ep. 384",
-      "sourceURL": "https://pscrb.fm/rss/p/episode.flightcast.com/01M0BJGHN0YM72E4RV6DGJK43M.mp3#t=611",
-      "sourceDate": "2026-08-19",
-      "sourceLocator": {
-        "kind": "media",
-        "startSeconds": 611,
-        "endSeconds": 615
-      },
-      "verified": true,
-      "verificationStandard": "official-transcript-reviewed",
-      "featured": false,
-      "containsProfanity": false,
-      "context": "Leila reframes guilt as a feeling that can accompany either a right or wrong choice.",
-      "createdAt": "2026-08-28T19:00:00.000Z",
-      "updatedAt": "2026-08-28T19:00:00.000Z"
-    },
-    {
-      "id": "b2906975-297a-40b5-a1bf-43f7ea9fbbf2",
-      "text": "And that's okay because I have so much more freedom in my life and I feel like I'm living my life in a way that is in accordance with my values and not in accordance with other people's feelings.",
+      "id": "228bf8a8-02b8-4b1d-933a-0940c54222aa",
+      "text": "I have so much more freedom in my life and I feel like I'm living my life in a way that is in accordance with my values and not in accordance with other people's feelings. And that's way more important to me.",
       "author": "Leila Hormozi",
       "primaryCategory": "Mindset & Personal Growth",
       "tags": [
@@ -861,15 +755,15 @@
       "sourceLocator": {
         "kind": "media",
         "startSeconds": 758,
-        "endSeconds": 768
+        "endSeconds": 769
       },
       "verified": true,
       "verificationStandard": "official-transcript-reviewed",
       "featured": false,
       "containsProfanity": false,
-      "context": "Leila describes the freedom that comes from making decisions according to her values.",
-      "createdAt": "2026-08-28T19:00:00.000Z",
-      "updatedAt": "2026-08-28T19:00:00.000Z"
+      "context": "Full catalog QC rescue: a contiguous source-exact passage selected because it communicates the source idea as a complete standalone thought.",
+      "createdAt": "2026-08-30T17:00:00.000Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z"
     },
     {
       "id": "fb57dd0d-33f1-4fe7-8490-5a36d66ba4a2",
@@ -974,32 +868,6 @@
       "context": "Quote Leila Hormozi wrote as the caption on her own Instagram post (@leilahormozi).",
       "createdAt": "2026-08-28T14:00:21.000Z",
       "updatedAt": "2026-08-28T14:00:27.000Z"
-    },
-    {
-      "id": "bba5362a-65a6-417e-80c6-b5bdff472246",
-      "text": "Freedom comes late if you don't learn all of this early.",
-      "author": "Leila Hormozi",
-      "primaryCategory": "Mindset & Personal Growth",
-      "tags": [
-        "perspective",
-        "learning"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Instagram post (@leilahormozi)",
-      "sourceURL": "https://www.instagram.com/p/DcKKyXFCCgc/",
-      "sourceDate": "2026-08-17",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Post caption",
-        "postID": "DcKKyXFCCgc"
-      },
-      "verified": true,
-      "verificationStandard": "direct-source-twice",
-      "featured": false,
-      "containsProfanity": false,
-      "context": "Quote Leila Hormozi wrote as the caption on her own Instagram post (@leilahormozi).",
-      "createdAt": "2026-08-28T14:01:17.000Z",
-      "updatedAt": "2026-08-28T14:01:20.000Z"
     },
     {
       "id": "9721a28e-bad8-4fc4-bf63-8a5cc574adf8",
@@ -1366,32 +1234,6 @@
       "updatedAt": "2026-08-28T14:03:33.000Z"
     },
     {
-      "id": "70680e2e-7b34-4bb2-afd7-ccfc7b2c27b9",
-      "text": "Stop focusing on looking for someone to complete you. Start becoming someone that you're worth staying with.",
-      "author": "Leila Hormozi",
-      "primaryCategory": "Mindset & Personal Growth",
-      "tags": [
-        "perspective",
-        "accountability"
-      ],
-      "sourceType": "social",
-      "sourceTitle": "Instagram post (@leilahormozi)",
-      "sourceURL": "https://www.instagram.com/p/DcEPnOVm7g7/",
-      "sourceDate": "2026-08-15",
-      "sourceLocator": {
-        "kind": "web",
-        "section": "Post caption",
-        "postID": "DcEPnOVm7g7"
-      },
-      "verified": true,
-      "verificationStandard": "direct-source-twice",
-      "featured": false,
-      "containsProfanity": false,
-      "context": "Quote Leila Hormozi wrote as the caption on her own Instagram post (@leilahormozi).",
-      "createdAt": "2026-08-28T14:01:24.000Z",
-      "updatedAt": "2026-08-28T14:01:27.000Z"
-    },
-    {
       "id": "aeb3e42a-409e-454f-adea-f97516d58b65",
       "text": "The bigger the dream, the bigger your tolerance for uncertainty, stress, and criticism must be.",
       "author": "Leila Hormozi",
@@ -1497,7 +1339,7 @@
     },
     {
       "id": "2d0ace26-8777-4b6b-bedb-c56dcc45ff2f",
-      "text": "Titles don't make leaders… …actions do",
+      "text": "Titles don't make leaders. Actions do.",
       "author": "Leila Hormozi",
       "primaryCategory": "Leadership & Teams",
       "tags": [
@@ -1519,7 +1361,7 @@
       "containsProfanity": false,
       "context": "Quote Leila Hormozi wrote as the caption on her own Instagram post (@leilahormozi).",
       "createdAt": "2026-08-28T14:02:34.000Z",
-      "updatedAt": "2026-08-28T14:02:37.000Z"
+      "updatedAt": "2026-08-30T17:00:00.000Z"
     },
     {
       "id": "8f343875-88f0-432e-820e-4be54fa7abc6",

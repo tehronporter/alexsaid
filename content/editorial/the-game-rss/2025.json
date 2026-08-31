@@ -72,7 +72,7 @@
     },
     {
       "candidateKey": "the-game-rss-15392495-00e3-49ec-b0f8-d4d66fc7dbd1-91ca16515844",
-      "status": "verified",
+      "status": "rejected",
       "id": "6e3afa72-19f0-4dc8-a224-18eac10c9433",
       "text": "You just can't offer the same thing for less.",
       "author": "Alex Hormozi",
@@ -104,7 +104,7 @@
         "duplicateNote": "Nearest catalog similarity 0.31; no material duplicate found."
       },
       "createdAt": "2026-08-24T05:04:26.298Z",
-      "updatedAt": "2026-08-24T05:04:26.298Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -133,7 +133,9 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): “The same thing” has no visible referent and the isolated line does not deliver a complete lesson."
+      ],
       "unresolvedWarnings": []
     },
     {
@@ -404,7 +406,7 @@
       "candidateKey": "the-game-rss-c8949265-82c9-4f8c-aae2-6d5bcb568752-eaa2bff486e4",
       "status": "verified",
       "id": "cb07c3db-17da-4c74-a479-fc4a0534fd5c",
-      "text": "You can change your entire bloodline. The moment you realize that what you do next always matters more than what you did last.",
+      "text": "You can change your entire bloodline the moment you realize that what you do next always matters more than what you did last.",
       "author": "Alex Hormozi",
       "primaryCategory": "Mindset & Personal Growth",
       "tags": [
@@ -434,7 +436,7 @@
         "duplicateNote": "Nearest catalog similarity 0.17; no material duplicate found."
       },
       "createdAt": "2026-08-24T05:04:26.298Z",
-      "updatedAt": "2026-08-24T05:04:26.298Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",

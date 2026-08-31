@@ -73,7 +73,7 @@
     },
     {
       "candidateKey": "the-game-rss-156bcf6b-3cd7-4ba5-bead-1fc5f6a04169-ddfbf66484d9",
-      "status": "verified",
+      "status": "rejected",
       "id": "40e58abf-10d4-44d8-a722-607874f507f5",
       "text": "The wealthiest people in the world see business as a game.",
       "author": "Alex Hormozi",
@@ -105,7 +105,7 @@
         "duplicateNote": "Nearest catalog similarity 0.23; no material duplicate found."
       },
       "createdAt": "2026-08-24T05:04:26.298Z",
-      "updatedAt": "2026-08-24T05:04:26.298Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -134,7 +134,9 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): Complete sentence, but too generic to provide a useful or memorable takeaway."
+      ],
       "unresolvedWarnings": []
     },
     {

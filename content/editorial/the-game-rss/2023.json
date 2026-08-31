@@ -138,7 +138,7 @@
     },
     {
       "candidateKey": "the-game-rss-72b04594-9c88-46bf-8acb-b0a8727d2656-a9eccd63f095",
-      "status": "verified",
+      "status": "rejected",
       "id": "e4a6b2ab-37fc-42f1-a14b-9d024b399fdb",
       "text": "Everyone tried their hardest. It was the effort and the consistency and the alignment of the team that accomplished the goal.",
       "author": "Alex Hormozi",
@@ -170,7 +170,7 @@
         "duplicateNote": "Nearest catalog similarity 0.15; no material duplicate found."
       },
       "createdAt": "2026-08-24T05:04:26.298Z",
-      "updatedAt": "2026-08-24T05:04:26.298Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -199,7 +199,9 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): The unnamed goal and team make this read as a recap of a specific event, not an independent insight."
+      ],
       "unresolvedWarnings": []
     },
     {

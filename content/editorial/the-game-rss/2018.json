@@ -6,7 +6,7 @@
   "records": [
     {
       "candidateKey": "the-game-rss-48318606976e4c0b8364ade9c4e6a4e7-1f81e168bd03",
-      "status": "verified",
+      "status": "rejected",
       "id": "b38ad39a-717c-4c95-aebe-935332ad5ed3",
       "text": "If you can unlock how much you can care about your customer, you will win.",
       "author": "Alex Hormozi",
@@ -38,7 +38,7 @@
         "duplicateNote": "Nearest catalog similarity 0.19; no material duplicate found."
       },
       "createdAt": "2026-08-24T05:04:26.298Z",
-      "updatedAt": "2026-08-24T05:04:26.298Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -67,7 +67,9 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): “Unlock how much you can care” is awkward and abstract; the idea is not clean enough for a quote card."
+      ],
       "unresolvedWarnings": []
     },
     {
@@ -138,7 +140,7 @@
     },
     {
       "candidateKey": "the-game-rss-beea6e8377074ccea49207fb53df02ad-0abc8e53765f",
-      "status": "verified",
+      "status": "rejected",
       "id": "fd119285-2e0b-4b2d-a29a-0e2abec63af6",
       "text": "Sales and helping should be the same thing, right?",
       "author": "Alex Hormozi",
@@ -170,7 +172,7 @@
         "duplicateNote": "Nearest catalog similarity 0.31; no material duplicate found."
       },
       "createdAt": "2026-08-24T05:04:26.298Z",
-      "updatedAt": "2026-08-24T05:04:26.298Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -199,7 +201,9 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): A rhetorical confirmation rather than a developed or distinctive thought."
+      ],
       "unresolvedWarnings": []
     }
   ]

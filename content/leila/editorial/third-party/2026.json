@@ -530,7 +530,7 @@
     },
     {
       "candidateKey": "freedom-comes-late-if-you-don",
-      "status": "verified",
+      "status": "rejected",
       "id": "bba5362a-65a6-417e-80c6-b5bdff472246",
       "text": "Freedom comes late if you don't learn all of this early.",
       "author": "Leila Hormozi",
@@ -562,7 +562,7 @@
         "duplicateNote": "Checked against all published Leila quotes and editorial-ledger records with the project's combinedQuoteSimilarity at the 0.82 threshold; no match found."
       },
       "createdAt": "2026-08-28T14:01:17.000Z",
-      "updatedAt": "2026-08-28T14:01:20.000Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -607,7 +607,9 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): “All of this” points to omitted caption material; the isolated line does not identify what must be learned."
+      ],
       "unresolvedWarnings": []
     },
     {
@@ -1808,7 +1810,7 @@
     },
     {
       "candidateKey": "stop-focusing-on-looking-for-someone",
-      "status": "verified",
+      "status": "rejected",
       "id": "70680e2e-7b34-4bb2-afd7-ccfc7b2c27b9",
       "text": "Stop focusing on looking for someone to complete you. Start becoming someone that you're worth staying with.",
       "author": "Leila Hormozi",
@@ -1840,7 +1842,7 @@
         "duplicateNote": "Checked against all published Leila quotes and editorial-ledger records with the project's combinedQuoteSimilarity at the 0.82 threshold; no match found."
       },
       "createdAt": "2026-08-28T14:01:24.000Z",
-      "updatedAt": "2026-08-28T14:01:27.000Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -1885,7 +1887,9 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): “Becoming someone that you’re worth staying with” is grammatically confused and changes the apparent meaning."
+      ],
       "unresolvedWarnings": []
     },
     {
@@ -2220,7 +2224,7 @@
       "candidateKey": "titles-don-t-make-leaders-actions",
       "status": "verified",
       "id": "2d0ace26-8777-4b6b-bedb-c56dcc45ff2f",
-      "text": "Titles don't make leaders\u2026 \u2026actions do",
+      "text": "Titles don't make leaders. Actions do.",
       "author": "Leila Hormozi",
       "primaryCategory": "Leadership & Teams",
       "tags": [
@@ -2230,7 +2234,7 @@
       "sourceID": "instagram-daicns8e-z5",
       "sourceType": "social",
       "sourceTitle": "Instagram post (@leilahormozi)",
-      "sourceURL": "https://www.instagram.com/p/DaicnS8E-Z5/",
+      "sourceURL": "https://www.instagram.com/p/DaicnS8E-Z5/#t=NaN",
       "sourceDate": "2026-07-08",
       "sourceLocator": {
         "kind": "web",
@@ -2250,7 +2254,7 @@
         "duplicateNote": "Checked against all published Leila quotes and editorial-ledger records with the project's combinedQuoteSimilarity at the 0.82 threshold; no match found."
       },
       "createdAt": "2026-08-28T14:02:34.000Z",
-      "updatedAt": "2026-08-28T14:02:37.000Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",

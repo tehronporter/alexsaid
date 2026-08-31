@@ -1331,7 +1331,7 @@
     },
     {
       "candidateKey": "do-nothing-champion",
-      "status": "verified",
+      "status": "rejected",
       "id": "9fd38292-744b-4827-a2e2-47463c15ca7d",
       "text": "And so, one of my internal, uh, jokes that I have is the undefeated heavyweight champion of the world is do nothing.",
       "author": "Alex Hormozi",
@@ -1350,7 +1350,7 @@
         "startSeconds": 636,
         "endSeconds": 642
       },
-      "featured": true,
+      "featured": false,
       "containsProfanity": false,
       "context": "Alex is comparing proposed actions with the option to keep resources on work that is already producing the highest return.",
       "verificationStandard": "direct-source-twice",
@@ -1363,7 +1363,7 @@
         "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
       },
       "createdAt": "2026-08-23T23:00:00.000Z",
-      "updatedAt": "2026-08-23T23:35:00.000Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "shortVersion": "…the undefeated heavyweight champion of the world is do nothing.",
       "verification": {
         "firstPass": {
@@ -1422,6 +1422,74 @@
         "standaloneClarity": 2,
         "practicalUsefulness": 2,
         "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): Remove setup and filler while retaining a complete contiguous source sentence. Superseded by approved source-exact replacement c25d6a8c-ee89-43e3-96b6-696401564fc6."
+      ],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "do-nothing-champion-qc-rescue",
+      "status": "verified",
+      "id": "c25d6a8c-ee89-43e3-96b6-696401564fc6",
+      "text": "Do nothing so commonly is the correct answer.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "prioritization",
+        "focus"
+      ],
+      "sourceID": "youtube-fj5uxdv-j5y",
+      "sourceType": "video",
+      "sourceTitle": "Learn 97% of How to Get Rich in 11 Mins",
+      "sourceURL": "https://www.youtube.com/watch?v=fj5uxdv_j5Y&t=648s",
+      "sourceDate": "2026-08-03",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 648,
+        "endSeconds": 652
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Full catalog QC rescue: a contiguous source-exact passage selected because it communicates the source idea as a complete standalone thought.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:fe9b40797e178ee7e228fe2fea2409ae5d3cd7363ba160d5dd050af5d273c92a",
+        "cueStart": 655,
+        "cueEnd": 657,
+        "batchID": "full-catalog-qc-2026-08-30",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Approved source-exact QC replacement; compared against the retained catalog."
+      },
+      "createdAt": "2026-08-30T17:00:00.000Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-30T17:00:00.000Z",
+          "reviewer": "Codex · full-catalog QC source rescue",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched an approved contiguous source-exact excerpt in transcript cues 655-657; surrounding context was reviewed."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
         "fanRelevance": 2,
         "productFit": 2
       },
@@ -1692,7 +1760,7 @@
     },
     {
       "candidateKey": "emotional-discomfort-action",
-      "status": "verified",
+      "status": "rejected",
       "id": "6783a7fb-8603-44f7-8f1b-ffa8730b5eb7",
       "text": "You might have suggested it because you are emotionally uncomfortable with your existing moment and just want something to do rather than the thing that you know is going to work.",
       "author": "Alex Hormozi",
@@ -1711,7 +1779,7 @@
         "startSeconds": 678,
         "endSeconds": 689
       },
-      "featured": true,
+      "featured": false,
       "containsProfanity": false,
       "context": "Alex warns that a new initiative can be an emotional escape from patiently continuing the proven course of action.",
       "verificationStandard": "direct-source-twice",
@@ -1724,7 +1792,7 @@
         "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
       },
       "createdAt": "2026-08-23T23:00:00.000Z",
-      "updatedAt": "2026-08-23T23:35:00.000Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -1769,7 +1837,9 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): “It” and “the thing” depend on a prior proposed action; the excerpt reads like coaching-session continuation rather than a finished quote."
+      ],
       "unresolvedWarnings": []
     },
     {
@@ -4696,7 +4766,7 @@
     },
     {
       "candidateKey": "intellectual-laziness",
-      "status": "verified",
+      "status": "rejected",
       "id": "f4e4bf60-2700-48be-84bc-a499d14f36ea",
       "text": "And so, a lot of lack of focus is actually intellectual laziness.",
       "author": "Alex Hormozi",
@@ -4715,7 +4785,7 @@
         "startSeconds": 108,
         "endSeconds": 115
       },
-      "featured": true,
+      "featured": false,
       "containsProfanity": false,
       "context": "Alex explains that people often retreat to familiar work when they encounter a problem they do not yet know how to solve.",
       "verificationStandard": "direct-source-twice",
@@ -4728,7 +4798,7 @@
         "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
       },
       "createdAt": "2026-08-23T23:00:00.000Z",
-      "updatedAt": "2026-08-23T23:35:00.000Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -4770,6 +4840,74 @@
         "standaloneClarity": 2,
         "practicalUsefulness": 2,
         "distinctiveness": 2,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): Drop the spoken transition so the claim begins directly and stands alone. Superseded by approved source-exact replacement f79ca397-963e-4763-96e1-6d1a98f6c158."
+      ],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "intellectual-laziness-qc-rescue",
+      "status": "verified",
+      "id": "f79ca397-963e-4763-96e1-6d1a98f6c158",
+      "text": "A lot of lack of focus is actually intellectual laziness.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Productivity & Execution",
+      "tags": [
+        "focus",
+        "execution"
+      ],
+      "sourceID": "youtube-fj5uxdv-j5y",
+      "sourceType": "video",
+      "sourceTitle": "Learn 97% of How to Get Rich in 11 Mins",
+      "sourceURL": "https://www.youtube.com/watch?v=fj5uxdv_j5Y&t=111s",
+      "sourceDate": "2026-08-03",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 111,
+        "endSeconds": 116
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Full catalog QC rescue: a contiguous source-exact passage selected because it communicates the source idea as a complete standalone thought.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:fe9b40797e178ee7e228fe2fea2409ae5d3cd7363ba160d5dd050af5d273c92a",
+        "cueStart": 107,
+        "cueEnd": 111,
+        "batchID": "full-catalog-qc-2026-08-30",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Approved source-exact QC replacement; compared against the retained catalog."
+      },
+      "createdAt": "2026-08-30T17:00:00.000Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-30T17:00:00.000Z",
+          "reviewer": "Codex · full-catalog QC source rescue",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched an approved contiguous source-exact excerpt in transcript cues 107-111; surrounding context was reviewed."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
         "fanRelevance": 2,
         "productFit": 2
       },
@@ -5302,7 +5440,7 @@
     },
     {
       "candidateKey": "no-one-has-ever-regretted-trying",
-      "status": "verified",
+      "status": "rejected",
       "id": "0b0561a4-7944-4289-b3ed-d35158c70d8f",
       "text": "No one has ever regretted trying harder.",
       "author": "Alex Hormozi",
@@ -5334,7 +5472,7 @@
         "duplicateNote": "Checked against all published quotes and editorial-ledger records with the project's combinedQuoteSimilarity at the 0.82 threshold; no match found."
       },
       "createdAt": "2026-08-28T12:06:25.000Z",
-      "updatedAt": "2026-08-28T12:06:31.000Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -5395,7 +5533,9 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): Absolute claim with little distinctive insight; it is too broad to earn a standalone card."
+      ],
       "unresolvedWarnings": []
     },
     {
@@ -6813,7 +6953,7 @@
     },
     {
       "candidateKey": "purchases-designed",
-      "status": "verified",
+      "status": "rejected",
       "id": "6654b49a-614c-4953-9c01-50e180d0ebb9",
       "text": "And every one of those purchases, somebody for sure thought about how to get you to buy.",
       "author": "Alex Hormozi",
@@ -6846,7 +6986,7 @@
         "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
       },
       "createdAt": "2026-08-23T23:00:00.000Z",
-      "updatedAt": "2026-08-23T23:35:00.000Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -6891,7 +7031,9 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): “Those purchases” requires the preceding discussion, so a cold reader cannot identify the example set."
+      ],
       "unresolvedWarnings": []
     },
     {
@@ -7184,7 +7326,7 @@
     },
     {
       "candidateKey": "retention-first",
-      "status": "verified",
+      "status": "rejected",
       "id": "ce9cc2b1-ee31-47fe-84d3-15e60081d807",
       "text": "And if your business includes none, that's okay, work at retention first, and then backfill the rest.",
       "author": "Alex Hormozi",
@@ -7204,7 +7346,7 @@
         "startSeconds": 1171,
         "endSeconds": 1175
       },
-      "featured": true,
+      "featured": false,
       "containsProfanity": false,
       "context": "After reviewing five business-model advantages, Alex recommends improving retention before the remaining advantages.",
       "verificationStandard": "direct-source-twice",
@@ -7217,7 +7359,7 @@
         "duplicateNote": "No exact or near duplicate was identified in the Batch 0 comparison set."
       },
       "createdAt": "2026-08-23T23:00:00.000Z",
-      "updatedAt": "2026-08-23T23:35:00.000Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -7262,7 +7404,9 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): “Includes none” and “the rest” refer to an omitted five-part framework."
+      ],
       "unresolvedWarnings": []
     },
     {
@@ -8858,7 +9002,7 @@
     },
     {
       "candidateKey": "the-game-rss-15392495-00e3-49ec-b0f8-d4d66fc7dbd1-91ca16515844",
-      "status": "verified",
+      "status": "rejected",
       "id": "6e3afa72-19f0-4dc8-a224-18eac10c9433",
       "text": "You just can't offer the same thing for less.",
       "author": "Alex Hormozi",
@@ -8890,7 +9034,7 @@
         "duplicateNote": "Nearest catalog similarity 0.31; no material duplicate found."
       },
       "createdAt": "2026-08-24T05:04:26.298Z",
-      "updatedAt": "2026-08-24T05:04:26.298Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -8919,12 +9063,14 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): “The same thing” has no visible referent and the isolated line does not deliver a complete lesson."
+      ],
       "unresolvedWarnings": []
     },
     {
       "candidateKey": "the-game-rss-156bcf6b-3cd7-4ba5-bead-1fc5f6a04169-ddfbf66484d9",
-      "status": "verified",
+      "status": "rejected",
       "id": "40e58abf-10d4-44d8-a722-607874f507f5",
       "text": "The wealthiest people in the world see business as a game.",
       "author": "Alex Hormozi",
@@ -8956,7 +9102,7 @@
         "duplicateNote": "Nearest catalog similarity 0.23; no material duplicate found."
       },
       "createdAt": "2026-08-24T05:04:26.298Z",
-      "updatedAt": "2026-08-24T05:04:26.298Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -8985,7 +9131,9 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): Complete sentence, but too generic to provide a useful or memorable takeaway."
+      ],
       "unresolvedWarnings": []
     },
     {
@@ -9188,7 +9336,7 @@
     },
     {
       "candidateKey": "the-game-rss-48318606976e4c0b8364ade9c4e6a4e7-1f81e168bd03",
-      "status": "verified",
+      "status": "rejected",
       "id": "b38ad39a-717c-4c95-aebe-935332ad5ed3",
       "text": "If you can unlock how much you can care about your customer, you will win.",
       "author": "Alex Hormozi",
@@ -9220,7 +9368,7 @@
         "duplicateNote": "Nearest catalog similarity 0.19; no material duplicate found."
       },
       "createdAt": "2026-08-24T05:04:26.298Z",
-      "updatedAt": "2026-08-24T05:04:26.298Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -9249,7 +9397,9 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): “Unlock how much you can care” is awkward and abstract; the idea is not clean enough for a quote card."
+      ],
       "unresolvedWarnings": []
     },
     {
@@ -9519,7 +9669,7 @@
     },
     {
       "candidateKey": "the-game-rss-72b04594-9c88-46bf-8acb-b0a8727d2656-a9eccd63f095",
-      "status": "verified",
+      "status": "rejected",
       "id": "e4a6b2ab-37fc-42f1-a14b-9d024b399fdb",
       "text": "Everyone tried their hardest. It was the effort and the consistency and the alignment of the team that accomplished the goal.",
       "author": "Alex Hormozi",
@@ -9551,7 +9701,7 @@
         "duplicateNote": "Nearest catalog similarity 0.15; no material duplicate found."
       },
       "createdAt": "2026-08-24T05:04:26.298Z",
-      "updatedAt": "2026-08-24T05:04:26.298Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -9580,7 +9730,9 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): The unnamed goal and team make this read as a recap of a specific event, not an independent insight."
+      ],
       "unresolvedWarnings": []
     },
     {
@@ -9915,7 +10067,7 @@
     },
     {
       "candidateKey": "the-game-rss-beea6e8377074ccea49207fb53df02ad-0abc8e53765f",
-      "status": "verified",
+      "status": "rejected",
       "id": "fd119285-2e0b-4b2d-a29a-0e2abec63af6",
       "text": "Sales and helping should be the same thing, right?",
       "author": "Alex Hormozi",
@@ -9947,7 +10099,7 @@
         "duplicateNote": "Nearest catalog similarity 0.31; no material duplicate found."
       },
       "createdAt": "2026-08-24T05:04:26.298Z",
-      "updatedAt": "2026-08-24T05:04:26.298Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -9976,7 +10128,9 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): A rhetorical confirmation rather than a developed or distinctive thought."
+      ],
       "unresolvedWarnings": []
     },
     {
@@ -10247,7 +10401,7 @@
       "candidateKey": "the-game-rss-c8949265-82c9-4f8c-aae2-6d5bcb568752-eaa2bff486e4",
       "status": "verified",
       "id": "cb07c3db-17da-4c74-a479-fc4a0534fd5c",
-      "text": "You can change your entire bloodline. The moment you realize that what you do next always matters more than what you did last.",
+      "text": "You can change your entire bloodline the moment you realize that what you do next always matters more than what you did last.",
       "author": "Alex Hormozi",
       "primaryCategory": "Mindset & Personal Growth",
       "tags": [
@@ -10277,7 +10431,7 @@
         "duplicateNote": "Nearest catalog similarity 0.17; no material duplicate found."
       },
       "createdAt": "2026-08-24T05:04:26.298Z",
-      "updatedAt": "2026-08-24T05:04:26.298Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -11282,7 +11436,7 @@
     },
     {
       "candidateKey": "what-every-beginner-needs-to-learn",
-      "status": "verified",
+      "status": "rejected",
       "id": "036417fe-09f8-4580-817a-50e8acfad420",
       "text": "What every beginner needs to learn: Failing is closer to success than thinking about success. Failure become success over time. Thinking becomes failure over time.",
       "author": "Alex Hormozi",
@@ -11314,7 +11468,7 @@
         "duplicateNote": "Checked against all published quotes and editorial-ledger records with the project's combinedQuoteSimilarity at the 0.82 threshold; no match found."
       },
       "createdAt": "2026-08-28T12:08:24.000Z",
-      "updatedAt": "2026-08-28T12:08:27.000Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -11359,12 +11513,14 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): The source wording contains the malformed phrase “Failure become success,” making the card read as unfinished copy."
+      ],
       "unresolvedWarnings": []
     },
     {
       "candidateKey": "what-to-do-when-you-re",
-      "status": "verified",
+      "status": "rejected",
       "id": "e0907345-1076-4a63-a597-38fe2bd06027",
       "text": "What to do when you're not sure what to do: Build capacity.",
       "author": "Alex Hormozi",
@@ -11396,7 +11552,7 @@
         "duplicateNote": "Checked against all published quotes and editorial-ledger records with the project's combinedQuoteSimilarity at the 0.82 threshold; no match found."
       },
       "createdAt": "2026-08-28T12:00:00.000Z",
-      "updatedAt": "2026-08-28T12:00:06.000Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -11457,7 +11613,9 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): “Build capacity” is undefined and does not tell a cold reader what capacity means here."
+      ],
       "unresolvedWarnings": []
     },
     {
@@ -12486,7 +12644,7 @@
     },
     {
       "candidateKey": "youtube-ohu1fy1r-x0-21e042e64349",
-      "status": "verified",
+      "status": "rejected",
       "id": "296ac19b-9922-43a1-a647-7821fbe301a8",
       "text": "You finish what you started.",
       "author": "Alex Hormozi",
@@ -12518,7 +12676,7 @@
         "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
       },
       "createdAt": "2026-08-25T13:17:38.536Z",
-      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -12547,12 +12705,14 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): Generic command already contained in the stronger full endurance passage."
+      ],
       "unresolvedWarnings": []
     },
     {
       "candidateKey": "youtube-ohu1fy1r-x0-2d5f0eca3e9a",
-      "status": "verified",
+      "status": "rejected",
       "id": "5d73332f-7ef7-4150-8e97-153d088d4ab2",
       "text": "Right now, everyone who’s listening to this, you have accomplished things that you said would make you happy.",
       "author": "Alex Hormozi",
@@ -12584,7 +12744,7 @@
         "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
       },
       "createdAt": "2026-08-25T13:17:38.536Z",
-      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -12602,6 +12762,74 @@
           "contextuallyHonest": true,
           "notStitchedOrParaphrased": true,
           "evidenceNote": "Tehron confirmed the quote set and Codex matched each excerpt to contiguous timestamped captions from Alex's verified YouTube upload, including surrounding context."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): Begin at the complete source example and continue through its intended contrast. Superseded by approved source-exact replacement f0ed207d-b0ef-4099-a09e-68a5f78aec48."
+      ],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-2d5f0eca3e9a-qc-rescue",
+      "status": "verified",
+      "id": "f0ed207d-b0ef-4099-a09e-68a5f78aec48",
+      "text": "There's something in your life right now that earlier on in your life you said, “If I had this, I would be happy.” And yet here we are.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Mindset & Personal Growth",
+      "tags": [
+        "perspective",
+        "goals"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0&t=643s#t=635",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 643,
+        "endSeconds": 650
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Full catalog QC rescue: a contiguous source-exact passage selected because it communicates the source idea as a complete standalone thought.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 710,
+        "cueEnd": 718,
+        "batchID": "full-catalog-qc-2026-08-30",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Approved source-exact QC replacement; compared against the retained catalog."
+      },
+      "createdAt": "2026-08-30T17:00:00.000Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-30T17:00:00.000Z",
+          "reviewer": "Codex · full-catalog QC source rescue",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched an approved contiguous source-exact excerpt in transcript cues 710-718; surrounding context was reviewed."
         },
         "secondPass": null,
         "blindAudit": null
@@ -12684,7 +12912,7 @@
     },
     {
       "candidateKey": "youtube-ohu1fy1r-x0-309309cc8f16",
-      "status": "verified",
+      "status": "rejected",
       "id": "5f0ab598-1f6b-4d64-96bc-095ead2bfc49",
       "text": "You have to make the call. You have to make the decision.",
       "author": "Alex Hormozi",
@@ -12717,7 +12945,7 @@
         "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
       },
       "createdAt": "2026-08-25T13:17:38.536Z",
-      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -12746,12 +12974,81 @@
         "fanRelevance": 2,
         "productFit": 2
       },
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): Replace three overlapping generic fragments with the complete contiguous decision-making sequence. Superseded by approved source-exact replacement 85b01838-e87d-44c6-9a48-31bf749d6dae."
+      ],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-309309cc8f16-qc-rescue",
+      "status": "verified",
+      "id": "85b01838-e87d-44c6-9a48-31bf749d6dae",
+      "text": "At some point, you have to pull the trigger. You have to make the call. You have to make the decision. You have to cut off one future.",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "decision-making",
+        "execution",
+        "urgency"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0&t=222s#t=224",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 222,
+        "endSeconds": 228
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Full catalog QC rescue: a contiguous source-exact passage selected because it communicates the source idea as a complete standalone thought.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 243,
+        "cueEnd": 249,
+        "batchID": "full-catalog-qc-2026-08-30",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Approved source-exact QC replacement; compared against the retained catalog."
+      },
+      "createdAt": "2026-08-30T17:00:00.000Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-30T17:00:00.000Z",
+          "reviewer": "Codex · full-catalog QC source rescue",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched an approved contiguous source-exact excerpt in transcript cues 243-249; surrounding context was reviewed."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
       "rejectionNotes": [],
       "unresolvedWarnings": []
     },
     {
       "candidateKey": "youtube-ohu1fy1r-x0-31765a4f1134",
-      "status": "verified",
+      "status": "rejected",
       "id": "c0274244-a59b-4db9-9dbc-2549ed7de69e",
       "text": "Today, you do the only thing you can do. You fight.",
       "author": "Alex Hormozi",
@@ -12783,7 +13080,7 @@
         "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
       },
       "createdAt": "2026-08-25T13:17:38.536Z",
-      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -12812,12 +13109,14 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): Fragment from the longer published endurance passage; it adds no distinct idea."
+      ],
       "unresolvedWarnings": []
     },
     {
       "candidateKey": "youtube-ohu1fy1r-x0-326bf73aef37",
-      "status": "verified",
+      "status": "rejected",
       "id": "ef32746e-b0bd-4159-887c-d0d1a2b2b972",
       "text": "The larger game is trying to win at life and realizing that each of these are components of it.",
       "author": "Alex Hormozi",
@@ -12850,7 +13149,7 @@
         "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
       },
       "createdAt": "2026-08-25T13:17:38.536Z",
-      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -12879,12 +13178,14 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): “Each of these” points to ten omitted life categories."
+      ],
       "unresolvedWarnings": []
     },
     {
       "candidateKey": "youtube-ohu1fy1r-x0-38606385d849",
-      "status": "verified",
+      "status": "rejected",
       "id": "34f52958-19ed-4427-903c-b10cfcf6b72f",
       "text": "Stand tall. Don’t crack. Endure.",
       "author": "Alex Hormozi",
@@ -12903,7 +13204,7 @@
         "startSeconds": 86,
         "endSeconds": 89
       },
-      "featured": true,
+      "featured": false,
       "containsProfanity": false,
       "context": "Alex opens with a challenge to remain steady and courageous under pressure.",
       "verificationStandard": "official-transcript-reviewed",
@@ -12916,7 +13217,7 @@
         "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
       },
       "createdAt": "2026-08-25T13:17:38.536Z",
-      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -12945,12 +13246,14 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): Subset of the stronger full endurance passage already in the catalog."
+      ],
       "unresolvedWarnings": []
     },
     {
       "candidateKey": "youtube-ohu1fy1r-x0-403f4d5c8547",
-      "status": "verified",
+      "status": "rejected",
       "id": "cdaad756-4486-456a-b5e4-78fb4bb53e5f",
       "text": "You rage on.",
       "author": "Alex Hormozi",
@@ -12982,7 +13285,7 @@
         "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
       },
       "createdAt": "2026-08-25T13:17:38.536Z",
-      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -13011,12 +13314,14 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): Two-word continuation with no independent claim or useful takeaway."
+      ],
       "unresolvedWarnings": []
     },
     {
       "candidateKey": "youtube-ohu1fy1r-x0-4c80a6e4a827",
-      "status": "verified",
+      "status": "rejected",
       "id": "7faf94a6-afe8-4014-9fd3-e75fe2cc040f",
       "text": "I’m willing to give up these other things for the things that I care about most.",
       "author": "Alex Hormozi",
@@ -13049,7 +13354,7 @@
         "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
       },
       "createdAt": "2026-08-25T13:17:38.536Z",
-      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -13078,12 +13383,81 @@
         "fanRelevance": 2,
         "productFit": 2
       },
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): Add the immediately preceding source clause so the sacrifice has a clear purpose. Superseded by approved source-exact replacement b55b47ce-c4e6-4fdf-b48a-df657948d35d."
+      ],
+      "unresolvedWarnings": []
+    },
+    {
+      "candidateKey": "youtube-ohu1fy1r-x0-4c80a6e4a827-qc-rescue",
+      "status": "verified",
+      "id": "b55b47ce-c4e6-4fdf-b48a-df657948d35d",
+      "text": "You can be a master of your own life to a degree if you can just say, “I'm willing to give up these other things for the things that I care about most.”",
+      "author": "Alex Hormozi",
+      "primaryCategory": "Decision Making",
+      "tags": [
+        "prioritization",
+        "strategy",
+        "goals"
+      ],
+      "sourceID": "youtube-ohu1fy1r-x0",
+      "sourceType": "video",
+      "sourceTitle": "It took me 37 years to realize what I'll tell you in 18 minutes.",
+      "sourceURL": "https://www.youtube.com/watch?v=OHu1FY1R-x0&t=738s#t=741",
+      "sourceDate": "2026-08-19",
+      "sourceLocator": {
+        "kind": "media",
+        "startSeconds": 738,
+        "endSeconds": 745
+      },
+      "featured": false,
+      "containsProfanity": false,
+      "context": "Full catalog QC rescue: a contiguous source-exact passage selected because it communicates the source idea as a complete standalone thought.",
+      "verificationStandard": "official-transcript-reviewed",
+      "provenance": {
+        "transcriptFingerprint": "sha256:80416f06b4db83197320cca1af7006b01e4f34d2ea19f7e6f9337371796a95cd",
+        "cueStart": 812,
+        "cueEnd": 818,
+        "batchID": "full-catalog-qc-2026-08-30",
+        "duplicateDecision": "unique",
+        "duplicateNote": "Approved source-exact QC replacement; compared against the retained catalog."
+      },
+      "createdAt": "2026-08-30T17:00:00.000Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
+      "verification": {
+        "firstPass": {
+          "outcome": "passed",
+          "checkedAt": "2026-08-30T17:00:00.000Z",
+          "reviewer": "Codex · full-catalog QC source rescue",
+          "method": "official-transcript-read",
+          "isolatedReview": true,
+          "sourceReopened": true,
+          "surroundingContextReviewed": true,
+          "surroundingContextSeconds": null,
+          "wordingConfirmed": true,
+          "attributionConfirmed": true,
+          "locatorConfirmed": true,
+          "metadataConfirmed": true,
+          "contextuallyHonest": true,
+          "notStitchedOrParaphrased": true,
+          "evidenceNote": "Matched an approved contiguous source-exact excerpt in transcript cues 812-818; surrounding context was reviewed."
+        },
+        "secondPass": null,
+        "blindAudit": null
+      },
+      "quality": {
+        "standaloneClarity": 2,
+        "practicalUsefulness": 2,
+        "distinctiveness": 1,
+        "fanRelevance": 2,
+        "productFit": 2
+      },
       "rejectionNotes": [],
       "unresolvedWarnings": []
     },
     {
       "candidateKey": "youtube-ohu1fy1r-x0-56423c877f5d",
-      "status": "verified",
+      "status": "rejected",
       "id": "22e81132-5887-4192-85f6-6d75df9b88b7",
       "text": "Be more dangerous than the forces that hope to destroy you.",
       "author": "Alex Hormozi",
@@ -13115,7 +13489,7 @@
         "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
       },
       "createdAt": "2026-08-25T13:17:38.536Z",
-      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -13144,12 +13518,14 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): Unexplained violent metaphor; neither the threat nor the practical takeaway is defined."
+      ],
       "unresolvedWarnings": []
     },
     {
       "candidateKey": "youtube-ohu1fy1r-x0-582d66dcbca0",
-      "status": "verified",
+      "status": "rejected",
       "id": "46cc1fec-08f9-4fa3-88cb-633eca4af067",
       "text": "They sit passively by and let options expire.",
       "author": "Alex Hormozi",
@@ -13182,7 +13558,7 @@
         "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
       },
       "createdAt": "2026-08-25T13:17:38.536Z",
-      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -13211,7 +13587,9 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): The subject “they” and the options being allowed to expire are both omitted."
+      ],
       "unresolvedWarnings": []
     },
     {
@@ -13282,7 +13660,7 @@
     },
     {
       "candidateKey": "youtube-ohu1fy1r-x0-61d6bf821735",
-      "status": "verified",
+      "status": "rejected",
       "id": "cad5c998-ab0b-462c-a199-f544b33aff98",
       "text": "There’s only one because only one thing can come first.",
       "author": "Alex Hormozi",
@@ -13314,7 +13692,7 @@
         "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
       },
       "createdAt": "2026-08-25T13:17:38.536Z",
-      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -13343,7 +13721,9 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): “There’s only one” never names priority, leaving the key noun outside the excerpt."
+      ],
       "unresolvedWarnings": []
     },
     {
@@ -13415,7 +13795,7 @@
     },
     {
       "candidateKey": "youtube-ohu1fy1r-x0-69e5cc82db39",
-      "status": "verified",
+      "status": "rejected",
       "id": "a2e35269-10d0-4204-9261-71f43e5ddacd",
       "text": "I am the problem.",
       "author": "Alex Hormozi",
@@ -13447,7 +13827,7 @@
         "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
       },
       "createdAt": "2026-08-25T13:17:38.536Z",
-      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -13476,7 +13856,9 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): The isolated declaration lacks the surrounding explanation and is weaker than the retained self-accountability quote from the same passage."
+      ],
       "unresolvedWarnings": []
     },
     {
@@ -13614,7 +13996,7 @@
     },
     {
       "candidateKey": "youtube-ohu1fy1r-x0-899f55aef0a5",
-      "status": "verified",
+      "status": "rejected",
       "id": "0deb99c2-cb48-4e7e-b54d-18dbf91594fc",
       "text": "You can be a master of your own life to a degree.",
       "author": "Alex Hormozi",
@@ -13646,7 +14028,7 @@
         "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
       },
       "createdAt": "2026-08-25T13:17:38.536Z",
-      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -13675,7 +14057,9 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): Hedged and abstract; it does not explain what mastery of life means."
+      ],
       "unresolvedWarnings": []
     },
     {
@@ -13747,7 +14131,7 @@
     },
     {
       "candidateKey": "youtube-ohu1fy1r-x0-94594f1afdc6",
-      "status": "verified",
+      "status": "rejected",
       "id": "bed670de-7730-4b14-ad13-32bec73bc234",
       "text": "They don’t want consequences. They don’t want conflict.",
       "author": "Alex Hormozi",
@@ -13779,7 +14163,7 @@
         "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
       },
       "createdAt": "2026-08-25T13:17:38.536Z",
-      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -13808,7 +14192,9 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): Unnamed “they” makes the observation dependent on the preceding discussion."
+      ],
       "unresolvedWarnings": []
     },
     {
@@ -13879,7 +14265,7 @@
     },
     {
       "candidateKey": "youtube-ohu1fy1r-x0-9d7f47cc7b0f",
-      "status": "verified",
+      "status": "rejected",
       "id": "ab30f8e1-c988-450d-ba64-7feb94b50ddc",
       "text": "Whenever you invest in any of those 10 things, you pull away from others.",
       "author": "Alex Hormozi",
@@ -13912,7 +14298,7 @@
         "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
       },
       "createdAt": "2026-08-25T13:17:38.536Z",
-      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -13941,12 +14327,14 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): “Those 10 things” refers to an omitted list and cannot stand alone."
+      ],
       "unresolvedWarnings": []
     },
     {
       "candidateKey": "youtube-ohu1fy1r-x0-a75028a593b6",
-      "status": "verified",
+      "status": "rejected",
       "id": "9e61ee52-1f4b-4a99-b615-de90cb451544",
       "text": "Make reality your today.",
       "author": "Alex Hormozi",
@@ -13978,7 +14366,7 @@
         "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
       },
       "createdAt": "2026-08-25T13:17:38.536Z",
-      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -14007,12 +14395,14 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): The phrase “Make reality your today” is not idiomatic or sufficiently intelligible as written."
+      ],
       "unresolvedWarnings": []
     },
     {
       "candidateKey": "youtube-ohu1fy1r-x0-a911e8f76542",
-      "status": "verified",
+      "status": "rejected",
       "id": "094b9b9e-0c22-4014-9106-85437aa66720",
       "text": "You have to cut off one future.",
       "author": "Alex Hormozi",
@@ -14045,7 +14435,7 @@
         "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
       },
       "createdAt": "2026-08-25T13:17:38.536Z",
-      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -14074,12 +14464,14 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): This fragment is incorporated into the proposed complete decision-making replacement."
+      ],
       "unresolvedWarnings": []
     },
     {
       "candidateKey": "youtube-ohu1fy1r-x0-a9ab241f1d05",
-      "status": "verified",
+      "status": "rejected",
       "id": "65c3c703-2481-420a-b7f2-b619cc95db37",
       "text": "What box am I living in that I’m unaware of that has invisible walls that is keeping me in?",
       "author": "Alex Hormozi",
@@ -14098,7 +14490,7 @@
         "startSeconds": 1072,
         "endSeconds": 1078
       },
-      "featured": true,
+      "featured": false,
       "containsProfanity": false,
       "context": "Alex uses a reflective question to uncover unspoken rules and assumptions that constrain action.",
       "verificationStandard": "official-transcript-reviewed",
@@ -14111,7 +14503,7 @@
         "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
       },
       "createdAt": "2026-08-25T13:17:38.536Z",
-      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -14140,12 +14532,14 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): The nested clauses and agreement error make the reflective question difficult to parse on one read."
+      ],
       "unresolvedWarnings": []
     },
     {
       "candidateKey": "youtube-ohu1fy1r-x0-ba45852558e5",
-      "status": "verified",
+      "status": "rejected",
       "id": "13f9a520-b0b9-4c8a-a94e-73e97e4ac99f",
       "text": "Some games that even if you’re just playing them, you beat everyone else because the game that you’re optimizing for is just a superior game.",
       "author": "Alex Hormozi",
@@ -14178,7 +14572,7 @@
         "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
       },
       "createdAt": "2026-08-25T13:17:38.536Z",
-      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -14207,12 +14601,14 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): Clumsy spoken syntax and repeated “game” obscure an otherwise interesting idea."
+      ],
       "unresolvedWarnings": []
     },
     {
       "candidateKey": "youtube-ohu1fy1r-x0-bffa859110dc",
-      "status": "verified",
+      "status": "rejected",
       "id": "2a906219-18ce-4569-a67c-577ffc3cd437",
       "text": "No matter how much it costs, how long it takes, or how much it hurts because you said you would.",
       "author": "Alex Hormozi",
@@ -14245,7 +14641,7 @@
         "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
       },
       "createdAt": "2026-08-25T13:17:38.536Z",
-      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -14274,7 +14670,9 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): Dependent “because” clause and duplicate subset of the stronger full endurance passage."
+      ],
       "unresolvedWarnings": []
     },
     {
@@ -14345,7 +14743,7 @@
     },
     {
       "candidateKey": "youtube-ohu1fy1r-x0-d3d0f7616b21",
-      "status": "verified",
+      "status": "rejected",
       "id": "70a98a34-ea0a-4490-b886-020c6ef4e94a",
       "text": "At some point, you have to pull the trigger.",
       "author": "Alex Hormozi",
@@ -14378,7 +14776,7 @@
         "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
       },
       "createdAt": "2026-08-25T13:17:38.536Z",
-      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -14407,12 +14805,14 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): Generic fragment incorporated into the proposed complete decision-making replacement."
+      ],
       "unresolvedWarnings": []
     },
     {
       "candidateKey": "youtube-ohu1fy1r-x0-e20b58ff5f15",
-      "status": "verified",
+      "status": "rejected",
       "id": "141e0cf5-b19c-4535-9812-dc84f3dd3712",
       "text": "You do what you came to do.",
       "author": "Alex Hormozi",
@@ -14444,7 +14844,7 @@
         "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
       },
       "createdAt": "2026-08-25T13:17:38.536Z",
-      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -14473,7 +14873,9 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): Generic subset of the stronger full endurance passage."
+      ],
       "unresolvedWarnings": []
     },
     {
@@ -14544,7 +14946,7 @@
     },
     {
       "candidateKey": "youtube-ohu1fy1r-x0-ef1256513731",
-      "status": "verified",
+      "status": "rejected",
       "id": "29e38145-2a37-491f-8210-3122fc29295a",
       "text": "You must make trades. You have to make a trade.",
       "author": "Alex Hormozi",
@@ -14564,7 +14966,7 @@
         "startSeconds": 413,
         "endSeconds": 417
       },
-      "featured": true,
+      "featured": false,
       "containsProfanity": false,
       "context": "Alex states that meaningful prioritization always requires accepting a trade-off.",
       "verificationStandard": "official-transcript-reviewed",
@@ -14577,7 +14979,7 @@
         "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
       },
       "createdAt": "2026-08-25T13:17:38.536Z",
-      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -14606,12 +15008,14 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): Tautological repetition without a distinctive or practical insight."
+      ],
       "unresolvedWarnings": []
     },
     {
       "candidateKey": "youtube-ohu1fy1r-x0-f110e724302e",
-      "status": "verified",
+      "status": "rejected",
       "id": "79ea4098-1a9b-4ccf-934c-ab5d36c666c5",
       "text": "We always want what we can’t have.",
       "author": "Alex Hormozi",
@@ -14643,7 +15047,7 @@
         "duplicateNote": "Compared with the current 60-quote public catalog; no material exact, token, or character-ngram duplicate was found."
       },
       "createdAt": "2026-08-25T13:17:38.536Z",
-      "updatedAt": "2026-08-25T13:17:38.536Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -14672,7 +15076,9 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): Familiar cliché and redundant with the sharper retained line “Whatever you don’t have is what you want.”"
+      ],
       "unresolvedWarnings": []
     }
   ],
@@ -14682,10 +15088,9 @@
       "title": "Better Decisions",
       "description": "Questions and mental models for choosing the highest-leverage next move.",
       "quoteIDs": [
-        "f4e4bf60-2700-48be-84bc-a499d14f36ea",
+        "f79ca397-963e-4763-96e1-6d1a98f6c158",
         "2a2a3dc1-8e1c-4e2a-8149-cb97f61ec542",
-        "9fd38292-744b-4827-a2e2-47463c15ca7d",
-        "6783a7fb-8603-44f7-8f1b-ffa8730b5eb7",
+        "c25d6a8c-ee89-43e3-96b6-696401564fc6",
         "8f02520b-f6ea-497f-9dfd-6e1a7d1edd21",
         "b09ccf53-9640-4444-b98a-6ad98706e980",
         "2ee5c144-c225-4d62-a717-a932b154c79e"
@@ -14698,7 +15103,6 @@
       "description": "A sharper way to think about ethical, well-designed selling.",
       "quoteIDs": [
         "31545e53-4b71-4036-b59f-c42f55525d0a",
-        "6654b49a-614c-4953-9c01-50e180d0ebb9",
         "2bf736d9-5f89-4a3f-92c7-b7f83a80bbb6",
         "2da4f3e4-6a61-42f4-aa5c-e8eaf333d156"
       ],
@@ -14711,7 +15115,6 @@
       "quoteIDs": [
         "73e0d73f-784a-4496-b9e7-1356b7b995d5",
         "b255c5e7-09ba-4ba1-bbe6-1b20cd551904",
-        "ce9cc2b1-ee31-47fe-84d3-15e60081d807",
         "dff7fac0-b37e-4729-ae45-e8a545e4c345",
         "63c18d6d-626c-489c-94a9-8e8ef70a7e98",
         "fba747e2-9a21-4109-a720-5abbb1c0fe6d"

@@ -39,7 +39,8 @@
     "content:curate:transcripts": "tsx scripts/curate-transcript-catalog.ts",
     "content:audit-links": "tsx scripts/audit-source-links.ts",
     "content:import": "tsx scripts/import-content.ts",
-    "launch:validate": "tsx scripts/validate-launch.ts"
+    "launch:validate": "tsx scripts/validate-launch.ts",
+    "export:leila-cards": "tsx scripts/download-leila-story-cards.ts"
   },
   "dependencies": {
     "@vercel/analytics": "^1.5.0",

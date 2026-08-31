@@ -3446,7 +3446,7 @@
     },
     {
       "candidateKey": "no-one-has-ever-regretted-trying",
-      "status": "verified",
+      "status": "rejected",
       "id": "0b0561a4-7944-4289-b3ed-d35158c70d8f",
       "text": "No one has ever regretted trying harder.",
       "author": "Alex Hormozi",
@@ -3478,7 +3478,7 @@
         "duplicateNote": "Checked against all published quotes and editorial-ledger records with the project's combinedQuoteSimilarity at the 0.82 threshold; no match found."
       },
       "createdAt": "2026-08-28T12:06:25.000Z",
-      "updatedAt": "2026-08-28T12:06:31.000Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -3539,7 +3539,9 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): Absolute claim with little distinctive insight; it is too broad to earn a standalone card."
+      ],
       "unresolvedWarnings": []
     },
     {
@@ -5544,7 +5546,7 @@
     },
     {
       "candidateKey": "what-every-beginner-needs-to-learn",
-      "status": "verified",
+      "status": "rejected",
       "id": "036417fe-09f8-4580-817a-50e8acfad420",
       "text": "What every beginner needs to learn: Failing is closer to success than thinking about success. Failure become success over time. Thinking becomes failure over time.",
       "author": "Alex Hormozi",
@@ -5576,7 +5578,7 @@
         "duplicateNote": "Checked against all published quotes and editorial-ledger records with the project's combinedQuoteSimilarity at the 0.82 threshold; no match found."
       },
       "createdAt": "2026-08-28T12:08:24.000Z",
-      "updatedAt": "2026-08-28T12:08:27.000Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -5621,12 +5623,14 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): The source wording contains the malformed phrase “Failure become success,” making the card read as unfinished copy."
+      ],
       "unresolvedWarnings": []
     },
     {
       "candidateKey": "what-to-do-when-you-re",
-      "status": "verified",
+      "status": "rejected",
       "id": "e0907345-1076-4a63-a597-38fe2bd06027",
       "text": "What to do when you're not sure what to do: Build capacity.",
       "author": "Alex Hormozi",
@@ -5658,7 +5662,7 @@
         "duplicateNote": "Checked against all published quotes and editorial-ledger records with the project's combinedQuoteSimilarity at the 0.82 threshold; no match found."
       },
       "createdAt": "2026-08-28T12:00:00.000Z",
-      "updatedAt": "2026-08-28T12:00:06.000Z",
+      "updatedAt": "2026-08-30T17:00:00.000Z",
       "verification": {
         "firstPass": {
           "outcome": "passed",
@@ -5719,7 +5723,9 @@
         "fanRelevance": 2,
         "productFit": 2
       },
-      "rejectionNotes": [],
+      "rejectionNotes": [
+        "Full catalog QC (2026-08-30): “Build capacity” is undefined and does not tell a cold reader what capacity means here."
+      ],
       "unresolvedWarnings": []
     },
     {
