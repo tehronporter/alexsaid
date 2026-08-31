@@ -16,6 +16,11 @@ import socialFour from "./_assets/social-monster-progress.jpg";
 import socialFive from "./_assets/social-monster-leverage.jpg";
 import merchOne from "./_assets/merch-black-charge-more.jpg";
 import merchTwo from "./_assets/merch-purple-bloodline.jpg";
+import homeCoffeeTable from "./_assets/home-book-coffee-table.jpg";
+import homeBookCover from "./_assets/home-book-cover.jpg";
+import homeDeskPad from "./_assets/home-desk-pad.jpg";
+import homePrintAlex from "./_assets/home-print-alex.jpg";
+import homePrintLeila from "./_assets/home-print-leila.jpg";
 
 export function generateMetadata(): Metadata {
   if (isLeilaProduct) {
@@ -45,6 +50,33 @@ const socialPosts: { src: StaticImageData; alt: string }[] = [
 const merch: { src: StaticImageData; alt: string }[] = [
   { src: merchOne, alt: "Black Acquisition.com T-shirt mockup with an Alex Hormozi quote" },
   { src: merchTwo, alt: "Purple Acquisition.com T-shirt mockup with an Alex Hormozi quote" }
+];
+
+const homeObjects: { src: StaticImageData; alt: string; label: string; caption: string }[] = [
+  {
+    src: homeBookCover,
+    label: "The annual",
+    alt: "Purple hardcover coffee table book titled Alex Said, quotes on business, leverage and opportunity",
+    caption: "A year of the feed, bound. The kind of object people leave out where guests can see it."
+  },
+  {
+    src: homeDeskPad,
+    label: "The desk pad",
+    alt: "Purple tear-off desk pad in a black stand showing an Alex Hormozi quote about choosing your regrets",
+    caption: "Tear off today’s idea. The same daily ritual the app runs, without a screen."
+  },
+  {
+    src: homePrintAlex,
+    label: "The print",
+    alt: "Framed purple Alex Said wall print reading, be more dangerous than the forces that hope to destroy you",
+    caption: "Any quote in the catalog, at any size. The card layout is already the poster layout."
+  },
+  {
+    src: homePrintLeila,
+    label: "The same print, re-skinned",
+    alt: "Framed white Leila Said wall print reading, rest is strategic, hanging in a living room",
+    caption: "Leila’s build inverts the field to white stock and purple type. Same template, different brand config."
+  }
 ];
 
 const capabilities = [
@@ -199,7 +231,7 @@ export default function HomePage() {
         <div className={styles.splitHeading}>
           <h2 id="merch-title">From screen<br />to shelf.</h2>
           <p>
-            A future commerce direction for the app: saved quotes could become shirts, posters, and prints without leaving the product. Because the catalog already structures the content, each quote can extend into merchandise without starting from a new design brief.
+            A future commerce direction for the app: a saved quote could become something you wear, without leaving the product. Because the catalog already structures the content, each quote extends into merchandise without starting from a new design brief.
           </p>
         </div>
         <div className={styles.merchGrid}>
@@ -233,8 +265,43 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section id="objects" className={styles.objectSection} aria-labelledby="objects-title">
+        <div className={styles.sectionNumber}>06 / Product concepts</div>
+        <div className={styles.splitHeading}>
+          <h2 id="objects-title">The quote leaves<br />the screen.</h2>
+          <p>
+            Concepts, not shipped products. The app already renders every quote as one thing: type on a purple field, sized to whatever holds it. That same layout is a print, a page, or a desk pad the moment the container changes. None of this needed a new design brief. It needed a new size.
+          </p>
+        </div>
+        <figure className={styles.objectLead}>
+          <Image
+            src={homeCoffeeTable}
+            alt="Purple Alex Said coffee table books stacked and opened to a quote spread on a marble table"
+            placeholder="blur"
+            sizes="(max-width: 700px) 92vw, 96vw"
+          />
+          <figcaption><span>Concept 001</span>Alex Said, the coffee table edition. A year of quotes, printed at the scale the writing deserves.</figcaption>
+        </figure>
+        <div className={styles.objectGrid}>
+          {homeObjects.map((object) => (
+            <figure key={object.src.src}>
+              <Image
+                src={object.src}
+                alt={object.alt}
+                placeholder="blur"
+                sizes="(max-width: 700px) 92vw, (max-width: 1050px) 46vw, 23vw"
+              />
+              <figcaption><span>{object.label}</span>{object.caption}</figcaption>
+            </figure>
+          ))}
+        </div>
+        <div className={styles.conceptTags} aria-label="Potential product directions">
+          <span>Prints</span><span>Coffee table book</span><span>Desk pad</span><span>Gifting</span><span>Retail</span>
+        </div>
+      </section>
+
       <section className={styles.briefSection} aria-labelledby="brief-title">
-        <div className={styles.sectionNumber}>06 / Built for the brief</div>
+        <div className={styles.sectionNumber}>07 / Built for the brief</div>
         <div className={styles.briefIntro}>
           <p className={styles.eyebrow}>Design that ships</p>
           <h2 id="brief-title">Creative direction<br />meets working software.</h2>
