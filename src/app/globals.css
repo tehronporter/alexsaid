@@ -290,6 +290,10 @@ button, a { touch-action: manipulation; }
   .quote-panel-copy.quote-copy--medium { --quote-font-size: clamp(2.35rem, 3vw, 2.9rem); }
   .quote-panel-copy.quote-copy--small { --quote-font-size: clamp(1.9rem, 2.4vw, 2.4rem); }
   .gesture-preview { display: none; }
+  /* Unlayered, like .gesture-preview above: Tailwind's `lg:hidden` on this element
+     lives in @layer utilities, which the unlayered `.navigation-coach { display: grid }`
+     rule outranks. Swiping is not the desktop affordance. */
+  .navigation-coach { display: none; }
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
