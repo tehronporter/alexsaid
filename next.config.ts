@@ -2,6 +2,9 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
+  // The dev overlay portal is anchored bottom-left, over the onboarding sheet's
+  // footer buttons, and intercepts pointer events on small viewports. Dev only.
+  devIndicators: false,
   allowedDevOrigins: ["127.0.0.1"],
   async redirects() {
     return process.env.SAID_PRODUCT === "leila"

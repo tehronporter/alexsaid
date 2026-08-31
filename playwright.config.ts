@@ -19,7 +19,7 @@ export default defineConfig({
     { name: "mobile-chrome", use: { ...devices["Pixel 7"] } }
   ],
   webServer: {
-    command: useProductionServer ? "npm start" : "NEXT_PUBLIC_SW_ENABLED=true npm run dev",
+    command: useProductionServer ? "npm start" : "npm run dev",
     url: "http://127.0.0.1:3000",
     reuseExistingServer: !process.env.CI,
     timeout: 120_000

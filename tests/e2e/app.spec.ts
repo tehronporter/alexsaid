@@ -1,5 +1,6 @@
-import { expect, test } from "@playwright/test";
+import { expect, test, type Locator, type Page } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
+import { settleAnimations } from "../visual/pinned-clock";
 import alexCatalog from "../../src/data/catalog.json" with { type: "json" };
 import leilaCatalog from "../../src/data/leila/catalog.json" with { type: "json" };
 
@@ -8,6 +9,74 @@ const leilaProduct = process.env.SAID_PRODUCT === "leila";
 const catalogJSON = leilaProduct ? leilaCatalog : alexCatalog;
 const homePath = leilaProduct ? "/" : "/app";
 const stateKey = leilaProduct ? "leila-said:user-state:v1" : "hormozi-said:user-state:v1";
+
+/**
+ * The whole app sits behind a `next/dynamic` boundary (src/components/product-root.tsx),
+ * so during hydration the server-rendered tree and a freshly client-rendered tree briefly
+ * coexist and `main.quote-surface` matches two elements. Playwright does NOT retry strict
+ * mode violations, so a plain `expect(locator)` aborts on that transient state instead of
+ * waiting it out. Polling the DOM tolerates the double mount, and asserting exactly one
+ * main is a guarantee the suite did not previously make.
+ */
+async function waitForQuoteSurface(page: Page) {
+  await expect.poll(() => page.evaluate(() => {
+    const mains = [...document.querySelectorAll("main.quote-surface")];
+    if (mains.length !== 1) return `mains:${mains.length}`;
+    return `${mains[0].getAttribute("data-catalog-ready")}|${mains[0].getAttribute("data-interactive")}`;
+  })).toBe("true|true");
+}
+
+/**
+ * A deterministic, catalog-derived sample covering every data shape the share/copy/source
+ * path branches on: non-ASCII text (the clipboard string wraps it in smart quotes), each
+ * `sourceType` (which picks the Read/Listen to/Watch link label), each `sourceLocator.kind`
+ * (`media` appends ?t=Ns to the href, `web` does not), each category, and both length
+ * extremes. Derived rather than a hardcoded id list so it self-maintains as content
+ * changes; `the sampled quotes cover every source shape` fails if a new shape appears.
+ */
+function stratifiedQuoteSample(quotes: typeof catalogJSON.quotes) {
+  const picked = new Map<string, (typeof quotes)[number]>();
+  const add = (quote?: (typeof quotes)[number]) => { if (quote) picked.set(quote.id, quote); };
+  // Group by the *set* of non-ASCII codepoints present rather than taking every quote
+  // that has any: the catalog's 17 non-ASCII quotes reduce to 4 distinct signatures
+  // (U+2019; U+2014; U+201C/D; and all three together, where a quote already containing
+  // curly double quotes gets wrapped in them again). Two per signature covers the
+  // variance the clipboard format can actually trip on.
+  const nonASCIISignature = (text: string) =>
+    [...new Set([...text].filter((character) => (character.codePointAt(0) ?? 0) > 0x7f))].sort().join("");
+  const bySignature = new Map<string, (typeof quotes)[number][]>();
+  for (const quote of quotes) {
+    const signature = nonASCIISignature(quote.text);
+    if (!signature) continue;
+    bySignature.set(signature, [...(bySignature.get(signature) ?? []), quote]);
+  }
+  for (const group of bySignature.values()) group.slice(0, 2).forEach(add);
+  for (const sourceType of new Set(quotes.map((quote) => quote.sourceType))) {
+    quotes.filter((quote) => quote.sourceType === sourceType).slice(0, 3).forEach(add);
+  }
+  for (const kind of new Set(quotes.map((quote) => quote.sourceLocator?.kind))) {
+    quotes.filter((quote) => quote.sourceLocator?.kind === kind).slice(0, 2).forEach(add);
+  }
+  for (const category of new Set(quotes.map((quote) => quote.primaryCategory))) {
+    add(quotes.find((quote) => quote.primaryCategory === category));
+  }
+  const byLength = [...quotes].sort((a, b) => a.text.length - b.text.length);
+  add(byLength[0]);
+  add(byLength.at(-1));
+  return [...picked.values()];
+}
+
+async function swipeQuote(stage: Locator, direction: "up" | "down" = "up") {
+  await stage.evaluate((element, swipeDirection) => {
+    const [startY, endY] = swipeDirection === "up" ? [700, 300] : [300, 700];
+    const dispatchPointer = (type: string, clientY: number) => {
+      element.dispatchEvent(new PointerEvent(type, { bubbles: true, pointerId: 1, pointerType: "touch", clientY, button: 0 }));
+    };
+    dispatchPointer("pointerdown", startY);
+    dispatchPointer("pointermove", (startY + endY) / 2);
+    dispatchPointer("pointerup", endY);
+  }, direction);
+}
 
 test.beforeEach(async ({ page }) => {
   await page.goto(homePath);
@@ -21,13 +90,13 @@ test.beforeEach(async ({ page }) => {
       feedScope: "all",
       onboardingComplete: true,
       lastQuoteID: null,
-      successfulSwipeCount: 0
+      successfulSwipeCount: 0,
+      navigationOnboardingVersion: 0
     }));
   }, stateKey);
   await page.reload();
   await expect(page.getByRole("button", { name: "Skip" })).not.toBeVisible();
-  await expect(page.locator("main.quote-surface")).toHaveAttribute("data-interactive", "true");
-  await expect(page.locator("main.quote-surface")).toHaveAttribute("data-catalog-ready", "true");
+  await waitForQuoteSurface(page);
 });
 
 test("deployment root preserves its canonical product entry", async ({ page }) => {
@@ -52,9 +121,13 @@ test("deployment root preserves its canonical product entry", async ({ page }) =
 test("first quote renders behind skippable onboarding", async ({ page }) => {
   await page.evaluate(() => localStorage.clear());
   await page.reload();
+  await waitForQuoteSurface(page);
+  // CSS locator, not getByRole: the onboarding sheet is open here, and Radix marks the
+  // content behind it aria-hidden, so the blockquote is absent from the a11y tree.
   await expect(page.locator("blockquote")).toBeVisible();
   const skip = page.getByRole("button", { name: "Skip" });
   await expect(skip).toBeVisible();
+  await expect(page.getByRole("button", { name: "Start browsing" })).toBeVisible();
   await skip.click();
   await expect(skip).not.toBeVisible();
 });
@@ -71,79 +144,72 @@ test("quote navigation keeps an exact canonical ID", async ({ page }) => {
   await expect(page).toHaveURL(firstURL);
   await expect(page.getByRole("blockquote")).toHaveText(firstQuote ?? "");
   await page.reload();
+  await waitForQuoteSurface(page);
   await expect(page.getByRole("blockquote")).toHaveText(firstQuote ?? "");
   await expect.poll(() => page.evaluate((storageKey) => JSON.parse(localStorage.getItem(storageKey) ?? "{}").successfulSwipeCount, stateKey)).toBe(0);
 });
 
 test("vertical swipe advances the exact quote", async ({ page }) => {
   const before = await page.getByRole("blockquote").textContent();
-  await page.locator("main section").evaluate((element) => {
-    const dispatchTouch = (type: string, clientY: number) => {
-      const event = new Event(type, { bubbles: true });
-      Object.defineProperty(event, "changedTouches", { value: [{ clientY }] });
-      element.dispatchEvent(event);
-    };
-    dispatchTouch("touchstart", 700);
-    dispatchTouch("touchend", 300);
-  });
+  await swipeQuote(page.locator("main section"));
   await expect(page).toHaveURL(/\/q\/[0-9a-f-]{36}$/);
   await expect(page.getByRole("blockquote")).not.toHaveText(before ?? "");
   await expect.poll(() => page.evaluate((storageKey) => JSON.parse(localStorage.getItem(storageKey) ?? "{}").successfulSwipeCount, stateKey)).toBe(1);
+  await expect.poll(() => page.evaluate((storageKey) => JSON.parse(localStorage.getItem(storageKey) ?? "{}").navigationOnboardingVersion, stateKey)).toBe(2);
 });
 
-test("quote controls stay focused and three successful swipes teach the gesture", async ({ page }) => {
+test("visible browse controls and one successful swipe teach the gesture", async ({ page }) => {
   const stage = page.locator(".quote-stage");
-  const swipe = async () => stage.evaluate((element) => {
-    const dispatchTouch = (type: string, clientY: number) => {
-      const event = new Event(type, { bubbles: true });
-      Object.defineProperty(event, "changedTouches", { value: [{ clientY }] });
-      element.dispatchEvent(event);
-    };
-    dispatchTouch("touchstart", 700);
-    dispatchTouch("touchend", 300);
-  });
 
   const actions = page.getByTestId("quote-actions");
   const isDesktopViewport = (page.viewportSize()?.width ?? 0) >= 1024;
   await expect(actions.getByRole("button", { name: "Save quote" })).toBeVisible();
   await expect(actions.getByRole("button", { name: "Share quote" })).toBeVisible();
   await expect(actions.getByRole("link", { name: "View quote source" })).toBeVisible();
-  await expect(page.getByRole("button", { name: /Previous quote|Next quote/ })).toHaveCount(isDesktopViewport ? 2 : 0);
-  const hint = page.locator(".swipe-hint");
-  if ((page.viewportSize()?.width ?? 0) < 1024) {
-    await expect(hint).toBeVisible();
+  const browse = page.getByTestId("quote-browse-controls");
+  await expect(browse.getByRole("button", { name: "Previous quote" })).toBeVisible();
+  await expect(browse.getByRole("button", { name: "Next quote" })).toBeVisible();
+  const coach = page.locator(".navigation-coach");
+  if (!isDesktopViewport) {
+    await expect(coach).toBeVisible();
+    await expect(coach).toContainText("Swipe up for next");
+    await expect(coach).toContainText("Swipe down to go back");
   } else {
-    await expect(hint).not.toBeVisible();
+    await expect(coach).not.toBeVisible();
   }
 
-  await swipe();
-  await swipe();
-  await swipe();
-  await expect(hint).not.toBeVisible();
-  await expect.poll(() => page.evaluate((storageKey) => JSON.parse(localStorage.getItem(storageKey) ?? "{}").successfulSwipeCount, stateKey)).toBe(3);
+  await swipeQuote(stage);
+  await expect(coach).not.toBeVisible();
+  await expect.poll(() => page.evaluate((storageKey) => JSON.parse(localStorage.getItem(storageKey) ?? "{}").successfulSwipeCount, stateKey)).toBe(1);
   await page.reload();
-  await expect(page.getByRole("main").locator(".swipe-hint")).not.toBeVisible();
+  await waitForQuoteSurface(page);
+  await expect(page.getByRole("main").locator(".navigation-coach")).not.toBeVisible();
 });
 
-test("reduced motion removes the learned swipe hint immediately", async ({ page }) => {
+test("reduced motion removes the navigation coach without animation", async ({ page }) => {
   await page.emulateMedia({ reducedMotion: "reduce" });
-  await page.evaluate((storageKey) => {
-    const state = JSON.parse(localStorage.getItem(storageKey) ?? "{}");
-    localStorage.setItem(storageKey, JSON.stringify({ ...state, successfulSwipeCount: 2 }));
-  }, stateKey);
   await page.reload();
-  await page.locator(".quote-stage").evaluate((element) => {
-    const dispatchTouch = (type: string, clientY: number) => {
-      const event = new Event(type, { bubbles: true });
-      Object.defineProperty(event, "changedTouches", { value: [{ clientY }] });
-      element.dispatchEvent(event);
-    };
-    dispatchTouch("touchstart", 700);
-    dispatchTouch("touchend", 300);
-  });
-  const hint = page.locator(".swipe-hint");
-  await expect(hint).not.toBeVisible();
-  await expect(hint).toHaveCSS("transition-duration", "0s");
+  await waitForQuoteSurface(page);
+  await swipeQuote(page.locator(".quote-stage"));
+  const coach = page.locator(".navigation-coach");
+  await expect(coach).not.toBeVisible();
+  await expect(coach).toHaveCSS("transition-duration", "0s");
+});
+
+test("browse buttons provide an exact forward and backward path", async ({ page }) => {
+  const initialText = await page.getByRole("blockquote").textContent();
+  await page.getByRole("button", { name: "Next quote" }).click();
+  await expect(page.getByRole("blockquote")).not.toHaveText(initialText ?? "");
+  await page.getByRole("button", { name: "Previous quote" }).click();
+  await expect(page.getByRole("blockquote")).toHaveText(initialText ?? "");
+});
+
+test("keyboard browsing pauses while a dialog is open", async ({ page }) => {
+  await page.getByRole("button", { name: "Share quote" }).first().click();
+  await expect(page.getByRole("dialog")).toBeVisible();
+  const url = page.url();
+  await page.keyboard.press("ArrowDown");
+  await expect(page).toHaveURL(url);
 });
 
 test("saved quotes persist after reload", async ({ page }) => {
@@ -174,23 +240,10 @@ test("source action matches the visible quote", async ({ page }) => {
   await expect(page.getByRole("blockquote")).toHaveText(quote ?? "");
 });
 
-test("every accepted quote stays exact across library, saved, source, and sharing views", async ({ page, context }) => {
-  // This intentionally walks every accepted quote and can take several minutes
-  // for Alex's full catalog on constrained CI runners.
-  test.setTimeout(420_000);
-  await context.grantPermissions(["clipboard-read", "clipboard-write"]);
-  for (const quote of catalogJSON.quotes) {
-    await page.goto(`/q/${quote.id}`);
-    await expect(page.getByRole("blockquote")).toHaveText(quote.text);
-    await page.getByRole("button", { name: "Share quote" }).click();
-    await page.getByRole("button", { name: "Copy quote" }).click();
-    await expect.poll(() => page.evaluate(() => navigator.clipboard.readText())).toBe(`“${quote.text}” — ${quote.author}`);
-    await page.keyboard.press("Escape");
-    await page.getByRole("link", { name: "View quote source" }).click();
-    await expect(page.getByRole("blockquote")).toHaveText(quote.text);
-    await expect(page.getByRole("link", { name: /^(Read|Listen to|Watch) original$/ })).toHaveAttribute("href", quote.sourceURL);
-  }
-
+test("every accepted quote stays exact across library and saved views", async ({ page }) => {
+  // Eleven page loads assert the whole catalog: ten category searches on /discover plus
+  // one /saved render. Cheap, so this stays exhaustive.
+  test.setTimeout(120_000);
   await page.goto("/discover");
   const search = page.getByRole("searchbox", { name: "Search quotes" });
   for (const category of catalogJSON.categories) {
@@ -206,6 +259,40 @@ test("every accepted quote stays exact across library, saved, source, and sharin
   }, { savedIDs: catalogJSON.quotes.map(({ id }) => id), storageKey: stateKey });
   await page.goto("/saved");
   for (const quote of catalogJSON.quotes) await expect(page.getByText(quote.text)).toBeVisible();
+});
+
+test("the sampled quotes cover every source shape", () => {
+  const sample = stratifiedQuoteSample(catalogJSON.quotes);
+  expect(new Set(sample.map((quote) => quote.sourceType)))
+    .toEqual(new Set(catalogJSON.quotes.map((quote) => quote.sourceType)));
+  expect(new Set(sample.map((quote) => quote.sourceLocator?.kind)))
+    .toEqual(new Set(catalogJSON.quotes.map((quote) => quote.sourceLocator?.kind)));
+  expect(new Set(sample.map((quote) => quote.primaryCategory)))
+    .toEqual(new Set(catalogJSON.quotes.map((quote) => quote.primaryCategory)));
+});
+
+test("sampled quotes share, copy, and resolve to source exactly", async ({ page, context }) => {
+  // The share/copy/source rendering path is identical for every quote; only the data
+  // varies. `stratifiedQuoteSample` covers each distinct shape that path branches on, so
+  // sampling the interaction is safe while the test above keeps text coverage total.
+  test.setTimeout(240_000);
+  await context.grantPermissions(["clipboard-read", "clipboard-write"]);
+  for (const quote of stratifiedQuoteSample(catalogJSON.quotes)) {
+    await page.goto(`/q/${quote.id}`);
+    await waitForQuoteSurface(page);
+    await expect(page.getByRole("blockquote")).toHaveText(quote.text);
+    await page.getByRole("button", { name: "Share quote" }).first().click();
+    const copy = page.getByRole("button", { name: "Copy quote" });
+    await copy.click();
+    await expect.poll(() => page.evaluate(() => navigator.clipboard.readText())).toBe(`“${quote.text}” — ${quote.author}`);
+    await page.keyboard.press("Escape");
+    // Radix keeps `pointer-events: none` on <body> until the exit animation finishes;
+    // clicking through before then burns actionability retries on every iteration.
+    await expect(copy).toBeHidden();
+    await page.getByRole("link", { name: "View quote source" }).click();
+    await expect(page.getByRole("blockquote")).toHaveText(quote.text);
+    await expect(page.getByRole("link", { name: /^(Read|Listen to|Watch) original$/ })).toHaveAttribute("href", quote.sourceURL);
+  }
 });
 
 test("direct and invalid quote links resolve intentionally", async ({ page }) => {
@@ -232,6 +319,7 @@ test("a warmed quote and saved view remain usable offline", async ({ page, conte
   await page.goto("/saved");
   await expect(page.locator("main").getByRole("link", { name: /Read quote/ })).toBeVisible();
   await page.goto(homePath);
+  await waitForQuoteSurface(page);
 
   await context.setOffline(true);
   await page.reload({ waitUntil: "domcontentloaded" });
@@ -271,8 +359,9 @@ test("key screens have no serious accessibility violations", async ({ page }) =>
   test.setTimeout(120_000);
   for (const path of ["/", "/app", "/discover", "/saved", `/source/${catalogJSON.quotes[0].id}`, "/install", "/more", "/settings", "/privacy"]) {
     await page.goto(path);
-    // Let quote entrance transitions settle before axe computes color contrast.
-    await page.waitForTimeout(400);
+    // Finish the 320ms quote-enter-up animation deterministically. A fixed sleep raced
+    // it, because the animation only starts after hydration + the catalog fetch resolve.
+    await settleAnimations(page);
     const results = await new AxeBuilder({ page }).analyze();
     expect(results.violations.filter((violation) => ["serious", "critical"].includes(violation.impact ?? "")), `Accessibility violations on ${path}`).toEqual([]);
   }
@@ -280,6 +369,7 @@ test("key screens have no serious accessibility violations", async ({ page }) =>
 
 test("editorial surfaces preserve the branded quote and dark library distinction", async ({ page }) => {
   await page.goto(homePath);
+  await waitForQuoteSurface(page);
   await expect(page.locator("main")).toHaveClass(/quote-surface/);
   await expect(page.locator('[data-surface="quote"]')).toBeVisible();
   await expect(page.locator("main.quote-surface")).toHaveCSS("background-color", leilaProduct ? "rgb(255, 255, 255)" : "rgb(107, 44, 255)");
